@@ -12,34 +12,38 @@ var withBlocksLinks = [];
 
 withReadme.some(function(d) {
 
-	// get the README.md for this gist
-	var readmePath = "../gists/" + d["gistId"] + "/README.md"
-
 	// some error handling 
-	// var gistPath = "../gists/" + d["gistID"] + "readme.md"
+	// var readmePath = "../gists/" + d["gistID"] + "readme.md"
 
-	var readme = fs.readFileSync(readmePath, 'utf-8');
+	try {
+		// get the README.md for this gist
+		var readmePath = "../gists/" + d["gistId"] + "/" + d["fileName"];
+		var readme = fs.readFileSync(readmePath, 'utf-8');
+
+	} catch(e1) {
+		console.log(e1);
+	}
+	
 
 	var re = /bl\.ocks\.org/;
 
+	// bl.ocks profiles and individual blocks
+	var reUrl = /[^<>()\[\]"'\s]*bl\.ocks\.org[^<>()\[\]"'\s]*/g;
+
+	// only individual blocks
+	var reBlockUrl = /[^<>()\[\]"'\s]*bl\.ocks\.org\/[^<>()\[\]"'\s]*\/[^<>()\[\]"'\s]*/g;
+
 	if(re.test(readme)) {
-		console.log(readme);
+		//console.log(readme);
 
-		return true;
-	}
+		// check for any bl.ocks.org links
+		d["blocksLinked"] = readme.match(reBlockUrl); // an array of the bl.ocks.org links found in the README.md
 
-
-	// check for any bl.ocks.org links
-
-	// if found, set hasBlocksLink to true and push the links to the blocksLinked array
-
-	if(typeof hasBlocksLink !== "undefined") {
-		d["blocksLinked"] = []; // an array of the bl.ocks.org links found in the README.md
-
-		console.log("d", d);
+		//console.log("d", d);
 
 		withBlocksLinks.push(d);
 	}
+
 
 })
 

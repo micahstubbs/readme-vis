@@ -12180,20 +12180,6 @@
     }
   },
   {
-    "gistId": "7032589",
-    "description": "     ",
-    "created_at": "2013-10-17T21:34:37Z",
-    "updated_at": "2015-08-29T13:52:45Z",
-    "fileName": "README.md",
-    "file": {
-      "filename": "README.md",
-      "type": "text/plain",
-      "language": null,
-      "raw_url": "https://gist.githubusercontent.com/milroc/7032589/raw/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391/README.md",
-      "size": 0
-    }
-  },
-  {
     "gistId": "7039746",
     "description": "Simplified Gosper regions",
     "created_at": "2013-10-18T10:41:41Z",
@@ -16646,20 +16632,6 @@
     }
   },
   {
-    "gistId": "9821880",
-    "description": "",
-    "created_at": "2014-03-27T23:57:29Z",
-    "updated_at": "2015-08-29T13:57:48Z",
-    "fileName": "README.md",
-    "file": {
-      "filename": "README.md",
-      "type": "text/plain",
-      "language": null,
-      "raw_url": "https://gist.githubusercontent.com/pnavarrc/9821880/raw/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391/README.md",
-      "size": 0
-    }
-  },
-  {
     "gistId": "9823006",
     "description": "",
     "created_at": "2014-03-28T01:16:43Z",
@@ -19516,20 +19488,6 @@
     }
   },
   {
-    "gistId": "df47616fe2f7b683c256",
-    "description": "EcoEngine Scatterplot",
-    "created_at": "2015-03-13T23:22:19Z",
-    "updated_at": "2015-08-29T14:17:04Z",
-    "fileName": "README.md",
-    "file": {
-      "filename": "README.md",
-      "type": "text/plain",
-      "language": null,
-      "raw_url": "https://gist.githubusercontent.com/syntagmatic/df47616fe2f7b683c256/raw/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391/README.md",
-      "size": 0
-    }
-  },
-  {
     "gistId": "56378770ba9e625efc73",
     "description": "Hello d3.carto",
     "created_at": "2015-03-12T03:21:39Z",
@@ -19695,20 +19653,6 @@
       "language": "Markdown",
       "raw_url": "https://gist.githubusercontent.com/syntagmatic/b2fc3a5263e260dc6cb2/raw/b7373dfea9f97575a17e9aa76e750b4850526ab3/README.md",
       "size": 166
-    }
-  },
-  {
-    "gistId": "a9ebf1e41558d6eebdc1",
-    "description": "Reddit Treemap 2",
-    "created_at": "2014-06-24T20:26:48Z",
-    "updated_at": "2015-08-29T14:02:59Z",
-    "fileName": "README.md",
-    "file": {
-      "filename": "README.md",
-      "type": "text/plain",
-      "language": null,
-      "raw_url": "https://gist.githubusercontent.com/syntagmatic/a9ebf1e41558d6eebdc1/raw/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391/README.md",
-      "size": 0
     }
   },
   {
@@ -30968,20 +30912,6 @@
     }
   },
   {
-    "gistId": "c98a80a2638ae35e1257",
-    "description": "Traffic flow London",
-    "created_at": "2015-08-12T17:00:49Z",
-    "updated_at": "2015-08-29T14:27:15Z",
-    "fileName": "README.md",
-    "file": {
-      "filename": "README.md",
-      "type": "text/plain",
-      "language": null,
-      "raw_url": "https://gist.githubusercontent.com/bricedev/c98a80a2638ae35e1257/raw/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391/README.md",
-      "size": 0
-    }
-  },
-  {
     "gistId": "3905007f1794b0cb0bcd",
     "description": "Africa Lambert Conformal Conic",
     "created_at": "2015-08-04T16:16:41Z",
@@ -31329,20 +31259,6 @@
       "language": "Markdown",
       "raw_url": "https://gist.githubusercontent.com/bricedev/341d26c96aba771a57e5/raw/8425ebfa731651e298857998bd1348e496f26685/README.md",
       "size": 33
-    }
-  },
-  {
-    "gistId": "8737831de335804ba435",
-    "description": "Area Chart",
-    "created_at": "2015-05-27T16:38:22Z",
-    "updated_at": "2015-08-29T14:22:00Z",
-    "fileName": "README.md",
-    "file": {
-      "filename": "README.md",
-      "type": "text/plain",
-      "language": null,
-      "raw_url": "https://gist.githubusercontent.com/bricedev/8737831de335804ba435/raw/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391/README.md",
-      "size": 0
     }
   },
   {
@@ -37996,20 +37912,6 @@
     }
   },
   {
-    "gistId": "f564356178d27a711235",
-    "description": "test for http://weather.zanarmstrong.com/",
-    "created_at": "2015-01-27T19:08:39Z",
-    "updated_at": "2015-09-08T03:55:17Z",
-    "fileName": "readme.md",
-    "file": {
-      "filename": "readme.md",
-      "type": "text/plain",
-      "language": null,
-      "raw_url": "https://gist.githubusercontent.com/zanarmstrong/f564356178d27a711235/raw/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391/readme.md",
-      "size": 0
-    }
-  },
-  {
     "gistId": "42dc0ba7b6b561d4d99e",
     "description": "Example map of the US",
     "created_at": "2015-01-07T21:45:49Z",
@@ -38021,20 +37923,6 @@
       "language": "Markdown",
       "raw_url": "https://gist.githubusercontent.com/zanarmstrong/42dc0ba7b6b561d4d99e/raw/f14c9cda8cafe1e3b5423520e8dab45d4f66d45b/readme.md",
       "size": 272
-    }
-  },
-  {
-    "gistId": "134b91959c2f7a7d22e4",
-    "description": "public radio kickstarter - npr stations",
-    "created_at": "2015-01-06T03:35:36Z",
-    "updated_at": "2015-09-08T03:40:23Z",
-    "fileName": "readme.md",
-    "file": {
-      "filename": "readme.md",
-      "type": "text/plain",
-      "language": null,
-      "raw_url": "https://gist.githubusercontent.com/zanarmstrong/134b91959c2f7a7d22e4/raw/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391/readme.md",
-      "size": 0
     }
   },
   {
@@ -41143,20 +41031,6 @@
       "language": "Markdown",
       "raw_url": "https://gist.githubusercontent.com/roachhd/69fca2fd0d7d6c37417a/raw/afea0b6cbfc2d40e9d45e32117bc852fdc1dd489/Readme.md",
       "size": 232
-    }
-  },
-  {
-    "gistId": "8b6c3d9694a96177bf8d",
-    "description": "",
-    "created_at": "2015-11-03T22:21:11Z",
-    "updated_at": "2015-11-04T16:43:30Z",
-    "fileName": "readme.md",
-    "file": {
-      "filename": "readme.md",
-      "type": "text/plain",
-      "language": null,
-      "raw_url": "https://gist.githubusercontent.com/1wheel/8b6c3d9694a96177bf8d/raw/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391/readme.md",
-      "size": 0
     }
   },
   {

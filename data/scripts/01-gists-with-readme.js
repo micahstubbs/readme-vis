@@ -10,8 +10,14 @@ var data = JSON.parse(fs.readFileSync('../gist-metadata/files-blocks.json', 'utf
 var sample = []; 
 
 var withReadme = data.filter(function(d) {
-	return d["fileName"].toLowerCase() === "readme.md";
+	return d["fileName"].toLowerCase() === "readme.md"; 
 })
+
+// filter out size 0 README.md files
+withReadme = withReadme.filter(function(d) {
+	return d["file"]["size"] > 0;
+})
+
 /*
 console.log("withReadme", withReadme);
 
