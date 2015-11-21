@@ -16,7 +16,7 @@ withReadme.some(function(d) {
 	// var readmePath = "../gists/" + d["gistID"] + "readme.md"
 
 	try {
-		// get the README.md for this gist
+		// get the README.md for this gist 
 		var readmePath = "../gists/" + d["gistId"] + "/" + d["fileName"];
 		var readme = fs.readFileSync(readmePath, 'utf-8');
 
@@ -28,12 +28,12 @@ withReadme.some(function(d) {
 	var re = /bl\.ocks\.org/;
 
 	// bl.ocks profiles and individual blocks
-	var reUrl = /[^<>()\[\]"'\s]*bl\.ocks\.org[^<>()\[\]"'\s]*/g;
+	var reUrl = /[^<>()\[\]"'#\s]*bl\.ocks\.org[^<>()\[\]"'#\s]*/g;
 
 	// only individual blocks
-	var reBlockUrl = /[^<>()\[\]"'\s]*bl\.ocks\.org\/[^<>()\[\]"'\s]*\/[^<>()\[\]"'\s]*/g;
+	var reBlockUrl = /[^<>()\[\]"'#\s]*bl\.ocks\.org\/[^<>()\[\]"'\s]*\/[^<>()\[\]"'#\s]+/g;
 
-	if(re.test(readme)) {
+	if(reBlockUrl.test(readme)) {
 		//console.log(readme);
 
 		// check for any bl.ocks.org links
