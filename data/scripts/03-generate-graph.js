@@ -83,6 +83,7 @@ withBlocksLinks.some(function(d) {
 })
 
 // check if the node has been seen before
+// we identify the node using it's id
 // if not, add it to the nodes list in our graph object
 function checkNode(node, d) {
 	if(typeof nodeHash[node] === "undefined") {
@@ -91,13 +92,21 @@ function checkNode(node, d) {
 		console.log("node", node)	
 		if(typeof blockAttributesById[node] !== "undefined") {
 			var user = blockAttributesById[node]["owner"]["login"];
+			var createdAt = blockAttributesById[node]["created_at"];
+			var updatedAt = blockAttributesById[node]["updated_at"];
+			var description = blockAttributesById[node]["description"];
 		}	else {
 			var user = null;
+			var createdAt = null;
+			var updatedAt = null;
+			var description = null;
 		}
 		graphContainer["graph"]["nodes"].push({
 			"id": node,
-			"user": user
-
+			"user": user,
+			"createdAt": createdAt,
+			"updatedAt": updatedAt,
+			"description": description
 		})
 	}	
 }

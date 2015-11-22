@@ -3,2671 +3,4672 @@
     "nodes": [
       {
         "id": "4055908",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-11-11T19:10:40Z",
+        "updatedAt": "2015-10-31T01:14:05Z",
+        "description": "Non-Contiguous Cartogram"
       },
       {
         "id": "4062045",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-11-12T21:31:44Z",
+        "updatedAt": "2015-11-12T11:27:24Z",
+        "description": "Force-Directed Graph"
       },
       {
         "id": "4339083",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-12-19T18:27:41Z",
+        "updatedAt": "2015-11-12T18:49:09Z",
+        "description": "Collapsible Tree"
       },
       {
         "id": "1341021",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2011-11-05T02:46:59Z",
+        "updatedAt": "2015-10-30T21:35:24Z",
+        "description": "Parallel Coordinates"
       },
       {
         "id": "1341281",
-        "user": "jasondavies"
+        "user": "jasondavies",
+        "createdAt": "2011-11-05T08:44:08Z",
+        "updatedAt": "2015-10-08T20:08:39Z",
+        "description": "Parallel Coordinates"
       },
       {
         "id": "2979974",
-        "user": "ZJONSSON"
+        "user": "ZJONSSON",
+        "createdAt": "2012-06-23T21:09:16Z",
+        "updatedAt": "2015-10-06T10:28:28Z",
+        "description": "barStack (flex layout)"
       },
       {
         "id": "b3ff6ae1c120eea654b5",
-        "user": "d3noob"
+        "user": "d3noob",
+        "createdAt": "2014-06-20T19:35:38Z",
+        "updatedAt": "2015-09-30T13:17:13Z",
+        "description": "Simple d3.js Graph"
       },
       {
         "id": "4718016",
-        "user": "saraquigley"
+        "user": "saraquigley",
+        "createdAt": "2013-02-05T21:43:48Z",
+        "updatedAt": "2015-08-29T13:48:26Z",
+        "description": "Charges - Awards Chord Diagram"
       },
       {
         "id": "4060606",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-11-12T17:17:13Z",
+        "updatedAt": "2015-10-31T01:14:22Z",
+        "description": "Choropleth"
       },
       {
         "id": "4987520",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2013-02-19T16:36:19Z",
+        "updatedAt": "2015-10-31T01:35:40Z",
+        "description": "Constrained Zoom"
       },
       {
         "id": "3757101",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-09-20T17:08:47Z",
+        "updatedAt": "2015-10-31T01:04:40Z",
+        "description": "Lambert Azimuthal Equal-Area"
       },
       {
         "id": "5028304",
-        "user": "d3noob"
+        "user": "d3noob",
+        "createdAt": "2013-02-25T07:21:38Z",
+        "updatedAt": "2015-10-02T20:04:00Z",
+        "description": "Sankey diagram with horizontal and vertical node movement"
       },
       {
         "id": "4343214",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-12-20T05:52:53Z",
+        "updatedAt": "2015-10-31T01:24:25Z",
+        "description": "Quadtree"
       },
       {
         "id": "4349545",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-12-20T23:30:47Z",
+        "updatedAt": "2015-10-31T01:25:20Z",
+        "description": "Brush Handles"
       },
       {
         "id": "1346410",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2011-11-07T22:28:10Z",
+        "updatedAt": "2015-10-30T21:36:07Z",
+        "description": "Pie Chart Update, II"
       },
       {
         "id": "1098617",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2011-07-22T01:04:15Z",
+        "updatedAt": "2015-09-26T12:38:01Z",
+        "description": "Arc Tween (Clock)"
       },
       {
         "id": "4341574",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-12-19T23:21:34Z",
+        "updatedAt": "2015-10-31T01:23:35Z",
+        "description": "The Amazing Pie"
       },
       {
         "id": "4341417",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-12-19T23:02:31Z",
+        "updatedAt": "2015-10-31T01:23:26Z",
+        "description": "Donut Transitions"
       },
       {
         "id": "4707858",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2013-02-04T16:37:47Z",
+        "updatedAt": "2015-10-31T01:34:46Z",
+        "description": "Project to Bounding Box"
       },
       {
         "id": "1153292",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2011-08-18T04:26:38Z",
+        "updatedAt": "2015-11-02T13:58:16Z",
+        "description": "Mobile Patent Suits"
       },
       {
         "id": "2706022",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-05-15T23:41:31Z",
+        "updatedAt": "2015-10-31T00:45:27Z",
+        "description": "Force-Directed Graph with Mouseover"
       },
       {
         "id": "5141278",
-        "user": "d3noob"
+        "user": "d3noob",
+        "createdAt": "2013-03-12T08:54:42Z",
+        "updatedAt": "2015-10-26T18:46:56Z",
+        "description": "Basic Directional Force Layout Diagram"
       },
       {
         "id": "5149102",
-        "user": "timelyportfolio"
+        "user": "timelyportfolio",
+        "createdAt": "2013-03-13T03:10:56Z",
+        "updatedAt": "2015-08-29T13:49:16Z",
+        "description": "zui53 and d3 line chart"
       },
       {
         "id": "5141528",
-        "user": "d3noob"
+        "user": "d3noob",
+        "createdAt": "2013-03-12T09:34:22Z",
+        "updatedAt": "2015-08-29T13:49:12Z",
+        "description": "Directional Force Layout Diagram with Node Highlighting"
       },
       {
         "id": "5203275",
-        "user": "widged"
+        "user": "widged",
+        "createdAt": "2013-03-20T09:01:32Z",
+        "updatedAt": "2015-08-29T13:49:19Z",
+        "description": "D3js simple grouping "
       },
       {
         "id": "4015254",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-11-05T04:03:07Z",
+        "updatedAt": "2015-10-31T01:13:38Z",
+        "description": "Zoomable Area"
       },
       {
         "id": "3305854",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-08-09T16:55:20Z",
+        "updatedAt": "2015-10-31T00:56:22Z",
+        "description": "Custom Tweens"
       },
       {
         "id": "5180185",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2013-03-17T04:53:47Z",
+        "updatedAt": "2015-10-31T01:36:54Z",
+        "description": "Zipdecode"
       },
       {
         "id": "5386999",
-        "user": "herrstucki"
+        "user": "herrstucki",
+        "createdAt": "2013-04-15T09:35:55Z",
+        "updatedAt": "2015-08-29T13:49:42Z",
+        "description": "Zipdecode Switzerland"
       },
       {
         "id": "2657838",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "5416440",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2013-04-18T21:38:03Z",
+        "updatedAt": "2015-10-31T01:40:31Z",
+        "description": "Merging States II"
       },
       {
         "id": "5416405",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2013-04-18T21:32:47Z",
+        "updatedAt": "2015-10-31T01:40:19Z",
+        "description": "Merging States"
       },
       {
         "id": "4061961",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-11-12T21:17:49Z",
+        "updatedAt": "2015-10-31T01:14:48Z",
+        "description": "Bullet Charts"
       },
       {
         "id": "5518052",
-        "user": "milroc"
+        "user": "milroc",
+        "createdAt": "2013-05-04T16:51:16Z",
+        "updatedAt": "2015-08-29T13:49:58Z",
+        "description": "bar + sum: vanilla d3.js"
       },
       {
         "id": "5519642",
-        "user": "milroc"
+        "user": "milroc",
+        "createdAt": "2013-05-05T04:01:22Z",
+        "updatedAt": "2015-08-29T13:49:58Z",
+        "description": "bar + sum: reusable d3.js"
       },
       {
         "id": "5519819",
-        "user": "milroc"
+        "user": "milroc",
+        "createdAt": "2013-05-05T05:17:10Z",
+        "updatedAt": "2015-08-29T13:49:58Z",
+        "description": "bar + sum: d3.js & angular.js"
       },
       {
         "id": "5520449",
-        "user": "milroc"
+        "user": "milroc",
+        "createdAt": "2013-05-05T10:39:46Z",
+        "updatedAt": "2015-08-29T13:49:58Z",
+        "description": "bar + sum: d3.js & ember.js "
       },
       {
         "id": "5522467",
-        "user": "milroc"
+        "user": "milroc",
+        "createdAt": "2013-05-05T22:36:54Z",
+        "updatedAt": "2015-08-29T13:49:58Z",
+        "description": "bar + sum: d3.js & backbone.js"
       },
       {
         "id": "d22bbf92231876505e5d",
-        "user": "milroc"
+        "user": "milroc",
+        "createdAt": "2014-07-06T22:11:13Z",
+        "updatedAt": "2015-08-29T14:03:35Z",
+        "description": "bar + sum: d3.js, react.js, & Flux"
       },
       {
         "id": "5553051",
-        "user": "milroc"
+        "user": "milroc",
+        "createdAt": "2013-05-10T08:00:19Z",
+        "updatedAt": "2015-08-29T13:50:00Z",
+        "description": "    "
       },
       {
         "id": "5544621",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2013-05-09T00:06:24Z",
+        "updatedAt": "2015-10-31T01:41:50Z",
+        "description": "Marey’s Trains II"
       },
       {
         "id": "3711652",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-09-13T03:25:16Z",
+        "updatedAt": "2015-10-31T01:00:49Z",
+        "description": "Projection Transitions"
       },
       {
         "id": "3783604",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-09-25T18:33:41Z",
+        "updatedAt": "2015-10-31T01:05:56Z",
+        "description": "d3.geo.path + Canvas"
       },
       {
         "id": "5581551",
-        "user": "ZJONSSON"
+        "user": "ZJONSSON",
+        "createdAt": "2013-05-15T03:49:35Z",
+        "updatedAt": "2015-08-29T13:50:04Z",
+        "description": ""
       },
       {
         "id": "5593150",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2013-05-16T16:44:01Z",
+        "updatedAt": "2015-10-31T01:42:39Z",
+        "description": "Vector Tiles"
       },
       {
         "id": "1962173",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "5624141",
-        "user": "NelsonMinar"
+        "user": "NelsonMinar",
+        "createdAt": "2013-05-21T23:33:29Z",
+        "updatedAt": "2015-08-29T13:50:09Z",
+        "description": null
       },
       {
         "id": "4686432",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "5886992",
-        "user": "d3noob"
+        "user": "d3noob",
+        "createdAt": "2013-06-28T18:41:53Z",
+        "updatedAt": "2015-08-29T13:50:37Z",
+        "description": "Simple d3.js Bullet Chart example"
       },
       {
         "id": "1021953",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2011-06-12T20:35:23Z",
+        "updatedAt": "2015-10-30T21:28:21Z",
+        "description": "Multi-Foci Force Layout"
       },
       {
         "id": "5691513",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "6052814",
-        "user": "nbremer"
+        "user": "nbremer",
+        "createdAt": "2013-07-22T10:16:34Z",
+        "updatedAt": "2015-10-01T20:00:09Z",
+        "description": "Self Organizing Map - Heatmap - D3"
       },
       {
         "id": "6052681",
-        "user": "nbremer"
+        "user": "nbremer",
+        "createdAt": "2013-07-22T09:50:44Z",
+        "updatedAt": "2015-10-01T20:02:07Z",
+        "description": "Self Organizing Map - Hexagonal Heatmap - Lines"
       },
       {
         "id": "5249328",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2013-03-26T21:16:47Z",
+        "updatedAt": "2015-10-31T01:37:55Z",
+        "description": "Hexagon Mesh"
       },
       {
         "id": "6150151",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2013-08-04T12:10:33Z",
+        "updatedAt": "2015-08-29T13:51:06Z",
+        "description": "Colored hex regions"
       },
       {
         "id": "1703449",
-        "user": "christophermanning"
+        "user": "christophermanning",
+        "createdAt": "2012-01-30T08:59:57Z",
+        "updatedAt": "2015-11-04T22:34:59Z",
+        "description": "Hamiltonian Graph Builder"
       },
       {
         "id": "6203413",
-        "user": "christophermanning"
+        "user": "christophermanning",
+        "createdAt": "2013-08-11T04:39:54Z",
+        "updatedAt": "2015-08-29T13:51:13Z",
+        "description": "CTA Line Simplification"
       },
       {
         "id": "4062085",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-11-12T21:38:13Z",
+        "updatedAt": "2015-10-31T01:15:17Z",
+        "description": "Population Pyramid"
       },
       {
         "id": "5557726",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2013-05-10T21:54:22Z",
+        "updatedAt": "2015-10-31T01:42:10Z",
+        "description": "Projected TopoJSON"
       },
       {
         "id": "6242308",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2013-08-15T16:35:28Z",
+        "updatedAt": "2015-10-31T01:52:42Z",
+        "description": "Map Zooming"
       },
       {
         "id": "4090848",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-11-16T20:57:09Z",
+        "updatedAt": "2015-10-31T01:16:46Z",
+        "description": "U.S. States TopoJSON"
       },
       {
         "id": "5851933",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2013-06-24T17:36:45Z",
+        "updatedAt": "2015-10-31T01:48:33Z",
+        "description": "Snowden’s Route"
       },
       {
         "id": "6279966",
-        "user": "hugolpz"
+        "user": "hugolpz",
+        "createdAt": "2013-08-20T10:51:34Z",
+        "updatedAt": "2015-08-29T13:51:25Z",
+        "description": "France_topographic_map.svg"
       },
       {
         "id": "2374239",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-04-13T06:04:27Z",
+        "updatedAt": "2015-10-31T00:43:59Z",
+        "description": "Zoomable Geography"
       },
       {
         "id": "5649592",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2013-05-25T16:14:06Z",
+        "updatedAt": "2015-10-31T01:44:06Z",
+        "description": "Stroke Dash Interpolation"
       },
       {
         "id": "2846454",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-05-31T21:33:53Z",
+        "updatedAt": "2015-10-31T00:46:36Z",
+        "description": "Force Layout & Matrix Market Format"
       },
       {
         "id": "4060366",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-11-12T16:37:44Z",
+        "updatedAt": "2015-10-31T01:14:14Z",
+        "description": "Voronoi Tessellation"
       },
       {
         "id": "1405439",
-        "user": "njvack"
+        "user": "njvack",
+        "createdAt": "2011-11-29T16:37:32Z",
+        "updatedAt": "2015-09-28T07:28:00Z",
+        "description": "Voronoi-based point picker"
       },
       {
         "id": "1734663",
-        "user": "christophermanning"
+        "user": "christophermanning",
+        "createdAt": "2012-02-04T02:41:42Z",
+        "updatedAt": "2015-11-12T07:13:11Z",
+        "description": "Voronoi Diagram with Force Directed Nodes and Delaunay Links"
       },
       {
         "id": "6224396",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2013-08-13T18:50:50Z",
+        "updatedAt": "2015-10-31T01:51:51Z",
+        "description": "Mitchell’s Best-Candidate"
       },
       {
         "id": "6453048",
-        "user": "jczaplew"
+        "user": "jczaplew",
+        "createdAt": "2013-09-05T17:02:36Z",
+        "updatedAt": "2015-08-29T13:51:44Z",
+        "description": "Using d3.behavior.drag with a map"
       },
       {
         "id": "1345853",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2011-11-07T19:13:54Z",
+        "updatedAt": "2015-10-30T21:35:50Z",
+        "description": "Transform Transitions"
       },
       {
         "id": "5694697",
-        "user": "herrstucki"
+        "user": "herrstucki",
+        "createdAt": "2013-06-02T19:52:32Z",
+        "updatedAt": "2015-08-29T13:50:16Z",
+        "description": "Sorting the Grid"
       },
       {
         "id": "3019563",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-06-29T17:45:20Z",
+        "updatedAt": "2015-10-31T00:50:14Z",
+        "description": "Margin Convention"
       },
       {
         "id": "21746a9668ffdf6d8242",
-        "user": "nbremer"
+        "user": "nbremer",
+        "createdAt": "2015-09-29T17:01:06Z",
+        "updatedAt": "2015-11-12T23:27:34Z",
+        "description": "Radar Chart Redesign"
       },
       {
         "id": "6514960",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2013-09-10T20:15:19Z",
+        "updatedAt": "2015-08-29T13:51:50Z",
+        "description": "Hilbert curve (L-system)"
       },
       {
         "id": "94db779237655907b907",
-        "user": "nbremer"
+        "user": "nbremer",
+        "createdAt": "2014-12-13T20:37:42Z",
+        "updatedAt": "2015-10-01T20:24:10Z",
+        "description": "Storytelling with Chord Diagram"
       },
       {
         "id": "3887118",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-10-14T03:16:08Z",
+        "updatedAt": "2015-11-10T06:40:18Z",
+        "description": "Scatterplot"
       },
       {
         "id": "1086421",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2011-07-16T15:01:20Z",
+        "updatedAt": "2015-09-26T10:57:54Z",
+        "description": "Linear Gradient"
       },
       {
         "id": "6713736",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2013-09-26T12:52:58Z",
+        "updatedAt": "2015-10-31T01:56:46Z",
+        "description": "Ocean"
       },
       {
         "id": "5230564",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2013-03-24T04:35:07Z",
+        "updatedAt": "2015-10-31T01:37:09Z",
+        "description": "Times"
       },
       {
         "id": "6603431",
-        "user": "jczaplew"
+        "user": "jczaplew",
+        "createdAt": "2013-09-18T01:51:26Z",
+        "updatedAt": "2015-08-29T13:51:58Z",
+        "description": "Adaptive Composite Map Projection example"
       },
       {
         "id": "6901037",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2013-10-09T13:11:49Z",
+        "updatedAt": "2015-08-29T13:52:32Z",
+        "description": "Circles"
       },
       {
         "id": "6622700",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2013-09-19T12:27:12Z",
+        "updatedAt": "2015-08-29T13:52:02Z",
+        "description": "GeoJSON squares"
       },
       {
         "id": "6173659",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2013-08-07T12:34:16Z",
+        "updatedAt": "2015-08-29T13:51:11Z",
+        "description": "Hex coordinates"
       },
       {
         "id": "7023140",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2013-10-17T11:15:26Z",
+        "updatedAt": "2015-08-29T13:52:45Z",
+        "description": "Gosper hex tiling"
       },
       {
         "id": "7008736",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2013-10-16T14:36:04Z",
+        "updatedAt": "2015-08-29T13:52:44Z",
+        "description": "Custom hex projection"
       },
       {
         "id": "6521802",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2013-09-11T10:22:03Z",
+        "updatedAt": "2015-08-29T13:51:51Z",
+        "description": "Gosper curve (L-system)"
       },
       {
         "id": "7015186",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2013-10-16T21:27:57Z",
+        "updatedAt": "2015-08-29T13:52:44Z",
+        "description": "Gosper hex tiling (fancy)"
       },
       {
         "id": "7023794",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2013-10-17T12:11:09Z",
+        "updatedAt": "2015-08-29T13:52:45Z",
+        "description": "Gosper regions"
       },
       {
         "id": "6982528",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2013-10-14T21:27:59Z",
+        "updatedAt": "2015-08-29T13:52:40Z",
+        "description": "TopoJSON geometrical renderer"
       },
       {
         "id": "7025272",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2013-10-17T13:52:38Z",
+        "updatedAt": "2015-08-29T13:52:45Z",
+        "description": "Precomputed Gosper regions"
       },
       {
         "id": "6905926",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2013-10-09T18:33:42Z",
+        "updatedAt": "2015-10-31T01:57:51Z",
+        "description": "Snowflake Simplification"
       },
       {
         "id": "3885304",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-10-13T16:45:02Z",
+        "updatedAt": "2015-10-21T03:32:13Z",
+        "description": "Bar Chart"
       },
       {
         "id": "4063423",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-11-13T01:52:00Z",
+        "updatedAt": "2015-10-31T01:15:54Z",
+        "description": "Sunburst Partition"
       },
       {
         "id": "7204160",
-        "user": "jczaplew"
+        "user": "jczaplew",
+        "createdAt": "2013-10-28T20:36:04Z",
+        "updatedAt": "2015-08-29T13:53:04Z",
+        "description": "Topojson Paleogeography (normal order)"
       },
       {
         "id": "4237768",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-12-08T00:22:15Z",
+        "updatedAt": "2015-10-31T01:19:57Z",
+        "description": "Voronoi Clipping"
       },
       {
         "id": "3846051",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-10-06T20:43:40Z",
+        "updatedAt": "2015-10-31T01:08:17Z",
+        "description": "Voronoi tests"
       },
       {
         "id": "7235174",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2013-10-30T15:59:23Z",
+        "updatedAt": "2015-08-29T13:53:06Z",
+        "description": "Concavity"
       },
       {
         "id": "7233233",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2013-10-30T14:06:07Z",
+        "updatedAt": "2015-08-29T13:53:06Z",
+        "description": "Voronoi"
       },
       {
         "id": "4341156",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-12-19T22:34:05Z",
+        "updatedAt": "2015-10-31T01:23:18Z",
+        "description": "Delaunay Triangulation"
       },
       {
         "id": "2295155",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "7328902",
-        "user": "jkutianski"
+        "user": "jkutianski",
+        "createdAt": "2013-11-06T00:33:08Z",
+        "updatedAt": "2015-08-29T13:53:17Z",
+        "description": "My attempt to add templating to d3.js"
       },
       {
         "id": "3750558",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-09-19T16:18:14Z",
+        "updatedAt": "2015-11-12T09:17:22Z",
+        "description": "Sticky Force Layout"
       },
       {
         "id": "7483341",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2013-11-15T12:06:07Z",
+        "updatedAt": "2015-08-29T13:53:36Z",
+        "description": "ID-based force layout"
       },
       {
         "id": "3680999",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-09-08T23:26:45Z",
+        "updatedAt": "2015-10-31T00:59:38Z",
+        "description": "SVG Geometric Zooming"
       },
       {
         "id": "7493693",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2013-11-15T23:43:20Z",
+        "updatedAt": "2015-08-29T13:53:37Z",
+        "description": "Graph editing"
       },
       {
         "id": "5001347",
-        "user": "rkirsling"
+        "user": "rkirsling",
+        "createdAt": "2013-02-21T02:03:48Z",
+        "updatedAt": "2015-10-17T17:52:33Z",
+        "description": "Directed Graph Editor"
       },
       {
         "id": "7512487",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2013-11-17T12:01:52Z",
+        "updatedAt": "2015-08-29T13:53:38Z",
+        "description": "Graph editing tools"
       },
       {
         "id": "6890861",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2013-10-08T20:13:52Z",
+        "updatedAt": "2015-08-29T13:52:31Z",
+        "description": "IndexedDB"
       },
       {
         "id": "7517984",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2013-11-17T20:38:21Z",
+        "updatedAt": "2015-08-29T13:53:39Z",
+        "description": "Graph editing with persistence"
       },
       {
         "id": "7475950",
-        "user": "jkutianski"
+        "user": "jkutianski",
+        "createdAt": "2013-11-14T23:03:35Z",
+        "updatedAt": "2015-09-17T21:13:11Z",
+        "description": "A new attempt to add templating to d3.js"
       },
       {
         "id": "4339184",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-12-19T18:34:01Z",
+        "updatedAt": "2015-11-11T19:20:45Z",
+        "description": "Reingold–Tilford Tree"
       },
       {
         "id": "1093025",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2011-07-19T16:47:24Z",
+        "updatedAt": "2015-11-01T18:16:53Z",
+        "description": "Collapsible Indented Tree"
       },
       {
         "id": "3757110",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-09-20T17:10:02Z",
+        "updatedAt": "2015-10-31T01:04:48Z",
+        "description": "Azimuthal Equidistant"
       },
       {
         "id": "7910706",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2013-12-11T13:48:07Z",
+        "updatedAt": "2015-08-29T13:54:21Z",
+        "description": "Random tree"
       },
       {
         "id": "4150951",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-11-26T22:03:49Z",
+        "updatedAt": "2015-11-05T17:12:12Z",
+        "description": "Clipped Map Tiles"
       },
       {
         "id": "1276463",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2011-10-10T20:41:57Z",
+        "updatedAt": "2015-11-12T12:07:25Z",
+        "description": "DOM-to-Canvas using D3"
       },
       {
         "id": "7962295",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "7938492",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2013-12-13T01:15:00Z",
+        "updatedAt": "2015-08-29T13:54:25Z",
+        "description": "Random tree II"
       },
       {
         "id": "7960622",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "4136647",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-11-23T17:56:09Z",
+        "updatedAt": "2015-10-31T01:17:40Z",
+        "description": "U.S. TopoJSON"
       },
       {
         "id": "8028264",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2013-12-18T19:27:21Z",
+        "updatedAt": "2015-08-29T13:54:33Z",
+        "description": "Fractal treemap (random, Gosper)"
       },
       {
         "id": "7518871",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2013-11-17T22:08:46Z",
+        "updatedAt": "2015-08-29T13:53:39Z",
+        "description": "Graph with immutable nodes and links"
       },
       {
         "id": "4180634",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-12-01T05:12:55Z",
+        "updatedAt": "2015-10-31T01:18:25Z",
+        "description": "World Map"
       },
       {
         "id": "8031205",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2013-12-18T22:48:11Z",
+        "updatedAt": "2015-08-29T13:54:33Z",
+        "description": "Fractal tree depth map (random, Gosper)"
       },
       {
         "id": "8260510",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2014-01-04T20:46:29Z",
+        "updatedAt": "2015-08-29T13:54:58Z",
+        "description": "Canonical representation of unordered rooted trees"
       },
       {
         "id": "8244446",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2014-01-03T19:14:59Z",
+        "updatedAt": "2015-08-29T13:54:57Z",
+        "description": "Random tree (unordered)"
       },
       {
         "id": "8272105",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "8272715",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2014-01-05T19:32:04Z",
+        "updatedAt": "2015-08-29T13:54:59Z",
+        "description": "Fractal treemap of Konanopii (1,724 leaves)"
       },
       {
         "id": "8429378",
-        "user": "widged"
+        "user": "widged",
+        "createdAt": "2014-01-15T01:50:24Z",
+        "updatedAt": "2015-08-29T13:55:18Z",
+        "description": "Multicharacter codes in svg fonts"
       },
       {
         "id": "3014589",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-06-28T23:07:24Z",
+        "updatedAt": "2015-11-06T18:40:25Z",
+        "description": "Lab and HCL Color Spaces"
       },
       {
         "id": "4063530",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-11-13T02:12:03Z",
+        "updatedAt": "2015-10-31T01:16:03Z",
+        "description": "Circle Packing"
       },
       {
         "id": "8699346",
-        "user": "StewartNoyce"
+        "user": "StewartNoyce",
+        "createdAt": "2014-01-29T23:17:28Z",
+        "updatedAt": "2015-08-29T13:55:48Z",
+        "description": "D3 Authors by Domain"
       },
       {
         "id": "8745544",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2014-01-31T23:41:24Z",
+        "updatedAt": "2015-08-29T13:55:53Z",
+        "description": "SVG text bounding box"
       },
       {
         "id": "8772179",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2014-02-02T17:54:42Z",
+        "updatedAt": "2015-08-29T13:55:55Z",
+        "description": "Space-flling curve layout (Gosper)"
       },
       {
         "id": "8784278",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2014-02-03T13:58:25Z",
+        "updatedAt": "2015-08-29T13:55:56Z",
+        "description": "Jigsaw treemap (Gosper)"
       },
       {
         "id": "8784942",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2014-02-03T14:40:20Z",
+        "updatedAt": "2015-08-29T13:55:56Z",
+        "description": "Jigsaw treemap (Hilbert)"
       },
       {
         "id": "8787102",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2014-02-03T16:28:05Z",
+        "updatedAt": "2015-08-29T13:55:56Z",
+        "description": "Hilbert treemap (area encoding)"
       },
       {
         "id": "4341134",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-12-19T22:31:13Z",
+        "updatedAt": "2015-11-11T02:48:11Z",
+        "description": "Hierarchical Edge Bundling"
       },
       {
         "id": "8788101",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2014-02-03T17:18:56Z",
+        "updatedAt": "2015-08-29T13:55:56Z",
+        "description": "Gosper treemap with hierarchical edge bundling"
       },
       {
         "id": "3808218",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-09-30T19:25:52Z",
+        "updatedAt": "2015-11-10T09:48:18Z",
+        "description": "General Update Pattern, I"
       },
       {
         "id": "8566245",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2014-01-22T19:59:12Z",
+        "updatedAt": "2015-08-29T13:55:34Z",
+        "description": "Categorical color scale generator (HCL)"
       },
       {
         "id": "8900555",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2014-02-09T15:21:13Z",
+        "updatedAt": "2015-08-29T13:56:11Z",
+        "description": "Coloring of intersecting regions"
       },
       {
         "id": "8882722",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2014-02-08T12:10:37Z",
+        "updatedAt": "2015-08-29T13:56:10Z",
+        "description": "Label placement for Hilbert treemaps"
       },
       {
         "id": "8955159",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2014-02-12T12:59:25Z",
+        "updatedAt": "2015-08-29T13:56:17Z",
+        "description": "Stability of Peano curve"
       },
       {
         "id": "8947871",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2014-02-12T01:02:09Z",
+        "updatedAt": "2015-08-29T13:56:17Z",
+        "description": "Stable Hilbert curve"
       },
       {
         "id": "8947565",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2014-02-12T00:38:14Z",
+        "updatedAt": "2015-08-29T13:56:17Z",
+        "description": "Unstable Hilbert curve"
       },
       {
         "id": "6531064",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2013-09-11T23:12:39Z",
+        "updatedAt": "2015-08-29T13:51:51Z",
+        "description": "Peano (?) curve (L-system)"
       },
       {
         "id": "8949471",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2014-02-12T03:17:21Z",
+        "updatedAt": "2015-08-29T13:56:17Z",
+        "description": "Peano curve (L-system)"
       },
       {
         "id": "8968230",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2014-02-13T01:45:29Z",
+        "updatedAt": "2015-08-29T13:56:18Z",
+        "description": "FASS curve I (L-system)"
       },
       {
         "id": "8967565",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "4327678",
-        "user": "herrstucki"
+        "user": "herrstucki",
+        "createdAt": "2012-12-18T12:48:20Z",
+        "updatedAt": "2015-08-29T13:47:44Z",
+        "description": "Swiss Cantons and Municipalities"
       },
       {
         "id": "9205257",
-        "user": "herrstucki"
+        "user": "herrstucki",
+        "createdAt": "2014-02-25T08:50:04Z",
+        "updatedAt": "2015-09-27T11:58:15Z",
+        "description": "Transitions with React and D3 I"
       },
       {
         "id": "9205264",
-        "user": "herrstucki"
+        "user": "herrstucki",
+        "createdAt": "2014-02-25T08:50:49Z",
+        "updatedAt": "2015-08-29T13:56:43Z",
+        "description": "Transitions with React and D3 II"
       },
       {
         "id": "9205238",
-        "user": "herrstucki"
+        "user": "herrstucki",
+        "createdAt": "2014-02-25T08:48:37Z",
+        "updatedAt": "2015-08-29T13:56:43Z",
+        "description": "Transitions with D3"
       },
       {
         "id": "9216081",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "9216751",
-        "user": "vlandham"
+        "user": "vlandham",
+        "createdAt": "2014-02-25T20:12:38Z",
+        "updatedAt": "2015-08-29T13:56:43Z",
+        "description": null
       },
       {
         "id": "9218980",
-        "user": "wiinci"
+        "user": "wiinci",
+        "createdAt": "2014-02-25T22:11:44Z",
+        "updatedAt": "2015-08-29T13:56:46Z",
+        "description": "D3 Clock"
       },
       {
         "id": "9204795",
-        "user": "herrstucki"
+        "user": "herrstucki",
+        "createdAt": "2014-02-25T08:03:50Z",
+        "updatedAt": "2015-08-29T13:56:43Z",
+        "description": "Swiss Cantons and Municipalities with React"
       },
       {
         "id": "9265219",
-        "user": "bollwyvl"
+        "user": "bollwyvl",
+        "createdAt": "2014-02-28T04:24:38Z",
+        "updatedAt": "2015-08-29T13:56:49Z",
+        "description": "A fishbone editor"
       },
       {
         "id": "9239214",
-        "user": "bollwyvl"
+        "user": "bollwyvl",
+        "createdAt": "2014-02-26T21:40:43Z",
+        "updatedAt": "2015-08-29T13:56:47Z",
+        "description": "d3 fishbone"
       },
       {
         "id": "3058935",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "4600693",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2013-01-23T01:00:48Z",
+        "updatedAt": "2015-10-31T01:33:38Z",
+        "description": "Curved Links"
       },
       {
         "id": "5126418",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2013-03-10T00:06:24Z",
+        "updatedAt": "2015-10-31T01:36:28Z",
+        "description": "New Jersey State Plane"
       },
       {
         "id": "4573883",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2013-01-19T17:44:34Z",
+        "updatedAt": "2015-10-31T01:33:02Z",
+        "description": "Threshold Key"
       },
       {
         "id": "9457213",
-        "user": "StewartNoyce"
+        "user": "StewartNoyce",
+        "createdAt": "2014-03-10T00:16:54Z",
+        "updatedAt": "2015-08-29T13:57:11Z",
+        "description": "Box Transition Lesson"
       },
       {
         "id": "9417919",
-        "user": "StewartNoyce"
+        "user": "StewartNoyce",
+        "createdAt": "2014-03-07T19:16:10Z",
+        "updatedAt": "2015-08-29T13:57:08Z",
+        "description": "D.C. Choropleth"
       },
       {
         "id": "3048450",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-07-04T17:25:05Z",
+        "updatedAt": "2015-10-31T00:51:33Z",
+        "description": "Histogram"
       },
       {
         "id": "3305937",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-08-09T17:06:48Z",
+        "updatedAt": "2015-11-07T08:19:18Z",
+        "description": "d3.tsv"
       },
       {
         "id": "9716306",
-        "user": "vicapow"
+        "user": "vicapow",
+        "createdAt": "2014-03-22T23:59:35Z",
+        "updatedAt": "2015-08-29T13:57:39Z",
+        "description": "Responsive visualizations using Angular directives"
       },
       {
         "id": "9768799",
-        "user": "jm3"
+        "user": "jm3",
+        "createdAt": "2014-03-25T19:01:11Z",
+        "updatedAt": "2015-08-29T13:57:45Z",
+        "description": ""
       },
       {
         "id": "9775876",
-        "user": "boeric"
+        "user": "boeric",
+        "createdAt": "2014-03-26T02:29:01Z",
+        "updatedAt": "2015-09-26T19:24:04Z",
+        "description": "Internet vs. GDP"
       },
       {
         "id": "9744818",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2014-03-24T17:19:16Z",
+        "updatedAt": "2015-10-31T02:13:29Z",
+        "description": "Coastal Graph Distance"
       },
       {
         "id": "7090426",
-        "user": "kerryrodden"
+        "user": "kerryrodden",
+        "createdAt": "2013-10-21T20:28:33Z",
+        "updatedAt": "2015-10-29T08:53:05Z",
+        "description": "Sequences sunburst"
       },
       {
         "id": "9845999",
-        "user": "milroc"
+        "user": "milroc",
+        "createdAt": "2014-03-29T00:37:17Z",
+        "updatedAt": "2015-08-29T13:57:52Z",
+        "description": "Fitts's Bar, II"
       },
       {
         "id": "9842179",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "9842284",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "9842512",
-        "user": "milroc"
+        "user": "milroc",
+        "createdAt": "2014-03-28T20:40:02Z",
+        "updatedAt": "2015-08-29T13:57:52Z",
+        "description": "Fitts's Bar, I"
       },
       {
         "id": "1705868",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-01-30T18:38:08Z",
+        "updatedAt": "2015-10-30T21:38:19Z",
+        "description": "Point-Along-Path Interpolation"
       },
       {
         "id": "3921009",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "9904319",
-        "user": "vicapow"
+        "user": "vicapow",
+        "createdAt": "2014-03-31T23:02:14Z",
+        "updatedAt": "2015-10-12T07:37:31Z",
+        "description": "Sparklines with Angular and D3"
       },
       {
         "id": "1642989",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-01-19T21:45:20Z",
+        "updatedAt": "2015-11-06T18:56:09Z",
+        "description": "Spline Transition"
       },
       {
         "id": "4963273",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "9607405",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2014-03-17T20:16:12Z",
+        "updatedAt": "2015-10-17T05:10:33Z",
+        "description": "Sky"
       },
       {
         "id": "9998388",
-        "user": "ramnathv"
+        "user": "ramnathv",
+        "createdAt": "2014-04-05T21:38:01Z",
+        "updatedAt": "2015-10-27T08:34:00Z",
+        "description": "Leaflet Routing Machine with rCharts"
       },
       {
         "id": "10000634",
-        "user": "finiterank"
+        "user": "finiterank",
+        "createdAt": "2014-04-06T02:07:33Z",
+        "updatedAt": "2015-08-29T13:58:09Z",
+        "description": "Paleta de colores"
       },
       {
         "id": "4282586",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-12-14T03:51:13Z",
+        "updatedAt": "2015-10-31T01:21:35Z",
+        "description": "Three-Axis Rotation"
       },
       {
         "id": "10024231",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2014-04-07T17:06:40Z",
+        "updatedAt": "2015-10-30T21:27:28Z",
+        "description": "Swiss Cantons & Lakes"
       },
       {
         "id": "10412875",
-        "user": "madelfio"
+        "user": "madelfio",
+        "createdAt": "2014-04-10T19:08:08Z",
+        "updatedAt": "2015-08-29T13:58:54Z",
+        "description": "U.S. Rail II"
       },
       {
         "id": "9972460",
-        "user": "Sumbera"
+        "user": "Sumbera",
+        "createdAt": "2014-04-04T11:13:20Z",
+        "updatedAt": "2015-08-29T13:58:07Z",
+        "description": "Another brushing with d3"
       },
       {
         "id": "10517778",
-        "user": "timelyportfolio"
+        "user": "timelyportfolio",
+        "createdAt": "2014-04-12T03:45:43Z",
+        "updatedAt": "2015-08-29T13:59:07Z",
+        "description": "rCharts example #381 using dimplejs and a custom tooltip"
       },
       {
         "id": "11085004",
-        "user": "monfera"
+        "user": "monfera",
+        "createdAt": "2014-04-19T13:51:56Z",
+        "updatedAt": "2015-08-29T14:00:09Z",
+        "description": "circinus b"
       },
       {
         "id": "3795544",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-09-27T18:24:50Z",
+        "updatedAt": "2015-10-31T01:06:58Z",
+        "description": "Adaptive Resampling"
       },
       {
         "id": "5732029",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2013-06-07T20:07:06Z",
+        "updatedAt": "2015-10-31T01:46:31Z",
+        "description": "Line Simplification"
       },
       {
         "id": "4183330",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-12-01T17:21:28Z",
+        "updatedAt": "2015-10-31T01:18:32Z",
+        "description": "World Tour"
       },
       {
         "id": "2206590",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-03-26T17:16:19Z",
+        "updatedAt": "2015-10-31T00:42:25Z",
+        "description": "click-to-zoom via transform"
       },
       {
         "id": "7607535",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2013-11-22T21:55:14Z",
+        "updatedAt": "2015-10-31T02:02:19Z",
+        "description": "Zoomable Circle Packing"
       },
       {
         "id": "1804919",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-02-11T23:08:24Z",
+        "updatedAt": "2015-10-30T21:39:05Z",
+        "description": "Multi-Foci Force Layout"
       },
       {
         "id": "10520338",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2014-04-12T05:35:45Z",
+        "updatedAt": "2015-10-30T21:29:15Z",
+        "description": "Interrupting Chained Transitions"
       },
       {
         "id": "10990305",
-        "user": "danharr"
+        "user": "danharr",
+        "createdAt": "2014-04-17T15:04:31Z",
+        "updatedAt": "2015-08-29T13:59:58Z",
+        "description": "Remote football stadiums (with labels)"
       },
       {
         "id": "10989553",
-        "user": "danharr"
+        "user": "danharr",
+        "createdAt": "2014-04-17T14:54:17Z",
+        "updatedAt": "2015-08-29T13:59:58Z",
+        "description": "Most remote football stadiums"
       },
       {
         "id": "10527804",
-        "user": "monfera"
+        "user": "monfera",
+        "createdAt": "2014-04-12T09:57:57Z",
+        "updatedAt": "2015-08-29T13:59:08Z",
+        "description": "circinus"
       },
       {
         "id": "5731632",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2013-06-07T19:12:26Z",
+        "updatedAt": "2015-10-31T01:45:55Z",
+        "description": "Orthographic to Equirectangular"
       },
       {
         "id": "1256572",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2011-10-01T19:57:22Z",
+        "updatedAt": "2015-10-30T21:34:50Z",
+        "description": "D3 Show Reel"
       },
       {
         "id": "899670",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2011-04-02T17:15:47Z",
+        "updatedAt": "2015-09-25T09:27:59Z",
+        "description": "Polymaps + D3, Part 2"
       },
       {
         "id": "7e8e57368175a1433791",
-        "user": "Sumbera"
+        "user": "Sumbera",
+        "createdAt": "2015-08-13T23:23:56Z",
+        "updatedAt": "2015-08-29T14:27:22Z",
+        "description": "SVG scaled overlay in Leaflet "
       },
       {
         "id": "1062383",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2011-07-03T16:59:03Z",
+        "updatedAt": "2015-10-30T21:29:49Z",
+        "description": "Force-Directed Symbols"
       },
       {
         "id": "11328778",
-        "user": "emeeks"
+        "user": "emeeks",
+        "createdAt": "2014-04-26T19:27:14Z",
+        "updatedAt": "2015-08-29T14:00:35Z",
+        "description": "Dynamic Image Gallery"
       },
       {
         "id": "9843633",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2014-03-28T21:45:37Z",
+        "updatedAt": "2015-10-31T02:14:42Z",
+        "description": "Countdown"
       },
       {
         "id": "1667367",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-01-24T02:10:42Z",
+        "updatedAt": "2015-10-30T21:38:01Z",
+        "description": "Focus+Context via Brushing"
       },
       {
         "id": "ca0adb7e426c12c06a95",
-        "user": "zanarmstrong"
+        "user": "zanarmstrong",
+        "createdAt": "2014-05-29T21:01:45Z",
+        "updatedAt": "2015-11-08T19:57:43Z",
+        "description": "d3 time formatting example"
       },
       {
         "id": "7ea3a388ff58db62f27f",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "5806106",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "5662135",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "ce9c2deb92042df13179",
-        "user": "georules"
+        "user": "georules",
+        "createdAt": "2015-10-12T22:13:31Z",
+        "updatedAt": "2015-10-12T22:13:31Z",
+        "description": "oh yes spiral"
       },
       {
         "id": "6958e230e69a377620e3",
-        "user": "georules"
+        "user": "georules",
+        "createdAt": "2015-10-12T22:44:42Z",
+        "updatedAt": "2015-10-29T03:53:58Z",
+        "description": "oh yes spiral"
       },
       {
         "id": "d67e0c64f0cb392f8a78",
-        "user": "georules"
+        "user": "georules",
+        "createdAt": "2015-10-13T18:40:06Z",
+        "updatedAt": "2015-10-28T20:15:41Z",
+        "description": "wankel spiral"
       },
       {
         "id": "02e4e7f61c87bf83b3d0",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "9f3099afe25f65a0e52b",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "d74a7e06a1b54577820b",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "0bf05e6afe2db3864cea",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "10524216",
-        "user": "devgru"
+        "user": "devgru",
+        "createdAt": "2014-04-12T08:11:51Z",
+        "updatedAt": "2015-08-29T13:59:08Z",
+        "description": "Heatmap of git commits - basic"
       },
       {
         "id": "3cc1a2a289dddbd64688",
-        "user": "curran"
+        "user": "curran",
+        "createdAt": "2015-09-06T00:53:52Z",
+        "updatedAt": "2015-09-12T21:20:28Z",
+        "description": "Fundamental Visualizations"
       },
       {
         "id": "1353700",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2011-11-10T00:39:13Z",
+        "updatedAt": "2015-10-30T21:36:16Z",
+        "description": "Epicyclic Gearing"
       },
       {
         "id": "c8b4472a648b08a26720",
-        "user": "vicapow"
+        "user": "vicapow",
+        "createdAt": "2015-10-22T05:16:59Z",
+        "updatedAt": "2015-10-22T05:22:08Z",
+        "description": "fresh block"
       },
       {
         "id": "a23f857ee922bea4bded",
-        "user": "vicapow"
+        "user": "vicapow",
+        "createdAt": "2015-10-22T05:22:25Z",
+        "updatedAt": "2015-10-22T05:22:26Z",
+        "description": "fresh block"
       },
       {
         "id": "818723e652995b6c110d",
-        "user": "vicapow"
+        "user": "vicapow",
+        "createdAt": "2015-10-22T05:32:02Z",
+        "updatedAt": "2015-10-22T05:32:02Z",
+        "description": "fresh block"
       },
       {
         "id": "4463049",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2013-01-05T18:52:33Z",
+        "updatedAt": "2015-10-31T01:27:39Z",
+        "description": "Berghaus Star"
       },
       {
         "id": "310c99e53880faec2434",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2014-06-22T16:34:38Z",
+        "updatedAt": "2015-10-31T00:52:55Z",
+        "description": "A Less-Angry Rainbow"
       },
       {
         "id": "76342abc327062128604",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2015-07-03T15:10:49Z",
+        "updatedAt": "2015-10-31T02:02:57Z",
+        "description": "Color Mesh II"
       },
       {
         "id": "3150059",
-        "user": "syntagmatic"
+        "user": "syntagmatic",
+        "createdAt": "2012-07-20T10:28:50Z",
+        "updatedAt": "2015-10-07T10:18:10Z",
+        "description": "Nutrient Parallel Coordinates"
       },
       {
         "id": "1096355",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2011-07-21T01:59:37Z",
+        "updatedAt": "2015-11-10T18:37:39Z",
+        "description": "PolarClock"
       },
       {
         "id": "6c149c08fc9cde682635",
-        "user": "syntagmatic"
+        "user": "syntagmatic",
+        "createdAt": "2015-08-11T00:01:36Z",
+        "updatedAt": "2015-11-12T19:24:51Z",
+        "description": "Satellite Ground Tracks"
       },
       {
         "id": "eb9cddd11657887e1e0d",
-        "user": "saraquigley"
+        "user": "saraquigley",
+        "createdAt": "2014-11-20T21:26:31Z",
+        "updatedAt": "2015-08-29T14:10:05Z",
+        "description": "Curriculum Exploration"
       },
       {
         "id": "5194141",
-        "user": "saraquigley"
+        "user": "saraquigley",
+        "createdAt": "2013-03-19T06:40:35Z",
+        "updatedAt": "2015-08-29T13:49:19Z",
+        "description": "Issue Breakdown"
       },
       {
         "id": "c256fda4965d38e7c59b",
-        "user": "syntagmatic"
+        "user": "syntagmatic",
+        "createdAt": "2015-02-21T21:50:54Z",
+        "updatedAt": "2015-08-29T14:15:53Z",
+        "description": "Hexbin Heightmap Transitions"
       },
       {
         "id": "b4e090bb50146d88aec4",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "1092fe86860def004ea7",
-        "user": "syntagmatic"
+        "user": "syntagmatic",
+        "createdAt": "2015-01-25T10:36:49Z",
+        "updatedAt": "2015-08-29T14:14:06Z",
+        "description": "Hexbin Heightmap"
       },
       {
         "id": "5100636",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2013-03-06T16:29:21Z",
+        "updatedAt": "2015-10-31T01:36:16Z",
+        "description": "Arc Tween"
       },
       {
         "id": "11377353",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2014-04-28T16:40:58Z",
+        "updatedAt": "2015-10-30T21:33:09Z",
+        "description": "Prim’s Algorithm III"
       },
       {
         "id": "3289530",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-08-07T21:26:46Z",
+        "updatedAt": "2015-10-31T00:55:37Z",
+        "description": "Heightmap"
       },
       {
         "id": "4248145",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-12-10T03:04:53Z",
+        "updatedAt": "2015-10-31T01:21:00Z",
+        "description": "Hexagonal Binning"
       },
       {
         "id": "4063582",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-11-13T02:23:30Z",
+        "updatedAt": "2015-11-09T13:57:55Z",
+        "description": "Treemap"
       },
       {
         "id": "280d83080497c8c13152",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2015-06-26T05:20:17Z",
+        "updatedAt": "2015-10-15T11:34:18Z",
+        "description": "Connected Particles III"
       },
       {
         "id": "bfab4be2185584fba431",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "0e93da5f88368b60f5c4",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "89a629fb967cea10d00c",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "a46928f1ad0b3e9e5fd1",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "500c7cccd948ba1bdbc9",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "4def1dbf2fdeb765ee7e",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "9119eb8ea75cf94eec6d",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "4061502",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-11-12T19:52:07Z",
+        "updatedAt": "2015-10-31T01:14:40Z",
+        "description": "Box Plots"
       },
       {
         "id": "4444770",
-        "user": "jczaplew"
+        "user": "jczaplew",
+        "createdAt": "2013-01-03T16:36:10Z",
+        "updatedAt": "2015-08-29T13:47:56Z",
+        "description": "Responsive TopoJSON Sizing with d3.js"
       },
       {
         "id": "5872848",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2013-06-26T23:54:45Z",
+        "updatedAt": "2015-10-31T01:48:40Z",
+        "description": "Dispatching Events"
       },
       {
         "id": "a0cbcddc6bf0eb9569fe",
-        "user": "d3noob"
+        "user": "d3noob",
+        "createdAt": "2015-04-02T17:51:04Z",
+        "updatedAt": "2015-09-29T15:52:49Z",
+        "description": "Leanpub Book Download Scatterplot"
       },
       {
         "id": "b3831331f475fdcb13df",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2014-07-03T23:25:51Z",
+        "updatedAt": "2015-10-31T02:19:04Z",
+        "description": "Poisson-Disc V"
       },
       {
         "id": "9c87aed9a53a3ff20e29",
-        "user": "enoex"
+        "user": "enoex",
+        "createdAt": "2015-11-04T05:31:36Z",
+        "updatedAt": "2015-11-04T05:35:23Z",
+        "description": "Poisson-Disc V"
       },
       {
         "id": "e7a13ff417ff5257a067",
-        "user": "enoex"
+        "user": "enoex",
+        "createdAt": "2015-11-04T05:35:46Z",
+        "updatedAt": "2015-11-04T05:35:46Z",
+        "description": "Poisson-Disc V"
       },
       {
         "id": "b40d649842408e0cd3c0",
-        "user": "enoex"
+        "user": "enoex",
+        "createdAt": "2014-09-15T00:02:26Z",
+        "updatedAt": "2015-08-29T14:06:29Z",
+        "description": "Fog of War Filter Example"
       },
       {
         "id": "1af08ad6cdb01707c33f",
-        "user": "curran"
+        "user": "curran",
+        "createdAt": "2015-09-05T23:44:43Z",
+        "updatedAt": "2015-10-14T00:03:53Z",
+        "description": "Chiasm Boilerplate"
       },
       {
         "id": "60b40877ef898f19aeb8",
-        "user": "curran"
+        "user": "curran",
+        "createdAt": "2015-05-14T17:16:34Z",
+        "updatedAt": "2015-09-06T22:32:21Z",
+        "description": "Standalone Line Chart"
       },
       {
         "id": "3887235",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-10-14T03:57:04Z",
+        "updatedAt": "2015-10-31T01:10:20Z",
+        "description": "Pie Chart"
       },
       {
         "id": "134ed87c99257e3f2e31",
-        "user": "curran"
+        "user": "curran",
+        "createdAt": "2015-05-14T17:15:20Z",
+        "updatedAt": "2015-08-29T14:21:13Z",
+        "description": "Standalone Scatter Plot"
       },
       {
         "id": "0e57e7fff27f2eee431f",
-        "user": "enoex"
+        "user": "enoex",
+        "createdAt": "2015-09-09T03:28:05Z",
+        "updatedAt": "2015-09-09T03:28:05Z",
+        "description": "Fundamental Visualizations"
       },
       {
         "id": "7e830bd65ad749237e4d",
-        "user": "enoex"
+        "user": "enoex",
+        "createdAt": "2015-09-09T02:19:33Z",
+        "updatedAt": "2015-09-09T02:21:43Z",
+        "description": "data yoga 1"
       },
       {
         "id": "620ebec1c2841ea5a929",
-        "user": "enoex"
+        "user": "enoex",
+        "createdAt": "2015-09-09T02:21:44Z",
+        "updatedAt": "2015-09-09T02:23:43Z",
+        "description": "breathe"
       },
       {
         "id": "c42968993536f921a5c8",
-        "user": "emeeks"
+        "user": "emeeks",
+        "createdAt": "2015-08-15T01:03:32Z",
+        "updatedAt": "2015-09-05T15:21:00Z",
+        "description": "Sketchy World"
       },
       {
         "id": "4636377",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2013-01-25T17:39:14Z",
+        "updatedAt": "2015-10-24T16:16:58Z",
+        "description": "Rotating Voronoi"
       },
       {
         "id": "8959771",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "5052095",
-        "user": "timelyportfolio"
+        "user": "timelyportfolio",
+        "createdAt": "2013-02-27T21:50:49Z",
+        "updatedAt": "2015-08-29T13:49:03Z",
+        "description": ""
       },
       {
         "id": "1629464",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "6123708",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2013-07-31T16:36:23Z",
+        "updatedAt": "2015-10-31T01:50:51Z",
+        "description": "Drag + Zoom"
       },
       {
         "id": "49e0f3cb67395ab2fcc7",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "8beea1d918ff4104f9ab",
-        "user": "d3noob"
+        "user": "d3noob",
+        "createdAt": "2015-07-23T01:20:33Z",
+        "updatedAt": "2015-09-11T09:10:23Z",
+        "description": "Simple Difference Chart"
       },
       {
         "id": "3894205",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-10-15T18:33:17Z",
+        "updatedAt": "2015-10-31T01:10:53Z",
+        "description": "Difference Chart"
       },
       {
         "id": "e5daff57a04c2639125e",
-        "user": "d3noob"
+        "user": "d3noob",
+        "createdAt": "2014-07-11T09:35:37Z",
+        "updatedAt": "2015-08-29T14:03:52Z",
+        "description": "Favorite tooltip (simple version)"
       },
       {
         "id": "3902569",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-10-16T22:47:58Z",
+        "updatedAt": "2015-10-31T01:11:21Z",
+        "description": "X-Value Mouseover"
       },
       {
         "id": "4618602",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "1157787",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2011-08-19T19:39:00Z",
+        "updatedAt": "2015-10-30T21:33:59Z",
+        "description": "Small Multiples"
       },
       {
         "id": "5987480",
-        "user": "d3noob"
+        "user": "d3noob",
+        "createdAt": "2013-07-12T20:19:30Z",
+        "updatedAt": "2015-08-29T13:50:48Z",
+        "description": "Multiple Simple graphs on one page"
       },
       {
         "id": "c2637e28b79fb3bfea13",
-        "user": "d3noob"
+        "user": "d3noob",
+        "createdAt": "2014-06-25T20:34:34Z",
+        "updatedAt": "2015-10-16T16:03:42Z",
+        "description": "Sankey diagram from formatted JSON"
       },
       {
         "id": "38744a17f9c0141bcd04",
-        "user": "d3noob"
+        "user": "d3noob",
+        "createdAt": "2014-06-22T18:12:55Z",
+        "updatedAt": "2015-08-29T14:02:53Z",
+        "description": "Simple scatterplot with d3.js"
       },
       {
         "id": "473f0cf66196a008cf99",
-        "user": "d3noob"
+        "user": "d3noob",
+        "createdAt": "2014-06-22T01:03:53Z",
+        "updatedAt": "2015-08-29T14:02:52Z",
+        "description": "Simple graph and table using d3.js"
       },
       {
         "id": "7030f35b72de721622b8",
-        "user": "d3noob"
+        "user": "d3noob",
+        "createdAt": "2014-06-21T19:25:44Z",
+        "updatedAt": "2015-08-29T14:02:52Z",
+        "description": "Update d3.js data with button press"
       },
       {
         "id": "c37cb8e630aaef7df30d",
-        "user": "d3noob"
+        "user": "d3noob",
+        "createdAt": "2014-04-30T09:36:49Z",
+        "updatedAt": "2015-08-29T14:00:46Z",
+        "description": "d3.js tool tip with HTML link"
       },
       {
         "id": "c0e1634fb919c37575b8",
-        "user": "enjalot"
+        "user": "enjalot",
+        "createdAt": "2015-09-07T23:40:58Z",
+        "updatedAt": "2015-09-07T23:43:54Z",
+        "description": "Bookmarklet"
       },
       {
         "id": "076b18cb3b5ade6fce80",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "7586334",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2013-11-21T17:55:00Z",
+        "updatedAt": "2015-10-31T02:01:51Z",
+        "description": "Parallel Coordinates"
       },
       {
         "id": "5311083.",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "4ad06b0d9ee2a390eb20",
-        "user": "sampathweb"
+        "user": "sampathweb",
+        "createdAt": "2015-08-29T20:47:32Z",
+        "updatedAt": "2015-08-29T20:54:36Z",
+        "description": "datasana #1"
       },
       {
         "id": "2efd8084d345dd23ef96",
-        "user": "sampathweb"
+        "user": "sampathweb",
+        "createdAt": "2015-08-29T20:54:38Z",
+        "updatedAt": "2015-08-29T21:07:03Z",
+        "description": "datasana #circles"
       },
       {
         "id": "4348373",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-12-20T20:41:10Z",
+        "updatedAt": "2015-10-31T01:24:42Z",
+        "description": "Zoomable Sunburst"
       },
       {
         "id": "29a00092e4dbb7c659f7",
-        "user": "sxywu"
+        "user": "sxywu",
+        "createdAt": "2015-10-21T05:56:08Z",
+        "updatedAt": "2015-11-01T23:20:54Z",
+        "description": "visfest block visualization"
       },
       {
         "id": "b3b3ff937241182ee67e",
-        "user": "sxywu"
+        "user": "sxywu",
+        "createdAt": "2015-10-21T07:30:30Z",
+        "updatedAt": "2015-11-01T23:26:00Z",
+        "description": "visfest block visualization 2"
       },
       {
         "id": "33bc932b850792e832f8",
-        "user": "sxywu"
+        "user": "sxywu",
+        "createdAt": "2015-08-14T07:18:27Z",
+        "updatedAt": "2015-08-29T14:27:22Z",
+        "description": "How D3 Transitions Work, Pt. 1: d3.interpolate"
       },
       {
         "id": "3a81930c054bb8ee39bf",
-        "user": "sxywu"
+        "user": "sxywu",
+        "createdAt": "2015-08-16T08:32:49Z",
+        "updatedAt": "2015-10-21T01:36:06Z",
+        "description": "How D3 Transitions Work, Pt. 2: d3.interpolate with multiple elements"
       },
       {
         "id": "c77e7c891bfc52157843",
-        "user": "wboykinm"
+        "user": "wboykinm",
+        "createdAt": "2014-05-28T18:15:55Z",
+        "updatedAt": "2015-08-29T14:01:55Z",
+        "description": "mapbox.js - importing and clustering GeoJSON with a chart popup"
       },
       {
         "id": "779f2db53e1e365e98d4",
-        "user": "curran"
+        "user": "curran",
+        "createdAt": "2015-09-02T16:03:30Z",
+        "updatedAt": "2015-09-25T03:33:52Z",
+        "description": "Density-based Ticks"
       },
       {
         "id": "28f1fbeb41df9753e120",
-        "user": "syntagmatic"
+        "user": "syntagmatic",
+        "createdAt": "2015-03-07T08:33:24Z",
+        "updatedAt": "2015-08-29T14:16:42Z",
+        "description": "Issue Breakdown"
       },
       {
         "id": "002ef2fb5c1dc2df5821",
-        "user": "syntagmatic"
+        "user": "syntagmatic",
+        "createdAt": "2015-03-06T09:03:50Z",
+        "updatedAt": "2015-10-21T23:25:20Z",
+        "description": "Hexbin Canvas Transitions"
       },
       {
         "id": "85d7dce6fca6277f75fe",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2015-07-10T00:29:44Z",
+        "updatedAt": "2015-09-15T16:57:46Z",
+        "description": "Colorcomb II"
       },
       {
         "id": "e6583e486f6df0c86b0f",
-        "user": "syntagmatic"
+        "user": "syntagmatic",
+        "createdAt": "2015-08-27T13:20:50Z",
+        "updatedAt": "2015-08-27T18:32:47Z",
+        "description": "Tetraplex"
       },
       {
         "id": "1308257",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2011-10-24T02:49:01Z",
+        "updatedAt": "2015-10-26T22:03:14Z",
+        "description": "The Euro Debt Crisis"
       },
       {
         "id": "b1c051113be144570881",
-        "user": "zanarmstrong"
+        "user": "zanarmstrong",
+        "createdAt": "2015-02-05T17:38:04Z",
+        "updatedAt": "2015-09-08T03:35:06Z",
+        "description": "Exploring Voronoi polygons, Delaunay triangles, and circumcircles"
       },
       {
         "id": "7115f7a0393de96f2fdc",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2015-08-03T20:50:48Z",
+        "updatedAt": "2015-09-08T18:07:37Z",
+        "description": "Apollonius’ Problem II"
       },
       {
         "id": "05c1e95bf7aa16c4768e",
-        "user": "zanarmstrong"
+        "user": "zanarmstrong",
+        "createdAt": "2014-05-21T23:58:55Z",
+        "updatedAt": "2015-11-08T18:45:24Z",
+        "description": "formatting numbers example"
       },
       {
         "id": "abcc82cc61c52fc47b19",
-        "user": "emeeks"
+        "user": "emeeks",
+        "createdAt": "2014-07-27T02:43:46Z",
+        "updatedAt": "2015-08-29T14:04:35Z",
+        "description": "Stamen Tiles - d3.carto.map"
       },
       {
         "id": "e1e661f4696af856e017",
-        "user": "emeeks"
+        "user": "emeeks",
+        "createdAt": "2014-09-20T20:01:24Z",
+        "updatedAt": "2015-08-29T14:06:44Z",
+        "description": "Managing Layers - d3.carto"
       },
       {
         "id": "433a9b04f82a1c78af4b",
-        "user": "emeeks"
+        "user": "emeeks",
+        "createdAt": "2014-08-26T16:04:24Z",
+        "updatedAt": "2015-08-29T14:05:41Z",
+        "description": "Modal Infoboxes - d3.carto.map"
       },
       {
         "id": "2090bc8489a662c2e84d",
-        "user": "emeeks"
+        "user": "emeeks",
+        "createdAt": "2014-09-27T03:07:37Z",
+        "updatedAt": "2015-08-29T14:06:57Z",
+        "description": "Small Maptiples - d3.carto"
       },
       {
         "id": "a950399780ca90589f59",
-        "user": "emeeks"
+        "user": "emeeks",
+        "createdAt": "2015-03-15T03:52:13Z",
+        "updatedAt": "2015-08-29T14:17:09Z",
+        "description": "d3.carto - CartoDB layers"
       },
       {
         "id": "306e64e0d687a4374bcd",
-        "user": "emeeks"
+        "user": "emeeks",
+        "createdAt": "2014-11-19T05:25:24Z",
+        "updatedAt": "2015-08-29T14:09:55Z",
+        "description": "Ch. 11, Fig. 14 - D3.js in Action"
       },
       {
         "id": "02d6acaed240ba0a504e",
-        "user": "emeeks"
+        "user": "emeeks",
+        "createdAt": "2015-04-15T15:47:43Z",
+        "updatedAt": "2015-08-29T14:19:14Z",
+        "description": "Simple Difference Chart with d3.svg.area"
       },
       {
         "id": "6746848",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2013-09-28T21:31:07Z",
+        "updatedAt": "2015-10-31T01:57:23Z",
+        "description": "See-Through Globe"
       },
       {
         "id": "c88435cb568dcaf11308",
-        "user": "emeeks"
+        "user": "emeeks",
+        "createdAt": "2015-08-02T16:06:41Z",
+        "updatedAt": "2015-08-29T14:26:30Z",
+        "description": "Non-Rotating SVG Transparent Globe"
       },
       {
         "id": "a0b5a95c999628547494",
-        "user": "emeeks"
+        "user": "emeeks",
+        "createdAt": "2015-08-23T17:34:13Z",
+        "updatedAt": "2015-08-29T14:28:00Z",
+        "description": "Napoleon's March with d3.svg.ribbon"
       },
       {
         "id": "29bccce80df0f253c97e",
-        "user": "syntagmatic"
+        "user": "syntagmatic",
+        "createdAt": "2015-09-01T06:32:45Z",
+        "updatedAt": "2015-09-02T12:55:01Z",
+        "description": "Quantile, Quantize, Threshold Scales"
       },
       {
         "id": "3891711",
-        "user": "syntagmatic"
+        "user": "syntagmatic",
+        "createdAt": "2012-10-15T09:40:07Z",
+        "updatedAt": "2015-10-11T17:08:01Z",
+        "description": "Average Price Histories"
       },
       {
         "id": "4053096",
-        "user": "syntagmatic"
+        "user": "syntagmatic",
+        "createdAt": "2012-11-11T00:11:56Z",
+        "updatedAt": "2015-10-12T16:08:07Z",
+        "description": "Average Price Histories II"
       },
       {
         "id": "5123745",
-        "user": "syntagmatic"
+        "user": "syntagmatic",
+        "createdAt": "2013-03-09T10:18:09Z",
+        "updatedAt": "2015-08-29T13:49:11Z",
+        "description": "Crossfilter with d3.csv"
       },
       {
         "id": "4092944",
-        "user": "syntagmatic"
+        "user": "syntagmatic",
+        "createdAt": "2012-11-17T03:09:37Z",
+        "updatedAt": "2015-10-12T21:58:14Z",
+        "description": "d3 src tree transitions"
       },
       {
         "id": "4963194",
-        "user": "syntagmatic"
+        "user": "syntagmatic",
+        "createdAt": "2013-02-15T20:15:49Z",
+        "updatedAt": "2015-08-29T13:48:50Z",
+        "description": "Force-Directed SVG Icons"
       },
       {
         "id": "5803524",
-        "user": "syntagmatic"
+        "user": "syntagmatic",
+        "createdAt": "2013-06-18T08:13:35Z",
+        "updatedAt": "2015-08-29T13:50:27Z",
+        "description": "Historical Volumes"
       },
       {
         "id": "5441022",
-        "user": "syntagmatic"
+        "user": "syntagmatic",
+        "createdAt": "2013-04-23T05:21:58Z",
+        "updatedAt": "2015-08-29T13:49:47Z",
+        "description": "Line Intersection Brushing"
       },
       {
         "id": "6769077",
-        "user": "syntagmatic"
+        "user": "syntagmatic",
+        "createdAt": "2013-09-30T19:42:58Z",
+        "updatedAt": "2015-08-29T13:52:18Z",
+        "description": "Github Users Worldwide"
       },
       {
         "id": "6418898",
-        "user": "syntagmatic"
+        "user": "syntagmatic",
+        "createdAt": "2013-09-03T01:50:28Z",
+        "updatedAt": "2015-08-29T13:51:39Z",
+        "description": "Force-Directed Edge Severing"
       },
       {
         "id": "6419716",
-        "user": "syntagmatic"
+        "user": "syntagmatic",
+        "createdAt": "2013-09-03T04:25:42Z",
+        "updatedAt": "2015-08-29T13:51:39Z",
+        "description": "Force-directed Splitting"
       },
       {
         "id": "fc62d1de6ada1e06b803",
-        "user": "syntagmatic"
+        "user": "syntagmatic",
+        "createdAt": "2015-02-24T18:57:35Z",
+        "updatedAt": "2015-08-29T14:16:04Z",
+        "description": "Windmap"
       },
       {
         "id": "0de45f430bbfb61b6588",
-        "user": "syntagmatic"
+        "user": "syntagmatic",
+        "createdAt": "2015-06-08T21:05:35Z",
+        "updatedAt": "2015-08-29T14:22:44Z",
+        "description": "Hello Mapsense.js"
       },
       {
         "id": "56378770ba9e625efc73",
-        "user": "syntagmatic"
+        "user": "syntagmatic",
+        "createdAt": "2015-03-12T03:21:39Z",
+        "updatedAt": "2015-08-29T14:16:57Z",
+        "description": "Hello d3.carto"
       },
       {
         "id": "8ff691209324f1814257",
-        "user": "syntagmatic"
+        "user": "syntagmatic",
+        "createdAt": "2015-06-24T11:35:49Z",
+        "updatedAt": "2015-09-12T10:43:22Z",
+        "description": "Infant Deaths"
       },
       {
         "id": "4446b31c6cd746eedaeb",
-        "user": "syntagmatic"
+        "user": "syntagmatic",
+        "createdAt": "2015-08-08T08:13:01Z",
+        "updatedAt": "2015-09-01T00:25:06Z",
+        "description": "Space Stations"
       },
       {
         "id": "0d1635533f6fb5ac4da3",
-        "user": "syntagmatic"
+        "user": "syntagmatic",
+        "createdAt": "2015-08-22T07:09:00Z",
+        "updatedAt": "2015-09-03T00:39:19Z",
+        "description": "Nutrient Parallel Coordinates II"
       },
       {
         "id": "895eb781d88148cfd8e5",
-        "user": "syntagmatic"
+        "user": "syntagmatic",
+        "createdAt": "2015-08-20T08:43:38Z",
+        "updatedAt": "2015-08-29T14:27:48Z",
+        "description": "Clock"
       },
       {
         "id": "168da8df0b4aa0d513f2",
-        "user": "syntagmatic"
+        "user": "syntagmatic",
+        "createdAt": "2015-08-20T07:11:27Z",
+        "updatedAt": "2015-08-29T14:27:48Z",
+        "description": "Hello Mapbox GL"
       },
       {
         "id": "ba569633d51ebec6ec6e",
-        "user": "syntagmatic"
+        "user": "syntagmatic",
+        "createdAt": "2015-08-16T03:37:26Z",
+        "updatedAt": "2015-08-29T14:27:28Z",
+        "description": "Comparing Map Projections"
       },
       {
         "id": "dd17d7b62fb4fbb56897",
-        "user": "syntagmatic"
+        "user": "syntagmatic",
+        "createdAt": "2015-08-24T22:02:02Z",
+        "updatedAt": "2015-11-12T19:33:15Z",
+        "description": "Satellite Debris Fields"
       },
       {
         "id": "0475e4fb201315a10b70",
-        "user": "syntagmatic"
+        "user": "syntagmatic",
+        "createdAt": "2015-08-27T11:20:39Z",
+        "updatedAt": "2015-08-28T04:37:22Z",
+        "description": "Clock II"
       },
       {
         "id": "4188334",
-        "user": "jasondavies"
+        "user": "jasondavies",
+        "createdAt": "2012-12-02T11:54:58Z",
+        "updatedAt": "2015-10-13T11:27:59Z",
+        "description": "World Map"
       },
       {
         "id": "b86031aa5ad2a516a864",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "fd0a8ee9429117b900e4",
-        "user": "bricedev"
+        "user": "bricedev",
+        "createdAt": "2015-06-18T14:42:48Z",
+        "updatedAt": "2015-08-29T14:23:16Z",
+        "description": "French soccer championship replay"
       },
       {
         "id": "14703cd8b0edc19979d4",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "52fb07194d4b2988cafb",
-        "user": "dmijalkovic"
+        "user": "dmijalkovic",
+        "createdAt": "2015-10-23T23:48:33Z",
+        "updatedAt": "2015-10-24T07:33:28Z",
+        "description": "D3 graphs"
       },
       {
         "id": "3884955",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-10-13T15:16:08Z",
+        "updatedAt": "2015-10-31T01:49:41Z",
+        "description": "Multi-Series Line Chart"
       },
       {
         "id": "8fadc5ac9c2a9e7c5ba2",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2014-07-07T03:28:19Z",
+        "updatedAt": "2015-10-31T02:09:12Z",
+        "description": "Map Pan & Zoom I"
       },
       {
         "id": "7352810",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "c2cc7242c8f800c736c4",
-        "user": "mgold"
+        "user": "mgold",
+        "createdAt": "2014-11-26T19:09:21Z",
+        "updatedAt": "2015-08-29T14:10:23Z",
+        "description": "Zoom Buttons I"
       },
       {
         "id": "bbc451a7b9f902954e7c",
-        "user": "mgold"
+        "user": "mgold",
+        "createdAt": "2014-11-26T19:48:28Z",
+        "updatedAt": "2015-08-29T14:10:23Z",
+        "description": "Zoom Buttons II"
       },
       {
         "id": "0eea4ea262aa43d6be71",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "81271937fa94fdbdd854",
-        "user": "curran"
+        "user": "curran",
+        "createdAt": "2015-09-08T00:10:10Z",
+        "updatedAt": "2015-10-21T23:09:20Z",
+        "description": "Migrant Deaths Map (direct)"
       },
       {
         "id": "87d038562333a7ad4a64",
-        "user": "curran"
+        "user": "curran",
+        "createdAt": "2015-09-14T01:03:39Z",
+        "updatedAt": "2015-10-14T00:04:06Z",
+        "description": "Crossfilter & Chiasm"
       },
       {
         "id": "47aceae44bb5f8b63d7b",
-        "user": "boeric"
+        "user": "boeric",
+        "createdAt": "2015-08-31T02:53:25Z",
+        "updatedAt": "2015-09-26T19:20:50Z",
+        "description": "Deaths of Migrants"
       },
       {
         "id": "60eec0e1727c6c628728",
-        "user": "shobhitg"
+        "user": "shobhitg",
+        "createdAt": "2015-08-30T05:05:21Z",
+        "updatedAt": "2015-08-30T05:49:03Z",
+        "description": "Migrants-Deaths-Visualization"
       },
       {
         "id": "3943967",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-10-24T04:51:42Z",
+        "updatedAt": "2015-10-31T01:11:48Z",
+        "description": "Stacked-to-Grouped Bars"
       },
       {
         "id": "752b97cef3f880a813ab",
-        "user": "curran"
+        "user": "curran",
+        "createdAt": "2015-05-04T01:58:14Z",
+        "updatedAt": "2015-08-29T14:20:29Z",
+        "description": "World City Explorer"
       },
       {
         "id": "5e3c1bed7c9cdd2b431c",
-        "user": "curran"
+        "user": "curran",
+        "createdAt": "2015-10-10T02:14:52Z",
+        "updatedAt": "2015-10-10T02:25:38Z",
+        "description": "Reactive Mixins for Visualizations"
       },
       {
         "id": "a931688fa8cb65db4079",
-        "user": "curran"
+        "user": "curran",
+        "createdAt": "2015-10-01T23:56:02Z",
+        "updatedAt": "2015-10-02T01:03:15Z",
+        "description": "Magic Bar Chart (Browserified)"
       },
       {
         "id": "b6e1d23c16dc76371a92",
-        "user": "curran"
+        "user": "curran",
+        "createdAt": "2015-09-23T00:54:34Z",
+        "updatedAt": "2015-10-02T02:39:08Z",
+        "description": "Magic Bar Chart"
       },
       {
         "id": "2c736a99c2f57bfac7e4",
-        "user": "curran"
+        "user": "curran",
+        "createdAt": "2015-09-21T00:44:16Z",
+        "updatedAt": "2015-09-25T03:28:40Z",
+        "description": "Margin Convention with Model.js"
       },
       {
         "id": "87d5dd02739089986d4a",
-        "user": "curran"
+        "user": "curran",
+        "createdAt": "2015-09-21T00:46:38Z",
+        "updatedAt": "2015-09-21T00:50:23Z",
+        "description": "fresh block"
       },
       {
         "id": "3a68b0c81991e2e94b19",
-        "user": "curran"
+        "user": "curran",
+        "createdAt": "2015-08-12T20:39:34Z",
+        "updatedAt": "2015-09-21T01:36:03Z",
+        "description": "Responding to Resize"
       },
       {
         "id": "d1e9ea2850047562be09",
-        "user": "curran"
+        "user": "curran",
+        "createdAt": "2015-09-11T03:42:16Z",
+        "updatedAt": "2015-09-18T02:23:09Z",
+        "description": "Focus + Context Scatter Plots"
       },
       {
         "id": "a4f1e24535f0353d91ea",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "16828b2187f6d06f77fd",
-        "user": "curran"
+        "user": "curran",
+        "createdAt": "2015-09-17T22:03:44Z",
+        "updatedAt": "2015-09-20T03:06:32Z",
+        "description": "Story of Chiasm"
       },
       {
         "id": "cf4b98fff0517ca04667",
-        "user": "curran"
+        "user": "curran",
+        "createdAt": "2015-03-16T19:18:55Z",
+        "updatedAt": "2015-08-29T14:17:14Z",
+        "description": "Scatter Plot Zooming"
       },
       {
         "id": "ba63c55dd2dbc3ab0127",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2015-07-03T05:23:22Z",
+        "updatedAt": "2015-10-31T02:19:49Z",
+        "description": "This Is a Globe"
       },
       {
         "id": "e2744ee563f7cab80350",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "bd552e711b8325c64729",
-        "user": "enjalot"
+        "user": "enjalot",
+        "createdAt": "2015-09-10T17:38:03Z",
+        "updatedAt": "2015-09-30T17:02:12Z",
+        "description": "visualizing map distortion"
       },
       {
         "id": "66d926fe73211fd650ec",
-        "user": "curran"
+        "user": "curran",
+        "createdAt": "2015-05-21T16:46:33Z",
+        "updatedAt": "2015-09-06T22:37:13Z",
+        "description": "Towards Reusable Charts Example"
       },
       {
         "id": "8033015",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2013-12-19T01:50:19Z",
+        "updatedAt": "2015-10-31T02:05:54Z",
+        "description": "Multi-Line Voronoi"
       },
       {
         "id": "5577023",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2013-05-14T15:49:35Z",
+        "updatedAt": "2015-10-31T01:42:31Z",
+        "description": "Every ColorBrewer Scale"
       },
       {
         "id": "88d03aa54097367eaae1",
-        "user": "curran"
+        "user": "curran",
+        "createdAt": "2015-05-20T18:56:24Z",
+        "updatedAt": "2015-08-29T14:21:37Z",
+        "description": "href on d3 objects"
       },
       {
         "id": "5537697",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2013-05-08T02:09:02Z",
+        "updatedAt": "2015-10-31T01:41:31Z",
+        "description": "Log Axis"
       },
       {
         "id": "9aafca5fba0c7fde13aa",
-        "user": "curran"
+        "user": "curran",
+        "createdAt": "2015-05-12T02:39:13Z",
+        "updatedAt": "2015-08-29T14:21:00Z",
+        "description": "Reusable Scatter Plot with Model.js"
       },
       {
         "id": "a22c42db65eb00d4e369",
-        "user": "d3noob"
+        "user": "d3noob",
+        "createdAt": "2014-06-22T18:24:10Z",
+        "updatedAt": "2015-08-29T14:02:53Z",
+        "description": "Simple d3.js tooltips"
       },
       {
         "id": "6476579",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "9e04ccfebeb84bcdc76c",
-        "user": "curran"
+        "user": "curran",
+        "createdAt": "2015-03-15T00:41:22Z",
+        "updatedAt": "2015-08-29T14:17:08Z",
+        "description": "Scatter Plot"
       },
       {
         "id": "4ce2ee825811f1c32125",
-        "user": "curran"
+        "user": "curran",
+        "createdAt": "2015-03-18T19:01:36Z",
+        "updatedAt": "2015-08-29T14:17:21Z",
+        "description": "Chiasm Bar Chart and Line Chart"
       },
       {
         "id": "3b811f05a0ce39d0d7cd",
-        "user": "curran"
+        "user": "curran",
+        "createdAt": "2015-03-11T00:01:33Z",
+        "updatedAt": "2015-08-29T14:16:52Z",
+        "description": "Data Canvas Part 4 - Colors"
       },
       {
         "id": "015d34d6d3d562877e51",
-        "user": "curran"
+        "user": "curran",
+        "createdAt": "2015-03-09T04:27:10Z",
+        "updatedAt": "2015-08-29T14:16:48Z",
+        "description": "Data Canvas Part 3 - Bar Chart"
       },
       {
         "id": "015402cce2caa074551e",
-        "user": "curran"
+        "user": "curran",
+        "createdAt": "2015-03-08T19:01:24Z",
+        "updatedAt": "2015-08-29T14:16:45Z",
+        "description": "Data Canvas Part 2 - Line Chart"
       },
       {
         "id": "dd73d3d8925cdf50df86",
-        "user": "curran"
+        "user": "curran",
+        "createdAt": "2015-03-09T23:14:54Z",
+        "updatedAt": "2015-08-29T14:16:50Z",
+        "description": "Picking N Colors Automatically"
       },
       {
         "id": "5905182da50a4667dc00",
-        "user": "curran"
+        "user": "curran",
+        "createdAt": "2015-03-13T20:17:35Z",
+        "updatedAt": "2015-08-29T14:17:04Z",
+        "description": "Reactive Flow Diagram"
       },
       {
         "id": "5f255332a9dcb9906f84",
-        "user": "curran"
+        "user": "curran",
+        "createdAt": "2015-03-07T22:46:35Z",
+        "updatedAt": "2015-08-29T14:16:43Z",
+        "description": "Data Canvas Part 1 - Data"
       },
       {
         "id": "1021103",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2011-06-12T00:00:36Z",
+        "updatedAt": "2015-10-30T21:28:05Z",
+        "description": "Superformula Explorer"
       },
       {
         "id": "0854f60e489b5ee6e11a",
-        "user": "herrstucki"
+        "user": "herrstucki",
+        "createdAt": "2015-01-14T09:27:52Z",
+        "updatedAt": "2015-08-29T14:13:26Z",
+        "description": "Animating Circles (D3 & SVG)"
       },
       {
         "id": "40a7be58639daf5d510e",
-        "user": "herrstucki"
+        "user": "herrstucki",
+        "createdAt": "2015-01-14T09:28:18Z",
+        "updatedAt": "2015-08-29T14:13:26Z",
+        "description": "Animating Circles (React & SVG)"
       },
       {
         "id": "dc5be7c1d700eb6ecf46",
-        "user": "herrstucki"
+        "user": "herrstucki",
+        "createdAt": "2015-01-14T09:28:43Z",
+        "updatedAt": "2015-11-11T08:28:20Z",
+        "description": "Animating Circles (Canvas)"
       },
       {
         "id": "2547496",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "975c057b97a74f307239",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "476c804335f77198447e",
-        "user": "enjalot"
+        "user": "enjalot",
+        "createdAt": "2015-09-01T19:39:54Z",
+        "updatedAt": "2015-11-18T19:50:54Z",
+        "description": "building-blocks backers"
       },
       {
         "id": "b6bdb82045c2aa8225f5",
-        "user": "susielu"
+        "user": "susielu",
+        "createdAt": "2015-10-14T03:50:27Z",
+        "updatedAt": "2015-11-06T06:23:12Z",
+        "description": "Annual Temp - New York 2015"
       },
       {
         "id": "2fffa9abe50ac97603c7",
-        "user": "emeeks"
+        "user": "emeeks",
+        "createdAt": "2015-10-16T18:28:49Z",
+        "updatedAt": "2015-10-17T15:10:25Z",
+        "description": "Brushable Radial Chart"
       },
       {
         "id": "1129492",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2011-08-06T16:40:21Z",
+        "updatedAt": "2015-10-30T21:31:59Z",
+        "description": "Bounded Force Layout"
       },
       {
         "id": "541a3af0d8df035fff37",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "8ed34ca589e8b0cb9d3c",
-        "user": "enjalot"
+        "user": "enjalot",
+        "createdAt": "2015-08-26T21:39:08Z",
+        "updatedAt": "2015-09-04T19:11:52Z",
+        "description": "Inlet demo"
       },
       {
         "id": "95800d30829ab8ab4ba6",
-        "user": "zeffii"
+        "user": "zeffii",
+        "createdAt": "2015-10-21T07:11:18Z",
+        "updatedAt": "2015-10-21T07:31:33Z",
+        "description": "stage fright"
       },
       {
         "id": "b602b35c682ec69b9025",
-        "user": "zeffii"
+        "user": "zeffii",
+        "createdAt": "2015-10-21T07:31:36Z",
+        "updatedAt": "2015-10-21T08:00:10Z",
+        "description": "stage fright 2"
       },
       {
         "id": "f2aff83148a5f64f3222",
-        "user": "micahstubbs"
+        "user": "micahstubbs",
+        "createdAt": "2015-11-06T02:27:12Z",
+        "updatedAt": "2015-11-06T03:12:58Z",
+        "description": "Animated ROC Chart"
       },
       {
         "id": "f1b4a29749408dd826ef",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "465725cdc547c7cc8491",
-        "user": "micahstubbs"
+        "user": "micahstubbs",
+        "createdAt": "2015-10-19T22:04:53Z",
+        "updatedAt": "2015-10-19T22:20:59Z",
+        "description": "radar chart with smallest area on top"
       },
       {
         "id": "44bb05aab218a40a4c12",
-        "user": "micahstubbs"
+        "user": "micahstubbs",
+        "createdAt": "2015-10-19T19:05:55Z",
+        "updatedAt": "2015-10-19T19:13:30Z",
+        "description": "radar chart for nested data"
       },
       {
         "id": "2975320",
-        "user": "ZJONSSON"
+        "user": "ZJONSSON",
+        "createdAt": "2012-06-22T21:31:33Z",
+        "updatedAt": "2015-10-06T09:57:54Z",
+        "description": "barStack - stacking with negative values"
       },
       {
         "id": "6100713",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "a40254b6cb914018ff81",
-        "user": "micahstubbs"
+        "user": "micahstubbs",
+        "createdAt": "2015-09-01T17:23:03Z",
+        "updatedAt": "2015-09-01T22:24:30Z",
+        "description": "stacking with negative values"
       },
       {
         "id": "470cde4c5a3cf8eb9cea",
-        "user": "micahstubbs"
+        "user": "micahstubbs",
+        "createdAt": "2015-08-29T20:55:11Z",
+        "updatedAt": "2015-09-07T22:03:39Z",
+        "description": "building blocks svg flag"
       },
       {
         "id": "c248e13bf367f56baf84",
-        "user": "micahstubbs"
+        "user": "micahstubbs",
+        "createdAt": "2015-05-10T16:52:34Z",
+        "updatedAt": "2015-08-29T14:20:54Z",
+        "description": "Close Votes"
       },
       {
         "id": "4631136",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "5661984",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "b41c59f0b6eaf54498c0",
-        "user": "enjalot"
+        "user": "enjalot",
+        "createdAt": "2015-10-28T16:44:32Z",
+        "updatedAt": "2015-10-28T19:33:50Z",
+        "description": "matrix component"
       },
       {
         "id": "a37f2b733a75a6f348c2",
-        "user": "peterbsmith2"
+        "user": "peterbsmith2",
+        "createdAt": "2015-08-07T15:55:37Z",
+        "updatedAt": "2015-08-29T14:26:53Z",
+        "description": "GitHub Commit Calendar Clone using D3"
       },
       {
         "id": "1283663",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2011-10-13T07:34:05Z",
+        "updatedAt": "2015-10-30T21:34:58Z",
+        "description": "Hierarchical Bar Chart"
       },
       {
         "id": "e89dcf210974b008d1d6",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "e9ea7af871cc11e0f43f",
-        "user": "timelyportfolio"
+        "user": "timelyportfolio",
+        "createdAt": "2015-09-01T21:34:39Z",
+        "updatedAt": "2015-09-01T23:26:41Z",
+        "description": "interactive d3.js parallel coordinates of finch data"
       },
       {
         "id": "3a052a4bcc85275ce469",
-        "user": "timelyportfolio"
+        "user": "timelyportfolio",
+        "createdAt": "2015-08-27T23:22:45Z",
+        "updatedAt": "2015-11-03T15:01:09Z",
+        "description": "answer to stack overflow"
       },
       {
         "id": "1c29e1dde847d98d7569",
-        "user": "timelyportfolio"
+        "user": "timelyportfolio",
+        "createdAt": "2015-08-20T10:32:23Z",
+        "updatedAt": "2015-10-21T02:32:03Z",
+        "description": "svgPanZoom htmlwidget gets hammer.js touch support"
       },
       {
         "id": "eda532b01c24bf4ac1d6",
-        "user": "timelyportfolio"
+        "user": "timelyportfolio",
+        "createdAt": "2015-08-20T02:58:45Z",
+        "updatedAt": "2015-10-21T02:32:30Z",
+        "description": "BioFabric in R as an htmlwidget with d3.js"
       },
       {
         "id": "7148ee2a60a09fed0b43",
-        "user": "timelyportfolio"
+        "user": "timelyportfolio",
+        "createdAt": "2015-08-20T02:42:29Z",
+        "updatedAt": "2015-10-21T02:33:30Z",
+        "description": "biofabric as an rstats htmlwidget - pre-alpha"
       },
       {
         "id": "e2effb970b3cbe2f4e84",
-        "user": "timelyportfolio"
+        "user": "timelyportfolio",
+        "createdAt": "2015-08-07T15:35:00Z",
+        "updatedAt": "2015-10-21T02:35:21Z",
+        "description": "tmap with interactivity and pan/zoom"
       },
       {
         "id": "4063269",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-11-13T01:25:00Z",
+        "updatedAt": "2015-11-05T23:34:44Z",
+        "description": "Bubble Chart"
       },
       {
         "id": "a6916e88484f962d8f95",
-        "user": "timelyportfolio"
+        "user": "timelyportfolio",
+        "createdAt": "2015-07-02T21:19:04Z",
+        "updatedAt": "2015-10-21T02:41:12Z",
+        "description": "R | Norvig's English Letter ngrams with sunburstR (d3.js sequence sunburst htmlwidget)"
       },
       {
         "id": "3616869996703d48a981",
-        "user": "timelyportfolio"
+        "user": "timelyportfolio",
+        "createdAt": "2015-06-01T17:01:28Z",
+        "updatedAt": "2015-08-29T14:22:19Z",
+        "description": "R tables to networks for visualization"
       },
       {
         "id": "3793462de638478937",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "d6658135f11023171587",
-        "user": "timelyportfolio"
+        "user": "timelyportfolio",
+        "createdAt": "2015-04-23T17:15:00Z",
+        "updatedAt": "2015-08-29T14:19:47Z",
+        "description": "R base graphics plot using stateface from propublica"
       },
       {
         "id": "3793462de638478937ac",
-        "user": "timelyportfolio"
+        "user": "timelyportfolio",
+        "createdAt": "2015-04-22T18:29:37Z",
+        "updatedAt": "2015-08-29T14:19:42Z",
+        "description": "stateface from propublica used in R ggplot"
       },
       {
         "id": "ab27c49724c140a72aae",
-        "user": "timelyportfolio"
+        "user": "timelyportfolio",
+        "createdAt": "2015-03-23T16:41:19Z",
+        "updatedAt": "2015-08-29T14:17:36Z",
+        "description": "TraMineR + rcdimple | Analyze State Sequence Data with dimple htmlwidget"
       },
       {
         "id": "a2c97fbf90aebe591d94",
-        "user": "timelyportfolio"
+        "user": "timelyportfolio",
+        "createdAt": "2015-03-19T13:47:14Z",
+        "updatedAt": "2015-08-29T14:17:23Z",
+        "description": "waffle + rcdimple version of fig10.3 from r-graph-catalog"
       },
       {
         "id": "a734fb2bb3319a2cb386",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "e2349d1e850313fcb1c6",
-        "user": "timelyportfolio"
+        "user": "timelyportfolio",
+        "createdAt": "2015-02-04T03:42:48Z",
+        "updatedAt": "2015-08-29T14:14:43Z",
+        "description": "R finance charts with the svgPanZoom htmlwidget"
       },
       {
         "id": "58f8fe3e167ef47145d0",
-        "user": "timelyportfolio"
+        "user": "timelyportfolio",
+        "createdAt": "2014-09-15T17:55:41Z",
+        "updatedAt": "2015-08-29T14:06:30Z",
+        "description": "R + d3.js Parallel Coordinates of partykit ver 2 with interactive querying"
       },
       {
         "id": "d4ff502dc32b5b04eae4",
-        "user": "timelyportfolio"
+        "user": "timelyportfolio",
+        "createdAt": "2014-09-11T18:02:03Z",
+        "updatedAt": "2015-08-29T14:06:18Z",
+        "description": "R + d3.js Parallel Coordinates of partykit"
       },
       {
         "id": "adc2dfee7aef48ce5485",
-        "user": "timelyportfolio"
+        "user": "timelyportfolio",
+        "createdAt": "2014-09-08T20:55:58Z",
+        "updatedAt": "2015-08-29T14:06:12Z",
+        "description": " rCharts + d3.js view of rpart with sankey-like link width"
       },
       {
         "id": "9d7f106c11682f5bb5fb",
-        "user": "timelyportfolio"
+        "user": "timelyportfolio",
+        "createdAt": "2014-11-10T18:27:09Z",
+        "updatedAt": "2015-08-29T14:09:11Z",
+        "description": "r plot.zoo animated construction with svg+js using vivus.js"
       },
       {
         "id": "3bad88913525c707c750",
-        "user": "timelyportfolio"
+        "user": "timelyportfolio",
+        "createdAt": "2014-11-10T17:41:25Z",
+        "updatedAt": "2015-08-29T14:09:10Z",
+        "description": "r animated chart in svg with vivus.js"
       },
       {
         "id": "560e50e437d4bb1b9142",
-        "user": "timelyportfolio"
+        "user": "timelyportfolio",
+        "createdAt": "2014-10-08T18:40:21Z",
+        "updatedAt": "2015-08-29T14:07:22Z",
+        "description": "svg snippet from post http://timelyportfolio.blogspot.com/2014/10/reponsive-svg-in-your-rstudio-browser.html"
       },
       {
         "id": "7880033",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "782b91b09326541a0fc8",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "a5df8dc94786a27d6420",
-        "user": "enjalot"
+        "user": "enjalot",
+        "createdAt": "2015-08-29T20:48:46Z",
+        "updatedAt": "2015-09-17T07:38:50Z",
+        "description": "datasana #1"
       },
       {
         "id": "859c7b7150c81cc512b3",
-        "user": "rcrocker13"
+        "user": "rcrocker13",
+        "createdAt": "2015-09-18T01:31:18Z",
+        "updatedAt": "2015-09-18T01:31:18Z",
+        "description": "datasana #1"
       },
       {
         "id": "72079f106589bc28f6ae",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "946ddf8a32b3b660ffd8",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2015-06-23T22:42:45Z",
+        "updatedAt": "2015-08-29T14:23:35Z",
+        "description": "Canvas Bar Chart"
       },
       {
         "id": "607058d45f063622034b",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "64f617acf7630fc47fac",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "67648b87e80fbc31ad20",
-        "user": "arrayjam"
+        "user": "arrayjam",
+        "createdAt": "2014-05-24T12:01:07Z",
+        "updatedAt": "2015-08-29T14:01:45Z",
+        "description": "Overlapping Geographic Circles"
       },
       {
         "id": "5c4288aa30de1b949433",
-        "user": "arrayjam"
+        "user": "arrayjam",
+        "createdAt": "2014-05-24T12:31:55Z",
+        "updatedAt": "2015-08-29T14:01:45Z",
+        "description": "Non-Overlapping Geographic Circles"
       },
       {
         "id": "e65d9895da07c57e94bd",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2014-06-03T04:12:05Z",
+        "updatedAt": "2015-10-31T02:25:17Z",
+        "description": "Mergesort IV"
       },
       {
         "id": "5348789",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2013-04-09T19:49:58Z",
+        "updatedAt": "2015-10-31T01:39:15Z",
+        "description": "Concurrent Transitions"
       },
       {
         "id": "9929724",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "7ef773bdf11999c9eebb",
-        "user": "maartenzam"
+        "user": "maartenzam",
+        "createdAt": "2015-10-06T09:30:58Z",
+        "updatedAt": "2015-10-06T10:02:57Z",
+        "description": "Responsive map with Cartodb/Leaflet"
       },
       {
         "id": "1915cf92b73739483deb",
-        "user": "thomasgwatson"
+        "user": "thomasgwatson",
+        "createdAt": "2015-09-09T02:23:02Z",
+        "updatedAt": "2015-09-09T02:28:15Z",
+        "description": "Sha-banga-bang"
       },
       {
         "id": "5af89b987ad1ae8b9179",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "1a5e8d77ae8feb464167",
-        "user": "asielen"
+        "user": "asielen",
+        "createdAt": "2015-10-09T18:51:50Z",
+        "updatedAt": "2015-10-13T07:20:05Z",
+        "description": "Violin Plot + Box Plot v2"
       },
       {
         "id": "d15a4f16fa618273e10f",
-        "user": "asielen"
+        "user": "asielen",
+        "createdAt": "2015-09-25T18:55:12Z",
+        "updatedAt": "2015-10-09T19:14:05Z",
+        "description": "Reusable Violin + Box Plot"
       },
       {
         "id": "44ffca2877d0132572cb",
-        "user": "asielen"
+        "user": "asielen",
+        "createdAt": "2015-09-10T07:10:30Z",
+        "updatedAt": "2015-10-09T19:10:43Z",
+        "description": "Reusable Responsive Multiline Chart"
       },
       {
         "id": "5014368",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "6506614",
-        "user": "nbremer"
+        "user": "nbremer",
+        "createdAt": "2013-09-10T08:37:31Z",
+        "updatedAt": "2015-11-05T07:52:31Z",
+        "description": "D3.js - Radar Chart or Spider Chart - Adjusted from radar-chart-d3"
       },
       {
         "id": "3a33bfdeda5b8f8c8cd2",
-        "user": "nbremer"
+        "user": "nbremer",
+        "createdAt": "2015-09-27T18:01:26Z",
+        "updatedAt": "2015-10-01T19:32:20Z",
+        "description": "Text on an Arc - Animal Donut Slices - Default Arc Labels"
       },
       {
         "id": "b603c3e0f7a74794da87",
-        "user": "nbremer"
+        "user": "nbremer",
+        "createdAt": "2015-09-27T18:05:12Z",
+        "updatedAt": "2015-10-01T18:00:37Z",
+        "description": "Text on an Arc - Animal Donut Slices - Flipped & Centered Arc Labels"
       },
       {
         "id": "7b051187fe329d705ee9",
-        "user": "nbremer"
+        "user": "nbremer",
+        "createdAt": "2015-09-27T18:03:11Z",
+        "updatedAt": "2015-10-01T19:33:55Z",
+        "description": "Text on an Arc - Animal Donut Slices - Centered Arc Labels"
       },
       {
         "id": "25e2db4abc9eaf080190",
-        "user": "nbremer"
+        "user": "nbremer",
+        "createdAt": "2015-09-25T20:08:36Z",
+        "updatedAt": "2015-10-01T19:36:07Z",
+        "description": "Text on an Arc - Animate from a Wavy line to an Arc"
       },
       {
         "id": "3916621",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-10-19T06:54:11Z",
+        "updatedAt": "2015-10-31T01:11:39Z",
+        "description": "Path Tween"
       },
       {
         "id": "bf3d285e48189507e0ea",
-        "user": "nbremer"
+        "user": "nbremer",
+        "createdAt": "2015-09-25T20:16:00Z",
+        "updatedAt": "2015-10-01T19:35:00Z",
+        "description": "Text on an Arc - Animate from Arc to an Arc"
       },
       {
         "id": "c0ffc07b23b1c556a66b",
-        "user": "nbremer"
+        "user": "nbremer",
+        "createdAt": "2015-07-01T18:52:52Z",
+        "updatedAt": "2015-10-01T18:13:02Z",
+        "description": "Step 3 - Voronoi Scatterplot - Tooltip attached to circle"
       },
       {
         "id": "f9dacd23eece9d23669c",
-        "user": "nbremer"
+        "user": "nbremer",
+        "createdAt": "2015-06-28T09:55:09Z",
+        "updatedAt": "2015-10-28T04:17:23Z",
+        "description": "Stretched Chord Diagram - From educations to occupations"
       },
       {
         "id": "5b16c2a5716d346e2f34",
-        "user": "nbremer"
+        "user": "nbremer",
+        "createdAt": "2015-06-28T20:07:25Z",
+        "updatedAt": "2015-10-01T19:26:48Z",
+        "description": "Stretched Chord - Step 4 - How to pull the two halves apart"
       },
       {
         "id": "c11409af47b5950f0289",
-        "user": "nbremer"
+        "user": "nbremer",
+        "createdAt": "2015-06-28T20:11:31Z",
+        "updatedAt": "2015-10-01T19:07:49Z",
+        "description": "Stretched Chord - The Final Result - Including the hover effects"
       },
       {
         "id": "2e10bf27fa0f9f49588b",
-        "user": "nbremer"
+        "user": "nbremer",
+        "createdAt": "2015-06-28T20:04:00Z",
+        "updatedAt": "2015-10-01T19:27:34Z",
+        "description": "Stretched Chord - Step 3 - Different Color Scheme"
       },
       {
         "id": "b99e416bd99fc0191b50",
-        "user": "nbremer"
+        "user": "nbremer",
+        "createdAt": "2015-06-28T20:09:22Z",
+        "updatedAt": "2015-10-01T19:27:16Z",
+        "description": "Stretched Chord - Step 5 - How to make the chords touch the pulled apart arcs again"
       },
       {
         "id": "dcd01f820aa098133596",
-        "user": "nbremer"
+        "user": "nbremer",
+        "createdAt": "2015-06-28T20:01:57Z",
+        "updatedAt": "2015-10-01T19:27:51Z",
+        "description": "Stretched Chord - Step 3 - How to make the two sections symmetrical"
       },
       {
         "id": "8295697aee7844da2299",
-        "user": "nbremer"
+        "user": "nbremer",
+        "createdAt": "2015-06-28T19:59:05Z",
+        "updatedAt": "2015-10-01T19:29:59Z",
+        "description": "Stretched Chord - Step 2 - How to create an empty section in between the two halves"
       },
       {
         "id": "1527c2dd26a26d9ee942",
-        "user": "nbremer"
+        "user": "nbremer",
+        "createdAt": "2015-06-28T19:57:00Z",
+        "updatedAt": "2015-10-04T14:09:11Z",
+        "description": "Stretched Chord - Step 1 - How to set up a Chord Diagram matrix to show Flows"
       },
       {
         "id": "f6952f1ef900d84be918",
-        "user": "nbremer"
+        "user": "nbremer",
+        "createdAt": "2015-05-31T10:36:23Z",
+        "updatedAt": "2015-10-01T19:41:19Z",
+        "description": "Gooey Effect - Line"
       },
       {
         "id": "69808ec7ec07542ed7df",
-        "user": "nbremer"
+        "user": "nbremer",
+        "createdAt": "2015-05-31T10:35:46Z",
+        "updatedAt": "2015-10-28T04:19:23Z",
+        "description": "Gooey Effect - Circle"
       },
       {
         "id": "a3684c52fb527c8fa415",
-        "user": "nbremer"
+        "user": "nbremer",
+        "createdAt": "2015-06-03T19:00:34Z",
+        "updatedAt": "2015-10-01T19:39:37Z",
+        "description": "Gooey effect - Rectangle"
       },
       {
         "id": "8e25e1434cdd6db25b69",
-        "user": "nbremer"
+        "user": "nbremer",
+        "createdAt": "2015-02-14T15:52:22Z",
+        "updatedAt": "2015-10-01T19:55:24Z",
+        "description": "Valentine's day Heart curve"
       },
       {
         "id": "df7f87361bb7e297e751",
-        "user": "nbremer"
+        "user": "nbremer",
+        "createdAt": "2015-02-14T16:47:47Z",
+        "updatedAt": "2015-10-01T19:54:35Z",
+        "description": "Valentine's day Heart curve - One Line"
       },
       {
         "id": "a1e48992be56681e3f93",
-        "user": "emeeks"
+        "user": "emeeks",
+        "createdAt": "2015-08-22T20:38:02Z",
+        "updatedAt": "2015-08-29T14:27:56Z",
+        "description": "d3.svg.ribbon example"
       },
       {
         "id": "8829aa45703c893e5636",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "a4947846696ab623ce53",
-        "user": "m-arnold"
+        "user": "m-arnold",
+        "createdAt": "2015-10-15T18:31:25Z",
+        "updatedAt": "2015-10-15T18:44:12Z",
+        "description": "Run!Shoot!"
       },
       {
         "id": "27333115d86132753caa",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "9796212",
-        "user": "NPashaP"
+        "user": "NPashaP",
+        "createdAt": "2014-03-26T23:34:01Z",
+        "updatedAt": "2015-10-02T08:53:52Z",
+        "description": "BiPartite"
       },
       {
         "id": "9403d59b12e33a0925cb",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "6452972",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2013-09-05T16:57:31Z",
+        "updatedAt": "2015-10-31T01:55:08Z",
+        "description": "Brush as Slider"
       },
       {
         "id": "7881887",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2013-12-09T22:08:43Z",
+        "updatedAt": "2015-10-31T02:04:22Z",
+        "description": "Clustered Force Layout III"
       },
       {
         "id": "4341699",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-12-19T23:36:18Z",
+        "updatedAt": "2015-10-31T01:23:44Z",
+        "description": "Convex Hull"
       },
       {
         "id": "2b1446f496c3968f6ecd",
-        "user": "enjalot"
+        "user": "enjalot",
+        "createdAt": "2015-09-17T00:21:47Z",
+        "updatedAt": "2015-09-17T00:35:50Z",
+        "description": "Stacked-to-Grouped Police Killings"
       },
       {
         "id": "4132797",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-11-22T20:22:39Z",
+        "updatedAt": "2015-11-04T14:54:23Z",
+        "description": "Zoomable Map Tiles"
       },
       {
         "id": "7833311",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2013-12-06T22:35:03Z",
+        "updatedAt": "2015-10-31T02:04:13Z",
+        "description": "Dynamic Hexbin"
       },
       {
         "id": "20789c8df83e04e49684",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2014-07-15T19:53:57Z",
+        "updatedAt": "2015-10-30T21:40:42Z",
+        "description": "Merging States"
       },
       {
         "id": "3883245",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-10-13T04:38:05Z",
+        "updatedAt": "2015-11-11T07:05:11Z",
+        "description": "Line Chart"
       },
       {
         "id": "f43a842a8953e87f5b3c",
-        "user": "mpmckenna8"
+        "user": "mpmckenna8",
+        "createdAt": "2014-07-27T21:06:18Z",
+        "updatedAt": "2015-08-29T14:04:36Z",
+        "description": "d3.geo.zoom.js plugin first use"
       },
       {
         "id": "f3225fa363fbaccb8c9e",
-        "user": "enjalot"
+        "user": "enjalot",
+        "createdAt": "2015-09-02T19:41:15Z",
+        "updatedAt": "2015-09-03T01:14:19Z",
+        "description": "visfest experiment #1"
       },
       {
         "id": "a74519c5a055b2903b41",
-        "user": "enjalot"
+        "user": "enjalot",
+        "createdAt": "2015-09-02T19:54:55Z",
+        "updatedAt": "2015-09-03T01:14:46Z",
+        "description": "visfest experiment #2"
       },
       {
         "id": "98cf105e8531ff12013b",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "e7f4634cd71473c9658c",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "f8c41743ca81d7828c3a",
-        "user": "enjalot"
+        "user": "enjalot",
+        "createdAt": "2015-09-02T21:14:52Z",
+        "updatedAt": "2015-09-11T23:49:07Z",
+        "description": "visfest experiment #3"
       },
       {
         "id": "7492cc85b1311f69ba3f",
-        "user": "enjalot"
+        "user": "enjalot",
+        "createdAt": "2015-09-11T23:49:17Z",
+        "updatedAt": "2015-09-12T21:09:46Z",
+        "description": "morph experiment #1"
       },
       {
         "id": "02ac156db28e61ff20bb",
-        "user": "enjalot"
+        "user": "enjalot",
+        "createdAt": "2015-09-12T21:09:54Z",
+        "updatedAt": "2015-09-12T23:12:50Z",
+        "description": "morph experiment #2"
       },
       {
         "id": "ebda1656976d90e2a636",
-        "user": "enjalot"
+        "user": "enjalot",
+        "createdAt": "2015-09-12T22:22:45Z",
+        "updatedAt": "2015-10-13T19:25:05Z",
+        "description": "morph experiment #3"
       },
       {
         "id": "20d4098ce7ed88dde5c4",
-        "user": "enjalot"
+        "user": "enjalot",
+        "createdAt": "2015-10-13T17:36:09Z",
+        "updatedAt": "2015-10-13T19:31:51Z",
+        "description": "viSFest logo: small multiples"
       },
       {
         "id": "7ea44d0bc364b6bddbd8",
-        "user": "enjalot"
+        "user": "enjalot",
+        "createdAt": "2015-11-02T21:20:51Z",
+        "updatedAt": "2015-11-02T21:36:29Z",
+        "description": "The Migrant Files: Deaths"
       },
       {
         "id": "d6696d28fb47fcf8a537",
-        "user": "enjalot"
+        "user": "enjalot",
+        "createdAt": "2015-11-02T21:34:43Z",
+        "updatedAt": "2015-11-02T21:36:46Z",
+        "description": "The Migrant Files: Deportations"
       },
       {
         "id": "d6a92a077e78fd33316a",
-        "user": "enjalot"
+        "user": "enjalot",
+        "createdAt": "2015-11-02T21:54:14Z",
+        "updatedAt": "2015-11-11T03:53:51Z",
+        "description": "The Migrant Files: Money"
       },
       {
         "id": "5721459",
-        "user": "patricksurry"
+        "user": "patricksurry",
+        "createdAt": "2013-06-06T13:26:18Z",
+        "updatedAt": "2015-08-29T13:50:20Z",
+        "description": "D3 3D globe trackball rotation"
       },
       {
         "id": "157333662ef11c151080",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2015-06-09T15:08:02Z",
+        "updatedAt": "2015-10-29T20:33:58Z",
+        "description": "Connected Particles"
       },
       {
         "id": "7f14a531dec565ca0884",
-        "user": "vicapow"
+        "user": "vicapow",
+        "createdAt": "2015-02-11T17:45:45Z",
+        "updatedAt": "2015-08-29T14:15:15Z",
+        "description": "WebGL + d3.layout.force"
       },
       {
         "id": "4bd6d92fd553bb9bac11",
-        "user": "enjalot"
+        "user": "enjalot",
+        "createdAt": "2015-10-25T23:12:17Z",
+        "updatedAt": "2015-10-27T04:37:57Z",
+        "description": "sparse matrix zoo"
       },
       {
         "id": "42a531c5d87bfc91036e",
-        "user": "enjalot"
+        "user": "enjalot",
+        "createdAt": "2015-10-28T03:27:43Z",
+        "updatedAt": "2015-10-28T03:30:03Z",
+        "description": "sparse matrix zoo: canvas"
       },
       {
         "id": "5109a9fbd5f9a7230f17",
-        "user": "enjalot"
+        "user": "enjalot",
+        "createdAt": "2015-10-17T23:22:36Z",
+        "updatedAt": "2015-10-21T02:48:37Z",
+        "description": "hilbert grid"
       },
       {
         "id": "77cfa8eb62e34833ae7c",
-        "user": "enjalot"
+        "user": "enjalot",
+        "createdAt": "2015-10-26T23:57:38Z",
+        "updatedAt": "2015-10-27T00:13:48Z",
+        "description": "hilbert grid marching"
       },
       {
         "id": "e662bb2e2c0783ee82f9",
-        "user": "enjalot"
+        "user": "enjalot",
+        "createdAt": "2015-10-27T00:06:41Z",
+        "updatedAt": "2015-10-27T11:58:52Z",
+        "description": "hilbert grid creeping"
       },
       {
         "id": "6ac67b0d8ed673c9aa61",
-        "user": "enjalot"
+        "user": "enjalot",
+        "createdAt": "2015-10-06T22:41:59Z",
+        "updatedAt": "2015-10-24T16:45:41Z",
+        "description": "all the blocks"
       },
       {
         "id": "1d679f0322174b65d032",
-        "user": "enjalot"
+        "user": "enjalot",
+        "createdAt": "2015-10-13T23:25:04Z",
+        "updatedAt": "2015-10-28T21:47:25Z",
+        "description": "block wall"
       },
       {
         "id": "211bd42857358a60a936",
-        "user": "enjalot"
+        "user": "enjalot",
+        "createdAt": "2015-10-21T01:21:28Z",
+        "updatedAt": "2015-10-28T21:48:09Z",
+        "description": "block wall: thumbnails only"
       },
       {
         "id": "7b63fef8ccfbad1f851e",
-        "user": "enjalot"
+        "user": "enjalot",
+        "createdAt": "2015-10-21T02:39:24Z",
+        "updatedAt": "2015-10-24T00:00:51Z",
+        "description": "block wall: thumbnails hilbert"
       },
       {
         "id": "1554783",
-        "user": "jasondavies"
+        "user": "jasondavies",
+        "createdAt": "2012-01-03T12:46:36Z",
+        "updatedAt": "2015-09-29T05:47:51Z",
+        "description": "alpha-shapes aka concave hulls in d3"
       },
       {
         "id": "27969219a945e2bd20dc",
-        "user": "enjalot"
+        "user": "enjalot",
+        "createdAt": "2015-09-30T17:02:24Z",
+        "updatedAt": "2015-09-30T18:14:36Z",
+        "description": "d3.geo.weichel"
       },
       {
         "id": "c1f459768d09e0c334c1",
-        "user": "enjalot"
+        "user": "enjalot",
+        "createdAt": "2015-09-14T20:52:46Z",
+        "updatedAt": "2015-10-14T22:53:42Z",
+        "description": "cosine similarity"
       },
       {
         "id": "c741995e777c0e089418",
-        "user": "enjalot"
+        "user": "enjalot",
+        "createdAt": "2015-09-28T12:35:43Z",
+        "updatedAt": "2015-10-02T14:08:20Z",
+        "description": "copy paste aesthetic"
       },
       {
         "id": "01aa2685f083b6c1b9fb",
-        "user": "curran"
+        "user": "curran",
+        "createdAt": "2015-09-04T03:00:28Z",
+        "updatedAt": "2015-09-23T21:36:19Z",
+        "description": "Map & Globe"
       },
       {
         "id": "eec4a6cda2f573574a11",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2014-07-07T03:35:48Z",
+        "updatedAt": "2015-10-31T02:26:12Z",
+        "description": "Map Pan & Zoom II"
       },
       {
         "id": "c9853a630cf49e38b2f3",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "618daab0fc5a3ff494d9",
-        "user": "enjalot"
+        "user": "enjalot",
+        "createdAt": "2015-09-11T06:07:11Z",
+        "updatedAt": "2015-09-12T02:46:35Z",
+        "description": "中文: simplified characters"
       },
       {
         "id": "a9a3b146cfe63ab68a6b",
-        "user": "enjalot"
+        "user": "enjalot",
+        "createdAt": "2015-09-11T23:10:59Z",
+        "updatedAt": "2015-09-12T11:06:34Z",
+        "description": "中文: traditional characters"
       },
       {
         "id": "65ae9c0fc95337107448",
-        "user": "enjalot"
+        "user": "enjalot",
+        "createdAt": "2015-08-19T21:34:30Z",
+        "updatedAt": "2015-08-29T14:27:45Z",
+        "description": "matrix: reboot"
       },
       {
         "id": "38d7f79f61a03acc0ef0",
-        "user": "zanarmstrong"
+        "user": "zanarmstrong",
+        "createdAt": "2014-12-23T23:19:21Z",
+        "updatedAt": "2015-08-29T14:12:04Z",
+        "description": "Normal Daily & Hourly Weather"
       },
       {
         "id": "bc38c32d24e6fba4db84",
-        "user": "emeeks"
+        "user": "emeeks",
+        "createdAt": "2015-08-14T01:57:15Z",
+        "updatedAt": "2015-08-29T14:27:22Z",
+        "description": "Sketchy Network II"
       },
       {
         "id": "8681770",
-        "user": "enjalot"
+        "user": "enjalot",
+        "createdAt": "2014-01-29T04:18:57Z",
+        "updatedAt": "2015-08-29T13:55:47Z",
+        "description": "electron"
       },
       {
         "id": "1282943",
-        "user": "enjalot"
+        "user": "enjalot",
+        "createdAt": "2011-10-12T23:28:34Z",
+        "updatedAt": "2015-09-27T14:17:57Z",
+        "description": "Chernoff Smileys"
       },
       {
         "id": "19168c663618b7f07158",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2014-06-06T17:55:50Z",
+        "updatedAt": "2015-10-30T21:39:38Z",
+        "description": "Poisson-Disc"
       },
       {
         "id": "3184af35f4937d878ac0",
-        "user": "emeeks"
+        "user": "emeeks",
+        "createdAt": "2015-09-12T01:22:14Z",
+        "updatedAt": "2015-09-12T02:41:20Z",
+        "description": "d3.layout.timeline categorized timelines"
       },
       {
         "id": "3513c6c87d5bdcb4fd8f",
-        "user": "bricedev"
+        "user": "bricedev",
+        "createdAt": "2015-07-22T16:13:55Z",
+        "updatedAt": "2015-08-29T14:25:35Z",
+        "description": "NYC Weather 2014"
       },
       {
         "id": "3887051",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-10-14T02:34:13Z",
+        "updatedAt": "2015-11-09T12:27:47Z",
+        "description": "Grouped Bar Chart"
       },
       {
         "id": "8aaef92e64007f882267",
-        "user": "bricedev"
+        "user": "bricedev",
+        "createdAt": "2015-05-19T14:58:56Z",
+        "updatedAt": "2015-08-29T14:21:31Z",
+        "description": "Radial Bar Chart"
       },
       {
         "id": "e285b8e4c7b84710e463",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "a7c02c493896a33d5f37",
-        "user": "bricedev"
+        "user": "bricedev",
+        "createdAt": "2015-05-12T09:23:26Z",
+        "updatedAt": "2015-08-29T14:21:00Z",
+        "description": "Diverging Stacked Bar Chart (odd)"
       },
       {
         "id": "f80fdbc2c03dbc1ae4e8",
-        "user": "bricedev"
+        "user": "bricedev",
+        "createdAt": "2015-05-12T09:40:18Z",
+        "updatedAt": "2015-08-29T14:21:00Z",
+        "description": "Diverging Stacked Bar Chart (even)"
       },
       {
         "id": "4c1012422e4fd8afbb60",
-        "user": "eesur"
+        "user": "eesur",
+        "createdAt": "2015-05-29T20:54:54Z",
+        "updatedAt": "2015-08-29T14:22:08Z",
+        "description": "d3 | Travelling to planets"
       },
       {
         "id": "3892928",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-10-15T14:56:59Z",
+        "updatedAt": "2015-10-31T01:10:43Z",
+        "description": "Programmatic Pan+Zoom"
       },
       {
         "id": "4062006",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-11-12T21:26:03Z",
+        "updatedAt": "2015-10-31T01:14:57Z",
+        "description": "Chord Diagram"
       },
       {
         "id": "1377729",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "5653692",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "950642",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2011-05-01T16:57:18Z",
+        "updatedAt": "2015-11-04T21:23:01Z",
+        "description": "Labeled Force Layout"
       },
       {
         "id": "4679202",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2013-01-31T01:45:11Z",
+        "updatedAt": "2015-11-08T21:35:08Z",
+        "description": "Stacked-to-Multiples"
       },
       {
         "id": "3711652.",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "5731578",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2013-06-07T19:03:08Z",
+        "updatedAt": "2015-10-31T01:45:49Z",
+        "description": "Rotating Orthographic"
       },
       {
         "id": "97ae6e6a64c48b8f4e87",
-        "user": "proclamo"
+        "user": "proclamo",
+        "createdAt": "2014-08-22T13:48:05Z",
+        "updatedAt": "2015-09-15T12:42:18Z",
+        "description": "Lineal regression test with Math.js"
       },
       {
         "id": "4063663",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-11-13T02:48:56Z",
+        "updatedAt": "2015-10-31T01:16:37Z",
+        "description": "Scatterplot Matrix Brushing"
       },
       {
         "id": "5311083",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "751fdd637f4bc2e3f08b",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2015-08-03T19:05:52Z",
+        "updatedAt": "2015-08-29T14:26:34Z",
+        "description": "Apollonius’ Problem"
       },
       {
         "id": "3310323",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-08-10T01:58:28Z",
+        "updatedAt": "2015-10-31T00:57:17Z",
+        "description": "Line Interpolation"
       },
       {
         "id": "1552725",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "1fa21f4ccf084f6369d3",
-        "user": "enjalot"
+        "user": "enjalot",
+        "createdAt": "2015-10-01T06:34:26Z",
+        "updatedAt": "2015-10-01T06:48:06Z",
+        "description": "hull padding"
       },
       {
         "id": "298e07ea67a640b5d9f4",
-        "user": "emeeks"
+        "user": "emeeks",
+        "createdAt": "2014-12-21T18:48:36Z",
+        "updatedAt": "2015-11-10T02:16:25Z",
+        "description": "Orbit Layout 4"
       },
       {
         "id": "d8b1c5f7bc975de83d99",
-        "user": "emeeks"
+        "user": "emeeks",
+        "createdAt": "2014-12-21T08:04:33Z",
+        "updatedAt": "2015-08-29T14:11:52Z",
+        "description": "Orbital Layout 3"
       },
       {
         "id": "8e73290130d9e25c6d9c",
-        "user": "emeeks"
+        "user": "emeeks",
+        "createdAt": "2014-12-21T07:53:27Z",
+        "updatedAt": "2015-08-29T14:11:52Z",
+        "description": "Orbital Layout 2"
       },
       {
         "id": "58675e9b609295707b9a",
-        "user": "emeeks"
+        "user": "emeeks",
+        "createdAt": "2014-11-19T06:08:51Z",
+        "updatedAt": "2015-08-29T14:09:55Z",
+        "description": "Ch. 12, Fig. 11 - D3.js in Action"
       },
       {
         "id": "840a3af6e48196de718a",
-        "user": "emeeks"
+        "user": "emeeks",
+        "createdAt": "2014-08-16T14:23:48Z",
+        "updatedAt": "2015-08-29T14:05:22Z",
+        "description": "Visualizing Touch Rotate"
       },
       {
         "id": "8855733967174fe4b1b4",
-        "user": "emeeks"
+        "user": "emeeks",
+        "createdAt": "2014-08-19T14:34:05Z",
+        "updatedAt": "2015-08-29T14:05:27Z",
+        "description": "d3.svg.legend example"
       },
       {
         "id": "7d5925cb7d9721c60360",
-        "user": "emeeks"
+        "user": "emeeks",
+        "createdAt": "2014-07-21T06:36:01Z",
+        "updatedAt": "2015-08-29T14:04:17Z",
+        "description": "Quadtree clustering - d3.carto.map"
       },
       {
         "id": "540b1b884b80b14a44c6",
-        "user": "emeeks"
+        "user": "emeeks",
+        "createdAt": "2014-09-11T03:29:35Z",
+        "updatedAt": "2015-08-29T14:06:18Z",
+        "description": "Improved Circle Pack Clustering - d3.carto"
       },
       {
         "id": "1a75ec54489368b514f8",
-        "user": "emeeks"
+        "user": "emeeks",
+        "createdAt": "2014-09-12T01:21:37Z",
+        "updatedAt": "2015-08-29T14:06:21Z",
+        "description": "Feature Clustering - d3.carto"
       },
       {
         "id": "905bb4f399e0855e08fe",
-        "user": "emeeks"
+        "user": "emeeks",
+        "createdAt": "2014-08-26T21:50:55Z",
+        "updatedAt": "2015-08-29T14:05:45Z",
+        "description": "Custom Infobox Formatter - d3.carto.map"
       },
       {
         "id": "f8c0220c54ec8347ea95",
-        "user": "emeeks"
+        "user": "emeeks",
+        "createdAt": "2014-09-03T21:03:35Z",
+        "updatedAt": "2015-08-29T14:06:03Z",
+        "description": "Changing Markers - d3.carto"
       },
       {
         "id": "aea3c7fc1acc0eca4d44",
-        "user": "emeeks"
+        "user": "emeeks",
+        "createdAt": "2014-09-09T20:07:50Z",
+        "updatedAt": "2015-08-29T14:06:16Z",
+        "description": "Styling Canvas Elements - d3.carto"
       },
       {
         "id": "e6f72fbca42e77be0eb3",
-        "user": "emeeks"
+        "user": "emeeks",
+        "createdAt": "2014-09-10T00:26:56Z",
+        "updatedAt": "2015-08-29T14:06:16Z",
+        "description": "Canvas Styling (Transform) - d3.carto"
       },
       {
         "id": "b8da1d56fd9c21244fdd",
-        "user": "emeeks"
+        "user": "emeeks",
+        "createdAt": "2014-08-29T23:03:17Z",
+        "updatedAt": "2015-08-29T14:05:52Z",
+        "description": "Simple Network Flooding"
       },
       {
         "id": "9405946",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "877134763ceafaf048ad",
-        "user": "aaizemberg"
+        "user": "aaizemberg",
+        "createdAt": "2015-03-23T14:09:31Z",
+        "updatedAt": "2015-08-29T14:17:36Z",
+        "description": "feriados"
       },
       {
         "id": "7555321",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2013-11-20T00:37:49Z",
+        "updatedAt": "2015-11-12T11:01:44Z",
+        "description": "Wrapping Long Labels"
       },
       {
         "id": "0ad500de10f9edfe5d15",
-        "user": "zanarmstrong"
+        "user": "zanarmstrong",
+        "createdAt": "2015-11-03T06:10:58Z",
+        "updatedAt": "2015-11-03T06:12:56Z",
+        "description": "Time Data"
       },
       {
         "id": "23137b412caf6e80b34a",
-        "user": "zanarmstrong"
+        "user": "zanarmstrong",
+        "createdAt": "2015-02-02T22:02:00Z",
+        "updatedAt": "2015-08-29T14:14:36Z",
+        "description": "Jittery Line w/ option to choose interpolation"
       },
       {
         "id": "6928381c7b61714da59e",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2014-05-29T16:03:05Z",
+        "updatedAt": "2015-10-31T01:58:20Z",
+        "description": "Mergesort II"
       },
       {
         "id": "2c89baa04be1bd982d98",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "4134057",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-11-23T04:58:54Z",
+        "updatedAt": "2015-10-31T01:17:30Z",
+        "description": "U.S. Land TopoJSON"
       },
       {
         "id": "dcfcc3887ff56a9e1928",
-        "user": "Sumbera"
+        "user": "Sumbera",
+        "createdAt": "2015-08-16T21:42:42Z",
+        "updatedAt": "2015-08-29T14:27:30Z",
+        "description": "SVG default overlay in Leaflet v 1.0"
       },
       {
         "id": "11114288",
-        "user": "Sumbera"
+        "user": "Sumbera",
+        "createdAt": "2014-04-20T13:33:35Z",
+        "updatedAt": "2015-10-05T09:16:18Z",
+        "description": "Leaflet Canvas Overlay"
       },
       {
         "id": "922f6170dec2a3cd5da6",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "8dbaabf493fbc0c4ae0c",
-        "user": "monfera"
+        "user": "monfera",
+        "createdAt": "2015-10-27T23:42:31Z",
+        "updatedAt": "2015-10-31T18:11:55Z",
+        "description": "Bandlines"
       },
       {
         "id": "b57f4cc89dacd38fcdcd",
-        "user": "emeeks"
+        "user": "emeeks",
+        "createdAt": "2015-10-21T02:15:26Z",
+        "updatedAt": "2015-10-24T22:04:24Z",
+        "description": "circularbrush.filter"
       },
       {
         "id": "3081153",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-07-10T04:58:18Z",
+        "updatedAt": "2015-10-31T00:52:36Z",
+        "description": "Shape Tweening"
       },
       {
         "id": "9265674",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2014-02-28T05:09:46Z",
+        "updatedAt": "2015-10-31T02:10:29Z",
+        "description": "Mexico"
       },
       {
         "id": "ca8cc0fc1df5d7282cb5",
-        "user": "dannyko"
+        "user": "dannyko",
+        "createdAt": "2015-04-21T10:33:45Z",
+        "updatedAt": "2015-09-17T09:16:42Z",
+        "description": "vizflow demo"
       },
       {
         "id": "6a83de20f780b42fadb9",
-        "user": "boeric"
+        "user": "boeric",
+        "createdAt": "2015-10-02T02:50:02Z",
+        "updatedAt": "2015-10-06T05:22:13Z",
+        "description": "D3 Real Time Chart with Multiple Data Streams"
       },
       {
         "id": "3b57a788a4b96e1af211",
-        "user": "boeric"
+        "user": "boeric",
+        "createdAt": "2015-09-27T02:46:29Z",
+        "updatedAt": "2015-10-06T05:01:47Z",
+        "description": "D3 Based Real Time Chart"
       },
       {
         "id": "8b34abda1d33b983b09b",
-        "user": "boeric"
+        "user": "boeric",
+        "createdAt": "2015-09-26T18:41:07Z",
+        "updatedAt": "2015-09-27T00:18:25Z",
+        "description": "D3 Key Function Demo"
       },
       {
         "id": "e16ad218bc241dfd2d6e",
-        "user": "boeric"
+        "user": "boeric",
+        "createdAt": "2015-09-26T17:09:49Z",
+        "updatedAt": "2015-10-01T21:04:41Z",
+        "description": "D3 Dynamic Array of Tables"
       },
       {
         "id": "d994dbdc9a7b21ab9692",
-        "user": "emeeks"
+        "user": "emeeks",
+        "createdAt": "2014-09-01T16:41:25Z",
+        "updatedAt": "2015-08-29T14:05:57Z",
+        "description": "Geodata to d3.svg.line interpolation"
       },
       {
         "id": "1c34e14d8b7dd457f802",
-        "user": "hugolpz"
+        "user": "hugolpz",
+        "createdAt": "2015-02-24T23:27:41Z",
+        "updatedAt": "2015-08-29T14:16:04Z",
+        "description": "Printing map.svg file via D3js, Nodejs, Jsdom"
       },
       {
         "id": "9643738d5f79c7b594d0",
-        "user": "hugolpz"
+        "user": "hugolpz",
+        "createdAt": "2015-01-25T16:48:03Z",
+        "updatedAt": "2015-08-29T14:14:07Z",
+        "description": "Map zoom + responsive frame"
       },
       {
         "id": "c89a76096c070a5a7d23",
-        "user": "hugolpz"
+        "user": "hugolpz",
+        "createdAt": "2015-01-26T16:56:18Z",
+        "updatedAt": "2015-08-29T14:14:11Z",
+        "description": "Map zoom + static frame"
       },
       {
         "id": "1014829",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2011-06-08T17:00:35Z",
+        "updatedAt": "2015-09-26T01:07:59Z",
+        "description": "External SVG"
       },
       {
         "id": "4342190",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-12-20T01:06:50Z",
+        "updatedAt": "2015-10-31T01:24:07Z",
+        "description": "Spline Editor"
       },
       {
         "id": "4183701",
-        "user": "jasondavies"
+        "user": "jasondavies",
+        "createdAt": "2012-12-01T18:19:37Z",
+        "updatedAt": "2015-10-13T10:47:52Z",
+        "description": "World Countries"
       },
       {
         "id": "a62f1d61168eae985d5c",
-        "user": "hugolpz"
+        "user": "hugolpz",
+        "createdAt": "2014-08-21T10:11:44Z",
+        "updatedAt": "2015-08-29T14:05:32Z",
+        "description": "Wikiatlas Localisator using D3.geo"
       },
       {
         "id": "ffb26726c512f3a35643",
-        "user": "dhoboy"
+        "user": "dhoboy",
+        "createdAt": "2015-02-07T19:16:52Z",
+        "updatedAt": "2015-08-29T14:14:58Z",
+        "description": "Letter Frequency Bar Chart "
       },
       {
         "id": "91254c459602b31ba549",
-        "user": "syntagmatic"
+        "user": "syntagmatic",
+        "createdAt": "2015-03-07T09:23:10Z",
+        "updatedAt": "2015-08-29T14:16:42Z",
+        "description": "Curriculum Exploration"
       },
       {
         "id": "9eadf19bd2976653fa50",
-        "user": "syntagmatic"
+        "user": "syntagmatic",
+        "createdAt": "2015-02-16T09:27:26Z",
+        "updatedAt": "2015-08-29T14:15:33Z",
+        "description": "Chord Arc Labels"
       },
       {
         "id": "914d024adf10bface11a",
-        "user": "dhoboy"
+        "user": "dhoboy",
+        "createdAt": "2015-03-18T04:15:15Z",
+        "updatedAt": "2015-08-29T14:17:17Z",
+        "description": "Gately Tree"
       },
       {
         "id": "4063550",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-11-13T02:16:02Z",
+        "updatedAt": "2015-10-31T01:16:12Z",
+        "description": "Radial Reingold–Tilford Tree"
       },
       {
         "id": "8027637",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2013-12-18T18:48:26Z",
+        "updatedAt": "2015-10-31T02:05:27Z",
+        "description": "Closest Point on Path"
       },
       {
         "id": "8027835",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2013-12-18T19:01:10Z",
+        "updatedAt": "2015-10-31T02:05:36Z",
+        "description": "Closest Point on Path II"
       },
       {
         "id": "06af5f439f24bf28aec0",
-        "user": "hwangmoretime"
+        "user": "hwangmoretime",
+        "createdAt": "2015-03-17T01:03:44Z",
+        "updatedAt": "2015-08-29T14:17:15Z",
+        "description": "Point Tracking for Non-Linear Lines: I"
       },
       {
         "id": "06aa7e108b77745f1f24",
-        "user": "hwangmoretime"
+        "user": "hwangmoretime",
+        "createdAt": "2015-03-17T01:04:07Z",
+        "updatedAt": "2015-08-29T14:17:15Z",
+        "description": "Point Tracking for Non-Linear Lines: II"
       },
       {
         "id": "da8e72b5e680c827d6dd",
-        "user": "hwangmoretime"
+        "user": "hwangmoretime",
+        "createdAt": "2015-03-17T01:05:13Z",
+        "updatedAt": "2015-08-29T14:17:15Z",
+        "description": "Point Tracking for Non-Linear Lines: III"
       },
       {
         "id": "0821324fb499eac293c7",
-        "user": "roachhd"
+        "user": "roachhd",
+        "createdAt": "2014-10-31T05:59:29Z",
+        "updatedAt": "2015-08-29T14:08:26Z",
+        "description": "Bootstrap + Bootswatch = 💓  a Bootswatch API test. "
       },
       {
         "id": "98129315d0f7df3b53e3",
-        "user": "1wheel"
+        "user": "1wheel",
+        "createdAt": "2015-07-27T03:55:01Z",
+        "updatedAt": "2015-08-29T14:25:54Z",
+        "description": "Scatter I"
       },
       {
         "id": "7e473c251e68ce760e2a",
-        "user": "1wheel"
+        "user": "1wheel",
+        "createdAt": "2015-07-27T04:33:37Z",
+        "updatedAt": "2015-09-01T16:58:51Z",
+        "description": "Scatter II"
       },
       {
         "id": "3dfee2b74943398f0550",
-        "user": "1wheel"
+        "user": "1wheel",
+        "createdAt": "2015-07-27T07:39:37Z",
+        "updatedAt": "2015-09-01T16:58:58Z",
+        "description": "Scatter III"
       },
       {
         "id": "77d0db6e5c004bcf00f6",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "3808234",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2012-09-30T19:34:06Z",
+        "updatedAt": "2015-10-31T01:08:00Z",
+        "description": "General Update Pattern, III"
       },
       {
         "id": "dca656bcaa682130cefd",
-        "user": "bmershon"
+        "user": "bmershon",
+        "createdAt": "2014-11-26T20:31:57Z",
+        "updatedAt": "2015-08-29T14:10:23Z",
+        "description": "Forest Fire"
       },
       {
         "id": "408072ba9119835f5796",
-        "user": "bmershon"
+        "user": "bmershon",
+        "createdAt": "2014-11-25T17:01:29Z",
+        "updatedAt": "2015-08-29T14:10:19Z",
+        "description": "Point Cloud Triangulation I"
       },
       {
         "id": "41bc67cfedf95f7d196d",
-        "user": "bmershon"
+        "user": "bmershon",
+        "createdAt": "2014-11-16T17:37:56Z",
+        "updatedAt": "2015-08-29T14:09:39Z",
+        "description": "Rips-Complex"
       },
       {
         "id": "5952d82b1846525207f5",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2015-10-19T15:12:41Z",
+        "updatedAt": "2015-10-20T14:46:22Z",
+        "description": "Virtual Filesystem UI"
       },
       {
         "id": "f0b021b0a56fee82dd97",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2015-07-29T09:38:20Z",
+        "updatedAt": "2015-10-15T20:15:46Z",
+        "description": "Tangled tree II"
       },
       {
         "id": "5fb51700f991e4101773",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2015-07-18T08:26:27Z",
+        "updatedAt": "2015-08-29T14:25:12Z",
+        "description": "Tangled tree"
       },
       {
         "id": "8822395",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "e3ba0ce173b638e362e1",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2015-07-27T10:09:20Z",
+        "updatedAt": "2015-08-29T14:25:58Z",
+        "description": "3D building (three.js)"
       },
       {
         "id": "427c1ffc346ed9286fda",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2014-07-16T12:24:51Z",
+        "updatedAt": "2015-08-29T14:04:04Z",
+        "description": "Three.js animated cube"
       },
       {
         "id": "134eb65f5c1b00d8a73d",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2015-07-15T08:53:26Z",
+        "updatedAt": "2015-10-19T13:33:33Z",
+        "description": "Fuzzy graph"
       },
       {
         "id": "f705fc55e6f26df29354",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2015-05-19T16:38:01Z",
+        "updatedAt": "2015-10-31T02:26:56Z",
+        "description": "Line Drawing"
       },
       {
         "id": "8746032",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2014-02-01T00:17:47Z",
+        "updatedAt": "2015-08-29T13:55:53Z",
+        "description": "Basic force layout (ID-based, zoomable, fixed random seed)"
       },
       {
         "id": "833632f23c308ae2d58b",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2015-07-03T19:52:30Z",
+        "updatedAt": "2015-08-29T14:24:13Z",
+        "description": "Isometric treemap (flare)"
       },
       {
         "id": "a8aa67de3cd9f2e0554e",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2015-07-05T09:50:17Z",
+        "updatedAt": "2015-10-19T13:29:51Z",
+        "description": "Tree colors (sunburst, DBpedia)"
       },
       {
         "id": "d7cbf8fd96ce42fed36d",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2015-07-05T11:08:20Z",
+        "updatedAt": "2015-08-29T14:24:17Z",
+        "description": "Duck Islands (Pink Floyd)"
       },
       {
         "id": "3db48ae4c663ca028a6f",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2015-02-24T16:59:06Z",
+        "updatedAt": "2015-08-29T14:16:04Z",
+        "description": "Duck Similarity (Galileo)"
       },
       {
         "id": "8f96bf393b94caff688b",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2015-06-17T20:19:57Z",
+        "updatedAt": "2015-10-15T19:17:28Z",
+        "description": "Isometric projection"
       },
       {
         "id": "3424eed86f55550622ef",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2014-09-15T15:51:04Z",
+        "updatedAt": "2015-08-29T14:06:30Z",
+        "description": "Labeled treemap (flare)"
       },
       {
         "id": "6210bd80bdd20181e1f4",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2015-06-20T10:06:44Z",
+        "updatedAt": "2015-08-29T14:23:23Z",
+        "description": "Isometric word cloud"
       },
       {
         "id": "d784198bdc1c76221393",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "e03a1a5c1a4a95f06c3b",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2015-06-18T18:58:03Z",
+        "updatedAt": "2015-08-29T14:23:16Z",
+        "description": "Isometric \"treemap\""
       },
       {
         "id": "79f16392f7e1bed77f07",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2014-10-10T13:40:59Z",
+        "updatedAt": "2015-08-29T14:07:27Z",
+        "description": "Word cloud treemap (flare)"
       },
       {
         "id": "0c991d6ed0e994e1c7ed",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2015-06-17T12:09:03Z",
+        "updatedAt": "2015-08-29T14:23:13Z",
+        "description": "Node Gosper hex tiling"
       },
       {
         "id": "ce638f8bd5e70cb809e1",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2015-06-17T08:27:44Z",
+        "updatedAt": "2015-08-29T14:23:13Z",
+        "description": "Node Gosper curve"
       },
       {
         "id": "1036b853c3f52b8994a4",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2015-06-17T14:00:48Z",
+        "updatedAt": "2015-08-29T14:23:13Z",
+        "description": "Gosper hex tiling irregularity"
       },
       {
         "id": "cd8e12c7a18495980bd0",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "d8c76dfc03589e6dbf1f",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2015-06-12T19:20:42Z",
+        "updatedAt": "2015-08-29T14:22:57Z",
+        "description": "Half matrix for symmetrical relations"
       },
       {
         "id": "bf9c070d0fa6bab79d6a",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "5c5078b3cc3e54e4fec2",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2014-10-27T11:03:27Z",
+        "updatedAt": "2015-08-29T14:08:13Z",
+        "description": "A classic comparison"
       },
       {
         "id": "4afb54600dc9328d14bd",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2015-02-21T17:16:29Z",
+        "updatedAt": "2015-08-29T14:15:53Z",
+        "description": "Gosper Displacement"
       },
       {
         "id": "d3fd26207d7468b6c514",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2014-11-05T11:06:04Z",
+        "updatedAt": "2015-08-29T14:08:39Z",
+        "description": "Classic hexagonal binning"
       },
       {
         "id": "bf5c4ea014d0b91f1f04",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2014-11-06T12:15:11Z",
+        "updatedAt": "2015-08-29T14:08:44Z",
+        "description": "Classic hexagonal binning II"
       },
       {
         "id": "f6f42f7f6b5dea054d18",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2014-10-24T13:14:31Z",
+        "updatedAt": "2015-08-29T14:08:06Z",
+        "description": "Opinion treemap word cloud (OpeNER - Paris, es)"
       },
       {
         "id": "2d502924bad6152acbe5",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2014-09-15T13:44:56Z",
+        "updatedAt": "2015-08-29T14:06:30Z",
+        "description": "Basic treemap (flare)"
       },
       {
         "id": "564b91e8e9e7cbc7821f",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2014-09-12T15:42:26Z",
+        "updatedAt": "2015-08-29T14:06:22Z",
+        "description": "Treemap navigator (flare)"
       },
       {
         "id": "fa3be10877083f295204",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "564fcb398fdad08442c1",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2014-07-29T15:47:22Z",
+        "updatedAt": "2015-08-29T14:04:38Z",
+        "description": "Node-link circular layout: Sankey links"
       },
       {
         "id": "a50ccec1c202731fa8f1",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2014-07-23T20:43:41Z",
+        "updatedAt": "2015-08-29T14:04:25Z",
+        "description": "Node-link polar layout: curved links"
       },
       {
         "id": "6354551",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2013-08-27T14:49:43Z",
+        "updatedAt": "2015-08-29T13:51:32Z",
+        "description": "Flowlines"
       },
       {
         "id": "230ff9a14751b8f3092d",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "a161bdb59b9dcec9a32e",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2014-07-20T13:20:24Z",
+        "updatedAt": "2015-08-29T14:04:13Z",
+        "description": "Node-link polar layout"
       },
       {
         "id": "d5fc7956ba6896330ea1",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2014-07-20T21:06:06Z",
+        "updatedAt": "2015-08-29T14:04:13Z",
+        "description": "Node-link polar layout with centrality (eigenvector)"
       },
       {
         "id": "70da709633904c6de9d9",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2014-06-19T15:08:01Z",
+        "updatedAt": "2015-08-29T14:02:46Z",
+        "description": "Pie vs. pie"
       },
       {
         "id": "16933e96f51571fbbcd6",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2014-07-06T10:31:28Z",
+        "updatedAt": "2015-08-29T14:03:34Z",
+        "description": "Random(ish) polygon"
       },
       {
         "id": "8543484",
-        "user": null
+        "user": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "description": null
       },
       {
         "id": "e130ae36d2131abc56ae",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2014-07-20T09:47:29Z",
+        "updatedAt": "2015-08-29T14:04:12Z",
+        "description": "Zoom"
       },
       {
         "id": "c5607cfabe7a238f3853",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2014-07-20T11:03:35Z",
+        "updatedAt": "2015-08-29T14:04:13Z",
+        "description": "Drag"
       },
       {
         "id": "dcce9b645783d5239a04",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2014-07-12T13:16:02Z",
+        "updatedAt": "2015-08-29T14:03:53Z",
+        "description": "FASS spiral (L-system)"
       },
       {
         "id": "bffd66a05d5bf04aefa7",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2014-07-12T11:08:58Z",
+        "updatedAt": "2015-08-29T14:03:53Z",
+        "description": "Hilbert spiral (L-system)"
       },
       {
         "id": "e2af207bc46782aa460c",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2014-07-12T10:41:45Z",
+        "updatedAt": "2015-08-29T14:03:53Z",
+        "description": "Hilbert sequence (L-system)"
       },
       {
         "id": "8b9e134ca8bae13bb470",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2014-07-12T08:56:44Z",
+        "updatedAt": "2015-08-29T14:03:53Z",
+        "description": "Square spiral (L-system)"
       },
       {
         "id": "c3d1662948a049fc80dd",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2014-07-12T09:14:35Z",
+        "updatedAt": "2015-08-29T14:03:53Z",
+        "description": "Hex spiral (L-system)"
       },
       {
         "id": "005b68abc80f5f514230",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2014-05-24T20:58:25Z",
+        "updatedAt": "2015-08-29T14:01:48Z",
+        "description": "OpeNER - Opinion targets (Amsterdam)"
       },
       {
         "id": "0d563176b67c9d3062ae",
-        "user": "nitaku"
+        "user": "nitaku",
+        "createdAt": "2014-05-18T20:13:44Z",
+        "updatedAt": "2015-08-29T14:01:33Z",
+        "description": "HCL decomposition: cubeYF"
       },
       {
         "id": "11337491",
-        "user": "mbostock"
+        "user": "mbostock",
+        "createdAt": "2014-04-27T04:22:02Z",
+        "updatedAt": "2015-10-30T21:32:08Z",
+        "description": "Rainbow Luminance"
       }
     ],
     "edges": [
