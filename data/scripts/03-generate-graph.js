@@ -6,7 +6,32 @@ var _ = require('lodash');
 "use strict";
 
 var withBlocksLinks = JSON.parse(fs.readFileSync('../gist-metadata/gists-with-readme-with-blocks-links.json', 'utf-8'));
+var blockAttributes = JSON.parse(fs.readFileSync('../gist-metadata/blocks.json', 'utf-8'));
 //console.log("withReadme", withReadme);
+
+// check the format of our blockAttributes object
+//blockAttributes.some(function(d, i) {
+//	console.log(d);
+//	if(i < 3) { return true }
+//})
+
+var blockAttributesById = {};
+blockAttributes.forEach(function(d, i) {
+	blockAttributesById[d["id"]] = d; 
+})
+
+//console.log("blockAttributesById", blockAttributesById);
+
+// check the format of our blockAttributesById object
+// log out three example blockAttributesById entries
+var i = 0;
+for(var key in blockAttributesById) {
+	//console.log("gistId", key)
+  //console.log(blockAttributesById[key]);
+  //console.log("")
+  i++;
+  if(i>=3) {break};
+}
 
 // https://github.com/jsongraph/json-graph-specification
 // following the 'nodes/edges single graph' spec
@@ -22,24 +47,24 @@ var nodeHash = {};
 
 withBlocksLinks.some(function(d) {
 
-	checkNode(d["gistId"]);
+	//checkNode(d["gistId"], d);
 
 	var reGistId = /(http\:\/\/)?bl\.ocks\.org\/[^<>()\[\]\/"'#\s]*\/(raw\/)?([^<>()\[\]\/"'#\s]*)/g;
 	//var reGistIdRaw = /http\:\/\/bl\.ocks\.org\/[^<>()\[\]\/"'\s]*\/(raw\/)?([^<>()\[\]\/"'\s]*)/g;
 
-	console.log(d["blocksLinked"])
+	//console.log(d["blocksLinked"])
 
 	d["blocksLinked"].forEach(function(e) {
 
-		console.log("blockLink mentioned in README.md", e);
+		//console.log("blockLink mentioned in README.md", e);
 
 		var matchGistId = reGistId.exec(e);
-		console.log("matchGistId");
-		console.log(matchGistId);
+		//console.log("matchGistId");
+		//console.log(matchGistId);
 
 		var gistId = matchGistId[3];
-		console.log("gistId found", gistId);
-		checkNode(gistId)
+		//console.log("gistId found", gistId);
+		checkNode(gistId, d)
 
 		// http://stackoverflow.com/a/11477448/1732222
 		reGistId.lastIndex = 0;
@@ -51,32 +76,28 @@ withBlocksLinks.some(function(d) {
 			"source": readmeGistId,
 			"target": blockLinkGistId,
 
-		})
-
-		
+		})		
 
 	})
-
-/*
-	// match the username inside of a gist raw_url
-	var reUser = /https\:\/\/gist\.githubusercontent\.com\/([^<>()\[\]\/"'\s]*)\//g;
-
-	var raw_url = d["file"]["raw_url"]
-
-	var matchUser = reUser.exec(raw_url);
-	//console.log(matchUser[1]);
-	var user = matchUser[1];
-*/
 
 })
 
 // check if the node has been seen before
 // if not, add it to the nodes list in our graph object
-function checkNode(node) {
+function checkNode(node, d) {
 	if(typeof nodeHash[node] === "undefined") {
 		nodeHash[node] = true;
+
+		console.log("node", node)	
+		if(typeof blockAttributesById[node] !== "undefined") {
+			var user = blockAttributesById[node]["owner"]["login"];
+		}	else {
+			var user = null;
+		}
 		graphContainer["graph"]["nodes"].push({
-			"id": node
+			"id": node,
+			"user": user
+
 		})
 	}	
 }
