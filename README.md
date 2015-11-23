@@ -16,3 +16,5 @@ a lineage of bl.ocks that informed this idea:
 * [Dynamic Size](http://bl.ocks.org/curran/db1e524cae5e4344b2e6) from [curran](http://bl.ocks.org/curran)
 
 [![blocks-graph](img/blocks-graph.png)](http://bl.ocks.org/micahstubbs/8a173cfcb9171627c7f1)
+
+MIT License
