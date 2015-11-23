@@ -1,264 +1,183 @@
 <html>
-<head>
-  <title>Edge creation</title>
-  <meta charset="utf-8" />
-<script src="http://d3js.org/d3.v3.min.js" type="text/JavaScript"></script>
-<script src="lib/jsLouvain.js" type="text/JavaScript"></script>
-</head>
-<style>
-  svg {
-    height: 760px;
-    width: 1420px;
-    border: 1px solid gray;
-  }
-</style>
-<body>
+  <head>
+    <title>Edge creation</title>
+    <meta charset="utf-8" />
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="lib/jsLouvain.js"></script>
+    <style>
+      body { margin:0;position:fixed;top:0;right:0;bottom:0;left:0; }
+      svg { width: 100%; height: 100%; }
+    </style>
+  </head>
+  <body>
 
-<div id="viz">
-  <svg class="main">
-  </svg>
-</div>
-</body>
-  <footer>
-<script>
+    <div id="viz">
+      <svg class="main"> </svg>
+    </div>
 
-d3.json("data/gist-metadata/readme-blocks-graph.json", function(error,data) { createNetwork(data) });
+    <script>
 
-function onlyUnique(value, index, self) {
-  return self.indexOf(value) === index;
-}
+      d3.json("/data/gist-metadata/readme-blocks-graph.json", function(error,data) { createNetwork(data) });
 
-function createNetwork(graphContainer) {
-  var nodeHash = {};
-  var nodes = [];
-  var edges = [];
-
-  var edgelist = graphContainer["graph"]["edges"];
-
-  edgelist.forEach(function (edge) {
-    if (!nodeHash[edge.source]) {
-      nodeHash[edge.source] = {id: edge.source, label: edge.source};
-      nodes.push(nodeHash[edge.source]);
-    }
-    if (!nodeHash[edge.target]) {
-      nodeHash[edge.target] = {id: edge.target, label: edge.target};
-      nodes.push(nodeHash[edge.target]);
-    }
-    if (edge/*.weight == 5*/) {
-      edges.push({id: nodeHash[edge.source].id + "-" + nodeHash[edge.target].id, source: nodeHash[edge.source], target: nodeHash[edge.target], weight: 1/*edge.weight*/});
-    }
-  });
-  createForceNetwork(nodes, edges);
-}
-
-function modularityCensus(nodes, edges, moduleHash) {
-  edges.forEach(function (edge) {
-    if (edge.source.module !== edge.target.module) {
-      edge.border = true;
-    }
-    else {
-      edge.border = false;
-    }
-  });
-  nodes.forEach(function (node) {
-    var theseEdges = edges.filter(function(d) {return d.source === node || d.target === node});
-
-    var theseSourceModules = theseEdges.map(function (d) {return d.source.module}).filter(onlyUnique);
-    var theseTargetModules = theseEdges.map(function (d) {return d.target.module}).filter(onlyUnique);
-
-    if (theseSourceModules.length > 1 || theseTargetModules.length > 1) {
-      node.border = true;
-    }
-    else {
-      node.border = false;
-    }
-  });
-
-}
-
-function createForceNetwork(nodes, edges) {
-
-//create a network from an edgelist
-
-var colors = d3.scale.ordinal().domain([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]).range(["#996666", "#66CCCC", "#FFFF99", "#CC9999", "#666633", "#993300", "#999966", "#660000", "#996699", "#cc6633", "#ff9966", "#339999", "#6699cc", "#ffcc66", "#ff6600", "#00ccccc"]);
-
-var node_data = nodes.map(function (d) {return d.id});
-var edge_data = edges.map(function (d) {return {source: d.source.id, target: d.target.id, weight: 1}; });
-
-console.log("node_data", node_data);
-console.log("edge_data", edge_data);
-
-var community = jLouvain().nodes(node_data).edges(edge_data);
-var result  = community();
-
-console.log("jLouvain result", result);
-
-nodes.forEach(function (node) {
-  node.module = result[node.id]
-  //console.log("node.module", node.module)
-});
-
-modularityCensus(nodes, edges, result);
-
-var force = d3.layout.force().nodes(nodes).links(edges)
-  .size([500,500])
-  .charge(-300)
-  .chargeDistance(100)
-  .gravity(0.05)
-  .on("tick", updateNetwork);
-
-var drag = force.drag()
-  .on("drag", drag)
-  .on("dragend", dragend)
-  .on("dragstart", dragstart);
-
-  var edgeEnter = d3.select("svg.main").selectAll("g.edge")
-  .data(edges, function (d) {return d.id})
-  .enter()
-  .append("g")
-  .attr("class", "edge");
-
-  edgeEnter
-  .append("line")
-  .style("stroke-width", function (d) {return d.border ? "3px" : "1px"})
-  .style("stroke", "black")
-  .style("pointer-events", "none");
-
-  var nodeEnter = d3.select("svg.main").selectAll("g.node")
-  .data(nodes, function (d) {return d.id})
-  .enter()
-  .append("g")
-  .attr("class", "node")
-  .call(drag);
-
- nodeEnter.append("circle")
-  .attr("r", 16)
-  .attr("class", "background")
-  .style("fill", "lightgreen")
-  .style("opacity", 0)
-  .style("pointer-events", "none");
-
-  nodeEnter.append("circle")
-  .attr("r", 8)
-  .attr("class", "foreground")
-  .style("fill", function (d) {return colors(d.module)})
-  .style("stroke", "black")
-  .style("stroke-width", function (d) {return d.border ? "3px" : "1px"})
-
-/*
-  nodeEnter.append("text")
-  .style("text-anchor", "middle")
-  .attr("y", 3)
-  .style("stroke-width", "1px")
-  .style("stroke-opacity", 0.75)
-  .style("stroke", "white")
-  .style("font-size", "8px")
-  .text(function (d) {return d.id})
-  .style("pointer-events", "none")
-
-  nodeEnter.append("text")
-  .style("text-anchor", "middle")
-  .attr("y", 3)
-  .style("font-size", "8px")
-  .text(function (d) {return d.id})
-  .style("pointer-events", "none")
-*/
-
-  force.start();
-
-  function dragstart() {
-    nodes.forEach(function (node) {
-      node.fixed = true;
-    })
-  }
-
-  function drag(d) {
-    var nodeDom = this;
-    var foundOverlap = false
-    nodes.forEach(function (otherNode) {
-      var distance = Math.sqrt(Math.pow(otherNode.x - d.x, 2) + Math.pow(otherNode.y - d.y, 2));
-      if (otherNode != d && distance < 16) {
-        foundOverlap = true;
+      function onlyUnique(value, index, self) {
+        return self.indexOf(value) === index;
       }
-    })
-    if (foundOverlap == true) {
-      d3.select(nodeDom).select("circle.background")
-        .style("opacity", 0.5)
-    }
-    else {
-      d3.select(nodeDom).select("circle.background")
-        .style("opacity", 0)
-    }
-  }
+
+      function createNetwork(graphContainer) {
+        var nodeHash = {};
+        var nodes = [];
+        var edges = [];
+
+        var edgelist = graphContainer["graph"]["edges"];
+
+        edgelist.forEach(function (edge) {
+          if (!nodeHash[edge.source]) {
+            nodeHash[edge.source] = {id: edge.source, label: edge.source};
+            nodes.push(nodeHash[edge.source]);
+          }
+          if (!nodeHash[edge.target]) {
+            nodeHash[edge.target] = {id: edge.target, label: edge.target};
+            nodes.push(nodeHash[edge.target]);
+          }
+          if (edge/*.weight == 5*/) {
+            edges.push({id: nodeHash[edge.source].id + "-" + nodeHash[edge.target].id, source: nodeHash[edge.source], target: nodeHash[edge.target], weight: 1/*edge.weight*/});
+          }
+        });
+        createForceNetwork(nodes, edges);
+      }
+
+      function modularityCensus(nodes, edges, moduleHash) {
+        edges.forEach(function (edge) {
+          if (edge.source.module !== edge.target.module) {
+            edge.border = true;
+          }
+          else {
+            edge.border = false;
+          }
+        });
+        nodes.forEach(function (node) {
+          var theseEdges = edges.filter(function(d) {return d.source === node || d.target === node});
+
+          var theseSourceModules = theseEdges.map(function (d) {return d.source.module}).filter(onlyUnique);
+          var theseTargetModules = theseEdges.map(function (d) {return d.target.module}).filter(onlyUnique);
+
+          if (theseSourceModules.length > 1 || theseTargetModules.length > 1) {
+            node.border = true;
+          }
+          else {
+            node.border = false;
+          }
+        });
+
+      }
+
+      function createForceNetwork(nodes, edges) {
+
+      //create a network from an edgelist
+
+      //var colors = d3.scale.ordinal().domain([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]).range(["#996666", "#66CCCC", "#FFFF99", "#CC9999", "#666633", "#993300", "#999966", "#660000", "#996699", "#cc6633", "#ff9966", "#339999", "#6699cc", "#ffcc66", "#ff6600", "#00ccccc"]);
+      var colors = d3.scale.category20();
+
+      var node_data = nodes.map(function (d) {return d.id});
+      var edge_data = edges.map(function (d) {return {source: d.source.id, target: d.target.id, weight: 1}; });
+
+      console.log("node_data", node_data);
+      console.log("edge_data", edge_data);
+
+      var community = jLouvain().nodes(node_data).edges(edge_data);
+      var result  = community();
+
+      console.log("jLouvain result", result);
+
+      nodes.forEach(function (node) {
+        node.module = result[node.id]
+        //console.log("node.module", node.module)
+      });
+
+      modularityCensus(nodes, edges, result);
+
+      var force = d3.layout.force().nodes(nodes).links(edges)
+        .size([960, 500])
+        .charge(-100)
+        .chargeDistance(100)
+        .linkStrength(2)
+        .linkDistance(3)
+        .gravity(0.07);
+
+      var edgeEnter = d3.select("svg.main").selectAll("g.edge")
+        .data(edges, function (d) {return d.id})
+        .enter()
+        .append("g")
+        .attr("class", "edge");
+
+      edgeEnter
+        .append("line")
+        .style("stroke-width", "1px")
+        .style("stroke", "gray")
+        .style("pointer-events", "none");
+
+      var nodeEnter = d3.select("svg.main").selectAll("g.node")
+        .data(nodes, function (d) {return d.id})
+        .enter();
+        
+      nodeEnter
+        .append("a")
+          .attr("xlink:href", function (d){
+            return "http://bl.ocks.org/" + d.id;
+          })
+          //.attr("target", "_blank")
+        .append("circle")
+          .attr("r", 3)
+          .attr("class", "foreground")
+          .style("fill", function (d) {return colors(d.module)})
+          .style("stroke-width", function (d) {return d.border ? "3px" : "1px"})
+
+      /*
+        nodeEnter.append("text")
+        .style("text-anchor", "middle")
+        .attr("y", 3)
+        .style("stroke-width", "1px")
+        .style("stroke-opacity", 0.75)
+        .style("stroke", "white")
+        .style("font-size", "8px")
+        .text(function (d) {return d.id})
+        .style("pointer-events", "none")
+
+        nodeEnter.append("text")
+        .style("text-anchor", "middle")
+        .attr("y", 3)
+        .style("font-size", "8px")
+        .text(function (d) {return d.id})
+        .style("pointer-events", "none")
+      */
 
 
-  function dragend(d) {
-    force.stop();
-
-    d3.selectAll("circle.background")
-      .style("opacity", 0);
-
-    nodes.forEach(function (otherNode) {
-      otherNode.fixed = false;
-      var distance = Math.sqrt(Math.pow(otherNode.x - d.x, 2) + Math.pow(otherNode.y - d.y, 2));
-      if (otherNode != d && distance < 16) {
-        var newEdge = {id: d.id + "-" + otherNode.id, source: d, target: otherNode};
-        if (edges.map(function (d) {return d.id}).indexOf(newEdge.id) == -1) {
-          edges.push(newEdge);
+//
+//
+        force.start();
+        for(var i = 0; i < 200; i++){
+          force.tick();
         }
+
+        //force.on("tick", updateNetwork);
+        force.stop();
+        updateNetwork();
+
+        function updateNetwork(e) {
+
+          d3.select("svg.main").selectAll("line")
+            .attr("x1", function (d) {return d.source.x})
+            .attr("y1", function (d) {return d.source.y})
+            .attr("x2", function (d) {return d.target.x})
+            .attr("y2", function (d) {return d.target.y});
+
+          d3.select("svg.main").selectAll("circle")
+            .attr("cx", function (d) {return d.x; })
+            .attr("cy", function (d) {return d.y; });
+
+        }
+
       }
-    });
-    force.links(edges);
-
-    var edgeEnter = d3.select("svg.main").selectAll("g.edge")
-      .data(edges, function (d) {return d.id})
-      .enter()
-      .insert("g", "g.node")
-      .attr("class", "edge");
-
-    edgeEnter
-      .append("line")
-      .style("stroke-width", function (d) {return d.border ? "3px" : "1px"})
-      .style("stroke", "black")
-      .style("pointer-events", "none");
-
-    var community = jLouvain().nodes(node_data).edges(edge_data);
-    var result  = community();
-
-    console.log("result", result);
-
-    nodes.forEach(function (node) {
-      node.module = result[node.id]
-    });
-
-    node_data = nodes.map(function (d) {return d.id});
-    edge_data = edges.map(function (d) {return {source: d.source, target: d.target, weight: 1}; });
-
-    modularityCensus(nodes, edges, result);
-
-    d3.selectAll("circle.foreground")
-    .style("fill", function (d) {return colors(d.module)})
-    .style("stroke-width", function (d) {return d.border ? "3px" : "1px"});
-
-    force.start();
-
-  }
-
-  function updateNetwork(e) {
-
-    d3.select("svg.main").selectAll("line")
-    .attr("x1", function (d) {return d.source.x})
-    .attr("y1", function (d) {return d.source.y})
-    .attr("x2", function (d) {return d.target.x})
-    .attr("y2", function (d) {return d.target.y});
-
-    d3.select("svg.main").selectAll("g.node")
-      .attr("transform", function (d) {return "translate(" + d.x + "," + d.y + ")"});
-
-  }
-
-}
-</script>
-  </footer>
-
+    </script>
+  </body>
 </html>
