@@ -49,20 +49,53 @@
         var edges = [];
 
         var edgelist = graphContainer["graph"]["edges"];
+        var nodelist = graphContainer["graph"]["nodes"];
 
         edgelist.forEach(function (edge) {
           if (!nodeHash[edge.source]) {
-            nodeHash[edge.source] = {id: edge.source, label: edge.source};
+            nodeHash[edge.source] = {
+              id: edge.source, 
+              label: edge.source
+            };
             nodes.push(nodeHash[edge.source]);
           }
           if (!nodeHash[edge.target]) {
-            nodeHash[edge.target] = {id: edge.target, label: edge.target};
+            nodeHash[edge.target] = {
+              id: edge.target, 
+              label: edge.target
+            };
             nodes.push(nodeHash[edge.target]);
           }
           if (edge/*.weight == 5*/) {
             edges.push({id: nodeHash[edge.source].id + "-" + nodeHash[edge.target].id, source: nodeHash[edge.source], target: nodeHash[edge.target], weight: 1/*edge.weight*/});
           }
         });
+
+        // get some attributes from the nodelist (calculated elsewhere)
+        // and store them in the nodeHash
+        nodelist.forEach(function (node) {
+          if(nodeHash[node.id]) {
+            nodeHash[node.id]["user"] = node["user"];
+            nodeHash[node.id]["createdAt"] = node["createdAt"];
+            nodeHash[node.id]["updatedAt"] = node["updatedAt"];
+            nodeHash[node.id]["description"] = node["description"];
+          }
+        })
+
+        // take the attributes now in the nodeHash
+        // and hang them on the nodes (calculated here from the edgelist) 
+        nodes.forEach(function (node) {
+          if(nodeHash[node.id]) {
+            node["user"] = nodeHash[node.id]["user"];
+            node["createdAt"] = nodeHash[node.id]["createdAt"];
+            node["updatedAt"] = nodeHash[node.id]["updatedAt"];
+            node["description"] = nodeHash[node.id]["description"];
+          }          
+        })
+
+        console.log("nodes", nodes);
+        console.log("edges", edges);
+
         createForceNetwork(nodes, edges);
       }
 
@@ -101,8 +134,8 @@
       var node_data = nodes.map(function (d) {return d.id});
       var edge_data = edges.map(function (d) {return {source: d.source.id, target: d.target.id, weight: 1}; });
 
-      console.log("node_data", node_data);
-      console.log("edge_data", edge_data);
+      console.log("node_data for jLouvain", node_data);
+      console.log("edge_data for jLouvain", edge_data);
 
       var community = jLouvain().nodes(node_data).edges(edge_data);
       var result  = community();
@@ -143,7 +176,7 @@
       nodeEnter
         .append("a")
           .attr("xlink:href", function (d){
-            return "http://bl.ocks.org/" + d.id;
+            return "http://bl.ocks.org/" + d.user + "/" + d.id;
           })
           //.attr("target", "_blank")
         .append("circle")
