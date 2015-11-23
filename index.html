@@ -5,7 +5,7 @@
     <script src="http://d3js.org/d3.v3.min.js"></script>
     <script src="lib/jsLouvain.js"></script>
     <style>
-      body { margin:0;position:fixed;top:0;right:0;bottom:0;left:0; }
+      /*body { margin:0;position:fixed;top:0;right:0;bottom:0;left:0; }*/
       /*svg { width: 100%; height: 100%; }*/
       /* Make the chart container fill the page using CSS. */
       #viz {
@@ -19,21 +19,23 @@
   </head>
   <body>
 
-    <div id="viz">
-      <svg class="main"> </svg>
-    </div>
+    <div id="viz"></div>
 
     <script>
 
       // Extract the width and height that was computed by CSS.
-      var chartDiv = document.getElementById("chart");
-      var width = chartDiv.clientWidth;
-      var height = chartDiv.clientHeight;
+      var vizDiv = document.getElementById("viz");
+      var width = vizDiv.clientWidth;
+      var height = vizDiv.clientHeight;
+      var minSide = d3.min([width, height]);
+      var xOffset = (width - minSide) / 2;
+      var yOffset = (height - minSide) / 2;
 
       // Use the extracted size to set the size of an SVG element.
-      var svg = d3.select(chartDiv).append("svg")
+      var svg = d3.select(vizDiv).append("svg")
         .attr("width", width)
-        .attr("height", height);
+        .attr("height", height)
+        .classed("main", true);
 
       d3.json("/data/gist-metadata/readme-blocks-graph.json", function(error,data) { createNetwork(data) });
 
@@ -115,7 +117,7 @@
       modularityCensus(nodes, edges, result);
 
       var force = d3.layout.force().nodes(nodes).links(edges)
-        .size([960, 500])
+        .size([minSide, minSide]) // make a square
         .charge(-100)
         .chargeDistance(100)
         .linkStrength(2)
@@ -170,12 +172,12 @@
         .style("pointer-events", "none")
       */
 
-        // run 200 iterations of the force layout
+        
         force.start();
+
         for(var i = 0; i < 200; i++){
           force.tick();
         }
-
         //force.on("tick", updateNetwork);
 
         // after 200 iterations, we say the network 
@@ -192,12 +194,14 @@
             .attr("x1", function (d) {return d.source.x})
             .attr("y1", function (d) {return d.source.y})
             .attr("x2", function (d) {return d.target.x})
-            .attr("y2", function (d) {return d.target.y});
+            .attr("y2", function (d) {return d.target.y})
+            .attr("transform", "translate(" + xOffset + "," + yOffset +")");
 
           // draw the nodes
           d3.select("svg.main").selectAll("circle")
             .attr("cx", function (d) {return d.x; })
-            .attr("cy", function (d) {return d.y; });
+            .attr("cy", function (d) {return d.y; })
+            .attr("transform", "translate(" + xOffset + "," + yOffset +")");
 
         }
 
