@@ -6,7 +6,15 @@
     <script src="lib/jsLouvain.js"></script>
     <style>
       body { margin:0;position:fixed;top:0;right:0;bottom:0;left:0; }
-      svg { width: 100%; height: 100%; }
+      /*svg { width: 100%; height: 100%; }*/
+      /* Make the chart container fill the page using CSS. */
+      #viz {
+        position: fixed;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        bottom: 0px;
+      }
     </style>
   </head>
   <body>
@@ -16,6 +24,16 @@
     </div>
 
     <script>
+
+      // Extract the width and height that was computed by CSS.
+      var chartDiv = document.getElementById("chart");
+      var width = chartDiv.clientWidth;
+      var height = chartDiv.clientHeight;
+
+      // Use the extracted size to set the size of an SVG element.
+      var svg = d3.select(chartDiv).append("svg")
+        .attr("width", width)
+        .attr("height", height);
 
       d3.json("/data/gist-metadata/readme-blocks-graph.json", function(error,data) { createNetwork(data) });
 
@@ -133,6 +151,7 @@
           .style("stroke-width", function (d) {return d.border ? "3px" : "1px"})
 
       /*
+        // draw labels over nodes
         nodeEnter.append("text")
         .style("text-anchor", "middle")
         .attr("y", 3)
@@ -151,26 +170,31 @@
         .style("pointer-events", "none")
       */
 
-
-//
-//
+        // run 200 iterations of the force layout
         force.start();
         for(var i = 0; i < 200; i++){
           force.tick();
         }
 
         //force.on("tick", updateNetwork);
+
+        // after 200 iterations, we say the network 
+        // has stabilized and we stop the 
+        // force layout physics simulation
         force.stop();
+        // now we draw the network
         updateNetwork();
 
         function updateNetwork(e) {
 
+          // draw the links
           d3.select("svg.main").selectAll("line")
             .attr("x1", function (d) {return d.source.x})
             .attr("y1", function (d) {return d.source.y})
             .attr("x2", function (d) {return d.target.x})
             .attr("y2", function (d) {return d.target.y});
 
+          // draw the nodes
           d3.select("svg.main").selectAll("circle")
             .attr("cx", function (d) {return d.x; })
             .attr("cy", function (d) {return d.y; });
