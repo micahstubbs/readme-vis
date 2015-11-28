@@ -812,6 +812,23 @@
     ]
   },
   {
+    "gistId": "5735048",
+    "description": "Flying arcs with height proportional to length",
+    "created_at": "2013-06-08T12:38:52Z",
+    "updated_at": "2015-08-29T13:50:21Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/patricksurry/5735048/raw/70673535726952e6ea775c1cad12fb6133fd4031/README.md",
+      "size": 548
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/dwtkns/4973620"
+    ]
+  },
+  {
     "gistId": "5851197",
     "description": "TopoJSON vector maps from OSM",
     "created_at": "2013-06-24T16:05:34Z",
@@ -1222,6 +1239,24 @@
     ]
   },
   {
+    "gistId": "6439398",
+    "description": "Kobe Bryant 2012-13 Game Log Line Graph",
+    "created_at": "2013-09-04T16:25:08Z",
+    "updated_at": "2015-08-29T13:51:43Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/simzou/6439398/raw/c02181d428b268aae796905e29bbaeb08e753c3c/README.md",
+      "size": 565
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/simzou/6439398",
+      "http://bl.ocks.org/mbostock/3884955"
+    ]
+  },
+  {
     "gistId": "6455308",
     "description": null,
     "created_at": "2013-09-05T19:56:24Z",
@@ -1273,6 +1308,24 @@
     ]
   },
   {
+    "gistId": "6459889",
+    "description": "US Map of Nielsen Media Markets",
+    "created_at": "2013-09-06T05:30:17Z",
+    "updated_at": "2015-08-29T13:51:44Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/simzou/6459889/raw/a513d67fc8de24f84a57f01cdaa8651319876481/README.md",
+      "size": 752
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/simzou/6459889",
+      "http://bl.ocks.org/mbostock/2206590"
+    ]
+  },
+  {
     "gistId": "6468148",
     "description": "Kaprekar Routine",
     "created_at": "2013-09-06T18:42:00Z",
@@ -1292,6 +1345,24 @@
     ]
   },
   {
+    "gistId": "6478178",
+    "description": "D3JS quadtree nearest neighbor algorithm",
+    "created_at": "2013-09-07T18:50:58Z",
+    "updated_at": "2015-11-05T06:36:16Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/patricksurry/6478178/raw/1bef68bc50db8a15a559559b61c18684046b4afa/README.md",
+      "size": 970
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/4343214",
+      "http://bl.ocks.org/mbostock/4060366"
+    ]
+  },
+  {
     "gistId": "6506614",
     "description": "D3.js - Radar Chart or Spider Chart - Adjusted from radar-chart-d3",
     "created_at": "2013-09-10T08:37:31Z",
@@ -1306,6 +1377,23 @@
     },
     "blocksLinked": [
       "http://bl.ocks.org/nbremer/21746a9668ffdf6d8242"
+    ]
+  },
+  {
+    "gistId": "6511981",
+    "description": "Illustrate embedding geojson/topojson geometry into a google maps overlay using d3.geo.projection.\r\n",
+    "created_at": "2013-09-10T16:30:13Z",
+    "updated_at": "2015-08-29T13:51:50Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/patricksurry/6511981/raw/d00d0049959dd29231ac8a9d5ce76e849bc172c4/README.md",
+      "size": 308
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/899711"
     ]
   },
   {
@@ -1693,6 +1781,40 @@
     },
     "blocksLinked": [
       "http://bl.ocks.org/mbostock/3885304"
+    ]
+  },
+  {
+    "gistId": "7089206",
+    "description": "Force layout with dynamic distance function",
+    "created_at": "2013-10-21T19:08:05Z",
+    "updated_at": "2015-08-29T13:52:51Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/patricksurry/7089206/raw/f319d72241475ad5cb00390536969e0e0f91b496/README.md",
+      "size": 491
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/1073373"
+    ]
+  },
+  {
+    "gistId": "7090426",
+    "description": "Sequences sunburst",
+    "created_at": "2013-10-21T20:28:33Z",
+    "updated_at": "2015-10-29T08:53:05Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/kerryrodden/7090426/raw/92e7dc371d9b78ab0997dd5e2de6156612561c69/README.md",
+      "size": 3052
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/4063423"
     ]
   },
   {
@@ -2319,7 +2441,7 @@
     "gistId": "8326869",
     "description": "Simple vertical d3.js tree diagram ",
     "created_at": "2014-01-08T23:42:30Z",
-    "updated_at": "2015-10-27T20:29:43Z",
+    "updated_at": "2015-11-21T11:06:38Z",
     "fileName": "readme.md",
     "file": {
       "filename": "readme.md",
@@ -3116,6 +3238,23 @@
     },
     "blocksLinked": [
       "http://bl.ocks.org/bollwyvl/9265219"
+    ]
+  },
+  {
+    "gistId": "9259701",
+    "description": "Geo thumbnails (Mercator)",
+    "created_at": "2014-02-27T21:14:07Z",
+    "updated_at": "2015-08-29T13:56:48Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/shawnbot/9259701/raw/50bb9c1534a5b3c129fc67e3128bb3651b0fa535/README.md",
+      "size": 341
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/shawnbot/9240915"
     ]
   },
   {
@@ -4402,13 +4541,13 @@
     "gistId": "6c149c08fc9cde682635",
     "description": "Satellite Ground Tracks",
     "created_at": "2015-08-11T00:01:36Z",
-    "updated_at": "2015-09-17T01:49:45Z",
+    "updated_at": "2015-11-12T19:24:51Z",
     "fileName": "README.md",
     "file": {
       "filename": "README.md",
       "type": "text/plain",
       "language": "Markdown",
-      "raw_url": "https://gist.githubusercontent.com/syntagmatic/6c149c08fc9cde682635/raw/1d57c4ce214ceb4a1932f150a19a000ecfeed953/README.md",
+      "raw_url": "https://gist.githubusercontent.com/syntagmatic/6c149c08fc9cde682635/raw/cd384f96a18558ff527be4d5f61e0113ddd7ccf2/README.md",
       "size": 1290
     },
     "blocksLinked": [
@@ -5067,7 +5206,7 @@
     "gistId": "334cb3d810be9077e646",
     "description": "major migration #3",
     "created_at": "2014-06-24T20:52:47Z",
-    "updated_at": "2015-08-29T14:02:59Z",
+    "updated_at": "2015-11-15T03:55:28Z",
     "fileName": "Readme.md",
     "file": {
       "filename": "Readme.md",
@@ -6843,7 +6982,7 @@
     "gistId": "49bb5b53c7b6e027be3d",
     "description": "fresh block",
     "created_at": "2015-10-26T18:11:18Z",
-    "updated_at": "2015-10-26T18:11:18Z",
+    "updated_at": "2015-11-18T05:00:55Z",
     "fileName": "README.md",
     "file": {
       "filename": "README.md",
@@ -7042,7 +7181,7 @@
     "gistId": "7ae0605e6f5edb39a779",
     "description": "Migrant Deaths Map (outlines only)",
     "created_at": "2015-10-25T23:10:34Z",
-    "updated_at": "2015-10-25T23:10:35Z",
+    "updated_at": "2015-11-17T19:39:19Z",
     "fileName": "README.md",
     "file": {
       "filename": "README.md",
@@ -7165,7 +7304,7 @@
     "gistId": "0e28e48f3e0bbd6262d2",
     "description": "Axes with Model.js",
     "created_at": "2015-09-25T03:28:45Z",
-    "updated_at": "2015-09-25T21:11:44Z",
+    "updated_at": "2015-11-20T00:37:59Z",
     "fileName": "README.md",
     "file": {
       "filename": "README.md",
@@ -7221,7 +7360,7 @@
     "gistId": "f5789e8c8269e7ae9c26",
     "description": "Reactive Mixins",
     "created_at": "2015-09-21T02:33:40Z",
-    "updated_at": "2015-09-21T02:33:50Z",
+    "updated_at": "2015-11-17T19:44:04Z",
     "fileName": "README.md",
     "file": {
       "filename": "README.md",
@@ -7260,7 +7399,7 @@
     "gistId": "2c736a99c2f57bfac7e4",
     "description": "Margin Convention with Model.js",
     "created_at": "2015-09-21T00:44:16Z",
-    "updated_at": "2015-09-25T03:28:40Z",
+    "updated_at": "2015-11-20T01:58:52Z",
     "fileName": "README.md",
     "file": {
       "filename": "README.md",
@@ -7281,7 +7420,7 @@
     "gistId": "16828b2187f6d06f77fd",
     "description": "Story of Chiasm",
     "created_at": "2015-09-17T22:03:44Z",
-    "updated_at": "2015-09-20T03:06:32Z",
+    "updated_at": "2015-11-20T00:40:26Z",
     "fileName": "README.md",
     "file": {
       "filename": "README.md",
@@ -7900,7 +8039,7 @@
     "gistId": "dc5be7c1d700eb6ecf46",
     "description": "Animating Circles (Canvas)",
     "created_at": "2015-01-14T09:28:43Z",
-    "updated_at": "2015-08-29T14:13:26Z",
+    "updated_at": "2015-11-11T08:28:20Z",
     "fileName": "README.md",
     "file": {
       "filename": "README.md",
@@ -9164,7 +9303,7 @@
     "gistId": "21746a9668ffdf6d8242",
     "description": "Radar Chart Redesign",
     "created_at": "2015-09-29T17:01:06Z",
-    "updated_at": "2015-10-29T12:38:34Z",
+    "updated_at": "2015-11-18T11:53:41Z",
     "fileName": "README.md",
     "file": {
       "filename": "README.md",
@@ -9252,7 +9391,7 @@
     "gistId": "65f03d1ebd1742196200",
     "description": "Step 2 - Voronoi Scatterplot - Tooltip attached to Voronoi grid",
     "created_at": "2015-07-01T16:47:23Z",
-    "updated_at": "2015-10-01T18:15:12Z",
+    "updated_at": "2015-11-19T13:53:07Z",
     "fileName": "README.md",
     "file": {
       "filename": "README.md",
@@ -9269,7 +9408,7 @@
     "gistId": "d5ef6c58f85aba2da48b",
     "description": "Step 1 - Voronoi Scatterplot - Simple scatterplot with no Voronoi",
     "created_at": "2015-06-30T10:02:50Z",
-    "updated_at": "2015-10-01T20:38:47Z",
+    "updated_at": "2015-11-19T13:49:16Z",
     "fileName": "README.md",
     "file": {
       "filename": "README.md",
@@ -9863,7 +10002,7 @@
     "gistId": "d6a92a077e78fd33316a",
     "description": "The Migrant Files: Money",
     "created_at": "2015-11-02T21:54:14Z",
-    "updated_at": "2015-11-02T21:54:25Z",
+    "updated_at": "2015-11-11T03:53:51Z",
     "fileName": "README.md",
     "file": {
       "filename": "README.md",
@@ -9915,7 +10054,7 @@
     "gistId": "c21840890a4790632124",
     "description": "Connected Particles: Lasers",
     "created_at": "2015-10-29T20:30:37Z",
-    "updated_at": "2015-11-04T23:04:26Z",
+    "updated_at": "2015-11-13T02:51:30Z",
     "fileName": "README.md",
     "file": {
       "filename": "README.md",
@@ -10085,7 +10224,7 @@
     "gistId": "211bd42857358a60a936",
     "description": "block wall: thumbnails only",
     "created_at": "2015-10-21T01:21:28Z",
-    "updated_at": "2015-10-28T21:48:09Z",
+    "updated_at": "2015-11-19T22:45:51Z",
     "fileName": "README.md",
     "file": {
       "filename": "README.md",
@@ -10138,7 +10277,7 @@
     "gistId": "1d679f0322174b65d032",
     "description": "block wall",
     "created_at": "2015-10-13T23:25:04Z",
-    "updated_at": "2015-10-28T21:47:25Z",
+    "updated_at": "2015-11-24T19:33:54Z",
     "fileName": "README.md",
     "file": {
       "filename": "README.md",
@@ -11798,7 +11937,7 @@
     "gistId": "8dbaabf493fbc0c4ae0c",
     "description": "Bandlines",
     "created_at": "2015-10-27T23:42:31Z",
-    "updated_at": "2015-10-31T18:11:55Z",
+    "updated_at": "2015-11-19T23:25:29Z",
     "fileName": "README.md",
     "file": {
       "filename": "README.md",
@@ -11815,7 +11954,7 @@
     "gistId": "8bfd1c8ab5cf43e6c673",
     "description": "You spin me right round...",
     "created_at": "2015-10-24T22:04:24Z",
-    "updated_at": "2015-10-24T23:27:10Z",
+    "updated_at": "2015-11-21T00:13:49Z",
     "fileName": "README.md",
     "file": {
       "filename": "README.md",
@@ -11918,7 +12057,7 @@
     "gistId": "608c32b71c68bdda631d",
     "description": "Arc Diagram",
     "created_at": "2015-10-19T05:20:07Z",
-    "updated_at": "2015-10-25T23:29:30Z",
+    "updated_at": "2015-11-22T03:52:43Z",
     "fileName": "readme.md",
     "file": {
       "filename": "readme.md",
@@ -13243,7 +13382,7 @@
     "gistId": "1adb4033d7078f7d005e",
     "description": "Node-link circular layout: animated Sankey links",
     "created_at": "2014-07-29T19:48:38Z",
-    "updated_at": "2015-08-29T14:04:42Z",
+    "updated_at": "2015-11-17T14:55:39Z",
     "fileName": "README.md",
     "file": {
       "filename": "README.md",
@@ -13522,6 +13661,4578 @@
     "blocksLinked": [
       "http://bl.ocks.org/mbostock/3014589",
       "http://bl.ocks.org/mbostock/11337491"
+    ]
+  },
+  {
+    "gistId": "a71ff1c9d6e163e2faea",
+    "description": "Benchmark",
+    "created_at": "2015-11-04T03:44:20Z",
+    "updated_at": "2015-11-09T21:29:47Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/darosh/a71ff1c9d6e163e2faea/raw/7a66a7ba9ba0beb9cb4135c76926a6980cb4ee91/README.md",
+      "size": 10364
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/pjanik/5171361",
+      "http://bl.ocks.org/darosh/4360c8ac1dcaee373113",
+      "http://bl.ocks.org/darosh/raw/a71ff1c9d6e163e2faea/?s=tl&r={d3:{canvas:{circle:{60:60,240:60,720:60,1440:56.5,1920:54.1},rectangle:{60:60,240:60,720:60,1440:60,1920:60},rounded:{60:60,240:59.6,720:28.9,1440:15.8,1920:11.8},text:{60:60,240:60,720:60,1440:60,1920:60}},path:{circle:{60:60,240:60,720:50.2,1440:32.2,1920:25.2},rectangle:{60:60,240:60,720:58.1,1440:36.7,1920:30.7},rounded:{60:60,240:59.7,720:28.7,1440:14.9,1920:12.3}},svg:{circle:{60:60,240:59.7,720:34.9,1440:28.6,1920:21.8},rectangle:{60:60,240:59.7,720:43.6,1440:30.4,1920:24.1},rounded:{60:60,240:59.3,720:28.7,1440:15.6,1920:11.8},text:{60:60,240:60,720:39.7,1440:28.9,1920:23.3}}},pixi:{canvas:{circle:{60:60,240:60,720:60,1440:49.4,1920:44.2},rectangle:{60:60,240:60,720:60,1440:60,1920:60},rounded:{60:60,240:60,720:29.8,1440:15.2,1920:11.6},text:{60:60,240:60,720:60,1440:45,1920:28.4}},webgl:{circle:{60:60,240:60,720:55.4,1440:47.7,1920:28.5},rectangle:{60:60,240:60,720:55.4,1440:23.1,1920:16},rounded:{60:60,240:60,720:60,1440:46.9,1920:27.3},text:{60:60,240:60,720:59.2,1440:59.2,1920:51.5}}},stackgl:{webgl:{circle:{60:60,240:60,720:60,1440:60,1920:60},rectangle:{60:60,240:60,720:60,1440:60,1920:59.6},text:{60:60,240:60,720:60,1440:60,1920:60}}},three:{canvas:{circle:{60:59.5,240:25.6,720:10.5,1440:4.4,1920:2.9},rectangle:{60:60,240:60,720:56.2,1440:35.6,1920:29}},css:{circle:{60:60,240:60,720:36,1440:18.4,1920:13.8},rectangle:{60:60,240:60,720:36.3,1440:18.4,1920:14},rounded:{60:60,240:60,720:35.4,1440:18.2,1920:13.3}},svg:{circle:{60:32.6},rectangle:{60:52.4,240:44.2}},webgl:{circle:{60:60,240:60,720:58.1,1440:54.8,1920:37.4},rectangle:{60:60,240:60,720:59.6,1440:56.6,1920:43.7}}},two:{canvas:{circle:{60:59.3,240:58.8,720:29.5},rectangle:{60:60,240:60,720:32.6},rounded:{60:60,240:36.8,720:13.5}},svg:{circle:{60:59.2,240:58.5,720:31},rectangle:{60:59.7,240:58.9,720:33.8},rounded:{60:59.4,240:49.3,720:20.3}},webgl:{circle:{60:58.6,240:52.7,720:25.2},rectangle:{60:56.1,240:50.5,720:21.5},rounded:{60:55.4,240:51.3,720:25.2}}}}",
+      "http://bl.ocks.org/darosh/raw/a71ff1c9d6e163e2faea/?s=tl&r={d3:{canvas:{circle:{60:60,240:60,720:60,1440:56.9,1920:41.3},rectangle:{60:60,240:60,720:60,1440:60,1920:59.6},rounded:{60:60,240:60,720:56.2,1440:29.4,1920:24.7},text:{60:60,240:60,720:30.7,1440:17.1,1920:13}},path:{circle:{60:60,240:60,720:32.3,1440:18.6,1920:14.3},rectangle:{60:60,240:60,720:35.1,1440:18.5,1920:15.2},rounded:{60:60,240:45,720:20,1440:10.9,1920:8.2}},svg:{circle:{60:60,240:60,720:43.8,1440:25.2,1920:20.7},rectangle:{60:60,240:60,720:59.7,1440:39.3,1920:29.6},rounded:{60:60,240:60,720:33,1440:19.2,1920:15.3},text:{60:60,240:49.1,720:23.6,1440:13.7,1920:10}}},pixi:{canvas:{circle:{60:60,240:60,720:59.2,1440:52.6,1920:39.9},rectangle:{60:60,240:60,720:60,1440:60,1920:60},rounded:{60:60,240:60,720:60,1440:33.1,1920:25.9},text:{60:60,240:60,720:60,1440:60,1920:59.2}},webgl:{circle:{60:60,240:60,720:60,1440:56.4,1920:45.9},rectangle:{60:60,240:60,720:60,1440:55.3,1920:43},rounded:{60:60,240:60,720:60,1440:54.7,1920:43.9},text:{60:60,240:60,720:60,1440:60,1920:53}}},stackgl:{webgl:{circle:{60:60,240:60,720:60,1440:60,1920:60},rectangle:{60:60,240:60,720:60,1440:60,1920:60},text:{60:60,240:60,720:60,1440:57.7,1920:46.6}}},three:{canvas:{circle:{60:59.2,240:20.2,720:7.6,1440:3.7,1920:3},rectangle:{60:60,240:60,720:46.1,1440:24.5,1920:20.3}},css:{circle:{60:60,240:27.1,720:9.5,1440:4.4,1920:3.1},rectangle:{60:60,240:43.8,720:15.7,1440:7.9,1920:5.5},rounded:{60:57.6,240:34.7,720:11.8,1440:4.7,1920:3.1}},svg:{circle:{60:7.6},rectangle:{60:37,240:11.5}},webgl:{circle:{60:60,240:60,720:38.4,1440:24,1920:15.6},rectangle:{60:60,240:60,720:44.6,1440:23.3,1920:19.5}}},two:{canvas:{circle:{60:60,240:37.3,720:11.9},rectangle:{60:60,240:34.4,720:19.8},rounded:{60:60,240:25.7,720:9.3}},svg:{circle:{60:57.6,240:36,720:5.2},rectangle:{60:58.4,240:39.4,720:8.9},rounded:{60:53.8,240:36.3,720:7.4}},webgl:{circle:{60:52.3,240:21.4,720:0.5},rectangle:{60:46.9,240:26.3,720:0.5},rounded:{60:49.2,240:35.4,720:0.5}}}}",
+      "http://bl.ocks.org/darosh/raw/a71ff1c9d6e163e2faea/?s=tl&r={d3:{canvas:{circle:{60:59.9,240:59.9,720:52.7,1440:28.1,1920:21.2},rectangle:{60:60,240:60,720:60,1440:60,1920:60},rounded:{60:59.9,240:59.9,720:48.1,1440:25.1,1920:19.1},text:{60:60,240:59.9,720:57.9,1440:34.6,1920:26.2}},path:{circle:{60:59.9,240:59.7,720:27.7,1440:14.4,1920:10.9},rectangle:{60:59.9,240:59.8,720:36.5,1440:19,1920:14.3},rounded:{60:59.9,240:45.5,720:16.4,1440:8.3,1920:6.3}},svg:{circle:{60:59.9,240:59.8,720:55.9,1440:28.6,1920:21.2},rectangle:{60:59.9,240:59.9,720:59.6,1440:31.4,1920:23.1},rounded:{60:59.9,240:59.8,720:42.8,1440:22.2,1920:16.3},text:{60:59.8,240:55,720:20.9,1440:11,1920:8.4}}},pixi:{canvas:{circle:{60:59.9,240:59.9,720:55.1,1440:29,1920:22},rectangle:{60:60,240:60,720:60,1440:60,1920:60},rounded:{60:59.9,240:59.9,720:40.2,1440:21.2,1920:15.8},text:{60:60,240:60,720:60,1440:60,1920:59.9}},webgl:{circle:{60:60,240:60,720:60,1440:59.1,1920:46.3},rectangle:{60:60,240:60,720:60,1440:59,1920:46.6},rounded:{60:60,240:60,720:60,1440:57.5,1920:43.6},text:{60:60,240:60,720:60,1440:60,1920:60}}},stackgl:{webgl:{circle:{60:60,240:60,720:60,1440:60,1920:60},rectangle:{60:60,240:60,720:60,1440:60,1920:60},text:{60:60,240:60,720:60,1440:60,1920:59.9}}},three:{canvas:{circle:{60:44.8,240:9.9,720:2.4,1440:1.8,1920:1.4},rectangle:{60:59.1,240:52.4,720:19.2,1440:7.6,1920:7.6}},css:{circle:{60:59.7,240:24.8,720:9.1,1440:4.6,1920:3.4},rectangle:{60:58.3,240:38,720:13.9,1440:6.7,1920:5.3},rounded:{60:50.6,240:15.1,720:5.2,1440:2.6,1920:2}},svg:{circle:{60:4.4},rectangle:{60:33.6,240:8.7}},webgl:{circle:{60:60,240:60,720:29.1,1440:11.5,1920:8.8},rectangle:{60:60,240:59.9,720:30,1440:15.1,1920:7.4}}},two:{canvas:{circle:{60:59.9,240:36.8,720:13},rectangle:{60:59.9,240:53.9,720:19.8},rounded:{60:59.8,240:21.6,720:7.5}},svg:{circle:{60:59.8,240:33.8,720:10.7},rectangle:{60:59.8,240:39.8,720:13.6},rounded:{60:58.9,240:24.5,720:7.4}},webgl:{circle:{60:52.9,240:21.8,720:0.5},rectangle:{60:38.2,240:21.8,720:0.5},rounded:{60:37.4,240:21.6,720:0.3}}}}",
+      "http://bl.ocks.org/darosh/raw/a71ff1c9d6e163e2faea/?s=tl&r={d3:{canvas:{circle:{60:59.3,240:54.6,720:21.6,1440:13.2,1920:9.3},rectangle:{60:59.3,240:58.6,720:57.6,1440:33.5,1920:29.8},rounded:{60:56.9,240:21.7,720:8.5,1440:4.9,1920:3.4},text:{60:59.2,240:52.1,720:24.9,1440:13.7,1920:10.2}},path:{circle:{60:37.6,240:21.7,720:8.9,1440:5.3,1920:4.2},rectangle:{60:40.8,240:24.1,720:10.9,1440:6.5,1920:4.7},rounded:{60:29.4,240:12.1,720:5.2,1440:3,1920:2.2}},svg:{circle:{60:33.3,240:16.9,720:7.2,1440:4.4,1920:3.1},rectangle:{60:35.5,240:19.3,720:8.6,1440:4.8,1920:3.5},rounded:{60:24.7,240:7.8,720:4.5,1440:2.5,1920:1.8},text:{60:31,240:15.2,720:6.1,1440:3.3,1920:2.4}}},pixi:{canvas:{circle:{60:59.2,240:37.4,720:16,1440:8.6,1920:6.2},rectangle:{60:59.3,240:52.8,720:25.8,1440:14.9,1920:12.1},rounded:{60:54.2,240:18.5,720:6.6,1440:3.4,1920:2.8},text:{60:57.2,240:44.8,720:17.3,1440:8,1920:5.8}},webgl:{circle:{60:59.2,240:58.5,720:42.1,1440:23,1920:18.1},rectangle:{60:58.4,240:56.2,720:40.3,1440:20.8,1920:15.2},rounded:{60:59.2,240:59.2,720:37.7,1440:21.4,1920:16.5},text:{60:58.5,240:58.4,720:57.7,1440:33.4,1920:26.1}}},stackgl:{webgl:{circle:{60:58.6,240:57,720:27.7,1440:18.3,1920:13.1},rectangle:{60:57.8,240:57,720:28.4,1440:18.6,1920:13.8},text:{60:59.2,240:59.2,720:29.9,1440:17.1,1920:13.5}}},three:{canvas:{circle:{60:13.4,240:4,720:1.6,1440:0.7,1920:0.5},rectangle:{60:53.9,240:23.4,720:8.9,1440:4.8,1920:3.8}},css:{circle:{60:41.2,240:14.8,720:5.3,1440:2.6,1920:null},rectangle:{60:50,240:14.3,720:5.4,1440:2.6,1920:null},rounded:{60:47.6,240:15,720:5.2,1440:2.4,1920:null}},svg:{circle:{60:4.5},rectangle:{60:18.7,240:7.9}},webgl:{circle:{60:50,240:41,720:18.5,1440:9,1920:7.8},rectangle:{60:58.7,240:53.2,720:19.5,1440:2.1,1920:6.9}}},two:{canvas:{circle:{60:37.3,240:10.8,720:3.6},rectangle:{60:44.5,240:13.7,720:5.7},rounded:{60:22.9,240:7.4,720:2}},svg:{circle:{60:17.9,240:7.9,720:2.1},rectangle:{60:19.9,240:8.9,720:3},rounded:{60:14.6,240:6.3,720:1.5}},webgl:{circle:{60:46,240:11.7,720:2.1},rectangle:{60:45.3,240:9.5,720:2.3},rounded:{60:39.6,240:12.8,720:0.6}}}}"
+    ]
+  },
+  {
+    "gistId": "7b816a50e66bb62208a7",
+    "description": "Planetary Grid Browser II",
+    "created_at": "2015-10-27T13:28:32Z",
+    "updated_at": "2015-10-30T11:55:25Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/darosh/7b816a50e66bb62208a7/raw/98500ceff9762abcb090769be6690a3ad20365ca/README.md",
+      "size": 583
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/darosh/14e2e4e14898f13e13c7"
+    ]
+  },
+  {
+    "gistId": "14e2e4e14898f13e13c7",
+    "description": "Planetary Grid Browser I",
+    "created_at": "2015-10-25T19:21:29Z",
+    "updated_at": "2015-10-30T11:36:43Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/darosh/14e2e4e14898f13e13c7/raw/237eb8399bb139ea9739a94b189053bf78ffb08d/README.md",
+      "size": 587
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/darosh/7b816a50e66bb62208a7"
+    ]
+  },
+  {
+    "gistId": "7c25b52026a776124737",
+    "description": "Zoom to Group of Countries IV",
+    "created_at": "2015-10-18T18:25:28Z",
+    "updated_at": "2015-10-18T23:57:37Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/darosh/7c25b52026a776124737/raw/731544459dd844077769d43de8793dc2d90ded0c/README.md",
+      "size": 104
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/darosh/0444bdd92c1f968c75ef"
+    ]
+  },
+  {
+    "gistId": "0444bdd92c1f968c75ef",
+    "description": "Zoom to Group of Countries III",
+    "created_at": "2015-10-18T00:03:30Z",
+    "updated_at": "2015-10-18T18:32:31Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/darosh/0444bdd92c1f968c75ef/raw/3bf4a9ce4e1c72a61c8efd2d8277ba1e787e4d24/README.md",
+      "size": 258
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/darosh/raw/0444bdd92c1f968c75ef/",
+      "http://bl.ocks.org/darosh/f5204d3d85bdaa1fd6ea"
+    ]
+  },
+  {
+    "gistId": "f5204d3d85bdaa1fd6ea",
+    "description": "Zoom to Group of Countries II",
+    "created_at": "2015-10-17T22:13:33Z",
+    "updated_at": "2015-10-17T23:42:38Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/darosh/f5204d3d85bdaa1fd6ea/raw/3229122cfac903935f5a409f69ae0d000fd39990/README.md",
+      "size": 321
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/darosh/raw/f5204d3d85bdaa1fd6ea/",
+      "http://bl.ocks.org/darosh/baf7dd8d481d83b7f37e"
+    ]
+  },
+  {
+    "gistId": "baf7dd8d481d83b7f37e",
+    "description": "Zoom to Group of Countries",
+    "created_at": "2015-10-17T15:57:23Z",
+    "updated_at": "2015-10-17T23:09:45Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/darosh/baf7dd8d481d83b7f37e/raw/50b29319a85bc2a32d9038dbb4a9a1208c3d1fd2/README.md",
+      "size": 99
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/darosh/f5204d3d85bdaa1fd6ea"
+    ]
+  },
+  {
+    "gistId": "2fe464efd794bde5ed68",
+    "description": "Hexakis Icosahedron",
+    "created_at": "2015-10-16T17:55:28Z",
+    "updated_at": "2015-10-17T09:01:45Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/darosh/2fe464efd794bde5ed68/raw/bb62dee9469ed23687fa567e0185fd779c311bd4/README.md",
+      "size": 149
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/darosh/2d12a584a14910032ab8"
+    ]
+  },
+  {
+    "gistId": "2bab520665d975780931",
+    "description": "Rotating Planetary Grid",
+    "created_at": "2015-10-16T13:10:04Z",
+    "updated_at": "2015-10-17T09:09:05Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/darosh/2bab520665d975780931/raw/085f3b352f0cfbcc9ed1096d4ba3a85baef07efd/README.md",
+      "size": 75
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/darosh/2d12a584a14910032ab8"
+    ]
+  },
+  {
+    "gistId": "2d12a584a14910032ab8",
+    "description": "Planetary Grid",
+    "created_at": "2015-10-16T11:48:35Z",
+    "updated_at": "2015-11-19T10:54:13Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/darosh/2d12a584a14910032ab8/raw/7e4e4888d72764ad752fe0e3a867ccc485d16a6b/README.md",
+      "size": 1071
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/darosh/2bab520665d975780931",
+      "http://bl.ocks.org/darosh/2fe464efd794bde5ed68",
+      "http://bl.ocks.org/mbostock/3055104"
+    ]
+  },
+  {
+    "gistId": "d84b9a107a9cdea12c52",
+    "description": "Animation point on route",
+    "created_at": "2015-11-07T15:16:20Z",
+    "updated_at": "2015-11-07T23:19:34Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/arnicas/d84b9a107a9cdea12c52/raw/4c6109e6fe98e946c00632a0148da3017adf8bb5/README.md",
+      "size": 177
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/theopenwindow/71ef64a57131b3368fc9"
+    ]
+  },
+  {
+    "gistId": "8a712b8e3b29a4d86431",
+    "description": "fresh block",
+    "created_at": "2015-11-04T00:27:37Z",
+    "updated_at": "2015-11-04T00:27:39Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/khailey/8a712b8e3b29a4d86431/raw/4734c9f8fb77ddd252d9d88c1485ca0ee6cd9c01/README.md",
+      "size": 200
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/khailey/069bf8246a364fb4b681"
+    ]
+  },
+  {
+    "gistId": "6e3a45b47d256af55e6d",
+    "description": "D3 linepoints chart by datasets with data tooltip",
+    "created_at": "2015-11-07T08:39:19Z",
+    "updated_at": "2015-11-09T16:32:13Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/hironow/6e3a45b47d256af55e6d/raw/27c953e6f9d3412fd2adcd5aefb4e662a5a3ee2f/README.md",
+      "size": 245
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/hironow/53e75d0b7cc254011e48"
+    ]
+  },
+  {
+    "gistId": "de262983e3ba0c0f89c1",
+    "description": "block colors",
+    "created_at": "2015-11-06T22:21:09Z",
+    "updated_at": "2015-11-19T20:00:54Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/enjalot/de262983e3ba0c0f89c1/raw/bb2c2ef526c8eeaf2b69c385ef225c21a983ce23/README.md",
+      "size": 618
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/enjalot/6ac67b0d8ed673c9aa61",
+      "http://bl.ocks.org/enjalot/1d679f0322174b65d032"
+    ]
+  },
+  {
+    "gistId": "b34f87fd54237563618a",
+    "description": "The Migrant Files: Money",
+    "created_at": "2015-11-03T03:47:26Z",
+    "updated_at": "2015-11-03T21:24:19Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/jdutta/b34f87fd54237563618a/raw/e160e1d50797795df4932a6d12c29cc081294eff/README.md",
+      "size": 365
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/enjalot/d6a92a077e78fd33316a"
+    ]
+  },
+  {
+    "gistId": "51ccb8b4f111ef4aec1c",
+    "description": "Stripped adaptation of Jfire.io animation, for teaching purposes: more difficult",
+    "created_at": "2015-11-07T18:50:16Z",
+    "updated_at": "2015-11-07T18:52:02Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/zanarmstrong/51ccb8b4f111ef4aec1c/raw/a8d556c3447dd77e7e37f8382943280ed994d049/README.md",
+      "size": 417
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/zanarmstrong/4b6ab7914183dbf7a16f",
+      "http://bl.ocks.org/zanarmstrong/3b5f766647e15e23e5b8"
+    ]
+  },
+  {
+    "gistId": "dc73d339a0f921d638ac",
+    "description": "Bar Chart - no axis",
+    "created_at": "2015-11-07T18:41:23Z",
+    "updated_at": "2015-11-07T18:43:03Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/zanarmstrong/dc73d339a0f921d638ac/raw/a483177dbd576de596c16e1cecdc20da7b961a58/README.md",
+      "size": 861
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/3885304"
+    ]
+  },
+  {
+    "gistId": "388cdc9042070a466554",
+    "description": "Bar Chart: stripped harder",
+    "created_at": "2015-11-07T18:38:50Z",
+    "updated_at": "2015-11-07T23:42:16Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/zanarmstrong/388cdc9042070a466554/raw/892944c4163dd964962d30bdd3c2cff3eafe88c2/README.md",
+      "size": 1030
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/3885304",
+      "http://bl.ocks.org/zanarmstrong/56aa8232fb56247094ae"
+    ]
+  },
+  {
+    "gistId": "56aa8232fb56247094ae",
+    "description": "Bar Chart: stripped easier",
+    "created_at": "2015-11-07T18:29:18Z",
+    "updated_at": "2015-11-07T23:42:00Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/zanarmstrong/56aa8232fb56247094ae/raw/a483177dbd576de596c16e1cecdc20da7b961a58/README.md",
+      "size": 861
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/3885304"
+    ]
+  },
+  {
+    "gistId": "3b5f766647e15e23e5b8",
+    "description": "Stripped adaptation of Jfire.io animation, for teaching purposes",
+    "created_at": "2015-11-07T18:22:05Z",
+    "updated_at": "2015-11-07T18:47:06Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/zanarmstrong/3b5f766647e15e23e5b8/raw/75f931b9379e3bdba4a4d2495471a95795bf1712/README.md",
+      "size": 203
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/zanarmstrong/4b6ab7914183dbf7a16f"
+    ]
+  },
+  {
+    "gistId": "3a7b988cbb91266fc2ba",
+    "description": "Clock (annotated)",
+    "created_at": "2015-11-07T07:14:31Z",
+    "updated_at": "2015-11-07T07:16:13Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/zanarmstrong/3a7b988cbb91266fc2ba/raw/a2428bd2a5638e742df3609c30cf1585f4ee8dec/README.md",
+      "size": 152
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/syntagmatic/895eb781d88148cfd8e5"
+    ]
+  },
+  {
+    "gistId": "e9adc8dcd39f3afca839",
+    "description": "Jittery Line (commented)",
+    "created_at": "2015-11-07T06:58:35Z",
+    "updated_at": "2015-11-07T07:04:19Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/zanarmstrong/e9adc8dcd39f3afca839/raw/4765c570565d91b79b82cd027953b537ab105a7f/README.md",
+      "size": 315
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/zanarmstrong/5fbc4b93f62227dedeb7",
+      "http://bl.ocks.org/anonymous/278f27f982e1f1310ed3"
+    ]
+  },
+  {
+    "gistId": "d6ffcd5b9839629efaa9",
+    "description": "visualization template based on mouse input",
+    "created_at": "2015-11-07T04:56:07Z",
+    "updated_at": "2015-11-07T05:04:58Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/zanarmstrong/d6ffcd5b9839629efaa9/raw/bf118f3c1fcb37e45653f0d3c616a2b7204ef128/README.md",
+      "size": 491
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/zanarmstrong/23137b412caf6e80b34a",
+      "http://bl.ocks.org/zanarmstrong/172a6a53ddbce792b10d"
+    ]
+  },
+  {
+    "gistId": "e4e2914addd34a2d689d",
+    "description": "Simple Correlation Matrix - Labels Above Cells",
+    "created_at": "2015-11-07T18:45:46Z",
+    "updated_at": "2015-11-07T18:46:00Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/jalapic/e4e2914addd34a2d689d/raw/925a807ea4bb5e259fe4d72f9030da91d5b133f5/README.md",
+      "size": 371
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/emeeks/671c0e7adfb1ce7060b8",
+      "http://bl.ocks.org/micahstubbs/3ef5a223bdb760a228b4"
+    ]
+  },
+  {
+    "gistId": "e4e2914addd34a2d689d",
+    "description": "Simple Correlation Matrix - Labels Above Cells",
+    "created_at": "2015-11-07T18:45:46Z",
+    "updated_at": "2015-11-07T18:46:00Z",
+    "fileName": "readme.md",
+    "file": {
+      "filename": "readme.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/jalapic/e4e2914addd34a2d689d/raw/d763b3cfe68b4ce6a2e6070e4007a9b487d8a4e9/readme.md",
+      "size": 96
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/emeeks/671c0e7adfb1ce7060b8",
+      "http://bl.ocks.org/micahstubbs/3ef5a223bdb760a228b4"
+    ]
+  },
+  {
+    "gistId": "561a24c87af72d745aec",
+    "description": "Connected Particles",
+    "created_at": "2015-10-29T20:33:58Z",
+    "updated_at": "2015-10-29T20:42:37Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/Brideau/561a24c87af72d745aec/raw/326199036040ff2547dd44b4390caee9d7ad32d5/README.md",
+      "size": 241
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/157333662ef11c151080"
+    ]
+  },
+  {
+    "gistId": "ca9fdb64bf44e17f2d32",
+    "description": "Gately Tree",
+    "created_at": "2015-10-31T16:12:54Z",
+    "updated_at": "2015-11-18T00:01:04Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/nhanitvn/ca9fdb64bf44e17f2d32/raw/aa6b0c9ff7d20ba2bbcb2a918c77bb0e79d704f4/README.md",
+      "size": 141
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/dhoboy/914d024adf10bface11a"
+    ]
+  },
+  {
+    "gistId": "6d685396393800a8792f",
+    "description": "Simple Scatterplot",
+    "created_at": "2015-11-07T18:13:04Z",
+    "updated_at": "2015-11-07T18:13:36Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/sxywu/6d685396393800a8792f/raw/c5816152edf84f351f49bd5c28bd2525c935999a/README.md",
+      "size": 190
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/emeeks/6decab485fd2e02c9f1e"
+    ]
+  },
+  {
+    "gistId": "6d685396393800a8792f",
+    "description": "Simple Scatterplot",
+    "created_at": "2015-11-07T18:13:04Z",
+    "updated_at": "2015-11-07T18:13:36Z",
+    "fileName": "readme.md",
+    "file": {
+      "filename": "readme.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/sxywu/6d685396393800a8792f/raw/b6b66bd680a53ee797f5a55e7a33e31bb6bd1c6b/readme.md",
+      "size": 26
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/emeeks/6decab485fd2e02c9f1e"
+    ]
+  },
+  {
+    "gistId": "3ef5a223bdb760a228b4",
+    "description": "Simple Correlation Matrix - Labels Above Cells",
+    "created_at": "2015-11-07T18:36:34Z",
+    "updated_at": "2015-11-08T06:46:13Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/micahstubbs/3ef5a223bdb760a228b4/raw/63d2097b6fc75dbbd9553b7ff57cdeef67523d6c/README.md",
+      "size": 178
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/emeeks/671c0e7adfb1ce7060b8"
+    ]
+  },
+  {
+    "gistId": "3ef5a223bdb760a228b4",
+    "description": "Simple Correlation Matrix - Labels Above Cells",
+    "created_at": "2015-11-07T18:36:34Z",
+    "updated_at": "2015-11-08T06:46:13Z",
+    "fileName": "readme.md",
+    "file": {
+      "filename": "readme.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/micahstubbs/3ef5a223bdb760a228b4/raw/bb98436ad10daa07c3679ee4e5f0c127e9bca495/readme.md",
+      "size": 336
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/emeeks/671c0e7adfb1ce7060b8"
+    ]
+  },
+  {
+    "gistId": "c129f3c04261c5bb8cf3",
+    "description": "Brush resize direction",
+    "created_at": "2015-11-07T11:17:23Z",
+    "updated_at": "2015-11-07T11:17:24Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/arrayjam/c129f3c04261c5bb8cf3/raw/71fe9f7245b53b6cc85ef7a1ec208e6212b9d63b/README.md",
+      "size": 754
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/6232537",
+      "http://bl.ocks.org/anonymous/603d3fdb4ba53033204c"
+    ]
+  },
+  {
+    "gistId": "58f360e13a4397bf3dad",
+    "description": "d3intro_ex02",
+    "created_at": "2015-11-06T07:56:24Z",
+    "updated_at": "2015-11-06T08:32:21Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/jjelosua/58f360e13a4397bf3dad/raw/f9be829714119b6a62e8502e8e11abe92d1bac80/README.md",
+      "size": 427
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/jjelosua/30ad6abd1aacada4c6d3",
+      "http://bl.ocks.org/jjelosua/3d9f51b2c7a7e49840a8"
+    ]
+  },
+  {
+    "gistId": "b91a05a0ce8331ee124f",
+    "description": "",
+    "created_at": "2014-07-18T01:24:26Z",
+    "updated_at": "2015-08-29T14:04:07Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/miketahani/b91a05a0ce8331ee124f/raw/e639c1f85508b1ec8511457e4bb98211157eef16/README.md",
+      "size": 127
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/d2fn/8777d620caef32959713"
+    ]
+  },
+  {
+    "gistId": "477c1bfb081b783f80ad",
+    "description": "Zoomable sunburst with updating data",
+    "created_at": "2014-07-15T18:09:47Z",
+    "updated_at": "2015-11-03T17:50:45Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/kerryrodden/477c1bfb081b783f80ad/raw/aa8af5d04f8df61d67248986972906cb4832e0c7/README.md",
+      "size": 636
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/4348373",
+      "http://bl.ocks.org/mbostock/4063423"
+    ]
+  },
+  {
+    "gistId": "27b2da1f644e94c9e07b",
+    "description": "Stripped: Heatmap view of Weather Data",
+    "created_at": "2015-11-08T00:05:05Z",
+    "updated_at": "2015-11-08T00:05:05Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/ravenwing/27b2da1f644e94c9e07b/raw/4a13b38c07df9d0c445708aeb9443fbc857eae8f/README.md",
+      "size": 374
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/zanarmstrong/690a707bfc14a3a7fe04",
+      "http://bl.ocks.org/zanarmstrong/66893b3b47733f9d0fcf"
+    ]
+  },
+  {
+    "gistId": "27b2da1f644e94c9e07b",
+    "description": "Stripped: Heatmap view of Weather Data",
+    "created_at": "2015-11-08T00:05:05Z",
+    "updated_at": "2015-11-08T00:05:05Z",
+    "fileName": "readme.md",
+    "file": {
+      "filename": "readme.md",
+      "type": "text/plain",
+      "language": null,
+      "raw_url": "https://gist.githubusercontent.com/ravenwing/27b2da1f644e94c9e07b/raw/1b936d23b0f6ee3069bf56c4e798531e51d25d2a/readme.md",
+      "size": 394
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/zanarmstrong/690a707bfc14a3a7fe04",
+      "http://bl.ocks.org/zanarmstrong/66893b3b47733f9d0fcf"
+    ]
+  },
+  {
+    "gistId": "227454aeee1266f40691",
+    "description": "Bar Chart: stripped easier",
+    "created_at": "2015-11-07T23:46:49Z",
+    "updated_at": "2015-11-07T23:46:50Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/ravenwing/227454aeee1266f40691/raw/992b749639fe40ffbe8df30f125154e640f33809/README.md",
+      "size": 1037
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/3885304",
+      "http://bl.ocks.org/zanarmstrong/56aa8232fb56247094ae"
+    ]
+  },
+  {
+    "gistId": "647db6ebadd4f4756cae",
+    "description": "Wrapping Long Labels 2.0",
+    "created_at": "2015-11-06T21:14:42Z",
+    "updated_at": "2015-11-06T21:14:42Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/ericsoco/647db6ebadd4f4756cae/raw/8d36fbef726da75ab1239a64c54e580d16d0d580/README.md",
+      "size": 503
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/7555321",
+      "http://bl.ocks.org/anonymous/b237b631ac184c9f9fa4"
+    ]
+  },
+  {
+    "gistId": "81bd5d538b825b23856b",
+    "description": "Projection Transitions",
+    "created_at": "2015-11-08T23:42:44Z",
+    "updated_at": "2015-11-08T23:42:45Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/vicapow/81bd5d538b825b23856b/raw/5b60c89015580f07ef8875a558cd560177d63b94/README.md",
+      "size": 434
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/3711652",
+      "http://bl.ocks.org/anonymous/68e135c8e56cb134ebf2"
+    ]
+  },
+  {
+    "gistId": "8ba86c4fded2c67b34c7",
+    "description": "Image processing fun #4",
+    "created_at": "2015-11-09T00:00:29Z",
+    "updated_at": "2015-11-09T02:40:55Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/sxywu/8ba86c4fded2c67b34c7/raw/328ae06f1d3866ccac0ebe974ca99b4bd58cdc05/README.md",
+      "size": 712
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/sxywu/5cce4b8ca41650f14bb4",
+      "http://bl.ocks.org/sxywu/515f713d41186e18e384",
+      "http://bl.ocks.org/sxywu/680375cb6a66760ea011"
+    ]
+  },
+  {
+    "gistId": "680375cb6a66760ea011",
+    "description": "Image processing fun #3",
+    "created_at": "2015-11-08T23:33:35Z",
+    "updated_at": "2015-11-09T02:00:45Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/sxywu/680375cb6a66760ea011/raw/581419c8764437a5faba71dbaba48d55ef8f00c2/README.md",
+      "size": 560
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/sxywu/5cce4b8ca41650f14bb4",
+      "http://bl.ocks.org/sxywu/515f713d41186e18e384"
+    ]
+  },
+  {
+    "gistId": "515f713d41186e18e384",
+    "description": "Image processing fun #2",
+    "created_at": "2015-11-08T23:25:13Z",
+    "updated_at": "2015-11-08T23:33:26Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/sxywu/515f713d41186e18e384/raw/d2c829de463718cb9fbd474d4aa1694d3dedf03e/README.md",
+      "size": 206
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/sxywu/5cce4b8ca41650f14bb4"
+    ]
+  },
+  {
+    "gistId": "cfbdd529c138f98f65c4",
+    "description": "Globe pan",
+    "created_at": "2015-11-08T19:01:09Z",
+    "updated_at": "2015-11-08T19:48:51Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/everett-wetchler/cfbdd529c138f98f65c4/raw/862b47ad70f6d3c29658aa646d7386f7b3ad5869/README.md",
+      "size": 163
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/emeeks/b3db5feea1bd13611b20"
+    ]
+  },
+  {
+    "gistId": "cfbdd529c138f98f65c4",
+    "description": "Globe pan",
+    "created_at": "2015-11-08T19:01:09Z",
+    "updated_at": "2015-11-08T19:48:51Z",
+    "fileName": "readme.md",
+    "file": {
+      "filename": "readme.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/everett-wetchler/cfbdd529c138f98f65c4/raw/65942a16c1cef859faf37634336832821702b3c5/readme.md",
+      "size": 262
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/emeeks/b3db5feea1bd13611b20"
+    ]
+  },
+  {
+    "gistId": "071018952b7d52bdf351",
+    "description": "Stripped adaptation of Jfire.io animation, for teaching purposes",
+    "created_at": "2015-11-08T00:32:44Z",
+    "updated_at": "2015-11-08T00:32:45Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/everett-wetchler/071018952b7d52bdf351/raw/a8d556c3447dd77e7e37f8382943280ed994d049/README.md",
+      "size": 417
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/zanarmstrong/4b6ab7914183dbf7a16f",
+      "http://bl.ocks.org/zanarmstrong/3b5f766647e15e23e5b8"
+    ]
+  },
+  {
+    "gistId": "d8d96e1e554aa72671f4",
+    "description": "Network with Communities",
+    "created_at": "2015-11-08T23:19:34Z",
+    "updated_at": "2015-11-13T02:49:29Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/micahstubbs/d8d96e1e554aa72671f4/raw/da57abed6d1803f04ba7ca4004d4fa0a76898a35/README.md",
+      "size": 743
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/emeeks/09a49d15df06d56c8f70"
+    ]
+  },
+  {
+    "gistId": "f251f2cda69ac0d449f5",
+    "description": "County Treemap II",
+    "created_at": "2015-11-08T06:23:05Z",
+    "updated_at": "2015-11-08T06:35:14Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/micahstubbs/f251f2cda69ac0d449f5/raw/ac0885887a9cc1f16dc4b616e7db06c2c0714faa/README.md",
+      "size": 1184
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/emeeks/98f56f3e840143a4eccf/bb68d0c26f6105ec0e71c76d4fe296daca5eaccf",
+      "http://bl.ocks.org/micahstubbs/c5f71b45dbd87402e6f2",
+      "http://bl.ocks.org/micahstubbs/c5f71b45dbd87402e6f2"
+    ]
+  },
+  {
+    "gistId": "c5f71b45dbd87402e6f2",
+    "description": "County Treemap I",
+    "created_at": "2015-11-08T06:19:51Z",
+    "updated_at": "2015-11-08T06:21:16Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/micahstubbs/c5f71b45dbd87402e6f2/raw/4c38c35fd4824fc3cc4ef3c62767990410ee2d09/README.md",
+      "size": 460
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/emeeks/98f56f3e840143a4eccf/bb68d0c26f6105ec0e71c76d4fe296daca5eaccf"
+    ]
+  },
+  {
+    "gistId": "7fa897e01dcb94962be6",
+    "description": "Time Data Comet",
+    "created_at": "2015-11-08T04:32:24Z",
+    "updated_at": "2015-11-13T02:18:00Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/micahstubbs/7fa897e01dcb94962be6/raw/cbe19cb465f18122ee280ce8db955bc549f74ce4/README.md",
+      "size": 348
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/syntagmatic/895eb781d88148cfd8e5",
+      "http://bl.ocks.org/zanarmstrong/0ad500de10f9edfe5d15"
+    ]
+  },
+  {
+    "gistId": "fcd7e530a69a08de1d60",
+    "description": "d3intro_ex07",
+    "created_at": "2015-11-07T12:37:30Z",
+    "updated_at": "2015-11-07T12:37:31Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/lifeofmle/fcd7e530a69a08de1d60/raw/f405816b29230cedf314dc87f46fc6aecfcbc127/README.md",
+      "size": 1477
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/jjelosua/30ad6abd1aacada4c6d3",
+      "http://bl.ocks.org/jjelosua/3d9f51b2c7a7e49840a8",
+      "http://bl.ocks.org/jjelosua/58f360e13a4397bf3dad",
+      "http://bl.ocks.org/jjelosua/fe38f5960d1276833555",
+      "http://bl.ocks.org/jjelosua/95f7e0f6ce686f7f2ec1",
+      "http://bl.ocks.org/jjelosua/84c9384ce8bd8f646c45",
+      "http://bl.ocks.org/jjelosua/905ebf419d8f2173559c",
+      "http://bl.ocks.org/jjelosua/dcc17252ca6ed6b4cd39",
+      "http://bl.ocks.org/jjelosua/cf2f10e2777378a10960"
+    ]
+  },
+  {
+    "gistId": "685bec50326ce9965c41",
+    "description": "d3intro_ex02",
+    "created_at": "2015-11-07T12:21:10Z",
+    "updated_at": "2015-11-07T12:26:44Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/lifeofmle/685bec50326ce9965c41/raw/5cad215291201e5074c81e4f81604b8d6d42948f/README.md",
+      "size": 577
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/jjelosua/30ad6abd1aacada4c6d3",
+      "http://bl.ocks.org/jjelosua/3d9f51b2c7a7e49840a8",
+      "http://bl.ocks.org/jjelosua/58f360e13a4397bf3dad"
+    ]
+  },
+  {
+    "gistId": "80cfe3d7385aeef0628e",
+    "description": "d3intro_ex01",
+    "created_at": "2015-11-07T12:17:55Z",
+    "updated_at": "2015-11-07T12:17:55Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/lifeofmle/80cfe3d7385aeef0628e/raw/a754cc770d913882e6641f5631ec731f38072131/README.md",
+      "size": 425
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/jjelosua/30ad6abd1aacada4c6d3",
+      "http://bl.ocks.org/jjelosua/3d9f51b2c7a7e49840a8"
+    ]
+  },
+  {
+    "gistId": "73f8beefbbe424259d13",
+    "description": "Submarine Cable Map (Cahill Projection)",
+    "created_at": "2015-11-08T21:31:29Z",
+    "updated_at": "2015-11-08T23:03:20Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/geraldarthur/73f8beefbbe424259d13/raw/47a9ff1df9e1dc0c72e440e6e279314dbf115550/README.md",
+      "size": 431
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/4458497"
+    ]
+  },
+  {
+    "gistId": "ffcf40c924167cf15793",
+    "description": "Issue Breakdown",
+    "created_at": "2015-11-09T00:10:07Z",
+    "updated_at": "2015-11-09T00:10:07Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/wcjohnson11/ffcf40c924167cf15793/raw/bbd316b187ccdaef6490604305d27f36000b6cf6/README.md",
+      "size": 341
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/saraquigley/raw/5194141/",
+      "http://bl.ocks.org/syntagmatic/28f1fbeb41df9753e120"
+    ]
+  },
+  {
+    "gistId": "87a72ccb168a3db06b16",
+    "description": "Pack Layout Transition Challenge",
+    "created_at": "2015-11-09T00:07:53Z",
+    "updated_at": "2015-11-09T00:07:53Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/wcjohnson11/87a72ccb168a3db06b16/raw/aba3d8af8b8381d9da76dae67a0d397069445641/README.md",
+      "size": 166
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/syntagmatic/3140140"
+    ]
+  },
+  {
+    "gistId": "87a72ccb168a3db06b16",
+    "description": "Pack Layout Transition Challenge",
+    "created_at": "2015-11-09T00:07:53Z",
+    "updated_at": "2015-11-09T00:07:53Z",
+    "fileName": "readme.MD",
+    "file": {
+      "filename": "readme.MD",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/wcjohnson11/87a72ccb168a3db06b16/raw/de2c4b8b4029edfdeebfca68d44ba2e9ffc8df7e/readme.MD",
+      "size": 31
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/syntagmatic/3140140"
+    ]
+  },
+  {
+    "gistId": "a586a063a4fa0be339f6",
+    "description": "Enter-Update-Exit in Force Layout",
+    "created_at": "2015-11-08T23:16:12Z",
+    "updated_at": "2015-11-08T23:16:12Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/wcjohnson11/a586a063a4fa0be339f6/raw/6de6018c6ea91413e82acd5cebc43f82bfaf22ba/README.md",
+      "size": 574
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/sxywu/9358409"
+    ]
+  },
+  {
+    "gistId": "f231ea9216cf089a67b3",
+    "description": "Zoomable Circle Packing",
+    "created_at": "2015-11-08T21:36:59Z",
+    "updated_at": "2015-11-08T21:37:01Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/wcjohnson11/f231ea9216cf089a67b3/raw/5e9ba155a1374292920624e806e5c8c2c0c50ad6/README.md",
+      "size": 253
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/7607535"
+    ]
+  },
+  {
+    "gistId": "4299a4b3114309320c71",
+    "description": "Circle Pack Labels",
+    "created_at": "2015-11-08T21:36:46Z",
+    "updated_at": "2015-11-08T21:36:46Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/wcjohnson11/4299a4b3114309320c71/raw/d475dcb517d481c8b9fcb87573e56d159d931dd4/README.md",
+      "size": 1423
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/susielu/7c7bae35e0944725363a"
+    ]
+  },
+  {
+    "gistId": "0102759ebcb977f2a98b",
+    "description": "Animate path in D3",
+    "created_at": "2015-11-08T17:37:06Z",
+    "updated_at": "2015-11-08T17:37:06Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/wcjohnson11/0102759ebcb977f2a98b/raw/712be2e014c01ea857225c008b600e9652d7335c/README.md",
+      "size": 143
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/duopixel/4063326"
+    ]
+  },
+  {
+    "gistId": "505ef65139fa65d8e94f",
+    "description": "Make an element follow a path",
+    "created_at": "2015-11-08T17:36:36Z",
+    "updated_at": "2015-11-08T17:36:37Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/wcjohnson11/505ef65139fa65d8e94f/raw/4f219f8b237dcf3bddac5268d050604bf7901854/README.md",
+      "size": 154
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/duopixel/3824661"
+    ]
+  },
+  {
+    "gistId": "e9973aa49e3876a538b4",
+    "description": "Calendar View",
+    "created_at": "2015-11-08T16:44:05Z",
+    "updated_at": "2015-11-08T16:44:05Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/wcjohnson11/e9973aa49e3876a538b4/raw/329fe0865915d7905ae34f8fd2beac72ad0b8c97/README.md",
+      "size": 666
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/4063318"
+    ]
+  },
+  {
+    "gistId": "8f9d3449b8b4faf6fb8b",
+    "description": "Text Along a Path",
+    "created_at": "2015-11-08T16:43:44Z",
+    "updated_at": "2015-11-08T16:43:44Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/wcjohnson11/8f9d3449b8b4faf6fb8b/raw/d828d34698f57c65f6331dcadb8172ec79eae1a2/README.md",
+      "size": 256
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/2565344"
+    ]
+  },
+  {
+    "gistId": "7ebb3f3a28e403745856",
+    "description": "d3.layout.orbit modes",
+    "created_at": "2015-11-08T15:01:21Z",
+    "updated_at": "2015-11-08T15:01:21Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/wcjohnson11/7ebb3f3a28e403745856/raw/b522770680f45150eed6882c62efa6ebdd402223/README.md",
+      "size": 153
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/emeeks/298e07ea67a640b5d9f4"
+    ]
+  },
+  {
+    "gistId": "7ebb3f3a28e403745856",
+    "description": "d3.layout.orbit modes",
+    "created_at": "2015-11-08T15:01:21Z",
+    "updated_at": "2015-11-08T15:01:21Z",
+    "fileName": "readme.md",
+    "file": {
+      "filename": "readme.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/wcjohnson11/7ebb3f3a28e403745856/raw/e0052ae15cff17698253b99633affe7730fb7773/readme.md",
+      "size": 782
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/emeeks/298e07ea67a640b5d9f4"
+    ]
+  },
+  {
+    "gistId": "7a0309cc11757a3e5b3e",
+    "description": "Orbital Layout of D3.js API",
+    "created_at": "2015-11-08T15:00:38Z",
+    "updated_at": "2015-11-08T15:00:38Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/wcjohnson11/7a0309cc11757a3e5b3e/raw/2f69e4e2cc0190eda3fd3bc8910bd77ec12ddf42/README.md",
+      "size": 159
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/emeeks/068ef3e4106e155467a3"
+    ]
+  },
+  {
+    "gistId": "7a0309cc11757a3e5b3e",
+    "description": "Orbital Layout of D3.js API",
+    "created_at": "2015-11-08T15:00:38Z",
+    "updated_at": "2015-11-08T15:00:38Z",
+    "fileName": "readme.md",
+    "file": {
+      "filename": "readme.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/wcjohnson11/7a0309cc11757a3e5b3e/raw/4775f044ba9244dec712a65f9f71c72c46fb6f32/readme.md",
+      "size": 258
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/emeeks/068ef3e4106e155467a3"
+    ]
+  },
+  {
+    "gistId": "4aed5f40513b8a64cb27",
+    "description": "Stripped adaptation of Jfire.io animation, for teaching purposes: more difficult",
+    "created_at": "2015-11-08T05:54:47Z",
+    "updated_at": "2015-11-08T17:22:18Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/wcjohnson11/4aed5f40513b8a64cb27/raw/f2a19fc748e7d11166558b4ba7eefa258eecea8b/README.md",
+      "size": 647
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/zanarmstrong/4b6ab7914183dbf7a16f",
+      "http://bl.ocks.org/zanarmstrong/3b5f766647e15e23e5b8",
+      "http://bl.ocks.org/zanarmstrong/51ccb8b4f111ef4aec1c"
+    ]
+  },
+  {
+    "gistId": "b206a23dbd3d9464487f",
+    "description": "block wall",
+    "created_at": "2015-11-07T21:20:49Z",
+    "updated_at": "2015-11-07T21:20:50Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/wcjohnson11/b206a23dbd3d9464487f/raw/511cde71973f8ec1e6beb74d54bbc674a91dff47/README.md",
+      "size": 792
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/enjalot/6ac67b0d8ed673c9aa61",
+      "http://bl.ocks.org/enjalot/1d679f0322174b65d032"
+    ]
+  },
+  {
+    "gistId": "7fb5012dc2a9643541ac",
+    "description": "Animated D3 Logo",
+    "created_at": "2015-11-07T20:15:01Z",
+    "updated_at": "2015-11-07T20:15:01Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/wcjohnson11/7fb5012dc2a9643541ac/raw/31a76739341074c477f8e207e174cdcbad873007/README.md",
+      "size": 245
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/bc4e32ec71636b498c46"
+    ]
+  },
+  {
+    "gistId": "e956b7a2c9fcf1a86aef",
+    "description": "Tree of Life",
+    "created_at": "2015-11-07T20:14:09Z",
+    "updated_at": "2015-11-07T20:14:10Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/wcjohnson11/e956b7a2c9fcf1a86aef/raw/89e8a96c0ce3cb01e56319dc8d8002077536bd31/README.md",
+      "size": 754
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/c034d66572fd6bd6815a"
+    ]
+  },
+  {
+    "gistId": "76aaaad02575169046d9",
+    "description": "Circle Pack Labels",
+    "created_at": "2015-11-07T19:56:33Z",
+    "updated_at": "2015-11-07T19:56:33Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/wcjohnson11/76aaaad02575169046d9/raw/d475dcb517d481c8b9fcb87573e56d159d931dd4/README.md",
+      "size": 1423
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/susielu/7c7bae35e0944725363a"
+    ]
+  },
+  {
+    "gistId": "dcf9e793591890dda9a8",
+    "description": "Circle Pack",
+    "created_at": "2015-11-07T19:40:02Z",
+    "updated_at": "2015-11-07T19:40:02Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/wcjohnson11/dcf9e793591890dda9a8/raw/c9a9ff607b5d51751dcf562d1679e03a8d68626e/README.md",
+      "size": 197
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/emeeks/05f44e46124cefa0070c"
+    ]
+  },
+  {
+    "gistId": "953880e190280533e0a6",
+    "description": "Simple Correlation Matrix - Labels Above Cells",
+    "created_at": "2015-11-07T19:07:13Z",
+    "updated_at": "2015-11-07T19:07:13Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/wcjohnson11/953880e190280533e0a6/raw/925a807ea4bb5e259fe4d72f9030da91d5b133f5/README.md",
+      "size": 371
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/emeeks/671c0e7adfb1ce7060b8",
+      "http://bl.ocks.org/micahstubbs/3ef5a223bdb760a228b4"
+    ]
+  },
+  {
+    "gistId": "953880e190280533e0a6",
+    "description": "Simple Correlation Matrix - Labels Above Cells",
+    "created_at": "2015-11-07T19:07:13Z",
+    "updated_at": "2015-11-07T19:07:13Z",
+    "fileName": "readme.md",
+    "file": {
+      "filename": "readme.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/wcjohnson11/953880e190280533e0a6/raw/d763b3cfe68b4ce6a2e6070e4007a9b487d8a4e9/readme.md",
+      "size": 96
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/emeeks/671c0e7adfb1ce7060b8",
+      "http://bl.ocks.org/micahstubbs/3ef5a223bdb760a228b4"
+    ]
+  },
+  {
+    "gistId": "ffb31631978befcca1ec",
+    "description": "Difference Charts",
+    "created_at": "2015-11-07T19:07:00Z",
+    "updated_at": "2015-11-07T19:07:00Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/wcjohnson11/ffb31631978befcca1ec/raw/3ef91ab2f299390eb620b216638701afd38d41c1/README.md",
+      "size": 219
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/emeeks/0402c48430ef54b2f494"
+    ]
+  },
+  {
+    "gistId": "fd182a6be8c763016289",
+    "description": "Milky Way",
+    "created_at": "2015-11-07T18:59:38Z",
+    "updated_at": "2015-11-07T18:59:38Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/wcjohnson11/fd182a6be8c763016289/raw/2779edf8ae0cf514976b6ce4a77023cc67245633/README.md",
+      "size": 681
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/5446416"
+    ]
+  },
+  {
+    "gistId": "c286cdfba62f38258100",
+    "description": "d3.js sin waves",
+    "created_at": "2015-11-07T18:42:59Z",
+    "updated_at": "2015-11-07T18:46:15Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/wcjohnson11/c286cdfba62f38258100/raw/89bb9bcbfd1f9acc099c49408f626357212d765f/README.md",
+      "size": 293
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/enjalot/1457934",
+      "http://bl.ocks.org/anonymous/3eee614f20264517d01f"
+    ]
+  },
+  {
+    "gistId": "52860dd8d3a8cf34ff7a",
+    "description": "d3intro_ex06",
+    "created_at": "2015-11-07T12:39:11Z",
+    "updated_at": "2015-11-08T19:43:13Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/Treblesteph/52860dd8d3a8cf34ff7a/raw/459a7a2ad81e6ca4d2831a4089c8ca35bd93e24c/README.md",
+      "size": 1333
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/jjelosua/30ad6abd1aacada4c6d3",
+      "http://bl.ocks.org/jjelosua/3d9f51b2c7a7e49840a8",
+      "http://bl.ocks.org/jjelosua/58f360e13a4397bf3dad",
+      "http://bl.ocks.org/jjelosua/fe38f5960d1276833555",
+      "http://bl.ocks.org/jjelosua/95f7e0f6ce686f7f2ec1",
+      "http://bl.ocks.org/jjelosua/84c9384ce8bd8f646c45",
+      "http://bl.ocks.org/jjelosua/905ebf419d8f2173559c",
+      "http://bl.ocks.org/jjelosua/dcc17252ca6ed6b4cd39"
+    ]
+  },
+  {
+    "gistId": "46bc654124cce3d3334f",
+    "description": "d3intro_ex07",
+    "created_at": "2015-11-07T12:34:38Z",
+    "updated_at": "2015-11-07T12:34:38Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/Treblesteph/46bc654124cce3d3334f/raw/f405816b29230cedf314dc87f46fc6aecfcbc127/README.md",
+      "size": 1477
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/jjelosua/30ad6abd1aacada4c6d3",
+      "http://bl.ocks.org/jjelosua/3d9f51b2c7a7e49840a8",
+      "http://bl.ocks.org/jjelosua/58f360e13a4397bf3dad",
+      "http://bl.ocks.org/jjelosua/fe38f5960d1276833555",
+      "http://bl.ocks.org/jjelosua/95f7e0f6ce686f7f2ec1",
+      "http://bl.ocks.org/jjelosua/84c9384ce8bd8f646c45",
+      "http://bl.ocks.org/jjelosua/905ebf419d8f2173559c",
+      "http://bl.ocks.org/jjelosua/dcc17252ca6ed6b4cd39",
+      "http://bl.ocks.org/jjelosua/cf2f10e2777378a10960"
+    ]
+  },
+  {
+    "gistId": "aa2cbc009e4e6964f2cb",
+    "description": "d3intro_ex00",
+    "created_at": "2015-11-07T12:15:15Z",
+    "updated_at": "2015-11-07T12:15:15Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/Treblesteph/aa2cbc009e4e6964f2cb/raw/9633c3c35bbc9add3de539b277dff86d4a7cf967/README.md",
+      "size": 262
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/jjelosua/30ad6abd1aacada4c6d3"
+    ]
+  },
+  {
+    "gistId": "4b42493b70dbc9e1ce02",
+    "description": "A SOM Clustering of block Colors - Including RGB",
+    "created_at": "2015-11-08T11:47:40Z",
+    "updated_at": "2015-11-09T12:19:10Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/nbremer/4b42493b70dbc9e1ce02/raw/ffcb41892ec228f902f7fda313f938d8305ebd6f/README.md",
+      "size": 1151
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/enjalot/de262983e3ba0c0f89c1",
+      "http://bl.ocks.org/enjalot/de262983e3ba0c0f89c1"
+    ]
+  },
+  {
+    "gistId": "fae5e4b640e78b12fe14",
+    "description": "Ch. 7 Fig. 12 - D3.js in Action",
+    "created_at": "2015-11-08T19:01:52Z",
+    "updated_at": "2015-11-08T19:01:53Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/scottkildall/fae5e4b640e78b12fe14/raw/862b47ad70f6d3c29658aa646d7386f7b3ad5869/README.md",
+      "size": 163
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/emeeks/b3db5feea1bd13611b20"
+    ]
+  },
+  {
+    "gistId": "fae5e4b640e78b12fe14",
+    "description": "Ch. 7 Fig. 12 - D3.js in Action",
+    "created_at": "2015-11-08T19:01:52Z",
+    "updated_at": "2015-11-08T19:01:53Z",
+    "fileName": "readme.md",
+    "file": {
+      "filename": "readme.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/scottkildall/fae5e4b640e78b12fe14/raw/65942a16c1cef859faf37634336832821702b3c5/readme.md",
+      "size": 262
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/emeeks/b3db5feea1bd13611b20"
+    ]
+  },
+  {
+    "gistId": "520e3a5b13df8b41d3e3",
+    "description": "Project to Bounding Box",
+    "created_at": "2015-11-08T18:50:10Z",
+    "updated_at": "2015-11-08T18:50:11Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/scottkildall/520e3a5b13df8b41d3e3/raw/791a25fffa61431c87bc156e4c0cfab946fe2dfc/README.md",
+      "size": 285
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/4707858"
+    ]
+  },
+  {
+    "gistId": "f97d3a707d544ae17c35",
+    "description": "Ch. 7, Fig. 10 - D3.js in Action",
+    "created_at": "2015-11-08T18:42:03Z",
+    "updated_at": "2015-11-08T18:42:04Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/scottkildall/f97d3a707d544ae17c35/raw/7461d93ba6f58fd9d8256967516c046e46e54d80/README.md",
+      "size": 164
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/emeeks/77642fa75ec6170ee24a"
+    ]
+  },
+  {
+    "gistId": "f97d3a707d544ae17c35",
+    "description": "Ch. 7, Fig. 10 - D3.js in Action",
+    "created_at": "2015-11-08T18:42:03Z",
+    "updated_at": "2015-11-08T18:42:04Z",
+    "fileName": "readme.md",
+    "file": {
+      "filename": "readme.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/scottkildall/f97d3a707d544ae17c35/raw/57938aa8431228daa28ca59f54060b7629b39c14/readme.md",
+      "size": 570
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/emeeks/77642fa75ec6170ee24a"
+    ]
+  },
+  {
+    "gistId": "60327e09b4e7ef36f66d",
+    "description": "Bar Chart: stripped easier",
+    "created_at": "2015-11-08T00:12:52Z",
+    "updated_at": "2015-11-08T00:12:52Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/scottkildall/60327e09b4e7ef36f66d/raw/992b749639fe40ffbe8df30f125154e640f33809/README.md",
+      "size": 1037
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/3885304",
+      "http://bl.ocks.org/zanarmstrong/56aa8232fb56247094ae"
+    ]
+  },
+  {
+    "gistId": "f528a8bc2a05ff9dcd9c",
+    "description": "Stripped adaptation of Jfire.io animation, for teaching purposes",
+    "created_at": "2015-11-07T23:46:33Z",
+    "updated_at": "2015-11-07T23:47:23Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/blehman/f528a8bc2a05ff9dcd9c/raw/a8d556c3447dd77e7e37f8382943280ed994d049/README.md",
+      "size": 417
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/zanarmstrong/4b6ab7914183dbf7a16f",
+      "http://bl.ocks.org/zanarmstrong/3b5f766647e15e23e5b8"
+    ]
+  },
+  {
+    "gistId": "cab8679418b60c1fec1a",
+    "description": "Jittery Line",
+    "created_at": "2015-11-07T22:12:22Z",
+    "updated_at": "2015-11-07T22:12:26Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/blehman/cab8679418b60c1fec1a/raw/a3cd4139cbc0f648cd7e64158cff797e2e3c2745/README.md",
+      "size": 162
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/zanarmstrong/5fbc4b93f62227dedeb7"
+    ]
+  },
+  {
+    "gistId": "ca376f985a5b086633e5",
+    "description": "Simple Correlation Matrix",
+    "created_at": "2015-11-07T18:22:25Z",
+    "updated_at": "2015-11-07T18:22:25Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/blehman/ca376f985a5b086633e5/raw/a8d34a430a5e32d2bb51c7a1124155e8ffdab37f/README.md",
+      "size": 157
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/emeeks/671c0e7adfb1ce7060b8"
+    ]
+  },
+  {
+    "gistId": "ca376f985a5b086633e5",
+    "description": "Simple Correlation Matrix",
+    "created_at": "2015-11-07T18:22:25Z",
+    "updated_at": "2015-11-07T18:22:25Z",
+    "fileName": "readme.md",
+    "file": {
+      "filename": "readme.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/blehman/ca376f985a5b086633e5/raw/d763b3cfe68b4ce6a2e6070e4007a9b487d8a4e9/readme.md",
+      "size": 96
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/emeeks/671c0e7adfb1ce7060b8"
+    ]
+  },
+  {
+    "gistId": "cbcfb8924b6f678fcf93",
+    "description": "test",
+    "created_at": "2015-11-07T17:38:50Z",
+    "updated_at": "2015-11-07T17:39:08Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/blehman/cbcfb8924b6f678fcf93/raw/afd3c055f1c0ec8cfe3d0f7ae497f6d2eabb4349/README.md",
+      "size": 243
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/emeeks/98f56f3e840143a4eccf"
+    ]
+  },
+  {
+    "gistId": "a8d01671b04b326d36de",
+    "description": "Satellite Projection Explorer",
+    "created_at": "2015-09-19T09:48:36Z",
+    "updated_at": "2015-09-19T09:48:36Z",
+    "fileName": "readme.md",
+    "file": {
+      "filename": "readme.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/ufenegga/a8d01671b04b326d36de/raw/7e090867fc0fc97aacc5970432c8dd18d84dc75f/readme.md",
+      "size": 877
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/4282586"
+    ]
+  },
+  {
+    "gistId": "bb29b599bce91048ec40",
+    "description": "Radial line generator, interpolation from an empty array",
+    "created_at": "2014-08-29T06:43:52Z",
+    "updated_at": "2015-08-29T14:05:51Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/ufenegga/bb29b599bce91048ec40/raw/824488077ba5b8c21e335364ea1c3d2536919877/README.md",
+      "size": 146
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/ufenegga/6f26d011aebc4c75272b"
+    ]
+  },
+  {
+    "gistId": "6f26d011aebc4c75272b",
+    "description": "sin(2t), radial projection",
+    "created_at": "2014-08-29T06:35:25Z",
+    "updated_at": "2015-08-29T14:05:51Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/ufenegga/6f26d011aebc4c75272b/raw/d1f0929ccd7ac1dd206984cf33ba28ff9819ea7b/README.md",
+      "size": 184
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/ufenegga/bb29b599bce91048ec40"
+    ]
+  },
+  {
+    "gistId": "f62a50ff68353f0f203f",
+    "description": "Starting Points w/ Data",
+    "created_at": "2015-11-08T17:03:09Z",
+    "updated_at": "2015-11-08T17:03:10Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/zanarmstrong/f62a50ff68353f0f203f/raw/27d4d16e433083f898a87e0b3155bb3b0ae62ec2/README.md",
+      "size": 173
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/zanarmstrong/5e4ac1a614ec3c201ab4"
+    ]
+  },
+  {
+    "gistId": "6ce2e4373b3c8d7acac7",
+    "description": "Text Along a Path",
+    "created_at": "2015-11-07T20:16:25Z",
+    "updated_at": "2015-11-07T20:16:26Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/zanarmstrong/6ce2e4373b3c8d7acac7/raw/d828d34698f57c65f6331dcadb8172ec79eae1a2/README.md",
+      "size": 256
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/2565344"
+    ]
+  },
+  {
+    "gistId": "cac56ae218c6e5bcd00d",
+    "description": "Networks - Graphs 7",
+    "created_at": "2015-11-08T23:40:14Z",
+    "updated_at": "2015-11-08T23:40:14Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/jalapic/cac56ae218c6e5bcd00d/raw/625bd5370fd1fb1512141a8fc1d99053bc62f567/README.md",
+      "size": 151
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/emeeks/f2f6883ac7c965d09b90"
+    ]
+  },
+  {
+    "gistId": "cac56ae218c6e5bcd00d",
+    "description": "Networks - Graphs 7",
+    "created_at": "2015-11-08T23:40:14Z",
+    "updated_at": "2015-11-08T23:40:14Z",
+    "fileName": "readme.md",
+    "file": {
+      "filename": "readme.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/jalapic/cac56ae218c6e5bcd00d/raw/ee4af504a805241ed913f686cf33211fdd720385/readme.md",
+      "size": 972
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/emeeks/f2f6883ac7c965d09b90"
+    ]
+  },
+  {
+    "gistId": "73102327392d6164445a",
+    "description": "Networks - Graphs 5",
+    "created_at": "2015-11-08T23:27:19Z",
+    "updated_at": "2015-11-08T23:27:19Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/jalapic/73102327392d6164445a/raw/f615f82a124a23d3b69d065bac15a0f86650ab39/README.md",
+      "size": 151
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/emeeks/39fea1d900964379416b"
+    ]
+  },
+  {
+    "gistId": "73102327392d6164445a",
+    "description": "Networks - Graphs 5",
+    "created_at": "2015-11-08T23:27:19Z",
+    "updated_at": "2015-11-08T23:27:19Z",
+    "fileName": "readme.md",
+    "file": {
+      "filename": "readme.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/jalapic/73102327392d6164445a/raw/eb1a067c7c9fe63e7e014c58f31326af332f1eb6/readme.md",
+      "size": 563
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/emeeks/39fea1d900964379416b"
+    ]
+  },
+  {
+    "gistId": "2b0b96728f363d9fb7f1",
+    "description": "Networks - Graphs 2",
+    "created_at": "2015-11-08T23:09:20Z",
+    "updated_at": "2015-11-08T23:16:10Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/jalapic/2b0b96728f363d9fb7f1/raw/b28c57287df1ce79f2eaad377ad2a80979ed4202/README.md",
+      "size": 151
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/emeeks/936c4ba41fd8cd565d06"
+    ]
+  },
+  {
+    "gistId": "2b0b96728f363d9fb7f1",
+    "description": "Networks - Graphs 2",
+    "created_at": "2015-11-08T23:09:20Z",
+    "updated_at": "2015-11-08T23:16:10Z",
+    "fileName": "readme.md",
+    "file": {
+      "filename": "readme.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/jalapic/2b0b96728f363d9fb7f1/raw/ac109606302dadb8da8d729ef2c5af2aa00f5f79/readme.md",
+      "size": 1055
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/emeeks/936c4ba41fd8cd565d06"
+    ]
+  },
+  {
+    "gistId": "929247fc16177b33091e",
+    "description": "Networks - Edges 1",
+    "created_at": "2015-11-08T22:18:36Z",
+    "updated_at": "2015-11-08T22:18:36Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/jalapic/929247fc16177b33091e/raw/917d7d912d6191e6dd3e8330dfdeec8bbff8bcfe/README.md",
+      "size": 150
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/emeeks/ca9439cc7d011bba72ed"
+    ]
+  },
+  {
+    "gistId": "929247fc16177b33091e",
+    "description": "Networks - Edges 1",
+    "created_at": "2015-11-08T22:18:36Z",
+    "updated_at": "2015-11-08T22:18:36Z",
+    "fileName": "readme.md",
+    "file": {
+      "filename": "readme.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/jalapic/929247fc16177b33091e/raw/5ca39e42695b71753e72941a155acc5d70a3e91b/readme.md",
+      "size": 852
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/emeeks/ca9439cc7d011bba72ed"
+    ]
+  },
+  {
+    "gistId": "12a3a23651f40283d489",
+    "description": "Radial Chart - demoing",
+    "created_at": "2015-11-08T20:47:06Z",
+    "updated_at": "2015-11-11T05:08:02Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/jalapic/12a3a23651f40283d489/raw/df7cbc5a9411e6f1dd4ad4a28053ab45a13b2a2b/README.md",
+      "size": 197
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/susielu/b6bdb82045c2aa8225f5"
+    ]
+  },
+  {
+    "gistId": "f245216b2133683a1891",
+    "description": "all nodes: zoom",
+    "created_at": "2015-11-08T18:40:21Z",
+    "updated_at": "2015-11-08T19:21:41Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/newsummit/f245216b2133683a1891/raw/8afcf6ea0ba881607d01f82bdbb08821e5f1e77e/README.md",
+      "size": 204
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/newsummit/208d53b96b7a80d59166"
+    ]
+  },
+  {
+    "gistId": "128c16c494034f6ce597",
+    "description": "Another UI Voronoi",
+    "created_at": "2015-11-08T17:48:58Z",
+    "updated_at": "2015-11-08T17:48:58Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/newsummit/128c16c494034f6ce597/raw/8687f01340f0760b10124e56b463735ec49baed0/README.md",
+      "size": 223
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/emeeks/037488ed37f0e1cbfe32"
+    ]
+  },
+  {
+    "gistId": "67878ad945bb319b0687",
+    "description": "Bar Chart: stripped easier",
+    "created_at": "2015-11-08T00:08:44Z",
+    "updated_at": "2015-11-08T00:09:00Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/newsummit/67878ad945bb319b0687/raw/992b749639fe40ffbe8df30f125154e640f33809/README.md",
+      "size": 1037
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/3885304",
+      "http://bl.ocks.org/zanarmstrong/56aa8232fb56247094ae"
+    ]
+  },
+  {
+    "gistId": "e65e918f5a9f55181e58",
+    "description": "Bar Chart: stripped easier",
+    "created_at": "2015-11-07T23:43:11Z",
+    "updated_at": "2015-11-08T06:43:02Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/Beaupe/e65e918f5a9f55181e58/raw/992b749639fe40ffbe8df30f125154e640f33809/README.md",
+      "size": 1037
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/3885304",
+      "http://bl.ocks.org/zanarmstrong/56aa8232fb56247094ae"
+    ]
+  },
+  {
+    "gistId": "31719e8a789c4a08b495",
+    "description": "Bar Chart: stripped easier",
+    "created_at": "2015-11-07T23:35:10Z",
+    "updated_at": "2015-11-07T23:35:10Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/Beaupe/31719e8a789c4a08b495/raw/992b749639fe40ffbe8df30f125154e640f33809/README.md",
+      "size": 1037
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/3885304",
+      "http://bl.ocks.org/zanarmstrong/56aa8232fb56247094ae"
+    ]
+  },
+  {
+    "gistId": "5f5cf8854b518b1ff185",
+    "description": "Jittery Line",
+    "created_at": "2015-11-07T22:08:16Z",
+    "updated_at": "2015-11-07T22:08:16Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/Beaupe/5f5cf8854b518b1ff185/raw/a3cd4139cbc0f648cd7e64158cff797e2e3c2745/README.md",
+      "size": 162
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/zanarmstrong/5fbc4b93f62227dedeb7"
+    ]
+  },
+  {
+    "gistId": "26056c70e3b1d72974f0",
+    "description": "Jittery Line",
+    "created_at": "2015-11-07T22:07:52Z",
+    "updated_at": "2015-11-07T22:07:53Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/Beaupe/26056c70e3b1d72974f0/raw/a3cd4139cbc0f648cd7e64158cff797e2e3c2745/README.md",
+      "size": 162
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/zanarmstrong/5fbc4b93f62227dedeb7"
+    ]
+  },
+  {
+    "gistId": "2ba832d0a4d860434074",
+    "description": "Mergesort II",
+    "created_at": "2015-11-07T21:48:47Z",
+    "updated_at": "2015-11-07T21:48:48Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/Beaupe/2ba832d0a4d860434074/raw/1a0bc1a595cbd7d15f7084d4b2e707361c4296e8/README.md",
+      "size": 399
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/6928381c7b61714da59e"
+    ]
+  },
+  {
+    "gistId": "267aeac93702cffa7b16",
+    "description": "Word Tree",
+    "created_at": "2015-11-07T20:15:41Z",
+    "updated_at": "2015-11-07T20:15:41Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/Beaupe/267aeac93702cffa7b16/raw/eee3fb76c6577d90d7c12541611c36256d50b319/README.md",
+      "size": 221
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/emeeks/1f854ed0c5a08d710371"
+    ]
+  },
+  {
+    "gistId": "5c4c88bc4eeee47fc607",
+    "description": "Circle Pack",
+    "created_at": "2015-11-07T19:33:41Z",
+    "updated_at": "2015-11-07T19:33:42Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/Beaupe/5c4c88bc4eeee47fc607/raw/c9a9ff607b5d51751dcf562d1679e03a8d68626e/README.md",
+      "size": 197
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/emeeks/05f44e46124cefa0070c"
+    ]
+  },
+  {
+    "gistId": "04b194ffde97b28f4bd5",
+    "description": "Difference Charts",
+    "created_at": "2015-11-07T18:58:35Z",
+    "updated_at": "2015-11-07T18:58:35Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/Beaupe/04b194ffde97b28f4bd5/raw/3ef91ab2f299390eb620b216638701afd38d41c1/README.md",
+      "size": 219
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/emeeks/0402c48430ef54b2f494"
+    ]
+  },
+  {
+    "gistId": "d4528f3d74113e622ea2",
+    "description": "Simple Line Chart",
+    "created_at": "2015-11-07T18:51:16Z",
+    "updated_at": "2015-11-07T18:51:17Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/Beaupe/d4528f3d74113e622ea2/raw/967d1ee2335b336871ba2a333681079f6f1f1391/README.md",
+      "size": 196
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/emeeks/98724f36aa2cbf413718"
+    ]
+  },
+  {
+    "gistId": "189cee190960d6d97de1",
+    "description": "dsotb-logo",
+    "created_at": "2015-11-08T15:24:51Z",
+    "updated_at": "2015-11-08T15:28:24Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/yassineAlouini/189cee190960d6d97de1/raw/44a6f59cd247c1c732cfca9ec05c87bfe9f0a92b/README.md",
+      "size": 231
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/anonymous/18415e351ee66e12e66b"
+    ]
+  },
+  {
+    "gistId": "94fad89ebfe0625298d8",
+    "description": "Playin with p5.js",
+    "created_at": "2015-11-11T08:50:17Z",
+    "updated_at": "2015-11-11T08:50:32Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/herrstucki/94fad89ebfe0625298d8/raw/f1b543e8b563977706599b3f3c1b538c69caf9df/README.md",
+      "size": 206
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/anonymous/863c73c184f22049caeb"
+    ]
+  },
+  {
+    "gistId": "83f36e1537be85edc0c5",
+    "description": "slavery",
+    "created_at": "2015-11-11T08:43:19Z",
+    "updated_at": "2015-11-11T08:45:05Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/enoex/83f36e1537be85edc0c5/raw/4ea267360edb8c1d4d79adaa0444eed10e139a0b/README.md",
+      "size": 206
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/anonymous/e07ecf912d3eeb74d209"
+    ]
+  },
+  {
+    "gistId": "a1af79932a143e449e59",
+    "description": "fresh block",
+    "created_at": "2015-11-12T14:16:51Z",
+    "updated_at": "2015-11-12T14:50:03Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/EmbeddedMike/a1af79932a143e449e59/raw/262bdb9ccfaae111086ad496dcf4efa15423f043/README.md",
+      "size": 206
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/anonymous/cf4ae6fdcd32b3a8c250"
+    ]
+  },
+  {
+    "gistId": "cc818fff7a1049cc0efe",
+    "description": "The Migrant Files: Money by Route",
+    "created_at": "2015-11-11T04:51:46Z",
+    "updated_at": "2015-11-11T04:52:06Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/enjalot/cc818fff7a1049cc0efe/raw/2509e93a53b088aca79adbe4bfea945b5f2cd4ca/README.md",
+      "size": 662
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/enjalot/7ea44d0bc364b6bddbd8",
+      "http://bl.ocks.org/enjalot/d6696d28fb47fcf8a537",
+      "http://bl.ocks.org/enjalot/d6a92a077e78fd33316a"
+    ]
+  },
+  {
+    "gistId": "92248ec5049ba86bf125",
+    "description": "State Grid Choropleth",
+    "created_at": "2015-11-11T23:09:33Z",
+    "updated_at": "2015-11-12T01:14:21Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/geraldarthur/92248ec5049ba86bf125/raw/d718c1a43cae66000a664e4c108e225be3449c05/README.md",
+      "size": 360
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/29cc3cc4078091fd2115"
+    ]
+  },
+  {
+    "gistId": "2ceaea7f0a4e37ca5a5d",
+    "description": "Image processing fun #5",
+    "created_at": "2015-11-09T02:45:57Z",
+    "updated_at": "2015-11-09T08:36:38Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/sxywu/2ceaea7f0a4e37ca5a5d/raw/3547f1ca7229d9799ed6755469331eb223ccaf87/README.md",
+      "size": 662
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/sxywu/5cce4b8ca41650f14bb4",
+      "http://bl.ocks.org/sxywu/515f713d41186e18e384",
+      "http://bl.ocks.org/sxywu/680375cb6a66760ea011",
+      "http://bl.ocks.org/sxywu/8ba86c4fded2c67b34c7"
+    ]
+  },
+  {
+    "gistId": "634af7ba7ac34fbe4288",
+    "description": "Intro to D3 Talk",
+    "created_at": "2015-11-09T21:45:19Z",
+    "updated_at": "2015-11-09T21:45:19Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/pandafulmanda/634af7ba7ac34fbe4288/raw/7f031664221d455da41aa6e1e2ac7aee10c8a3ab/README.md",
+      "size": 211
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/anonymous/b8c3d455ad814b086492"
+    ]
+  },
+  {
+    "gistId": "58457ea613b84f7544b1",
+    "description": "KotoJS BarChart (ES5)",
+    "created_at": "2015-11-08T20:58:03Z",
+    "updated_at": "2015-11-10T00:10:36Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/nicksrandall/58457ea613b84f7544b1/raw/7dbbcc0d5ab39befb5a1853a0e4fa7400985168f/README.md",
+      "size": 668
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/nicksrandall/53c6d59ea70afaf19cf1"
+    ]
+  },
+  {
+    "gistId": "53c6d59ea70afaf19cf1",
+    "description": "KotoJS BarChart (ES2015)",
+    "created_at": "2015-11-06T23:48:09Z",
+    "updated_at": "2015-11-10T00:09:33Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/nicksrandall/53c6d59ea70afaf19cf1/raw/2849e112295577a0bd5f57517abeba4be100f554/README.md",
+      "size": 574
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/nicksrandall/58457ea613b84f7544b1"
+    ]
+  },
+  {
+    "gistId": "0c0c991690a8e2e2f5ad",
+    "description": "Satellite Projection  Experiment",
+    "created_at": "2015-11-11T04:21:32Z",
+    "updated_at": "2015-11-13T03:11:24Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/micahstubbs/0c0c991690a8e2e2f5ad/raw/884863f9aae798ab0e9430f2cfac2aa01cfaa1d2/README.md",
+      "size": 321
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/3790444"
+    ]
+  },
+  {
+    "gistId": "00e6248efe5605c1fa5c",
+    "description": "Conversion rates",
+    "created_at": "2015-11-12T23:09:22Z",
+    "updated_at": "2015-11-13T21:37:49Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/jonsadka/00e6248efe5605c1fa5c/raw/89687fd1aa770fbe35dbfdddc83906ec3d781d3d/README.md",
+      "size": 220
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/jonsadka/07ed66cc6fc394d6ea53"
+    ]
+  },
+  {
+    "gistId": "270fbd9c06287b100d1f",
+    "description": "Apocalyptic Event Prediction",
+    "created_at": "2015-11-09T21:15:57Z",
+    "updated_at": "2015-11-09T21:21:30Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/justlebeau/270fbd9c06287b100d1f/raw/574fd3a806ba5758007834fbfa01b9e64a78a78e/README.md",
+      "size": 415
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/anonymous/3acd2fe76ec749be03fd"
+    ]
+  },
+  {
+    "gistId": "db24422abdb20150a9dd",
+    "description": "Zoomable Circle Packing with Canvas & D3.js - II",
+    "created_at": "2015-11-11T09:31:03Z",
+    "updated_at": "2015-11-16T17:26:25Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/nbremer/db24422abdb20150a9dd/raw/c4e9860a20ef524d94fc8eb569fbf1dbb95a5c9a/README.md",
+      "size": 1193
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/smoli/d7e4f9199c15d71258b5",
+      "http://bl.ocks.org/nbremer/667e4df76848e72f250b"
+    ]
+  },
+  {
+    "gistId": "667e4df76848e72f250b",
+    "description": "Zoomable Circle Packing with Canvas & D3.js - I",
+    "created_at": "2015-11-10T18:24:30Z",
+    "updated_at": "2015-11-16T17:26:24Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/nbremer/667e4df76848e72f250b/raw/99714c70d8649b77d0c3a4d667dbe54f5318f20b/README.md",
+      "size": 1377
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/nbremer/db24422abdb20150a9dd"
+    ]
+  },
+  {
+    "gistId": "0d2e658691a4f93cad92",
+    "description": "A SOM Clustering of block Colors - Including HSL & RGB",
+    "created_at": "2015-11-09T12:05:06Z",
+    "updated_at": "2015-11-09T13:14:18Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/nbremer/0d2e658691a4f93cad92/raw/ce310405a27fc02127007d1a242dac05c6b1a68e/README.md",
+      "size": 1218
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/enjalot/de262983e3ba0c0f89c1",
+      "http://bl.ocks.org/nbremer/4b42493b70dbc9e1ce02",
+      "http://bl.ocks.org/enjalot/de262983e3ba0c0f89c1"
+    ]
+  },
+  {
+    "gistId": "dff0993631446d7bb548",
+    "description": "D3.EZ : Reusable Circular Heat Chart",
+    "created_at": "2015-11-10T18:30:26Z",
+    "updated_at": "2015-11-10T18:30:27Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/jalapic/dff0993631446d7bb548/raw/0733ced88be864111e2faef8f4c3d3394c3d836d/README.md",
+      "size": 460
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/jamesleesaunders/0cbfa9ab9bdce220113f"
+    ]
+  },
+  {
+    "gistId": "af63041b6b5edf373fa3",
+    "description": "d3.js wiki visualization",
+    "created_at": "2015-11-10T18:11:48Z",
+    "updated_at": "2015-11-10T18:11:48Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/jalapic/af63041b6b5edf373fa3/raw/72678934677be3f0b590305e0ffa0a9dcc3e1622/README.md",
+      "size": 165
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/lilyc5459/a35687613ab0f4991f37"
+    ]
+  },
+  {
+    "gistId": "052b4ae4d33ee3a63886",
+    "description": "mapping police violence: data",
+    "created_at": "2015-11-11T03:29:39Z",
+    "updated_at": "2015-11-11T03:29:39Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/annabsmylie/052b4ae4d33ee3a63886/raw/6423c13d153c45adda7615fc54e59885abff4dd2/README.md",
+      "size": 977
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/enjalot/95ffd65ad1d87d26cc69"
+    ]
+  },
+  {
+    "gistId": "9a140affb059ea3edd46",
+    "description": "Blocks upload calendar",
+    "created_at": "2015-11-10T18:06:38Z",
+    "updated_at": "2015-11-10T18:43:34Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/bricedev/9a140affb059ea3edd46/raw/fed511afb98069c9bf1511060b532b82c02c12b7/README.md",
+      "size": 184
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/enjalot/6ac67b0d8ed673c9aa61",
+      "http://bl.ocks.org/mbostock/1648635"
+    ]
+  },
+  {
+    "gistId": "38aad0e939c685023a17",
+    "description": "Fusillade à Paris",
+    "created_at": "2015-11-13T23:51:33Z",
+    "updated_at": "2015-11-17T19:43:12Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/curran/38aad0e939c685023a17/raw/eb3826895245b2b810b9d85e07cd646bffeb2b27/README.md",
+      "size": 1548
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/curran/81271937fa94fdbdd854"
+    ]
+  },
+  {
+    "gistId": "c151e10c7598fc7d7cf5",
+    "description": "Fog of War SVG Filter Mask Example",
+    "created_at": "2015-11-13T07:40:40Z",
+    "updated_at": "2015-11-13T08:53:43Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/enoex/c151e10c7598fc7d7cf5/raw/9f3ab46c129634b6f382745dbfffcbf15a416752/README.md",
+      "size": 163
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/enoex/3a6f39dadf4d9fec7ca4"
+    ]
+  },
+  {
+    "gistId": "1b8710f48e8089910b42",
+    "description": "The Migrant Files: Money by Route",
+    "created_at": "2015-11-11T17:13:37Z",
+    "updated_at": "2015-11-15T20:59:47Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/danbgray/1b8710f48e8089910b42/raw/700b80b8f7daf2185712ba7aa79407a2a50e0c35/README.md",
+      "size": 1004
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/enjalot/7ea44d0bc364b6bddbd8",
+      "http://bl.ocks.org/enjalot/d6696d28fb47fcf8a537",
+      "http://bl.ocks.org/enjalot/d6a92a077e78fd33316a",
+      "http://bl.ocks.org/enjalot/cc818fff7a1049cc0efe",
+      "http://bl.ocks.org/anonymous/95ed9ac5bb501f7398f6"
+    ]
+  },
+  {
+    "gistId": "b34079dada09f33aa33b",
+    "description": "Confidence Interval",
+    "created_at": "2015-11-17T14:15:57Z",
+    "updated_at": "2015-11-17T14:17:34Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/jeffcatania/b34079dada09f33aa33b/raw/83ecce44a3b6c1f1d22ea2d58d0b6fa680e7df2a/README.md",
+      "size": 3226
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/ndarville/6552457"
+    ]
+  },
+  {
+    "gistId": "b768017c0a00f2d695b2",
+    "description": "Line Chart",
+    "created_at": "2015-11-17T09:39:54Z",
+    "updated_at": "2015-11-17T09:39:54Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/jeffcatania/b768017c0a00f2d695b2/raw/62eae8904d8561259d5fe323072afe74dadb8b83/README.md",
+      "size": 967
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/3883245"
+    ]
+  },
+  {
+    "gistId": "56ad114a61c0104bee3e",
+    "description": "Line Chart",
+    "created_at": "2015-11-17T09:39:33Z",
+    "updated_at": "2015-11-17T14:39:32Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/jeffcatania/56ad114a61c0104bee3e/raw/62eae8904d8561259d5fe323072afe74dadb8b83/README.md",
+      "size": 967
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/3883245"
+    ]
+  },
+  {
+    "gistId": "e5e3bd6effd7fc1874ff",
+    "description": "SF in 3D",
+    "created_at": "2015-11-18T02:01:36Z",
+    "updated_at": "2015-11-23T10:02:05Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/Jay-Oh-eN/e5e3bd6effd7fc1874ff/raw/c6ee597e3a60cca4154229cc0232bbb7f4d23703/README.md",
+      "size": 2240
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/Jay-Oh-eN/raw/e5e3bd6effd7fc1874ff/"
+    ]
+  },
+  {
+    "gistId": "e07e8f964b334a60201d",
+    "description": "A scatter plot",
+    "created_at": "2015-11-16T22:13:57Z",
+    "updated_at": "2015-11-16T22:13:57Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/zzolo/e07e8f964b334a60201d/raw/855095299af48e5520aa7d0984499b22e4ebea4a/README.md",
+      "size": 340
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/zzolo/80097d54d4ec4ce83222",
+      "http://bl.ocks.org/zzolo/89de858deaf6f8fc78ba"
+    ]
+  },
+  {
+    "gistId": "89de858deaf6f8fc78ba",
+    "description": "A scatter plot",
+    "created_at": "2015-11-16T21:55:24Z",
+    "updated_at": "2015-11-16T21:55:26Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/zzolo/89de858deaf6f8fc78ba/raw/fe80135780018713f0cf7da0b1611d60c5e69832/README.md",
+      "size": 197
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/zzolo/80097d54d4ec4ce83222"
+    ]
+  },
+  {
+    "gistId": "172a233ca131431d3268",
+    "description": "Wilson’s Algorithm II: Badge",
+    "created_at": "2015-11-13T06:02:44Z",
+    "updated_at": "2015-11-14T01:02:45Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/enjalot/172a233ca131431d3268/raw/598ad7e447ab4eab1bf9dd494c9a2805723b1efd/README.md",
+      "size": 911
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/c03ee31334ee89abad83"
+    ]
+  },
+  {
+    "gistId": "5df7e69758113994452a",
+    "description": "Every ColorBrewer Scale on Acid",
+    "created_at": "2015-11-13T05:21:23Z",
+    "updated_at": "2015-11-13T05:33:21Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/enjalot/5df7e69758113994452a/raw/e0ce28b6eb5c7b0f438485faa2cc31ac30020a92/README.md",
+      "size": 431
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/5577023"
+    ]
+  },
+  {
+    "gistId": "fcd61dcd371ed783723c",
+    "description": "Civic Impact through Data Visualization: Exercise 1",
+    "created_at": "2015-11-20T22:50:34Z",
+    "updated_at": "2015-11-20T22:50:35Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/dudefrommangalore/fcd61dcd371ed783723c/raw/fa44ee650b5348d66150f56f3b54f4dda2d3233d/README.md",
+      "size": 3392
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/Jay-Oh-eN/15f52d2ec0b035b53c6f"
+    ]
+  },
+  {
+    "gistId": "15b6a3702489c71de031",
+    "description": "Lynchings by State Donut Charts",
+    "created_at": "2015-11-25T00:55:23Z",
+    "updated_at": "2015-11-25T01:01:53Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/curran/15b6a3702489c71de031/raw/7f31ebbdd3407e234a9fb4e77797dd8e11f36a1b/README.md",
+      "size": 1061
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/malcolm-decuire/34d2ce39d3b8c2f8a577",
+      "http://bl.ocks.org/anonymous/19a3f0afed794cf720b3",
+      "http://bl.ocks.org/curran/40f0f319001394b5f8af"
+    ]
+  },
+  {
+    "gistId": "40f0f319001394b5f8af",
+    "description": "Lynchings by State Pie Charts",
+    "created_at": "2015-11-24T23:03:32Z",
+    "updated_at": "2015-11-25T00:51:34Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/curran/40f0f319001394b5f8af/raw/16ef99e3d311f0cdf8e9f9f9383f9ec41e86a430/README.md",
+      "size": 1091
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/malcolm-decuire/34d2ce39d3b8c2f8a577",
+      "http://bl.ocks.org/anonymous/19a3f0afed794cf720b3",
+      "http://bl.ocks.org/curran/f1a875885437608d17e8"
+    ]
+  },
+  {
+    "gistId": "f1a875885437608d17e8",
+    "description": "Lynchings by State Pie Charts First Attempt",
+    "created_at": "2015-11-24T22:01:16Z",
+    "updated_at": "2015-11-25T00:36:41Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/curran/f1a875885437608d17e8/raw/c18667eb07ad74057c0b6877226dcebe4e3c56c5/README.md",
+      "size": 996
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/malcolm-decuire/34d2ce39d3b8c2f8a577",
+      "http://bl.ocks.org/anonymous/19a3f0afed794cf720b3",
+      "http://bl.ocks.org/curran/e025a50dbaae7186e516"
+    ]
+  },
+  {
+    "gistId": "d0a42741ce0cf6cdc3ab",
+    "description": "Sized Donut Charts",
+    "created_at": "2015-11-24T01:17:35Z",
+    "updated_at": "2015-11-24T01:52:17Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/curran/d0a42741ce0cf6cdc3ab/raw/8b1275999d9b5fcd8614cb72c2dfe7a97da1d4da/README.md",
+      "size": 1197
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/curran/11b02f8917fac66d6fe5",
+      "http://bl.ocks.org/curran/e025a50dbaae7186e516"
+    ]
+  },
+  {
+    "gistId": "e025a50dbaae7186e516",
+    "description": "Sized Pie Charts",
+    "created_at": "2015-11-24T01:10:45Z",
+    "updated_at": "2015-11-24T01:17:32Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/curran/e025a50dbaae7186e516/raw/0d07af430392b28920824df25ec8d3c93ab89881/README.md",
+      "size": 1427
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/curran/40d5e61963abf20da067",
+      "http://bl.ocks.org/curran/11b02f8917fac66d6fe5",
+      "http://bl.ocks.org/curran/be3744cfe1b318bf4035"
+    ]
+  },
+  {
+    "gistId": "6567fb027971588bc779",
+    "description": "Invitations Links Map",
+    "created_at": "2015-11-23T23:17:59Z",
+    "updated_at": "2015-11-24T01:09:57Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/curran/6567fb027971588bc779/raw/8268b6d42f8ac41b7db79333a36c04fa1725a77c/README.md",
+      "size": 753
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/3757119",
+      "http://bl.ocks.org/maureentsakiris/14e29858efdd19253787"
+    ]
+  },
+  {
+    "gistId": "be3744cfe1b318bf4035",
+    "description": "Pie Chart Small Multiples",
+    "created_at": "2015-11-23T20:32:19Z",
+    "updated_at": "2015-11-23T20:34:21Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/curran/be3744cfe1b318bf4035/raw/41826f08afeb2eb506dbaa0c136aec9bb38f1293/README.md",
+      "size": 1588
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/curran/40d5e61963abf20da067",
+      "http://bl.ocks.org/curran/11b02f8917fac66d6fe5"
+    ]
+  },
+  {
+    "gistId": "be4a45ec74357e7d9b10",
+    "description": "Blocks Graph with Links",
+    "created_at": "2015-11-22T23:32:04Z",
+    "updated_at": "2015-11-24T01:08:25Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/curran/be4a45ec74357e7d9b10/raw/494029782927693ff382c75099b3448a2a081035/README.md",
+      "size": 831
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/curran/1da93bab4cdc708f41ae"
+    ]
+  },
+  {
+    "gistId": "daf6bc9db8b0a28e3973",
+    "description": "Blocks Graph Edges Only",
+    "created_at": "2015-11-22T22:59:01Z",
+    "updated_at": "2015-11-24T01:08:55Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/curran/daf6bc9db8b0a28e3973/raw/301bd2f01e03d2bc7496f3e10ddd962ca80747f4/README.md",
+      "size": 834
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/curran/1da93bab4cdc708f41ae"
+    ]
+  },
+  {
+    "gistId": "11b02f8917fac66d6fe5",
+    "description": "Donut Chart Small Multiples",
+    "created_at": "2015-11-21T19:30:49Z",
+    "updated_at": "2015-11-24T01:50:55Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/curran/11b02f8917fac66d6fe5/raw/dd97596dee34b53377a4a5bc18f9b9980797cc57/README.md",
+      "size": 1484
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/curran/d0a42741ce0cf6cdc3ab",
+      "http://bl.ocks.org/curran/40d5e61963abf20da067"
+    ]
+  },
+  {
+    "gistId": "40d5e61963abf20da067",
+    "description": "Polar Area Small Multiples",
+    "created_at": "2015-11-21T18:58:26Z",
+    "updated_at": "2015-11-22T18:47:30Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/curran/40d5e61963abf20da067/raw/c8804238de425e00b0ad8864eb5f4f0691ce46c1/README.md",
+      "size": 960
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/curran/94f1376b946c9d217014"
+    ]
+  },
+  {
+    "gistId": "94f1376b946c9d217014",
+    "description": "Polar Area Diagram",
+    "created_at": "2015-11-21T18:52:13Z",
+    "updated_at": "2015-11-22T18:38:32Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/curran/94f1376b946c9d217014/raw/02a010a40c879caaf5f790fbec5352c2ddda0d7d/README.md",
+      "size": 999
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/curran/1c23d9c7070deb6f8488"
+    ]
+  },
+  {
+    "gistId": "8f7f5a72faff9ecc5088",
+    "description": "Religions Donut Chart",
+    "created_at": "2015-11-21T04:55:11Z",
+    "updated_at": "2015-11-22T18:35:52Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/curran/8f7f5a72faff9ecc5088/raw/f2d8939edfa139ed56e67f43abadb3df43796bd1/README.md",
+      "size": 836
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/curran/1c23d9c7070deb6f8488"
+    ]
+  },
+  {
+    "gistId": "1c23d9c7070deb6f8488",
+    "description": "Religions Pie Chart",
+    "created_at": "2015-11-21T04:39:52Z",
+    "updated_at": "2015-11-22T18:34:00Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/curran/1c23d9c7070deb6f8488/raw/56e6377405ba5a8cd779a6a614edecfb78e0eb9b/README.md",
+      "size": 764
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/curran/950cbe78b4c307fa14a1"
+    ]
+  },
+  {
+    "gistId": "a08a1080b88344b0c8a7",
+    "description": "The Iris Dataset",
+    "created_at": "2015-11-21T02:46:06Z",
+    "updated_at": "2015-11-22T18:55:53Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/curran/a08a1080b88344b0c8a7/raw/2fb60dd41b2aed752e4aad8676eddc908c54666a/README.md",
+      "size": 961
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/curran/9e04ccfebeb84bcdc76c"
+    ]
+  },
+  {
+    "gistId": "bfc75d0fcc68b2d341f5",
+    "description": "Bootstrap + Chiasm",
+    "created_at": "2015-11-20T01:03:47Z",
+    "updated_at": "2015-11-20T01:52:06Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/curran/bfc75d0fcc68b2d341f5/raw/48273cb2bc5fa41e9d4eb49a1a33e431bc32c1a4/README.md",
+      "size": 599
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/curran/0ea0689476f9dbd41979",
+      "http://bl.ocks.org/curran/3cc1a2a289dddbd64688",
+      "http://bl.ocks.org/curran/5e3c1bed7c9cdd2b431c"
+    ]
+  },
+  {
+    "gistId": "4320a57d344358257ca9",
+    "description": "Nest & Stack",
+    "created_at": "2015-11-20T00:46:50Z",
+    "updated_at": "2015-11-20T00:47:37Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/curran/4320a57d344358257ca9/raw/65c895a76da55a88b1643a00a6ecbd549cb3c51e/README.md",
+      "size": 714
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/curran/805413fb3b2efaada1ce"
+    ]
+  },
+  {
+    "gistId": "8cf68782ce1da30acabb",
+    "description": "World Tour with color bitmap",
+    "created_at": "2015-04-30T06:45:34Z",
+    "updated_at": "2015-08-29T14:20:13Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/shawnbot/8cf68782ce1da30acabb/raw/9fb842e5861be68e8f976335449c3a8de672259c/README.md",
+      "size": 412
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/4183330"
+    ]
+  },
+  {
+    "gistId": "be227654fcf0025ea82e",
+    "description": "The Migrant Files: Deportations",
+    "created_at": "2015-11-21T05:49:56Z",
+    "updated_at": "2015-11-22T03:59:48Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/epmoyer/be227654fcf0025ea82e/raw/0ea9d961eeecbfdba74f9896512c818a16d97036/README.md",
+      "size": 602
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/enjalot/d6696d28fb47fcf8a537",
+      "http://bl.ocks.org/enjalot/d6696d28fb47fcf8a537"
+    ]
+  },
+  {
+    "gistId": "d12ff8e0e07ae985e4e0",
+    "description": "D3 Bingo!",
+    "created_at": "2015-11-21T03:17:52Z",
+    "updated_at": "2015-11-22T04:00:21Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/epmoyer/d12ff8e0e07ae985e4e0/raw/3cbd482046120ba90012a97e17ae39c61ded5a9e/README.md",
+      "size": 813
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/zanarmstrong/raw/b66a37afe6581eb5bc0c/",
+      "http://bl.ocks.org/zanarmstrong/6daa5503fc60d4a89a11"
+    ]
+  },
+  {
+    "gistId": "9b274b5a64693abd0c13",
+    "description": "Styled Map 2 - Not Working",
+    "created_at": "2015-11-24T09:07:26Z",
+    "updated_at": "2015-11-24T09:07:51Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/enoex/9b274b5a64693abd0c13/raw/453377c7e93e8c0fcd2288aaaf16c8297bc5e90d/README.md",
+      "size": 517
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/enoex/666179ad5587254694bc",
+      "http://bl.ocks.org/enoex/010ffad3577afec10ef6",
+      "http://bl.ocks.org/enoex/92abca0ebac031d77521"
+    ]
+  },
+  {
+    "gistId": "92abca0ebac031d77521",
+    "description": "Styled Map 1 - Working",
+    "created_at": "2015-11-24T09:06:30Z",
+    "updated_at": "2015-11-24T09:07:25Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/enoex/92abca0ebac031d77521/raw/7a5be3b17c150a14e8d8b564b4e329c3eb65149f/README.md",
+      "size": 366
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/enoex/666179ad5587254694bc",
+      "http://bl.ocks.org/enoex/010ffad3577afec10ef6"
+    ]
+  },
+  {
+    "gistId": "010ffad3577afec10ef6",
+    "description": "Styled Map 2 - Broken by default",
+    "created_at": "2015-11-24T09:05:04Z",
+    "updated_at": "2015-11-24T09:05:23Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/enoex/010ffad3577afec10ef6/raw/bd6220ef5460aeacee1a34cc150c489101f0a6f2/README.md",
+      "size": 205
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/enoex/666179ad5587254694bc"
+    ]
+  },
+  {
+    "gistId": "27fcebaa2caa398cfb29",
+    "description": "Animated scatterplot through time",
+    "created_at": "2015-11-16T22:41:17Z",
+    "updated_at": "2015-11-16T22:41:17Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/arnicas/27fcebaa2caa398cfb29/raw/ca01c04e844c4ce38b170f5435735974f5ec348a/README.md",
+      "size": 583
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/darrenjaworski/5544599"
+    ]
+  },
+  {
+    "gistId": "e9d64d27f286e61493c9",
+    "description": "Sankey Particles IV",
+    "created_at": "2015-11-24T17:45:23Z",
+    "updated_at": "2015-11-24T17:45:35Z",
+    "fileName": "readme.md",
+    "file": {
+      "filename": "readme.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/emeeks/e9d64d27f286e61493c9/raw/fb7c31b27b39e57d820a2e97d290523c17a34258/readme.md",
+      "size": 709
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/emeeks/e749224c89f82788cb18",
+      "http://bl.ocks.org/emeeks/9673c96a682fe3948379",
+      "http://bl.ocks.org/emeeks/21f99959d48dd0d0c746"
+    ]
+  },
+  {
+    "gistId": "e749224c89f82788cb18",
+    "description": "Sankey Particles III",
+    "created_at": "2015-11-24T16:26:13Z",
+    "updated_at": "2015-11-24T16:27:18Z",
+    "fileName": "readme.md",
+    "file": {
+      "filename": "readme.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/emeeks/e749224c89f82788cb18/raw/bb0e50e181e5906cb2712d3fd902bc6139649e39/readme.md",
+      "size": 569
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/emeeks/9673c96a682fe3948379",
+      "http://bl.ocks.org/emeeks/21f99959d48dd0d0c746"
+    ]
+  },
+  {
+    "gistId": "9673c96a682fe3948379",
+    "description": "Sankey Particles II",
+    "created_at": "2015-11-24T03:28:41Z",
+    "updated_at": "2015-11-24T14:54:02Z",
+    "fileName": "readme.md",
+    "file": {
+      "filename": "readme.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/emeeks/9673c96a682fe3948379/raw/765e3efe64c4e10a28b4eebc584a724ad18c3d40/readme.md",
+      "size": 349
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/emeeks/21f99959d48dd0d0c746"
+    ]
+  },
+  {
+    "gistId": "0cef4dac46d7ada4128e",
+    "description": "Fog of War IV",
+    "created_at": "2015-11-19T02:15:44Z",
+    "updated_at": "2015-11-19T02:19:12Z",
+    "fileName": "readme.md",
+    "file": {
+      "filename": "readme.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/emeeks/0cef4dac46d7ada4128e/raw/910efb30ec1d95c319e41a307c91fa36fe91898e/readme.md",
+      "size": 844
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/emeeks/fb6c0a5cc8d6646a36d0",
+      "http://bl.ocks.org/emeeks/3d6e7b24d31533abd84f",
+      "http://bl.ocks.org/emeeks/f0f96f11c7d1afceaeb3"
+    ]
+  },
+  {
+    "gistId": "f372f1555d1ab41dadd1",
+    "description": "An Experiment in Sketching: Visualizing SF AirBnB Listings",
+    "created_at": "2015-11-23T05:55:38Z",
+    "updated_at": "2015-11-23T05:57:00Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/Jay-Oh-eN/f372f1555d1ab41dadd1/raw/b589914d1c537ed9fe8a10cb9f48af268ac3cd7d/README.md",
+      "size": 3273
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/enjalot/raw/211bd42857358a60a936/",
+      "http://bl.ocks.org/enjalot/raw/211bd42857358a60a936/",
+      "http://bl.ocks.org/mbostock/4403522",
+      "http://bl.ocks.org/phoebebright/raw/3176159/",
+      "http://bl.ocks.org/mbostock/3886208"
+    ]
+  },
+  {
+    "gistId": "a17d826db087e1003c1c",
+    "description": "d3 linear scale",
+    "created_at": "2015-11-18T06:55:20Z",
+    "updated_at": "2015-11-18T07:07:45Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/hsuttong/a17d826db087e1003c1c/raw/c964b6bd269eee24cbecb03d186d5a6ba7ba7a94/README.md",
+      "size": 520
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/hsuttong/0055d87cfaecc5b06cd2",
+      "http://bl.ocks.org/hsuttong/835c17a94abade5c2ca1"
+    ]
+  },
+  {
+    "gistId": "835c17a94abade5c2ca1",
+    "description": "d3 first svg",
+    "created_at": "2015-11-17T10:42:45Z",
+    "updated_at": "2015-11-17T23:03:46Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/hsuttong/835c17a94abade5c2ca1/raw/cf68cc88bae95db9e34dde46fff78069723ff61c/README.md",
+      "size": 370
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/hsuttong/0055d87cfaecc5b06cd2"
+    ]
+  },
+  {
+    "gistId": "0055d87cfaecc5b06cd2",
+    "description": "d3 first transition",
+    "created_at": "2015-11-17T09:06:37Z",
+    "updated_at": "2015-11-17T11:19:53Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/hsuttong/0055d87cfaecc5b06cd2/raw/5c3bbafef5dd4ef3ec2f7c433d6e4f258a64025a/README.md",
+      "size": 321
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/hsuttong/4a7f517bec51adc6e7bc"
+    ]
+  },
+  {
+    "gistId": "bc90ce6ab847e08f00be",
+    "description": "Canadian Polling Districts Topojson",
+    "created_at": "2015-11-24T17:34:37Z",
+    "updated_at": "2015-11-24T17:49:31Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/Brideau/bc90ce6ab847e08f00be/raw/b9b661abf50fb95d754aa4338a2809009f2b1384/README.md",
+      "size": 120
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/4122298"
+    ]
+  },
+  {
+    "gistId": "9a07150b0e12c4421400",
+    "description": "Canadian Polling District Topojson",
+    "created_at": "2015-11-24T17:13:07Z",
+    "updated_at": "2015-11-24T17:29:39Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/Brideau/9a07150b0e12c4421400/raw/7bb3807020d49bca2aa09b47352f2927f67ea3ff/README.md",
+      "size": 137
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/4090870"
+    ]
+  },
+  {
+    "gistId": "2391df60938462571ca9",
+    "description": "Canadian Province TopoJSON Mesh",
+    "created_at": "2015-11-24T02:24:56Z",
+    "updated_at": "2015-11-24T17:25:05Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/Brideau/2391df60938462571ca9/raw/9fdfeb72b7936d50ed6b0c6b7200ed8f3f89d727/README.md",
+      "size": 124
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/4090870"
+    ]
+  },
+  {
+    "gistId": "40180e9241367c38cebe",
+    "description": "Blocks Graph with Links with Monkeypatched random",
+    "created_at": "2015-11-23T00:15:22Z",
+    "updated_at": "2015-11-23T00:20:54Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/georules/40180e9241367c38cebe/raw/7e056422712b2756c43908c37140c251f6442dc3/README.md",
+      "size": 691
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/curran/1da93bab4cdc708f41ae",
+      "http://bl.ocks.org/curran/be4a45ec74357e7d9b10"
+    ]
+  },
+  {
+    "gistId": "d021e8940ab099988107",
+    "description": "Civic Impact through Data Visualization: Exercise 1",
+    "created_at": "2015-11-15T21:58:52Z",
+    "updated_at": "2015-11-15T21:58:52Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/seaodder/d021e8940ab099988107/raw/fa44ee650b5348d66150f56f3b54f4dda2d3233d/README.md",
+      "size": 3392
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/Jay-Oh-eN/15f52d2ec0b035b53c6f"
+    ]
+  },
+  {
+    "gistId": "e17823e02339afcd5857",
+    "description": "timeseries-uncertainty",
+    "created_at": "2015-11-17T01:18:47Z",
+    "updated_at": "2015-11-17T01:18:47Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/walkerjeffd/e17823e02339afcd5857/raw/5aa3547dc9fe465850d7faef4806d183eefba76a/README.md",
+      "size": 223
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/walkerjeffd/9a77fe4663f531c0d8cd"
+    ]
+  },
+  {
+    "gistId": "a6ca7871defb9743efce",
+    "description": "Real-time bandlines",
+    "created_at": "2015-11-14T13:20:48Z",
+    "updated_at": "2015-11-14T13:20:48Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/timelyportfolio/a6ca7871defb9743efce/raw/8abbec203072021ed216b60014712a2b9e3ca536/README.md",
+      "size": 2176
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/monfera/8dbaabf493fbc0c4ae0c",
+      "http://bl.ocks.org/monfera/8dbaabf493fbc0c4ae0c",
+      "http://bl.ocks.org/monfera/8dbaabf493fbc0c4ae0c"
+    ]
+  },
+  {
+    "gistId": "638ad00cdc053b35461f",
+    "description": "3D Pie: god help my soul",
+    "created_at": "2015-11-24T19:19:59Z",
+    "updated_at": "2015-11-24T21:17:55Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/enjalot/638ad00cdc053b35461f/raw/1e1fab43cae9b6f7ef667f5f2a2d160ef2f79fd4/README.md",
+      "size": 770
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/1401b7a1459f2ffa975e"
+    ]
+  },
+  {
+    "gistId": "e8566bdba0c87925e9de",
+    "description": "The Migrant Files: Money Bars",
+    "created_at": "2015-11-24T18:12:56Z",
+    "updated_at": "2015-11-24T18:14:01Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/enjalot/e8566bdba0c87925e9de/raw/508fdb47a043d65ab9833ba7b863af72172b0a8a/README.md",
+      "size": 688
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/enjalot/7ea44d0bc364b6bddbd8",
+      "http://bl.ocks.org/enjalot/d6696d28fb47fcf8a537",
+      "http://bl.ocks.org/enjalot/d6a92a077e78fd33316a"
+    ]
+  },
+  {
+    "gistId": "527374377ab35222b5fe",
+    "description": "Largest 5 Countries: Log Scatterplot",
+    "created_at": "2015-11-21T19:44:42Z",
+    "updated_at": "2015-11-21T19:45:00Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/enjalot/527374377ab35222b5fe/raw/960247218decd49b2406679583d6a6b83be7b227/README.md",
+      "size": 792
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/curran/6cd1e224d76811b68df4",
+      "http://bl.ocks.org/anonymous/5d1f067bb3a89dfa6675"
+    ]
+  },
+  {
+    "gistId": "1919bd8c2f574caa17ba",
+    "description": "State Grid Minimap",
+    "created_at": "2015-11-20T00:54:18Z",
+    "updated_at": "2015-11-24T00:22:39Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/enjalot/1919bd8c2f574caa17ba/raw/e26c742890c53aa173005855dbe2abb802298d81/README.md",
+      "size": 476
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/2206590",
+      "http://bl.ocks.org/mbostock/2206590",
+      "http://bl.ocks.org/mbostock/29cc3cc4078091fd2115"
+    ]
+  },
+  {
+    "gistId": "ddbbb63bde26d54f627e",
+    "description": "Breathing Color Mesh: Badge",
+    "created_at": "2015-11-13T05:04:38Z",
+    "updated_at": "2015-11-24T19:35:27Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/enjalot/ddbbb63bde26d54f627e/raw/b4bd35c40c22822faf51957435d900762f006bf3/README.md",
+      "size": 255
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/76342abc327062128604",
+      "http://bl.ocks.org/syntagmatic/ebec037138b5866ff0d3"
+    ]
+  },
+  {
+    "gistId": "0610ef19ff223eef102d",
+    "description": "Connected Particles: Badge",
+    "created_at": "2015-11-13T02:53:14Z",
+    "updated_at": "2015-11-24T19:35:24Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/enjalot/0610ef19ff223eef102d/raw/ad50f2a259d3b12466d3b11c524b63a3ec7ef7d0/README.md",
+      "size": 407
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/157333662ef11c151080",
+      "http://bl.ocks.org/enjalot/c21840890a4790632124"
+    ]
+  },
+  {
+    "gistId": "7bc4d2576a92f018b7fe",
+    "description": "Collapsible force layout w/ images",
+    "created_at": "2015-11-24T04:44:53Z",
+    "updated_at": "2015-11-24T04:51:13Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/cyrilcherian/7bc4d2576a92f018b7fe/raw/667a82cea88bb90f5ceab5363e5c71cb3ef7dcf6/README.md",
+      "size": 874
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/MoritzStefaner/1377729",
+      "http://bl.ocks.org/djjupa/5653692",
+      "http://bl.ocks.org/mbostock/950642",
+      "http://bl.ocks.org/eesur/be2abfb3155a38be4de4",
+      "http://bl.ocks.org/anonymous/4964ea501de087f591f8",
+      "http://bl.ocks.org/MattDionis/7f5375d927698f508a01"
+    ]
+  },
+  {
+    "gistId": "9dce1c06935d07dc7a8c",
+    "description": "programmatic control of a d3 brush - specify zoom",
+    "created_at": "2015-11-24T18:34:12Z",
+    "updated_at": "2015-11-24T18:34:13Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/renecnielsen/9dce1c06935d07dc7a8c/raw/fd8ab1dc0c31e0bb24d757304460a4fe344229f9/README.md",
+      "size": 3421
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/timelyportfolio/5c136de85de1c2abb6fc",
+      "http://bl.ocks.org/micahstubbs/3cda05ca68cba260cb81"
+    ]
+  },
+  {
+    "gistId": "c0869bddcd899bd9a148",
+    "description": "Responsive Line Chart Example",
+    "created_at": "2015-11-24T18:17:30Z",
+    "updated_at": "2015-11-24T18:17:36Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/renecnielsen/c0869bddcd899bd9a148/raw/b6813691ec1cce5a190c5b3a58f0c21eda7ffb90/README.md",
+      "size": 161
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/chrtze/e5ddec8d476335d79bbc"
+    ]
+  },
+  {
+    "gistId": "dcea5360f4447c123399",
+    "description": "matrix: rotations",
+    "created_at": "2015-11-24T07:27:56Z",
+    "updated_at": "2015-11-24T07:27:56Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/renecnielsen/dcea5360f4447c123399/raw/14f0d773379de27ac888c711806ca0a4c73aab50/README.md",
+      "size": 856
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/enjalot/65ae9c0fc95337107448",
+      "http://bl.ocks.org/enjalot/7b226e90c7338c69606b"
+    ]
+  },
+  {
+    "gistId": "c53fb28a9991a8c001ed",
+    "description": "Interpolation and Area Charts",
+    "created_at": "2015-11-19T22:29:55Z",
+    "updated_at": "2015-11-19T22:29:57Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/ptvans/c53fb28a9991a8c001ed/raw/b1504accd6edb9152188210a07b613b66573a8ea/README.md",
+      "size": 314
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/matt81m/f1cda1ba12f9904e65a0"
+    ]
+  },
+  {
+    "gistId": "461585105bdbc14b4e85",
+    "description": "Zoom and Brush in d3",
+    "created_at": "2015-11-19T22:28:51Z",
+    "updated_at": "2015-11-19T22:28:53Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/ptvans/461585105bdbc14b4e85/raw/bd2cb3143b24c36b3ed593abe575c3db77a7fa91/README.md",
+      "size": 161
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/nivas8292/222939d7c74c5de09387"
+    ]
+  },
+  {
+    "gistId": "93f5d836631a4e7be705",
+    "description": "Focus + Context Area Charts",
+    "created_at": "2015-11-19T22:27:57Z",
+    "updated_at": "2015-11-19T22:27:59Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/ptvans/93f5d836631a4e7be705/raw/59486795c3f4c7bd160cf11ee3948ecb52b0c776/README.md",
+      "size": 704
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/curran/d1e9ea2850047562be09",
+      "http://bl.ocks.org/mbostock/1667367",
+      "http://bl.ocks.org/curran/d5252d37917ab6eab032"
+    ]
+  },
+  {
+    "gistId": "d91d78781ddb44c09ce2",
+    "description": "Small Multiples III",
+    "created_at": "2015-11-19T22:26:48Z",
+    "updated_at": "2015-11-19T22:26:51Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/ptvans/d91d78781ddb44c09ce2/raw/bd0b78d33a58e53ac264b4f9dac502a37093a58e/README.md",
+      "size": 332
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/9490516"
+    ]
+  },
+  {
+    "gistId": "741ef9b6879861b5b9dc",
+    "description": "Multi-Line Voronoi",
+    "created_at": "2015-11-19T21:57:26Z",
+    "updated_at": "2015-11-19T22:26:10Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/ptvans/741ef9b6879861b5b9dc/raw/12becc466d2909887d426dd93dd7ba832fd270f6/README.md",
+      "size": 637
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/8033015"
+    ]
+  },
+  {
+    "gistId": "99e606bac154fc6901de",
+    "description": "Compact Perf",
+    "created_at": "2015-11-19T21:49:45Z",
+    "updated_at": "2015-11-19T22:11:08Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/ptvans/99e606bac154fc6901de/raw/46b4a19abf1ae101e959c8c19ca735bc7b13cda9/README.md",
+      "size": 152
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/nivas8292/738561113db8428f4bbe"
+    ]
+  },
+  {
+    "gistId": "21f83856cf89482c2796",
+    "description": "Ben Carson State Grid",
+    "created_at": "2015-11-19T23:33:21Z",
+    "updated_at": "2015-11-20T00:35:28Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/geraldarthur/21f83856cf89482c2796/raw/6d7cdc909703eaba4b4657d9d82a06205f4093c4/README.md",
+      "size": 182
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/29cc3cc4078091fd2115"
+    ]
+  },
+  {
+    "gistId": "6451b18829cfb62f708a",
+    "description": "Overdoses2011-2013 Cartogram",
+    "created_at": "2015-11-19T21:58:33Z",
+    "updated_at": "2015-11-19T21:58:58Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/geraldarthur/6451b18829cfb62f708a/raw/e1044d523084b066e69f8f3f54d6a20d3b701f30/README.md",
+      "size": 1228
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/29cc3cc4078091fd2115",
+      "http://bl.ocks.org/geraldarthur/92248ec5049ba86bf125",
+      "http://bl.ocks.org/geraldarthur/78b10a3836254f8b6d8e",
+      "http://bl.ocks.org/geraldarthur/caea96e611d378bcd853",
+      "http://bl.ocks.org/geraldarthur/86e108859d584da77274",
+      "http://bl.ocks.org/geraldarthur/16ba74808b15f01dc3f5"
+    ]
+  },
+  {
+    "gistId": "48e2bcca4fc4bb7d7453",
+    "description": "Orthographic Popout",
+    "created_at": "2015-11-19T18:21:05Z",
+    "updated_at": "2015-11-20T03:03:31Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/geraldarthur/48e2bcca4fc4bb7d7453/raw/6fe3bd5bc3e4a5d3719c2f1268857a0e68f2fc5e/README.md",
+      "size": 149
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/3795040"
+    ]
+  },
+  {
+    "gistId": "78b10a3836254f8b6d8e",
+    "description": "JSON to Grid Choropleth",
+    "created_at": "2015-11-18T18:11:37Z",
+    "updated_at": "2015-11-18T18:49:18Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/geraldarthur/78b10a3836254f8b6d8e/raw/7752636f692b9512bf0e2d96acd9884c4ffe8513/README.md",
+      "size": 531
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/29cc3cc4078091fd2115",
+      "http://bl.ocks.org/geraldarthur/92248ec5049ba86bf125"
+    ]
+  },
+  {
+    "gistId": "200e98ef294ed73583c7",
+    "description": "Real-time bandlines",
+    "created_at": "2015-11-13T16:37:30Z",
+    "updated_at": "2015-11-19T18:03:09Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/monfera/200e98ef294ed73583c7/raw/8abbec203072021ed216b60014712a2b9e3ca536/README.md",
+      "size": 2176
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/monfera/8dbaabf493fbc0c4ae0c",
+      "http://bl.ocks.org/monfera/8dbaabf493fbc0c4ae0c",
+      "http://bl.ocks.org/monfera/8dbaabf493fbc0c4ae0c"
+    ]
+  },
+  {
+    "gistId": "a3b6a4715c14f5d945b4",
+    "description": "Image processing fun #7",
+    "created_at": "2015-11-18T07:20:11Z",
+    "updated_at": "2015-11-18T07:24:32Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/sxywu/a3b6a4715c14f5d945b4/raw/6c184773bd1c7ab7eb37c42afff065416518c389/README.md",
+      "size": 1598
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/sxywu/5cce4b8ca41650f14bb4",
+      "http://bl.ocks.org/sxywu/515f713d41186e18e384",
+      "http://bl.ocks.org/sxywu/680375cb6a66760ea011",
+      "http://bl.ocks.org/sxywu/8ba86c4fded2c67b34c7",
+      "http://bl.ocks.org/sxywu/2ceaea7f0a4e37ca5a5d",
+      "http://bl.ocks.org/sxywu/2aead353c3446ee9acca"
+    ]
+  },
+  {
+    "gistId": "2aead353c3446ee9acca",
+    "description": "Image processing fun #6",
+    "created_at": "2015-11-13T07:06:31Z",
+    "updated_at": "2015-11-16T00:57:54Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/sxywu/2aead353c3446ee9acca/raw/cc94638c13dd0ab0a1db646c9309209df9ba1f99/README.md",
+      "size": 1400
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/sxywu/5cce4b8ca41650f14bb4",
+      "http://bl.ocks.org/sxywu/515f713d41186e18e384",
+      "http://bl.ocks.org/sxywu/680375cb6a66760ea011",
+      "http://bl.ocks.org/sxywu/8ba86c4fded2c67b34c7",
+      "http://bl.ocks.org/sxywu/2ceaea7f0a4e37ca5a5d"
+    ]
+  },
+  {
+    "gistId": "8a173cfcb9171627c7f1",
+    "description": "Blocks Graph - Readme Mentions",
+    "created_at": "2015-11-23T06:33:22Z",
+    "updated_at": "2015-11-23T18:21:33Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/micahstubbs/8a173cfcb9171627c7f1/raw/9519a60648d223e2b74e3d096201e192064542a5/README.md",
+      "size": 1094
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/enjalot/6ac67b0d8ed673c9aa61",
+      "http://bl.ocks.org/emeeks/f2f6883ac7c965d09b90",
+      "http://bl.ocks.org/curran/1da93bab4cdc708f41ae",
+      "http://bl.ocks.org/curran/daf6bc9db8b0a28e3973",
+      "http://bl.ocks.org/curran/be4a45ec74357e7d9b10",
+      "http://bl.ocks.org/curran/db1e524cae5e4344b2e6"
+    ]
+  },
+  {
+    "gistId": "5db8f8367169112d0738",
+    "description": "Stretched Chord Diagram - From educations to occupations",
+    "created_at": "2015-11-25T02:51:27Z",
+    "updated_at": "2015-11-25T02:51:27Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/jonpage/5db8f8367169112d0738/raw/3601d6021585b1bad0e058664e84287402a41c28/README.md",
+      "size": 758
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/nbremer/f9dacd23eece9d23669c"
+    ]
+  },
+  {
+    "gistId": "fb02526da98778097aef",
+    "description": "Final - Voronoi Scatterplot - Life expectancy vs GDP per capita",
+    "created_at": "2015-11-25T02:50:43Z",
+    "updated_at": "2015-11-25T02:50:43Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/jonpage/fb02526da98778097aef/raw/aad434c0a5a1229324520b3fbb4ea68bf5bcbea9/README.md",
+      "size": 609
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/nbremer/801c4bb101e86d19a1d0"
+    ]
+  },
+  {
+    "gistId": "f2655d90eabc65ebff19",
+    "description": "Multi-Line Voronoi 2015",
+    "created_at": "2015-11-25T02:45:08Z",
+    "updated_at": "2015-11-25T02:45:08Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/jonpage/f2655d90eabc65ebff19/raw/9ec4203128bbce3367c7b71fbb593ae5e9630393/README.md",
+      "size": 360
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/8033015",
+      "http://bl.ocks.org/curran/6c0ce7a12c7d5497350d"
+    ]
+  },
+  {
+    "gistId": "1501dd6f6a4812073a53",
+    "description": "Earthquake Map",
+    "created_at": "2015-11-25T02:43:13Z",
+    "updated_at": "2015-11-25T02:43:13Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/jonpage/1501dd6f6a4812073a53/raw/39aa187e22ecba5911c355982a2e2326e9436559/README.md",
+      "size": 152
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/pnavarrc/55e9082ac7a5a344b4ee"
+    ]
+  },
+  {
+    "gistId": "b1733c893d9de56bf45f",
+    "description": "Violin Plot + Box Plot v2",
+    "created_at": "2015-11-25T02:40:38Z",
+    "updated_at": "2015-11-25T02:40:38Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/jonpage/b1733c893d9de56bf45f/raw/93b5a85b7ca457b9a0868b09e3b2f1e01256c13e/README.md",
+      "size": 160
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/asielen/1a5e8d77ae8feb464167"
+    ]
+  },
+  {
+    "gistId": "b1733c893d9de56bf45f",
+    "description": "Violin Plot + Box Plot v2",
+    "created_at": "2015-11-25T02:40:38Z",
+    "updated_at": "2015-11-25T02:40:38Z",
+    "fileName": "readme.md",
+    "file": {
+      "filename": "readme.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/jonpage/b1733c893d9de56bf45f/raw/11f31e1d77d07beb1f407d6f981194009de6f1ef/readme.md",
+      "size": 921
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/asielen/1a5e8d77ae8feb464167"
+    ]
+  },
+  {
+    "gistId": "6d5dcfd27b0932062492",
+    "description": "Chord Gradients - Final example - Avenger Movie Collaborations",
+    "created_at": "2015-11-25T02:38:24Z",
+    "updated_at": "2015-11-25T02:38:24Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/jonpage/6d5dcfd27b0932062492/raw/fb476e413d594b08d414363894f6ed16fcaa15fa/README.md",
+      "size": 273
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/nbremer/864b11eb83aac3a1f6a2"
+    ]
+  },
+  {
+    "gistId": "92483a053f6058c2487b",
+    "description": "Context Sensitive Label Visibility",
+    "created_at": "2015-11-25T02:37:05Z",
+    "updated_at": "2015-11-25T02:37:05Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/jonpage/92483a053f6058c2487b/raw/2a645ac57bc66e0b133474b415d377cde9c40c04/README.md",
+      "size": 172
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/bmershon/f84b7b31bc2ac92f2e30"
+    ]
+  },
+  {
+    "gistId": "324d2ec970c1f9556ddb",
+    "description": "slave voyages - embarking",
+    "created_at": "2015-11-25T02:33:10Z",
+    "updated_at": "2015-11-25T02:33:11Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/jonpage/324d2ec970c1f9556ddb/raw/1a49689a9f2528e2886edfec8712da0ee55ff3ff/README.md",
+      "size": 849
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/enjalot/754c7d061c2d0b71be37",
+      "http://bl.ocks.org/anonymous/2d678d730b0791020711"
+    ]
+  },
+  {
+    "gistId": "7f5375d927698f508a01",
+    "description": "Collapsible force layout w/ images",
+    "created_at": "2015-11-23T12:01:58Z",
+    "updated_at": "2015-11-24T20:30:36Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/MattDionis/7f5375d927698f508a01/raw/d8b32d0b511a3145c857300248a465b6d120fad0/README.md",
+      "size": 696
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/MoritzStefaner/1377729",
+      "http://bl.ocks.org/djjupa/5653692",
+      "http://bl.ocks.org/mbostock/950642",
+      "http://bl.ocks.org/eesur/be2abfb3155a38be4de4",
+      "http://bl.ocks.org/anonymous/4964ea501de087f591f8"
+    ]
+  },
+  {
+    "gistId": "882118b79ba400678573",
+    "description": "Civic Impact through Data Visualization: Exercise 1",
+    "created_at": "2015-11-15T22:58:28Z",
+    "updated_at": "2015-11-15T22:58:33Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/helenatan/882118b79ba400678573/raw/6dfeee0f9f2b95fe82072153dda84f213aea8070/README.md",
+      "size": 3593
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/Jay-Oh-eN/15f52d2ec0b035b53c6f",
+      "http://bl.ocks.org/patricknelli/a61e208c37ea177cf83a"
+    ]
+  },
+  {
+    "gistId": "cb37d44eaf2b7c01bd40",
+    "description": "The Migrant Files: Money",
+    "created_at": "2015-11-24T22:04:46Z",
+    "updated_at": "2015-11-24T22:04:59Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/mrchocoborider/cb37d44eaf2b7c01bd40/raw/994cc8b0e6532e5559092fe8178a66954f290032/README.md",
+      "size": 653
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/enjalot/7ea44d0bc364b6bddbd8",
+      "http://bl.ocks.org/enjalot/d6696d28fb47fcf8a537",
+      "http://bl.ocks.org/enjalot/d6a92a077e78fd33316a"
+    ]
+  },
+  {
+    "gistId": "b66a37afe6581eb5bc0c",
+    "description": "D3 Bingo! (Zan)",
+    "created_at": "2015-11-20T20:44:05Z",
+    "updated_at": "2015-11-20T20:47:08Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/zanarmstrong/b66a37afe6581eb5bc0c/raw/70cf9d96aaf287a7a2762b5da7280d8fea809c3a/README.md",
+      "size": 833
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/zanarmstrong/b66a37afe6581eb5bc0c",
+      "http://bl.ocks.org/zanarmstrong/6daa5503fc60d4a89a11"
+    ]
+  },
+  {
+    "gistId": "efd2d76e3455e9a35a51",
+    "description": "custom ease",
+    "created_at": "2015-11-20T19:21:02Z",
+    "updated_at": "2015-11-20T19:21:30Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/zanarmstrong/efd2d76e3455e9a35a51/raw/6428af5e75dfbc2348fac40a63705efc15e90a8e/README.md",
+      "size": 544
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/enjalot/2753c53ae396bb92727a"
+    ]
+  },
+  {
+    "gistId": "6daa5503fc60d4a89a11",
+    "description": "D3 Bingo!",
+    "created_at": "2015-11-19T18:13:11Z",
+    "updated_at": "2015-11-20T20:48:10Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/zanarmstrong/6daa5503fc60d4a89a11/raw/3f5ff5695d06d0adb6ccf445083fac459151098a/README.md",
+      "size": 654
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/zanarmstrong/raw/b66a37afe6581eb5bc0c/"
+    ]
+  },
+  {
+    "gistId": "72953c94d89df97081a5",
+    "description": "Raster & Vector II + topo",
+    "created_at": "2015-11-13T20:16:37Z",
+    "updated_at": "2015-11-13T20:50:48Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": null,
+      "raw_url": "https://gist.githubusercontent.com/thomasgwatson/72953c94d89df97081a5/raw/8746d46baa9e78d05e1a3ba6e4f91d7aadd3f642/README.md",
+      "size": 950
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/5342063",
+      "http://bl.ocks.org/anonymous/360036a08c42226aa6a7"
+    ]
+  },
+  {
+    "gistId": "a61e208c37ea177cf83a",
+    "description": "Civic Impact through Data Visualization: Exercise 1",
+    "created_at": "2015-11-15T22:48:16Z",
+    "updated_at": "2015-11-15T23:09:47Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/patricknelli/a61e208c37ea177cf83a/raw/fa44ee650b5348d66150f56f3b54f4dda2d3233d/README.md",
+      "size": 3392
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/Jay-Oh-eN/15f52d2ec0b035b53c6f"
+    ]
+  },
+  {
+    "gistId": "65dfbe8958e3ad2d275a",
+    "description": "A SOM Clustering of block Colors - Including HSL & RGB - II",
+    "created_at": "2015-11-23T22:05:34Z",
+    "updated_at": "2015-11-23T22:08:51Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/nbremer/65dfbe8958e3ad2d275a/raw/b0248735e947e9026d547bc0c17e4a9237a6718d/README.md",
+      "size": 1574
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/enjalot/de262983e3ba0c0f89c1",
+      "http://bl.ocks.org/enjalot/7c0fe907ba2010fed420"
+    ]
+  },
+  {
+    "gistId": "5a801d9153059b226bbd",
+    "description": "Circle Packing at its most Basic - Canvas only",
+    "created_at": "2015-11-16T10:16:54Z",
+    "updated_at": "2015-11-16T17:26:19Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/nbremer/5a801d9153059b226bbd/raw/0796980b74e9d1a11052124621ee93359c1d0a77/README.md",
+      "size": 1222
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/nbremer/b6e4ec3859b2f732dfc0",
+      "http://bl.ocks.org/nbremer/667e4df76848e72f250b"
+    ]
+  },
+  {
+    "gistId": "b6e4ec3859b2f732dfc0",
+    "description": "Circle Packing at its most Basic - Canvas & D3.js ",
+    "created_at": "2015-11-16T09:48:16Z",
+    "updated_at": "2015-11-16T17:26:21Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/nbremer/b6e4ec3859b2f732dfc0/raw/0794da9b1b07d50b93aa76c3d6e33f1fbe232c67/README.md",
+      "size": 1026
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/nbremer/5a801d9153059b226bbd"
+    ]
+  },
+  {
+    "gistId": "dc337293689fc46c55d2",
+    "description": "Depression Wheel",
+    "created_at": "2015-11-25T04:43:05Z",
+    "updated_at": "2015-11-25T05:00:30Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/mstackmann/dc337293689fc46c55d2/raw/2db943f22b56ea8f319135b7171151bd0edac180/README.md",
+      "size": 7464
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/metmajer/5480307"
+    ]
+  },
+  {
+    "gistId": "caba382926baa0c3b6e8",
+    "description": "Civic Impact through Data Visualization: Exercise 2",
+    "created_at": "2015-11-15T23:16:06Z",
+    "updated_at": "2015-11-15T23:16:06Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/mbodenator/caba382926baa0c3b6e8/raw/4dee4af91f2ca066b9f0bf8e828f2ecb23cc0b5a/README.md",
+      "size": 3391
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/Jay-Oh-eN/a29e820cb6d8f3a84249"
+    ]
+  },
+  {
+    "gistId": "5eb4fd0409088f0dac01",
+    "description": "Civic Impact through Data Visualization: Exercise 1",
+    "created_at": "2015-11-15T22:48:36Z",
+    "updated_at": "2015-11-15T22:54:10Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/mbodenator/5eb4fd0409088f0dac01/raw/fa44ee650b5348d66150f56f3b54f4dda2d3233d/README.md",
+      "size": 3392
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/Jay-Oh-eN/15f52d2ec0b035b53c6f"
+    ]
+  },
+  {
+    "gistId": "c591445c3e6773c6eb6f",
+    "description": "reusable updating radarChart",
+    "created_at": "2015-11-24T05:45:12Z",
+    "updated_at": "2015-11-25T15:37:48Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/TennisVisuals/c591445c3e6773c6eb6f/raw/c71098e98466248eaa44c014e7f85648bab4efbd/README.md",
+      "size": 2476
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/LeeMendelowitz/11383724"
+    ]
+  },
+  {
+    "gistId": "fbe7e90d2adf4cfb8375",
+    "description": "fresh block",
+    "created_at": "2015-11-16T19:23:13Z",
+    "updated_at": "2015-11-16T19:23:17Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/sugeerth/fbe7e90d2adf4cfb8375/raw/9a7cf4f5f62549facd8d09bc06b7c22e24b8538b/README.md",
+      "size": 206
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/anonymous/c6a683d2005a9cc364f1"
+    ]
+  },
+  {
+    "gistId": "3ec7767e5de59cba1bf3",
+    "description": "fresh block",
+    "created_at": "2015-11-13T02:34:52Z",
+    "updated_at": "2015-11-13T03:02:08Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/sugeerth/3ec7767e5de59cba1bf3/raw/607c0c94591a966f906b49409d3b480182aa536e/README.md",
+      "size": 206
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/anonymous/3e20a17f89fa235c2430"
+    ]
+  },
+  {
+    "gistId": "8a7f9bed9715c0eb678a",
+    "description": "Responsive CartoDB choropleth linked to strip plot",
+    "created_at": "2015-11-19T15:02:16Z",
+    "updated_at": "2015-11-19T15:27:50Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/maartenzam/8a7f9bed9715c0eb678a/raw/0c0e05769ee562586fb2defc5c40ef818fe1f25f/README.md",
+      "size": 791
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/maartenzam/raw/8a7f9bed9715c0eb678a/",
+      "http://bl.ocks.org/maartenzam/7ef773bdf11999c9eebb"
+    ]
+  },
+  {
+    "gistId": "5844ececfedcbf9dc190",
+    "description": "fresh block",
+    "created_at": "2015-11-20T01:58:24Z",
+    "updated_at": "2015-11-20T03:32:37Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/matt81m/5844ececfedcbf9dc190/raw/6b520fc76317123aee3a4c2ef524e9c6e7d5519a/README.md",
+      "size": 206
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/anonymous/5a1077427cbc719b84fd"
+    ]
+  },
+  {
+    "gistId": "6e64e78ca6390a3f311e",
+    "description": "Civic Impact through Data Visualization: Exercise 1",
+    "created_at": "2015-11-15T22:50:12Z",
+    "updated_at": "2015-11-15T22:50:12Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/Nathan-O/6e64e78ca6390a3f311e/raw/fa44ee650b5348d66150f56f3b54f4dda2d3233d/README.md",
+      "size": 3392
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/Jay-Oh-eN/15f52d2ec0b035b53c6f"
+    ]
+  },
+  {
+    "gistId": "642a348109655bbdba7b",
+    "description": "Milky Way",
+    "created_at": "2015-11-23T07:42:58Z",
+    "updated_at": "2015-11-23T07:42:59Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/malcolm-decuire/642a348109655bbdba7b/raw/2779edf8ae0cf514976b6ce4a77023cc67245633/README.md",
+      "size": 681
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/5446416"
+    ]
+  },
+  {
+    "gistId": "3f85fd71af00e1b98f20",
+    "description": "mapping police violence: data",
+    "created_at": "2015-11-23T07:36:03Z",
+    "updated_at": "2015-11-23T07:36:12Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/malcolm-decuire/3f85fd71af00e1b98f20/raw/6423c13d153c45adda7615fc54e59885abff4dd2/README.md",
+      "size": 977
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/enjalot/95ffd65ad1d87d26cc69"
+    ]
+  },
+  {
+    "gistId": "fba92738df802a20bf43",
+    "description": "Civic Impact through Data Visualization: Exercise 1",
+    "created_at": "2015-11-15T22:07:52Z",
+    "updated_at": "2015-11-15T22:07:53Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/baramuyu/fba92738df802a20bf43/raw/fa44ee650b5348d66150f56f3b54f4dda2d3233d/README.md",
+      "size": 3392
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/Jay-Oh-eN/15f52d2ec0b035b53c6f"
+    ]
+  },
+  {
+    "gistId": "0c676afc9bf8f6a1eaf7",
+    "description": "ODSC - Civic Impact through Data Visualization: Exercise 1",
+    "created_at": "2015-11-15T22:48:16Z",
+    "updated_at": "2015-11-16T00:01:18Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/naturalsoda/0c676afc9bf8f6a1eaf7/raw/fa44ee650b5348d66150f56f3b54f4dda2d3233d/README.md",
+      "size": 3392
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/Jay-Oh-eN/15f52d2ec0b035b53c6f"
+    ]
+  },
+  {
+    "gistId": "e850f036217e4d4721a2",
+    "description": "Epicyclic Gearing",
+    "created_at": "2015-11-15T21:55:54Z",
+    "updated_at": "2015-11-15T21:55:55Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/naturalsoda/e850f036217e4d4721a2/raw/598241d81f76ce3eba5d5008c18ab60bfc5ac1e7/README.md",
+      "size": 601
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/1353700"
+    ]
+  },
+  {
+    "gistId": "c507b499fdf628ae5429",
+    "description": "Collapsible Force Layout",
+    "created_at": "2015-11-16T11:36:18Z",
+    "updated_at": "2015-11-16T11:36:40Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/newsummit/c507b499fdf628ae5429/raw/91de6c5ff77326ecbe1e37b4a464b9c406071a8a/README.md",
+      "size": 476
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/1093130"
+    ]
+  },
+  {
+    "gistId": "b656aed3d75a0f1d6888",
+    "description": "Cluster Force Layout IV",
+    "created_at": "2015-11-16T10:48:09Z",
+    "updated_at": "2015-11-16T10:48:14Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/newsummit/b656aed3d75a0f1d6888/raw/e120c1401dd665bf6445513b6146fc9d160d2223/README.md",
+      "size": 275
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/7882658"
+    ]
+  },
+  {
+    "gistId": "1fc26ae44b5865700d22",
+    "description": "Arc Diagram III",
+    "created_at": "2015-11-23T10:49:42Z",
+    "updated_at": "2015-11-23T13:03:10Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/nitaku/1fc26ae44b5865700d22/raw/8f1bcdde8c8d32c362aebc13010a0c3982d96167/README.md",
+      "size": 539
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/nitaku/d1c32b2e77120f560061"
+    ]
+  },
+  {
+    "gistId": "d1c32b2e77120f560061",
+    "description": "Arc Diagram II",
+    "created_at": "2015-11-21T13:42:11Z",
+    "updated_at": "2015-11-21T15:13:21Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/nitaku/d1c32b2e77120f560061/raw/05b0c03fb7fd12330776b4c4401b67df18c06ea5/README.md",
+      "size": 771
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/kleem/230ff9a14751b8f3092d"
+    ]
+  },
+  {
+    "gistId": "c1dab6ab1366029276d7",
+    "description": "Catmull-Rom Curves (canvas)",
+    "created_at": "2015-11-21T09:23:11Z",
+    "updated_at": "2015-11-21T10:19:46Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/nitaku/c1dab6ab1366029276d7/raw/7b9754ed726c361c4123ac7e39032d6f603c0101/README.md",
+      "size": 393
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/22c3971eed37127f2ba8"
+    ]
+  },
+  {
+    "gistId": "3bddce9b5f6b167fffbb",
+    "description": "Speed",
+    "created_at": "2015-11-13T19:22:13Z",
+    "updated_at": "2015-11-13T21:42:02Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/jonsadka/3bddce9b5f6b167fffbb/raw/97c318cf5b11c48c49bb69e7c1e94a2d09a99134/README.md",
+      "size": 374
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/jonsadka/07ed66cc6fc394d6ea53",
+      "http://bl.ocks.org/jonsadka/00e6248efe5605c1fa5c"
+    ]
+  },
+  {
+    "gistId": "5173905982d1484abd4a",
+    "description": "Civic Impact through Data Visualization: Exercise 1",
+    "created_at": "2015-11-15T22:49:43Z",
+    "updated_at": "2015-11-15T22:57:33Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/simzou/5173905982d1484abd4a/raw/fa44ee650b5348d66150f56f3b54f4dda2d3233d/README.md",
+      "size": 3392
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/Jay-Oh-eN/15f52d2ec0b035b53c6f"
+    ]
+  },
+  {
+    "gistId": "a033f7773a7e8fc7562b",
+    "description": "Civic Impact through Data Visualization: Exercise 1",
+    "created_at": "2015-11-15T22:48:50Z",
+    "updated_at": "2015-11-15T22:48:53Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/mattgiguere/a033f7773a7e8fc7562b/raw/fa44ee650b5348d66150f56f3b54f4dda2d3233d/README.md",
+      "size": 3392
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/Jay-Oh-eN/15f52d2ec0b035b53c6f"
+    ]
+  },
+  {
+    "gistId": "7bb6f1c3da7c56420749",
+    "description": "Civic Impact through Data Visualization: Exercise 1",
+    "created_at": "2015-11-15T22:53:31Z",
+    "updated_at": "2015-11-15T23:12:29Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/ankuagar/7bb6f1c3da7c56420749/raw/fa44ee650b5348d66150f56f3b54f4dda2d3233d/README.md",
+      "size": 3392
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/Jay-Oh-eN/15f52d2ec0b035b53c6f"
+    ]
+  },
+  {
+    "gistId": "befc60ebd35331859708",
+    "description": "Grouped Bar Chart",
+    "created_at": "2015-11-19T15:10:56Z",
+    "updated_at": "2015-11-19T17:13:27Z",
+    "fileName": "README.md",
+    "file": {
+      "filename": "README.md",
+      "type": "text/plain",
+      "language": "Markdown",
+      "raw_url": "https://gist.githubusercontent.com/ninjaPixel/befc60ebd35331859708/raw/785cfdccea5dcea475d57142b8e04f5f509f9d54/README.md",
+      "size": 1031
+    },
+    "blocksLinked": [
+      "http://bl.ocks.org/mbostock/3887051"
     ]
   }
 ]
