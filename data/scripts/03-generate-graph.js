@@ -89,7 +89,7 @@ function checkNode(node, d) {
 	if(typeof nodeHash[node] === "undefined") {
 		nodeHash[node] = true;
 
-		console.log("node", node)	
+		//console.log("node", node)	
 		if(typeof blockAttributesById[node] !== "undefined") {
 			var user = blockAttributesById[node]["owner"]["login"];
 			var createdAt = blockAttributesById[node]["created_at"];
