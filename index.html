@@ -224,6 +224,8 @@
 
         function updateNetwork(e) {
 
+          createVoronoi();
+
           // draw the links
           d3.select("svg.main").selectAll("line")
             .attr("x1", function (d) {return d.source.x})
@@ -243,40 +245,69 @@
         ////////////////////////////////////////////////////////////////////
         ///////////////////////// voronoi overlay //////////////////////////
         ////////////////////////////////////////////////////////////////////
+        function createVoronoi() {
 
-        var rawPoints = [];
-        nodes.forEach(function(d) {
-          rawPoints.push({ x: d.x, y: d.y })
-        })
+          var rawPoints = [];
+          nodes.forEach(function(d) {
+            rawPoints.push({ x: d.x, y: d.y, id: d.id })
+          })
 
-        var voronoi = d3.geom.voronoi();
+          var voronoi = d3.geom.voronoi();
 
-        voronoi
-          .x(function(d) { return d.x; })
-          .y(function(d) { return d.y; })
-          .clipExtent([[-10 - xOffset, -10 - yOffset], [width+10, height+10]]);
+          voronoi
+            .x(function(d) { return d.x; })
+            .y(function(d) { return d.y; })
+            .clipExtent([[-10 - xOffset, -10 - yOffset], [width+10, height+10]]);
 
-        voronoiData = voronoi(rawPoints);
-  
-        voronoiData = voronoiData.map(function (d,i) {
-          return {coordinates: d, data: rawPoints[i]}
-        })
+          voronoiData = voronoi(rawPoints);
+      
+          voronoiData = voronoiData.map(function (d,i) {
+            return {coordinates: d, data: rawPoints[i]}
+          })
 
-        console.log(voronoiData)
+          console.log(voronoiData)
 
-        svg.selectAll("path.voronoi")
-          .data(voronoiData)
-          .enter()
-          .append("path")
-        .attr("class", "voronoi")
-          //.style("stroke", "gold")
-          //.style("stroke-width", "1px")
-          //.style("fill", "yellow")
-          //.style("fill-opacity", 0.3)
-          .style("fill", "none")
-          .attr("d", function(d) { return "M" + d.coordinates.join("L") + "Z"; })
-          .attr("transform", "translate(" + xOffset + "," + yOffset +")");
+          svg.selectAll("path.voronoi")
+            .data(voronoiData)
+            .enter()
+            .insert("path")
+          .attr("class", "voronoi")
+            //.style("stroke", "gold")
+            //.style("stroke-width", "1px")
+            //.style("fill", "yellow")
+            //.style("fill-opacity", 0.3)
+            .style("fill-opacity", 0)
+            .style("fill", "silver")
+            .style("stroke-opacity", 0)
+            .style("stroke", "white")
+            .style("stroke-width", "1px")
+            .attr("d", function(d) { return "M" + d.coordinates.join("L") + "Z"; })
+            .attr("transform", "translate(" + xOffset + "," + yOffset +")")
+            .on('mouseover', function(d) {
+                
+              console.log("d", d);
+              d3.selectAll("circle").filter(function (p) {
+                return p.id === d.data.id
+              })
+                .transition()
+                .duration(1200)
+                .attr("r", 8)
+                .transition()
+                .duration(1200)
+                .attr("r", 3)
 
+              console.log("this", d3.select(this));  
+              d3.select(this)
+                .transition()
+                .delay(1200)
+                .duration(1500)
+                .style("fill-opacity", 0.4)
+                .style("stroke-opacity", 1)
+                //.transition()
+                //.duration(1750)
+                //.style("fill-opacity", 0)
+            });
+        }
         ////////////////////////////////////////////////////////////////////
         ////////////////////////////////////////////////////////////////////
         ////////////////////////////////////////////////////////////////////
