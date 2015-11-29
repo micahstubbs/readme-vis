@@ -269,10 +269,11 @@
           .enter()
           .append("path")
         .attr("class", "voronoi")
-          .style("stroke", "gold")
-          .style("stroke-width", "1px")
-          .style("fill", "yellow")
-          .style("fill-opacity", 0.3)
+          //.style("stroke", "gold")
+          //.style("stroke-width", "1px")
+          //.style("fill", "yellow")
+          //.style("fill-opacity", 0.3)
+          .style("fill", "none")
           .attr("d", function(d) { return "M" + d.coordinates.join("L") + "Z"; })
           .attr("transform", "translate(" + xOffset + "," + yOffset +")");
 
