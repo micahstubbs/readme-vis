@@ -286,6 +286,7 @@
             .on('mouseover', function(d) {
                 
               console.log("d", d);
+              // highlight the node
               d3.selectAll("circle").filter(function (p) {
                 return p.id === d.data.id
               })
@@ -296,7 +297,8 @@
                 .duration(1200)
                 .attr("r", 3)
 
-              console.log("this", d3.select(this));  
+              console.log("this", d3.select(this));
+              // show the Voronoi polygon  
               d3.select(this)
                 .transition()
                 .delay(1200)
