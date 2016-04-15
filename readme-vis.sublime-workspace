@@ -1,0 +1,1099 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"strok-",
+				"stroke-opacity"
+			],
+			[
+				"graph",
+				"graphContainer"
+			],
+			[
+				"y",
+				"yOffset"
+			],
+			[
+				"min",
+				"minSide"
+			],
+			[
+				"desc",
+				"description"
+			],
+			[
+				"crea",
+				"createdAt"
+			],
+			[
+				"upda",
+				"updatedAt"
+			],
+			[
+				"block",
+				"blockAttributesById"
+			],
+			[
+				"bloc",
+				"blockAttributesById"
+			],
+			[
+				"bl",
+				"blockAttributesById"
+			],
+			[
+				"grap",
+				"graphContainer"
+			],
+			[
+				"with",
+				"withBlocksLinks"
+			],
+			[
+				"read",
+				"readmePath"
+			],
+			[
+				"mouse",
+				"mouseout"
+			],
+			[
+				"sroke",
+				"stroke-width"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"dep",
+				"depth"
+			],
+			[
+				"depth",
+				"depthScale"
+			],
+			[
+				"pack",
+				"packChart"
+			],
+			[
+				"select",
+				"selectedNode"
+			],
+			[
+				"app",
+				"appendChild"
+			],
+			[
+				"x",
+				"x"
+			],
+			[
+				"url",
+				"url"
+			],
+			[
+				"dataURL",
+				"dataURL"
+			],
+			[
+				"incom",
+				"incomingData"
+			],
+			[
+				"movei",
+				"movieArea"
+			],
+			[
+				"retwee",
+				"retweetLine"
+			],
+			[
+				"selec",
+				"selectAll"
+			],
+			[
+				"stroke",
+				"stroke-width"
+			],
+			[
+				"sele",
+				"selectAll"
+			],
+			[
+				"cons",
+				"consToReview"
+			],
+			[
+				"popData",
+				"popDataS"
+			],
+			[
+				"csv",
+				"csvfile3"
+			],
+			[
+				"cal",
+				"calculatedSum"
+			],
+			[
+				"sour",
+				"sourceSum"
+			],
+			[
+				"popul",
+				"population"
+			],
+			[
+				"const",
+				"constituency"
+			],
+			[
+				"Arr",
+				"arrayOfVoteShareArrays"
+			],
+			[
+				"oup",
+				"outputJsonObj"
+			],
+			[
+				"pop",
+				"population"
+			],
+			[
+				"uni",
+				"uniqueOAsCount"
+			],
+			[
+				"tota",
+				"totalOAsCount"
+			],
+			[
+				"con",
+				"constituencies"
+			],
+			[
+				"assign",
+				"assignedCons"
+			],
+			[
+				"sett",
+				"settlementName"
+			],
+			[
+				"settle",
+				"settlementName"
+			],
+			[
+				"settm",
+				"settlementName"
+			],
+			[
+				"out",
+				"outputJsonObj"
+			],
+			[
+				"in",
+				"individual"
+			],
+			[
+				"arrow",
+				"arrow_1"
+			],
+			[
+				"lenght",
+				"length-1"
+			],
+			[
+				"point",
+				"pointLight"
+			],
+			[
+				"sphe",
+				"sphereMaterial"
+			],
+			[
+				"sph",
+				"sphereMaterial"
+			],
+			[
+				"value",
+				"values_array"
+			],
+			[
+				"facets",
+				"facets_json"
+			],
+			[
+				"langu",
+				"languages"
+			],
+			[
+				"lan",
+				"language"
+			],
+			[
+				"log",
+				"logArrayElements"
+			],
+			[
+				"Neo",
+				"neo4j"
+			],
+			[
+				"sc",
+				"script	Tag"
+			],
+			[
+				"bar",
+				"barHeight"
+			],
+			[
+				"deal",
+				"deal"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "data/gist-metadata/gists-with-readme-with-blocks-links.json",
+			"settings":
+			{
+				"buffer_size": 613942,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "data/scripts/03-generate-graph.js",
+			"settings":
+			{
+				"buffer_size": 3368,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "find . -name \"*3096638*\" -maxdepth 1 -print",
+			"settings":
+			{
+				"buffer_size": 43,
+				"line_ending": "Unix",
+				"name": "find . -name \"*3096638*\" -maxdepth 1 -print"
+			}
+		},
+		{
+			"file": "data/gist-metadata/blocks-example.json",
+			"settings":
+			{
+				"buffer_size": 2166,
+				"line_ending": "Unix",
+				"name": "{ url: 'https://api.github.com/gists/296293',"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 10793,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "data/gist-metadata/latest-edges.json",
+			"settings":
+			{
+				"buffer_size": 486,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "data/gist-metadata/readme-blocks-graph.json",
+			"settings":
+			{
+				"buffer_size": 340621,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 1168,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Discover Packages"
+			],
+			[
+				"updr",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/m/workspace/d3-projects/readme-vis",
+		"/Users/m/workspace/d3-projects/readme-vis/data",
+		"/Users/m/workspace/d3-projects/readme-vis/data/gist-metadata",
+		"/Users/m/workspace/d3-projects/readme-vis/data/scripts"
+	],
+	"file_history":
+	[
+		"/Users/m/workspace/d3-projects/readme-vis/data/scripts/zz-username-regex.js",
+		"/Users/m/workspace/d3-projects/readme-vis/index.html",
+		"/Users/m/workspace/d3-projects/readme-vis/data/scripts/02-gists-with-readme-with-blocks-link.js",
+		"/Users/m/workspace/d3-projects/readme-vis/lib/jsLouvain.js",
+		"/Users/m/workspace/d3-projects/readme-vis/data/scripts/03-make-edgelist.js",
+		"/Users/m/workspace/d3-projects/readme-vis/data/scripts/01.json",
+		"/Users/m/workspace/d3-projects/readme-vis/data/gist-metadata/gists-with-readme.json",
+		"/Users/m/workspace/d3-projects/readme-vis/data/scripts/01-gists-with-readme.js",
+		"/Users/m/workspace/d3-projects/readme-vis/data/gists/8b6c3d9694a96177bf8d/index.html",
+		"/Users/m/workspace/d3-projects/readme-vis/.gitignore",
+		"/Users/m/workspace/d3-projects/readme-vis/data/scripts/01",
+		"/Users/m/.bash_profile",
+		"/Users/m/.bashrc",
+		"/Users/m/.zshrc",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/09/Fig_09_07.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/08-dom-manipulation/05-table.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/09/Fig_09_04.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/09/Fig_09_02.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/08/Fig_08_05.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/09-interactive-apps/01-dashboard.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/tweets.json",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/08-dom-manipulation/09-gallery.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/08-dom-manipulation/10-gallery.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/08/Fig_08_11.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/08/Fig_08_10.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/08/Fig_08_09.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/08/Fig_08_06.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/08-dom-manipulation/08-gallery.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/08-dom-manipulation/07-gallery.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/08-dom-manipulation/06-gallery.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/08/Fig_08_08.html",
+		"/Users/m/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/08-dom-manipulation/04-table.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/08/Fig_08_04.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/08-dom-manipulation/02-table.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/08-dom-manipulation/03-table.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/08-dom-manipulation/04",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/08/Fig_08_03.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/08-dom-manipulation/01-table.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/08/Fig_08_02.html",
+		"/Users/m/zshrc",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/geography/metro-geo.csv",
+		"/Users/m/workspace/blocks/close-votes-uk/index.html",
+		"/Users/m/workspace/blocks/close-votes-uk/data.json",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/010-parse.js",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/012-parse.js",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/014.js",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/006.js",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/006.json",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/16-streamgraph.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/04/Fig_04_25.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/15-streamgraph.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/04/Fig_04_24.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/14-streamgraph.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/04/Fig_04_23.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/10-linechart.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/tweetdata.csv",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/13-linechart.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/12-linechart.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/04/Fig_04_20_alt_colors.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/11-linechart.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/04/Fig_04_18.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/09-linechart.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/09-boxplot.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/08-boxplot.html",
+		"/Users/m/workspace/blocks/d51",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/04/Fig_04_17.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/04/Fig_04_15.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/07-boxplot.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/06-boxplot.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/boxplot.csv",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/04/Fig_04_13.html",
+		"/Users/m/workspace/data-jam-20150606/inspired12-data-jam-2015/HospitalPrices.csv",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/04-scatter.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/05-scatter.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/04/Fig_04_10.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/04/Fig_04_08.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/01-scatter.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/02-scatter.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/03-scattter.html",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/006-1-cons.js",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/006-uk-election-results-2015.json",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/006-0-parties.js",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/005.json",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/003.json",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/00-northern-ireland/00.json",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/00-pop-by-con-northern-ireland.csv",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/003.js",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/006-parse.js",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/005-parse.js",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/003-consToReview.json",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/00-assemble-dataset.R",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/00-uk2015.csv",
+		"/Users/m/workspace/blocks/close-votes-uk/.gitignore",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/002.json",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/00-england-wales/01-pop-by-con-england-wales.csv",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/geography/output-areas-to-constituencies/OA11_PCON11_EER11_EW_LU.csv",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/00-england-wales/00-oa-to-pcon.csv",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/00-england-wales/01-metros-cons-england-wales.csv",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/00-pop-by-con-england-wales.csv",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/uk-election-results-2015.csv",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/002-parse.js",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/006-parties.json",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/006-a.js",
+		"/usr/local/include/zmq.hpp",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/00-scotland/05.js",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/00-northern-ireland/01.js",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/13.js",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/013.json",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/00-england-wales/00.js",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/00-england-wales/00.json",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/00-england-wales/01.js",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/00-scotland/03.js",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/00-scotland/02.js",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/00-scotland/03.json",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/00-scotland/04.js",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/00-scotland/00.js",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/00-northern-ireland/00.js",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/00-scotland/02.json",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/00-scotland/01.json",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/00-scotland/01.js",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/00-02.js",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/00-03.js",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/00-scotland/00-03.js",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/00-03.json",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/000-assemble-dataset.R",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/geography/scotland-settlements/2012-pop-est-sett-local-main-tab2a-pop-by-settlement.csv",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/000-01-metro-cons-ni.json"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"xOffset",
+			"id",
+			"main",
+			"chart",
+			"main",
+			"chartDiv",
+			"viz",
+			"redr",
+			"reda",
+			"width",
+			"2657838",
+			":",
+			"'",
+			"modular",
+			"target.id",
+			"source.id",
+			"push",
+			"nodesObj",
+			"blocksLinked",
+			"micahstubbs",
+			"blocksLinked",
+			"micahstubbs",
+			"blocksLinked",
+			"depthScale",
+			"[];\n",
+			"spread",
+			"pack",
+			"dehi",
+			"\"data",
+			"bs",
+			"Ventnor",
+			"Vale of Clwyd",
+			"city",
+			"\\.city",
+			"enter\\(\\)",
+			"console.log",
+			"The Wrekin",
+			"\"",
+			"\",",
+			"\"",
+			"\\,",
+			"&",
+			"and ",
+			"sourceVoteData",
+			"&",
+			"glasgow",
+			"mon",
+			"Ynys M",
+			"Ynys M¶n",
+			"Ynys M",
+			"Ynys M¶n",
+			"Ynys M",
+			"Ynys M¶n",
+			"Ynys Mon",
+			"Ynys",
+			"Ynys M",
+			"Ynys",
+			"voteData",
+			"data",
+			"voteData",
+			",,",
+			"\"",
+			"\\sUK\"",
+			"\\sUK,,",
+			"\"",
+			"73695",
+			"popByCon",
+			"E00026507",
+			"\"Glasgow East\"",
+			"GlasGow",
+			"glasgow",
+			"Glasgow",
+			"Glas",
+			"Glasgow",
+			"GlasGow",
+			"S12000034",
+			"buaPopulation",
+			"33697",
+			"conf",
+			"forum",
+			"\\s\\s",
+			":840",
+			"840",
+			"i840",
+			"id840",
+			"840",
+			"init",
+			"zoom",
+			"zoomed",
+			"zoom",
+			"drag",
+			"svg",
+			"apply",
+			"Mter",
+			"id",
+			"charge",
+			"followers",
+			".call",
+			".style(\"fill\",",
+			".style(\"fill\"",
+			".style(\"f",
+			".style",
+			"cvalue",
+			"cValue",
+			"\\s(?=\\d)",
+			"\\s",
+			"count",
+			"name",
+			"value",
+			"name",
+			"accessor",
+			"width",
+			"height",
+			"\""
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"viz",
+			"\":",
+			"\"",
+			"target",
+			"source",
+			"nodeHash",
+			"metro",
+			".metro",
+			"",
+			"voteData",
+			"Ynys Mon",
+			"",
+			"metroPopulation",
+			"\\t",
+			"value",
+			"label",
+			"count",
+			"frequency",
+			"letter",
+			"width",
+			"\\\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "data/gist-metadata/gists-with-readme-with-blocks-links.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 613942,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12802,
+								12783
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6918.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "data/scripts/03-generate-graph.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3368,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2380,
+								2380
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 43,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								43,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "find . -name \"*3096638*\" -maxdepth 1 -print",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "data/gist-metadata/blocks-example.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2166,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								64,
+								105
+							]
+						],
+						"settings":
+						{
+							"auto_name": "{ url: 'https://api.github.com/gists/296293',",
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10793,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10174,
+								10174
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4628.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "data/gist-metadata/latest-edges.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 486,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								485,
+								287
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "data/gist-metadata/readme-blocks-graph.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 340621,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								340416,
+								340416
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 220472.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1168,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1168,
+								14
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "readme-vis.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"8b6c3d9694a96177bf8d",
+				"data/gists/8b6c3d9694a96177bf8d/index.html"
+			],
+			[
+				"fig_09_10",
+				"09/Fig_09_10.html"
+			],
+			[
+				"03-das",
+				"my-iterations/09-interactive-apps/03-dashboard.html"
+			],
+			[
+				"fig_09_07",
+				"09/Fig_09_07.html"
+			],
+			[
+				"02-das",
+				"my-iterations/09-interactive-apps/02-dashboard.html"
+			],
+			[
+				"05-ta",
+				"my-iterations/08-dom-manipulation/05-table.html"
+			],
+			[
+				"fig_09",
+				"09/Fig_09_04.html"
+			],
+			[
+				"tweets.json",
+				"tweets.json"
+			],
+			[
+				"fig_09_0",
+				"09/Fig_09_02.html"
+			],
+			[
+				"fig_08_11",
+				"08/Fig_08_11.html"
+			],
+			[
+				"fig_08_10",
+				"08/Fig_08_10.html"
+			],
+			[
+				"08-gallery",
+				"my-iterations/08-dom-manipulation/08-gallery.html"
+			],
+			[
+				"fig_08_09",
+				"08/Fig_08_09.html"
+			],
+			[
+				"07-ga",
+				"my-iterations/08-dom-manipulation/07-gallery.html"
+			],
+			[
+				"fig_08_08",
+				"08/Fig_08_08.html"
+			],
+			[
+				"fig_08_06",
+				"08/Fig_08_06.html"
+			],
+			[
+				"tweets",
+				"tweets.json"
+			],
+			[
+				"fig_08",
+				"08/Fig_08_05.html"
+			],
+			[
+				"fig_08_04",
+				"08/Fig_08_04.html"
+			],
+			[
+				"02-ta",
+				"my-iterations/08-dom-manipulation/02-table.html"
+			],
+			[
+				"fig_08_03",
+				"08/Fig_08_03.html"
+			],
+			[
+				"",
+				"forum.txt"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 319.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
