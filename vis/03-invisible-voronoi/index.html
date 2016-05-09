@@ -1,0 +1,333 @@
+<html>
+  <head>
+    <title>Blocks Graph - Readme Mentions</title>
+    <meta charset='utf-8' />
+    <script src='http://d3js.org/d3.v3.min.js'></script>
+    <script src='https://npmcdn.com/babel-core@5.8.34/browser.min.js'></script>
+    <script src='jsLouvain.js'></script>
+  </head>
+    <body>
+      <script>
+/* Make the vis fill the page using CSS. */
+d3.select('body')
+  .style({
+    margin: 0,
+    position: 'fixed',
+    top: 0,
+    right: 0,
+    bottom: 0,
+    left: 0
+  });
+
+d3.select('body').append('div')
+  .attr('id', 'viz')
+  .style({
+    position: 'fixed',
+    left: 0,
+    right: 0,
+    top: 0,
+    bottom: 0
+  })
+
+// Extract the width and height that was computed by CSS.
+const vizDiv = document.getElementById('viz');
+const width = vizDiv.clientWidth;
+const height = vizDiv.clientHeight;
+const minSide = d3.min([width, height]);
+const xOffset = (width - minSide) / 2;
+const yOffset = (height - minSide) / 2;
+
+// Use the extracted size to set the size of a Canvas element
+d3.select(vizDiv).append("canvas")
+  .attr("width", width)
+  .attr("height", height)
+  .style('position', 'absolute');
+
+// Use the extracted size to set the size of a SVG element
+d3.select(vizDiv).append('svg')
+  .attr('width', width)
+  .attr('height', height)
+  .classed('main', true)
+  .style('position', 'absolute');
+
+d3.json('readme-blocks-graph.json', (error, data) => createNetwork(data));
+
+function onlyUnique(value, index, self) {
+  return self.indexOf(value) === index;
+}
+
+function createNetwork(graphContainer) {
+  const nodeHash = {};
+  const nodes = [];
+  const edges = [];
+
+  const edgelist = graphContainer.graph.edges;
+  const nodelist = graphContainer.graph.nodes;
+
+  edgelist.forEach(edge => {
+    if (!nodeHash[edge.source]) {
+      nodeHash[edge.source] = {
+        id: edge.source,
+        label: edge.source
+      };
+      nodes.push(nodeHash[edge.source]);
+    }
+    if (!nodeHash[edge.target]) {
+      nodeHash[edge.target] = {
+        id: edge.target,
+        label: edge.target
+      };
+      nodes.push(nodeHash[edge.target]);
+    }
+    if (edge /* .weight == 5 */) {
+      edges.push({
+        id: `${nodeHash[edge.source].id}-${nodeHash[edge.target].id}`,
+        source: nodeHash[edge.source],
+        target: nodeHash[edge.target],
+        weight: 1 /* edge.weight */
+      });
+    }
+  });
+
+  // get some attributes from the nodelist (calculated elsewhere)
+  // and store them in the nodeHash
+  nodelist.forEach(node => {
+    if (nodeHash[node.id]) {
+      nodeHash[node.id].user = node.user;
+      nodeHash[node.id].createdAt = node.createdAt;
+      nodeHash[node.id].updatedAt = node.updatedAt;
+      nodeHash[node.id].description = node.description;
+    }
+  });
+
+  // take the attributes now in the nodeHash
+  // and hang them on the nodes (calculated here from the edgelist)
+  nodes.forEach(node => {
+    if (nodeHash[node.id]) {
+      node.user = nodeHash[node.id].user;
+      node.createdAt = nodeHash[node.id].createdAt;
+      node.updatedAt = nodeHash[node.id].updatedAt;
+      node.description = nodeHash[node.id].description;
+    }
+  });
+
+  console.log('nodes', nodes);
+  console.log('edges', edges);
+
+  createForceNetwork(nodes, edges);
+}
+
+function modularityCensus(nodes, edges /* , moduleHash */) {
+  edges.forEach(edge => {
+    if (edge.source.module !== edge.target.module) {
+      edge.border = true;
+    } else {
+      edge.border = false;
+    }
+  });
+  nodes.forEach(node => {
+    const theseEdges = edges.filter(d => d.source === node || d.target === node);
+
+    const theseSourceModules = theseEdges.map(d => d.source.module).filter(onlyUnique);
+    const theseTargetModules = theseEdges.map(d => d.target.module).filter(onlyUnique);
+
+    if (theseSourceModules.length > 1 || theseTargetModules.length > 1) {
+      node.border = true;
+    } else {
+      node.border = false;
+    }
+  });
+}
+
+function createForceNetwork(nodes, edges) {
+  // create a network from an edgelist
+  // var colors = d3.scale.ordinal().domain([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]).range(['#996666', '#66CCCC', '#FFFF99', '#CC9999', '#666633', '#993300', '#999966', '#660000', '#996699', '#cc6633', '#ff9966', '#339999', '#6699cc', '#ffcc66', '#ff6600', '#00ccccc']);
+  const colors = d3.scale.category20();
+
+  const nodeData = nodes.map(d => d.id);
+  const edgeData = edges.map(function (d) {
+    return {
+      source: d.source.id,
+      target: d.target.id,
+      weight: 1
+    };
+  });
+
+  console.log('nodeData for jLouvain', nodeData);
+  console.log('edgeData for jLouvain', edgeData);
+
+  const community = jLouvain().nodes(nodeData).edges(edgeData);
+  const result = community();
+
+  console.log('jLouvain result', result);
+
+  nodes.forEach(node => {
+    node.module = result[node.id];
+    // console.log('node.module', node.module)
+  });
+
+  modularityCensus(nodes, edges, result);
+
+  const force = d3.layout.force().nodes(nodes).links(edges)
+    .size([minSide, minSide]) // make a square
+    .charge(-100)
+    .chargeDistance(100)
+    .linkStrength(2)
+    .linkDistance(3)
+    .gravity(0.07);
+
+  const nodeEnter = d3.select('svg.main').selectAll('g.node')
+    .data(nodes, d => d.id)
+    .enter();
+
+  nodeEnter
+    .append('a')
+      .attr('xlink:href', d => `http://bl.ocks.org/${d.user}/${d.id}`)
+      .attr('id', d => d.id)
+      // .attr('target', '_blank')
+    .append('circle')
+      .attr('r', 3)
+      .attr('class', 'foreground')
+      .style('fill', d => colors(d.module))
+      .style('stroke-width', d => {
+        if (d.border) return '3px';
+        return '1px';
+      });
+
+      /*
+        // draw labels over nodes
+        nodeEnter.append('text')
+        .style('text-anchor', 'middle')
+        .attr('y', 3)
+        .style('stroke-width', '1px')
+        .style('stroke-opacity', 0.75)
+        .style('stroke', 'white')
+        .style('font-size', '8px')
+        .text(function (d) {return d.id})
+        .style('pointer-events', 'none')
+
+        nodeEnter.append('text')
+        .style('text-anchor', 'middle')
+        .attr('y', 3)
+        .style('font-size', '8px')
+        .text(function (d) {return d.id})
+        .style('pointer-events', 'none')
+      */
+  
+  force.start();
+
+  for (let i = 0; i < 200; i++) {
+    force.tick();
+  }
+
+  // draw the network at each tick
+  // force.on('tick', updateNetwork);
+
+  // after 200 iterations, we say the network 
+  // has stabilized and we stop the 
+  // force layout physics simulation
+  force.stop();
+
+  // now we draw the network
+  updateNetwork(edges);
+  drawVoronoiOverlay();
+
+  function updateNetwork(edgesToUpdate) {
+    // // draw the links
+    // d3.select('svg.main').selectAll('line')
+    //   .attr('x1', d => d.source.x)
+    //   .attr('y1', d => d.source.y)
+    //   .attr('x2', d => d.target.x)
+    //   .attr('y2', d => d.target.y)
+    //   .attr('transform', 'translate(' + xOffset + ',' + yOffset +')');
+
+    const context = d3.select('canvas').node().getContext('2d');
+    context.clearRect(0, 0, width, height);
+    context.translate(xOffset, yOffset);
+
+    // draw links (or edges, if you prefer)
+    context.strokeStyle = 'rgba(0, 0, 0, 0.5)';
+    context.beginPath();
+    edgesToUpdate.forEach(d => {
+      context.moveTo(d.source.x, d.source.y);
+      context.lineTo(d.target.x, d.target.y);
+    });
+    context.stroke();
+
+    // draw the nodes
+    d3.select('svg.main').selectAll('circle')
+      .attr('cx', d => d.x)
+      .attr('cy', d => d.y)
+      .attr('transform', `translate(${xOffset}, ${yOffset})`);
+  }
+
+  function drawVoronoiOverlay() {
+    const rawPoints = [];
+    nodes.forEach(d => {
+      rawPoints.push({
+        x: d.x,
+        y: d.y,
+        id: d.id,
+        user: d.user
+      });
+    });
+
+    const voronoi = d3.geom.voronoi();
+
+    voronoi
+      .x(d => d.x)
+      .y(d => d.y)
+      .clipExtent([[-10 - xOffset, -10 - yOffset], [width + 10, height + 10]]);
+
+    voronoiData = voronoi(rawPoints);
+    voronoiData = voronoiData.map(function (d, i) {
+      return {
+        coordinates: d,
+        data: rawPoints[i]
+      };
+    });
+
+    console.log('voronoiData', voronoiData);
+
+
+
+    const voronoiPaths = d3.select('svg').selectAll('path.voronoi')
+      .data(voronoiData)
+      .enter()
+      .append('path')
+    .attr('class', 'voronoi')
+      .style('stroke', 'none')
+      .style('stroke-width', '1px')
+      .style('fill', 'white')
+      .style('fill-opacity', 0)
+      .attr('d', d => `M${d.coordinates.join('L')}Z`)
+      .attr('transform', `translate(${xOffset}, ${yOffset})`);
+
+    voronoiPaths
+      .on('mouseover', d => voronoiMouseover(d))
+      .on('click', d => voronoiClick(d));
+  }
+
+  function voronoiMouseover(d) {
+    const user = d.data.user;
+    const id = d.data.id;
+    const blockUrl = `http://bl.ocks.org/${user}/${id}`
+    console.log(blockUrl);
+  }
+
+  function voronoiClick(d) {
+    const user = d.data.user;
+    const id = d.data.id;
+    const blockUrl = `http://bl.ocks.org/${user}/${id}`
+    openInNewTab(blockUrl);
+  }
+
+  // http://stackoverflow.com/a/11384018/1732222
+  function openInNewTab(url) {
+    const win = window.open(url, '_blank');
+    win.focus();
+  }
+}
+    </script>
+  </body>
+</html>
