@@ -1,0 +1,33 @@
+{
+  "extends": "airbnb",
+  "parserOptions": {
+    "ecmaVersion": 6,    //specify version of JavaScript
+    "sourceType": "module",  // vs. "script" - how code is arranged
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true
+    },
+  },
+  "env": {  //environment defines global variables
+    "browser": true,
+    "node": true,
+  },
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "react/jsx-uses-react": 2,
+    "react/jsx-uses-vars": 2,
+    "react/react-in-jsx-scope": 2,
+    "func-names": "off",
+    "no-undef": "off",
+    "comma-dangle": "off",
+    "no-console": "off",
+    "max-len": "off",
+    "no-useless-escape": "off",
+    "react/prefer-stateless-function": "off",
+    "no-param-reassign": "off",
+    "no-loop-func": "off",
+    "jsx-quotes": ["error", "prefer-single"]
+  },
+}
