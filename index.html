@@ -37,7 +37,7 @@
         .attr("height", height)
         .classed("main", true);
 
-      d3.json("/data/gist-metadata/readme-blocks-graph.json", function(error,data) { createNetwork(data) });
+      d3.json("/data/gist-metadata/output/readme-blocks-graph.json", function(error,data) { createNetwork(data) });
 
       function onlyUnique(value, index, self) {
         return self.indexOf(value) === index;

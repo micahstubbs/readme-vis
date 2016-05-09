@@ -17,7 +17,7 @@ withReadme.some(function(d) {
 
 	try {
 		// get the README.md for this gist 
-		var readmePath = "../gists/" + d["gistId"] + "/" + d["fileName"];
+		var readmePath = "../all-the-gists/gists-files/" + d["gistId"] + "/" + d["fileName"];
 		var readme = fs.readFileSync(readmePath, 'utf-8');
 
 	} catch(e1) {

@@ -5,8 +5,8 @@ var _ = require('lodash');
 
 "use strict";
 
-var withBlocksLinks = JSON.parse(fs.readFileSync('../gist-metadata/gists-with-readme-with-blocks-links.json', 'utf-8'));
-var blockAttributes = JSON.parse(fs.readFileSync('../gist-metadata/blocks.json', 'utf-8'));
+var withBlocksLinks = JSON.parse(fs.readFileSync('../gist-metadata/output/gists-with-readme-with-blocks-links.json', 'utf-8'));
+var blockAttributes = JSON.parse(fs.readFileSync('../gist-metadata/input/blocks.json', 'utf-8'));
 //console.log("withReadme", withReadme);
 
 // check the format of our blockAttributes object
@@ -115,7 +115,7 @@ console.log(withReadme.length + " README.md files in the d3 gists corpus")
 console.log("of those README.md files")
 console.log(withBlocksLinks.length + " contain links to bl.ocks.org")
 */
-var outputFile = '../gist-metadata/readme-blocks-graph.json'
+var outputFile = '../gist-metadata/output/readme-blocks-graph.json'
 
 var outputJsonObj = graphContainer;
 

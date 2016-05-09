@@ -1,0 +1,922 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"slider",
+				"sliderScale"
+			],
+			[
+				"stroke",
+				"stroke-opacity"
+			],
+			[
+				"nodes",
+				"nodesByLabel"
+			],
+			[
+				"node",
+				"nodesByLabel"
+			],
+			[
+				"strok-",
+				"stroke-opacity"
+			],
+			[
+				"graph",
+				"graphContainer"
+			],
+			[
+				"y",
+				"yOffset"
+			],
+			[
+				"min",
+				"minSide"
+			],
+			[
+				"desc",
+				"description"
+			],
+			[
+				"crea",
+				"createdAt"
+			],
+			[
+				"upda",
+				"updatedAt"
+			],
+			[
+				"block",
+				"blockAttributesById"
+			],
+			[
+				"bloc",
+				"blockAttributesById"
+			],
+			[
+				"bl",
+				"blockAttributesById"
+			],
+			[
+				"grap",
+				"graphContainer"
+			],
+			[
+				"with",
+				"withBlocksLinks"
+			],
+			[
+				"read",
+				"readmePath"
+			],
+			[
+				"mouse",
+				"mouseout"
+			],
+			[
+				"sroke",
+				"stroke-width"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"dep",
+				"depth"
+			],
+			[
+				"depth",
+				"depthScale"
+			],
+			[
+				"pack",
+				"packChart"
+			],
+			[
+				"select",
+				"selectedNode"
+			],
+			[
+				"app",
+				"appendChild"
+			],
+			[
+				"x",
+				"x"
+			],
+			[
+				"url",
+				"url"
+			],
+			[
+				"dataURL",
+				"dataURL"
+			],
+			[
+				"incom",
+				"incomingData"
+			],
+			[
+				"movei",
+				"movieArea"
+			],
+			[
+				"retwee",
+				"retweetLine"
+			],
+			[
+				"selec",
+				"selectAll"
+			],
+			[
+				"sele",
+				"selectAll"
+			],
+			[
+				"cons",
+				"consToReview"
+			],
+			[
+				"popData",
+				"popDataS"
+			],
+			[
+				"csv",
+				"csvfile3"
+			],
+			[
+				"cal",
+				"calculatedSum"
+			],
+			[
+				"sour",
+				"sourceSum"
+			],
+			[
+				"popul",
+				"population"
+			],
+			[
+				"const",
+				"constituency"
+			],
+			[
+				"Arr",
+				"arrayOfVoteShareArrays"
+			],
+			[
+				"oup",
+				"outputJsonObj"
+			],
+			[
+				"pop",
+				"population"
+			],
+			[
+				"uni",
+				"uniqueOAsCount"
+			],
+			[
+				"tota",
+				"totalOAsCount"
+			],
+			[
+				"con",
+				"constituencies"
+			],
+			[
+				"assign",
+				"assignedCons"
+			],
+			[
+				"sett",
+				"settlementName"
+			],
+			[
+				"settle",
+				"settlementName"
+			],
+			[
+				"settm",
+				"settlementName"
+			],
+			[
+				"out",
+				"outputJsonObj"
+			],
+			[
+				"in",
+				"individual"
+			],
+			[
+				"arrow",
+				"arrow_1"
+			],
+			[
+				"lenght",
+				"length-1"
+			],
+			[
+				"point",
+				"pointLight"
+			],
+			[
+				"sphe",
+				"sphereMaterial"
+			],
+			[
+				"sph",
+				"sphereMaterial"
+			],
+			[
+				"value",
+				"values_array"
+			],
+			[
+				"facets",
+				"facets_json"
+			],
+			[
+				"langu",
+				"languages"
+			],
+			[
+				"lan",
+				"language"
+			],
+			[
+				"log",
+				"logArrayElements"
+			],
+			[
+				"Neo",
+				"neo4j"
+			],
+			[
+				"sc",
+				"script	Tag"
+			],
+			[
+				"bar",
+				"barHeight"
+			],
+			[
+				"deal",
+				"deal"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "03-generate-graph.js",
+			"settings":
+			{
+				"buffer_size": 3388,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/m/workspace/readme-vis/data/gist-metadata/output/readme-blocks-graph.json",
+			"settings":
+			{
+				"buffer_size": 1286389,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Discover Packages"
+			],
+			[
+				"updr",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/m/workspace/readme-vis",
+		"/Users/m/workspace/readme-vis/data/all-the-gists",
+		"/Users/m/workspace/readme-vis/data/gist-metadata",
+		"/Users/m/workspace/readme-vis/data/gist-metadata/output",
+		"/Users/m/workspace/readme-vis/data/scripts"
+	],
+	"file_history":
+	[
+		"/Users/m/workspace/readme-vis/data/all-the-gists/gists-files/11cba0c5c3a9e1841865a032a31fcc3d/README.md",
+		"/Users/m/workspace/readme-vis/data/scripts/02-gists-with-readme-with-blocks-link.js",
+		"/Users/m/workspace/readme-vis/data/gist-metadata/output/readme-blocks-graph.json",
+		"/Users/m/workspace/readme-vis/data/scripts/01-gists-with-readme.js",
+		"/Users/m/workspace/readme-vis/.gitignore",
+		"/Users/m/workspace/blocks/89e0d8802a2a43d438540e7b05444e62/.block",
+		"/Users/m/workspace/linkedin-network-vis/data/output/graph.json",
+		"/Users/m/workspace/linkedin-network-vis/vis-iterations/01/index.html",
+		"/Users/m/workspace/linkedin-network-vis/vis-iterations/02/index.html",
+		"/Users/m/workspace/linkedin-network-vis/.gitignore",
+		"/Users/m/workspace/linkedin-network-vis/data/input/links.csv",
+		"/Users/m/workspace/linkedin-network-vis/vis-iterations/01/readme.md",
+		"/Users/m/workspace/linkedin-network-vis/vis-iterations/02/readme.md",
+		"/Users/m/workspace/linkedin-network-vis/data/scripts/00-links-csv-to-graph-json.js",
+		"/Users/m/workspace/linkedin-network-vis/tasks.md",
+		"/Users/m/workspace/linkedin-network-vis/data/input/links-labels.csv",
+		"/Users/m/workspace/linkedin-network-vis/data/scripts/00-add-ids.js",
+		"/Users/m/.zshrc",
+		"/Users/m/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/m/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/m/workspace/d3-projects/readme-vis/.gitignore",
+		"/Users/m/workspace/h2o/fork-h2o-tutorials/h2o-tutorials/tutorials/deeplearning/deeplearning.md",
+		"/Users/m/workspace/experiments/hexagons/svg-path/07/index.html",
+		"/Users/m/workspace/experiments/hexagons/svg-path/06/index.html",
+		"/Users/m/workspace/experiments/hexagons/svg-path/06/README.md",
+		"/Users/m/workspace/blocks/472a372b1c71bd7befe4/index.html",
+		"/Users/m/workspace/blocks/472a372b1c71bd7befe4/.block",
+		"/Users/m/workspace/experiments/d3-snippets/block-border-for-screenshots.js",
+		"/Users/m/workspace/experiments/hexagons/svg-path/05/index.html",
+		"/Users/m/workspace/experiments/hexagons/svg-path/05/README.md",
+		"/Users/m/workspace/experiments/hexagons/svg-path/04/index.html",
+		"/Users/m/workspace/experiments/hexagons/svg-path/03/README.md",
+		"/Users/m/workspace/experiments/hexagons/svg-path/04/README.md",
+		"/Users/m/workspace/experiments/hexagons/fog-of-war/02/d3.hexbin.js",
+		"/Users/m/workspace/experiments/hexagons/fog-of-war/02/index.html",
+		"/Users/m/workspace/experiments/hexagons/svg-path/03/index.html",
+		"/Users/m/workspace/experiments/hexagons/fog-of-war/02/readme.md",
+		"/Users/m/workspace/experiments/hexagons/fog-of-war/02/thumbnail.png",
+		"/Users/m/workspace/experiments/hexagons/02/index.html",
+		"/Users/m/workspace/experiments/hexagons/03/index.html",
+		"/Users/m/workspace/gridmap-layout-vietnam/links-for-talk.md",
+		"/Users/m/tmobile-april-2015.md",
+		"/Users/m/workspace/d3-projects/readme-vis/data/scripts/zz-username-regex.js",
+		"/Users/m/workspace/d3-projects/readme-vis/index.html",
+		"/Users/m/workspace/d3-projects/readme-vis/data/scripts/02-gists-with-readme-with-blocks-link.js",
+		"/Users/m/workspace/d3-projects/readme-vis/lib/jsLouvain.js",
+		"/Users/m/workspace/d3-projects/readme-vis/data/scripts/03-make-edgelist.js",
+		"/Users/m/workspace/d3-projects/readme-vis/data/scripts/01.json",
+		"/Users/m/workspace/d3-projects/readme-vis/data/gist-metadata/gists-with-readme.json",
+		"/Users/m/workspace/d3-projects/readme-vis/data/scripts/01-gists-with-readme.js",
+		"/Users/m/workspace/d3-projects/readme-vis/data/gists/8b6c3d9694a96177bf8d/index.html",
+		"/Users/m/workspace/d3-projects/readme-vis/data/scripts/01",
+		"/Users/m/.bash_profile",
+		"/Users/m/.bashrc",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/09/Fig_09_07.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/08-dom-manipulation/05-table.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/09/Fig_09_04.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/09/Fig_09_02.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/08/Fig_08_05.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/09-interactive-apps/01-dashboard.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/tweets.json",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/08-dom-manipulation/09-gallery.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/08-dom-manipulation/10-gallery.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/08/Fig_08_11.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/08/Fig_08_10.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/08/Fig_08_09.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/08/Fig_08_06.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/08-dom-manipulation/08-gallery.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/08-dom-manipulation/07-gallery.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/08-dom-manipulation/06-gallery.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/08/Fig_08_08.html",
+		"/Users/m/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/08-dom-manipulation/04-table.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/08/Fig_08_04.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/08-dom-manipulation/02-table.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/08-dom-manipulation/03-table.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/08-dom-manipulation/04",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/08/Fig_08_03.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/08-dom-manipulation/01-table.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/08/Fig_08_02.html",
+		"/Users/m/zshrc",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/geography/metro-geo.csv",
+		"/Users/m/workspace/blocks/close-votes-uk/index.html",
+		"/Users/m/workspace/blocks/close-votes-uk/data.json",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/010-parse.js",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/012-parse.js",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/014.js",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/006.js",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/006.json",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/16-streamgraph.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/04/Fig_04_25.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/15-streamgraph.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/04/Fig_04_24.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/14-streamgraph.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/04/Fig_04_23.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/10-linechart.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/tweetdata.csv",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/13-linechart.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/12-linechart.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/04/Fig_04_20_alt_colors.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/11-linechart.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/04/Fig_04_18.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/09-linechart.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/09-boxplot.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/08-boxplot.html",
+		"/Users/m/workspace/blocks/d51",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/04/Fig_04_17.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/04/Fig_04_15.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/07-boxplot.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/06-boxplot.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/boxplot.csv",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/04/Fig_04_13.html",
+		"/Users/m/workspace/data-jam-20150606/inspired12-data-jam-2015/HospitalPrices.csv",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/04-scatter.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/05-scatter.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/04/Fig_04_10.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/04/Fig_04_08.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/01-scatter.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/02-scatter.html",
+		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/03-scattter.html",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/006-1-cons.js",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/006-uk-election-results-2015.json",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/006-0-parties.js",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/005.json",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/003.json",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/00-northern-ireland/00.json",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/00-pop-by-con-northern-ireland.csv",
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/003.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\"enjalot\",\n        \"createdAt\": \"2016-04",
+			"\"enjalot\",\n        \"createdAt\": \"2016-4",
+			"enjalot",
+			"Poisson-Disc",
+			"micahstubbs",
+			"map",
+			"edges",
+			"\"",
+			"function(d) { return",
+			"\"",
+			"height",
+			"px",
+			"updateNetwork",
+			"theseNodes",
+			"4",
+			"function(d)",
+			"nodeHash",
+			"\"",
+			"weight",
+			"barChart",
+			"x",
+			"noi",
+			"thailand",
+			"Thailand",
+			"thailand   ",
+			"xOffset",
+			"id",
+			"main",
+			"chart",
+			"main",
+			"chartDiv",
+			"viz",
+			"redr",
+			"reda",
+			"width",
+			"2657838",
+			":",
+			"'",
+			"modular",
+			"target.id",
+			"source.id",
+			"push",
+			"nodesObj",
+			"blocksLinked",
+			"micahstubbs",
+			"blocksLinked",
+			"micahstubbs",
+			"blocksLinked",
+			"depthScale",
+			"[];\n",
+			"spread",
+			"pack",
+			"dehi",
+			"\"data",
+			"bs",
+			"Ventnor",
+			"Vale of Clwyd",
+			"city",
+			"\\.city",
+			"enter\\(\\)",
+			"console.log",
+			"The Wrekin",
+			"\"",
+			"\",",
+			"\"",
+			"\\,",
+			"&",
+			"and ",
+			"sourceVoteData",
+			"&",
+			"glasgow",
+			"mon",
+			"Ynys M",
+			"Ynys M¶n",
+			"Ynys M",
+			"Ynys M¶n",
+			"Ynys M",
+			"Ynys M¶n",
+			"Ynys Mon",
+			"Ynys",
+			"Ynys M",
+			"Ynys",
+			"voteData",
+			"data",
+			"voteData",
+			",,",
+			"\"",
+			"\\sUK\"",
+			"\\sUK,,",
+			"\"",
+			"73695",
+			"popByCon",
+			"E00026507",
+			"\"Glasgow East\"",
+			"GlasGow",
+			"glasgow",
+			"Glasgow",
+			"Glas",
+			"Glasgow",
+			"GlasGow",
+			"S12000034",
+			"buaPopulation",
+			"33697",
+			"conf",
+			"forum",
+			"\\s\\s",
+			":840",
+			"840",
+			"i840",
+			"id840",
+			"840",
+			"init",
+			"zoom",
+			"zoomed",
+			"zoom",
+			"drag",
+			"svg",
+			"apply",
+			"Mter",
+			"id",
+			"charge",
+			"followers",
+			".call",
+			".style(\"fill\",",
+			".style(\"fill\"",
+			".style(\"f",
+			".style",
+			"cvalue"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'",
+			"function (d)",
+			"'",
+			"y",
+			"vietnam",
+			"Vietnam",
+			"vietnam",
+			"viz",
+			"\":",
+			"\"",
+			"target",
+			"source",
+			"nodeHash",
+			"metro",
+			".metro",
+			"",
+			"voteData",
+			"Ynys Mon",
+			"",
+			"metroPopulation",
+			"\\t",
+			"value",
+			"label",
+			"count",
+			"frequency",
+			"letter",
+			"width",
+			"\\\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "03-generate-graph.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3388,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2999,
+								2999
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1184.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/m/workspace/readme-vis/data/gist-metadata/output/readme-blocks-graph.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1286389,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								346947,
+								346947
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 1.0,
+						"translation.y": 196271.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "readme-vis.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ind",
+				"index.html"
+			],
+			[
+				"graph",
+				"data/output/graph.json"
+			],
+			[
+				"roc",
+				"15/rocChart.js"
+			],
+			[
+				"bar",
+				"15/barChart.js"
+			],
+			[
+				"8b6c3d9694a96177bf8d",
+				"data/gists/8b6c3d9694a96177bf8d/index.html"
+			],
+			[
+				"fig_09_10",
+				"09/Fig_09_10.html"
+			],
+			[
+				"03-das",
+				"my-iterations/09-interactive-apps/03-dashboard.html"
+			],
+			[
+				"fig_09_07",
+				"09/Fig_09_07.html"
+			],
+			[
+				"02-das",
+				"my-iterations/09-interactive-apps/02-dashboard.html"
+			],
+			[
+				"05-ta",
+				"my-iterations/08-dom-manipulation/05-table.html"
+			],
+			[
+				"fig_09",
+				"09/Fig_09_04.html"
+			],
+			[
+				"tweets.json",
+				"tweets.json"
+			],
+			[
+				"fig_09_0",
+				"09/Fig_09_02.html"
+			],
+			[
+				"fig_08_11",
+				"08/Fig_08_11.html"
+			],
+			[
+				"fig_08_10",
+				"08/Fig_08_10.html"
+			],
+			[
+				"08-gallery",
+				"my-iterations/08-dom-manipulation/08-gallery.html"
+			],
+			[
+				"fig_08_09",
+				"08/Fig_08_09.html"
+			],
+			[
+				"07-ga",
+				"my-iterations/08-dom-manipulation/07-gallery.html"
+			],
+			[
+				"fig_08_08",
+				"08/Fig_08_08.html"
+			],
+			[
+				"fig_08_06",
+				"08/Fig_08_06.html"
+			],
+			[
+				"tweets",
+				"tweets.json"
+			],
+			[
+				"fig_08",
+				"08/Fig_08_05.html"
+			],
+			[
+				"fig_08_04",
+				"08/Fig_08_04.html"
+			],
+			[
+				"02-ta",
+				"my-iterations/08-dom-manipulation/02-table.html"
+			],
+			[
+				"fig_08_03",
+				"08/Fig_08_03.html"
+			],
+			[
+				"",
+				"forum.txt"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 360.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
