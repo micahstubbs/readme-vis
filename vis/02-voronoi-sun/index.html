@@ -37,6 +37,12 @@ const minSide = d3.min([width, height]);
 const xOffset = (width - minSide) / 2;
 const yOffset = (height - minSide) / 2;
 
+// Use the extracted size to set the size of a Canvas element
+d3.select(vizDiv).append("canvas")
+  .attr("width", width)
+  .attr("height", height)
+  .style('position', 'absolute');
+
 // Use the extracted size to set the size of a SVG element
 d3.select(vizDiv).append('svg')
   .attr('width', width)
@@ -234,17 +240,30 @@ function createForceNetwork(nodes, edges) {
   force.stop();
 
   // now we draw the network
-  updateNetwork();
+  updateNetwork(edges);
   drawVoronoiOverlay();
 
-  function updateNetwork(e) {
-    // draw the links
-    d3.select('svg.main').selectAll('line')
-      .attr('x1', d => d.source.x)
-      .attr('y1', d => d.source.y)
-      .attr('x2', d => d.target.x)
-      .attr('y2', d => d.target.y)
-      .attr('transform', `translate(${xOffset}, ${yOffset})`);
+  function updateNetwork(edgesToUpdate) {
+    // // draw the links
+    // d3.select('svg.main').selectAll('line')
+    //   .attr('x1', d => d.source.x)
+    //   .attr('y1', d => d.source.y)
+    //   .attr('x2', d => d.target.x)
+    //   .attr('y2', d => d.target.y)
+    //   .attr('transform', 'translate(' + xOffset + ',' + yOffset +')');
+
+    const context = d3.select('canvas').node().getContext('2d');
+    context.clearRect(0, 0, width, height);
+    context.translate(xOffset, yOffset);
+
+    // draw links (or edges, if you prefer)
+    context.strokeStyle = 'rgba(0, 0, 0, 0.5)';
+    context.beginPath();
+    edgesToUpdate.forEach(d => {
+      context.moveTo(d.source.x, d.source.y);
+      context.lineTo(d.target.x, d.target.y);
+    });
+    context.stroke();
 
     // draw the nodes
     d3.select('svg.main').selectAll('circle')

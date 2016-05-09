@@ -38,7 +38,7 @@ const xOffset = (width - minSide) / 2;
 const yOffset = (height - minSide) / 2;
 
 // Use the extracted size to set the size of a Canvas element
-const canvas = d3.select(vizDiv).append("canvas")
+d3.select(vizDiv).append("canvas")
   .attr("width", width)
   .attr("height", height)
   .style('position', 'absolute');
