@@ -237,16 +237,17 @@ function createForceNetwork(nodes, edges) {
   // has stabilized and we stop the
   // force layout physics simulation
   force.stop();
+
   // now we draw the network
   updateNetwork(edges);
 
   function updateNetwork(edgesToUpdate) {
     // // draw the links
     // d3.select('svg.main').selectAll('line')
-    //   .attr('x1', function (d) {return d.source.x})
-    //   .attr('y1', function (d) {return d.source.y})
-    //   .attr('x2', function (d) {return d.target.x})
-    //   .attr('y2', function (d) {return d.target.y})
+    //   .attr('x1', d => d.source.x)
+    //   .attr('y1', d => d.source.y)
+    //   .attr('x2', d => d.target.x)
+    //   .attr('y2', d => d.target.y)
     //   .attr('transform', 'translate(' + xOffset + ',' + yOffset +')');
 
     const context = d3.select('canvas').node().getContext('2d');
