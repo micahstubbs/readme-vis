@@ -51,6 +51,10 @@ const minSide = d3.min([width, height]);
 const xOffset = (width - minSide) / 2;
 const yOffset = (height - minSide) / 2;
 
+const detailDiv = document.getElementById('detail');
+const detailHeight = detailDiv.clientHeight;
+const detailWidth = detailDiv.clientWidth;
+
 const nodeHash = {};
 
 // Use the extracted size to set the size of a Canvas element
@@ -306,7 +310,7 @@ function createForceNetwork(nodes, edges) {
 
 
 
-    const voronoiPaths = d3.select('svg').selectAll('path.voronoi')
+    const voronoiPaths = d3.select('svg.main').selectAll('path.voronoi')
       .data(voronoiData)
       .enter()
       .append('path')
@@ -328,6 +332,9 @@ function createForceNetwork(nodes, edges) {
     const id = d.data.id;
     const blockUrl = `http://bl.ocks.org/${user}/${id}`
     console.log(blockUrl);
+
+    d3.select(detailDiv).append('p')
+      .text(blockUrl);
 
   }
 
