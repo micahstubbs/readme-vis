@@ -1,3 +1,4 @@
 data/gists/*
+data/all-the-gists/*
 node_modules/*
 .DS_Store

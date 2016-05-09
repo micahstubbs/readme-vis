@@ -5,7 +5,7 @@ var _ = require('lodash');
 
 "use strict";
 
-var data = JSON.parse(fs.readFileSync('../gist-metadata/files-blocks.json', 'utf-8'));
+var data = JSON.parse(fs.readFileSync('../gist-metadata/input/files-blocks.json', 'utf-8'));
 
 var sample = []; 
 
