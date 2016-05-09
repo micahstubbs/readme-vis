@@ -29,7 +29,7 @@ withReadme.some(function(d, i) {
 */
 
 console.log(withReadme.length + " README.md files in the d3 gists corpus")
-var outputFile = '../gist-metadata/gists-with-readme.json'
+var outputFile = '../gist-metadata/output/gists-with-readme.json'
 
 var outputJsonObj = withReadme;
 
