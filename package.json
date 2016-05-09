@@ -1,0 +1,33 @@
+{
+  "name": "readme-vis",
+  "version": "1.0.0",
+  "description": "generates a graph of all d3 examples gists that contain a README.md that mentions another d3 example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micahstubbs/readme-vis.git"
+  },
+  "keywords": [
+    "d3",
+    "network",
+    "graph",
+    "metadata",
+    "citation",
+    "vis",
+    "visualization"
+  ],
+  "author": "@micahstubbs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/micahstubbs/readme-vis/issues"
+  },
+  "homepage": "https://github.com/micahstubbs/readme-vis#readme",
+  "devDependencies": {
+    "d3": "^3.5.17",
+    "jsonfile": "^2.3.0",
+    "lodash": "^4.12.0"
+  }
+}
