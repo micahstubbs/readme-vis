@@ -5,3 +5,4 @@
 + add newsfeed style cards to sidebar
 + fisheye lensing?
 + use d3 v4 force layout http://bl.ocks.org/mbostock/f584aa36df54c451c94a9d0798caed35
++ update examples to us ES2015

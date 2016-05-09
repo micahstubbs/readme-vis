@@ -341,11 +341,7 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/m/workspace/readme-vis",
-		"/Users/m/workspace/readme-vis/data/all-the-gists",
-		"/Users/m/workspace/readme-vis/data/gist-metadata",
-		"/Users/m/workspace/readme-vis/data/gist-metadata/output",
-		"/Users/m/workspace/readme-vis/data/scripts"
+		"/Users/m/workspace/readme-vis"
 	],
 	"file_history":
 	[
@@ -724,7 +720,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 1.0,
-						"translation.y": 196271.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,

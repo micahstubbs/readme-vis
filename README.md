@@ -13,7 +13,8 @@ a lineage of bl.ocks that informed this idea:
 * [Blocks Graph](http://bl.ocks.org/curran/1da93bab4cdc708f41ae) from [curran](http://bl.ocks.org/curran)
 * [Blocks Graph Edges Only](http://bl.ocks.org/curran/daf6bc9db8b0a28e3973) from [curran](http://bl.ocks.org/curran)
 * [Blocks Graph with Links](http://bl.ocks.org/curran/be4a45ec74357e7d9b10) from [curran](http://bl.ocks.org/curran)
-* [Dynamic Size](http://bl.ocks.org/curran/db1e524cae5e4344b2e6) from [curran](http://bl.ocks.org/curran)
+* [Dynamic Size](http://bl.ocks.org/curran/db1e524cae5e4344b2e6) from [curran](http://bl.ocks.org/curran)  
+* [ES2015 Sequences Sunburst](http://bl.ocks.org/micahstubbs/428036f0f948a5c2b95f8a4b91931ee6)  
 
 [![blocks-graph](img/blocks-graph.png)](http://bl.ocks.org/micahstubbs/8a173cfcb9171627c7f1)
 
