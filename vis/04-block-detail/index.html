@@ -55,10 +55,12 @@ const detailDiv = document.getElementById('detail');
 const detailHeight = detailDiv.clientHeight;
 const detailWidth = detailDiv.clientWidth;
 
+let cardsOnPage = [];
+
 const nodeHash = {};
 
 // Use the extracted size to set the size of a Canvas element
-d3.select(vizDiv).append("canvas")
+d3.select(vizDiv).append('canvas')
   .attr("width", width)
   .attr("height", height)
   .style('position', 'absolute');
@@ -287,7 +289,8 @@ function createForceNetwork(nodes, edges) {
         x: d.x,
         y: d.y,
         id: d.id,
-        user: d.user
+        user: d.user,
+        description: d.description
       });
     });
 
@@ -307,8 +310,6 @@ function createForceNetwork(nodes, edges) {
     });
 
     console.log('voronoiData', voronoiData);
-
-
 
     const voronoiPaths = d3.select('svg.main').selectAll('path.voronoi')
       .data(voronoiData)
@@ -330,12 +331,93 @@ function createForceNetwork(nodes, edges) {
   function voronoiMouseover(d) {
     const user = d.data.user;
     const id = d.data.id;
+    const description = d.data.description;
     const blockUrl = `http://bl.ocks.org/${user}/${id}`
+
+    // generate nice text to display on the small canvas below the thumbnail image
+    let canvasText;
+    if (
+      ['undefined', 'null'].indexOf(String(user)) === -1  && 
+      ['undefined', 'null'].indexOf(String(description)) === -1
+    ) {
+      canvasText = `${user} | ${description}`
+    } 
+    if (
+      ['undefined', 'null'].indexOf(String(user)) === -1  && 
+      ['undefined', 'null'].indexOf(String(description)) > -1
+    ) {
+      canvasText = user;
+    }
+    if (
+      ['undefined', 'null'].indexOf(String(user)) > -1  && 
+      ['undefined', 'null'].indexOf(String(description)) === -1
+    ) {
+      canvasText = description;
+    }
+    if (
+      ['undefined', 'null'].indexOf(String(user)) > -1  && 
+      ['undefined', 'null'].indexOf(String(description)) > -1
+    ) {
+      canvasText = '';
+    }
+
+    const thumbnailLocalUrl = "https://gist.githubusercontent.com/mbostock/3884955/raw/c779cde24d694cd91ecc940b919cd6abd49c5a44/thumbnail.png"
     console.log(blockUrl);
+    console.log(canvasText);
+    
+    const cardDiv = d3.select(detailDiv).append('div')
+        .attr('id', `card${id}`);
 
-    d3.select(detailDiv).append('p')
-      .text(blockUrl);
+    if (ImageExist(thumbnailLocalUrl)) {
+      cardsOnPage.push(id);
 
+      const imgCanvas = cardDiv.append('canvas')
+        .attr('id', `imgCanvas${id}`)
+        .attr("width", detailWidth)
+        .attr("height", 150);
+
+      var imageContext = document.getElementById(`imgCanvas${id}`).getContext('2d');
+      let img = new Image();   // Create new img element
+      img.addEventListener("load", () => {
+        // execute drawImage statements here
+        imageContext.drawImage(img, 0, 0)
+      }, false);
+      img.src = thumbnailLocalUrl;
+        // .text(blockUrl);
+    }
+
+    console.log('cardsOnPage', cardsOnPage);
+    console.log('cardsOnPage.length', cardsOnPage.length);
+    if (cardsOnPage.length >= 13) {
+      const lastCardId = cardsOnPage[cardsOnPage.length - 1];
+
+      const cardSelector = `div#card${lastCardId}`.replace(/[,.]/g, '');
+      d3.select(cardSelector)
+        .remove()
+
+      //cardsOnPage.pop();
+      if(cardsOnPage.indexOf(id) > -1) cardsOnPage = removeByValue(cardsOnPage, id);
+    }
+  }
+
+  // http://stackoverflow.com/a/11223909/1732222
+  function ImageExist(url) 
+  {
+     var img = new Image();
+     img.src = url;
+     return img.height != 0;
+  }
+
+  // http://stackoverflow.com/a/3955096/1732222
+  function removeByValue(arr) {
+    var what, a = arguments, L = a.length, ax;
+    while (L > 1 && arr.length) {
+        what = a[--L];
+        while ((ax= arr.indexOf(what)) !== -1) {
+            arr.splice(ax, 1);
+        }
+    }
+    return arr;
   }
 
   function voronoiClick(d) {
