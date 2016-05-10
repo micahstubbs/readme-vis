@@ -3,6 +3,7 @@
     <title>Blocks Graph - Readme Mentions</title>
     <meta charset='utf-8' />
     <script src='http://d3js.org/d3.v3.min.js'></script>
+    <script src="http://d3js.org/queue.v1.min.js"></script>
     <script src='https://npmcdn.com/babel-core@5.8.34/browser.min.js'></script>
     <script src='jsLouvain.js'></script>
   </head>
@@ -72,13 +73,19 @@ d3.select(vizDiv).append('svg')
   .classed('main', true)
   .style('position', 'absolute');
 
+
 d3.json('readme-blocks-graph.json', (error, data) => createNetwork(data));
+
+queue()
+  .defer(d3.json, 'readme-blocks-graph.json')
+  .defer(d3.json, 'thumbnailsHash.json')
+  .await((error, data1, data2) => createNetwork(error, data1, data2));
 
 function onlyUnique(value, index, self) {
   return self.indexOf(value) === index;
 }
 
-function createNetwork(graphContainer) {
+function createNetwork(error, graphContainer, thumbnailsHash) {
   const nodes = [];
   const edges = [];
   const edgelist = graphContainer.graph.edges;
@@ -135,7 +142,7 @@ function createNetwork(graphContainer) {
   console.log('edges', edges);
   console.log('nodeHash', nodeHash);
 
-  createForceNetwork(nodes, edges);
+  createForceNetwork(nodes, edges, thumbnailsHash);
 }
 
 function modularityCensus(nodes, edges /* , moduleHash */) {
@@ -160,7 +167,7 @@ function modularityCensus(nodes, edges /* , moduleHash */) {
   });
 }
 
-function createForceNetwork(nodes, edges) {
+function createForceNetwork(nodes, edges, thumbnailsHash) {
   // create a network from an edgelist
   // var colors = d3.scale.ordinal().domain([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]).range(['#996666', '#66CCCC', '#FFFF99', '#CC9999', '#666633', '#993300', '#999966', '#660000', '#996699', '#cc6633', '#ff9966', '#339999', '#6699cc', '#ffcc66', '#ff6600', '#00ccccc']);
   const colors = d3.scale.category20();
@@ -250,10 +257,10 @@ function createForceNetwork(nodes, edges) {
   force.stop();
 
   // now we draw the network
-  updateNetwork(edges);
+  updateNetwork(edges, thumbnailsHash);
   drawVoronoiOverlay();
 
-  function updateNetwork(edgesToUpdate) {
+  function updateNetwork(edgesToUpdate, thumbnailsHash) {
     // // draw the links
     // d3.select('svg.main').selectAll('line')
     //   .attr('x1', d => d.source.x)
@@ -324,11 +331,11 @@ function createForceNetwork(nodes, edges) {
       .attr('transform', `translate(${xOffset}, ${yOffset})`);
 
     voronoiPaths
-      .on('mouseover', d => voronoiMouseover(d))
+      .on('mouseover', d => voronoiMouseover(d, thumbnailsHash))
       .on('click', d => voronoiClick(d));
   }
 
-  function voronoiMouseover(d) {
+  function voronoiMouseover(d, thumbnailsHash) {
     const user = d.data.user;
     const id = d.data.id;
     const description = d.data.description;
@@ -361,14 +368,19 @@ function createForceNetwork(nodes, edges) {
       canvasText = '';
     }
 
-    const thumbnailLocalUrl = "https://gist.githubusercontent.com/mbostock/3884955/raw/c779cde24d694cd91ecc940b919cd6abd49c5a44/thumbnail.png"
+    let thumbnailUrl;
+    if (typeof thumbnailsHash[id] !== 'undefined') {
+      thumbnailUrl = thumbnailsHash[id];
+    } else {
+      thumbnailUrl = 'blank.png';
+    };
     console.log(blockUrl);
     console.log(canvasText);
     
     const cardDiv = d3.select(detailDiv).append('div')
         .attr('id', `card${id}`);
 
-    if (ImageExist(thumbnailLocalUrl)) {
+    if (ImageExist(thumbnailUrl)) {
       cardsOnPage.push(id);
 
       const imgCanvas = cardDiv.append('canvas')
@@ -382,7 +394,7 @@ function createForceNetwork(nodes, edges) {
         // execute drawImage statements here
         imageContext.drawImage(img, 0, 0)
       }, false);
-      img.src = thumbnailLocalUrl;
+      img.src = thumbnailUrl;
         // .text(blockUrl);
     }
 
