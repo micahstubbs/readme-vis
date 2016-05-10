@@ -3,7 +3,6 @@
     <title>Blocks Graph - Readme Mentions</title>
     <meta charset='utf-8' />
     <script src='http://d3js.org/d3.v3.min.js'></script>
-    <script src="http://d3js.org/queue.v1.min.js"></script>
     <script src='https://npmcdn.com/babel-core@5.8.34/browser.min.js'></script>
     <script src='jsLouvain.js'></script>
   </head>
@@ -42,7 +41,7 @@ d3.select('body').append('div')
     right: 0,
     bottom: 0,
     left: '80%'
-  })
+  }) 
 
 // Extract the width and height that was computed by CSS.
 const vizDiv = document.getElementById('viz');
@@ -56,14 +55,19 @@ const detailDiv = document.getElementById('detail');
 const detailHeight = detailDiv.clientHeight;
 const detailWidth = detailDiv.clientWidth;
 
+const detailSVG = d3.select(detailDiv)
+  .append('svg')
+  .attr('width', detailDiv.clientWidth)    
+  .attr('height', detailDiv.clientHeight);
+
 let cardsOnPage = [];
 
 const nodeHash = {};
 
 // Use the extracted size to set the size of a Canvas element
 d3.select(vizDiv).append('canvas')
-  .attr("width", width)
-  .attr("height", height)
+  .attr('width', width)
+  .attr('height', height)
   .style('position', 'absolute');
 
 // Use the extracted size to set the size of a SVG element
@@ -74,18 +78,19 @@ d3.select(vizDiv).append('svg')
   .style('position', 'absolute');
 
 
-d3.json('readme-blocks-graph.json', (error, data) => createNetwork(data));
+d3.json('readme-blocks-graph.json', (error, data) => createNetwork(error, data));
 
-queue()
-  .defer(d3.json, 'readme-blocks-graph.json')
-  .defer(d3.json, 'thumbnailsHash.json')
-  .await((error, data1, data2) => createNetwork(error, data1, data2));
+// remove thumbnails url data loading for now
+// queue()
+//   .defer(d3.json, 'readme-blocks-graph.json')
+//   .defer(d3.json, 'thumbnailsHash.json')
+//   .await((error, data1, data2) => createNetwork(error, data1, data2));
 
 function onlyUnique(value, index, self) {
   return self.indexOf(value) === index;
 }
 
-function createNetwork(error, graphContainer, thumbnailsHash) {
+function createNetwork(error, graphContainer) {
   const nodes = [];
   const edges = [];
   const edgelist = graphContainer.graph.edges;
@@ -142,7 +147,7 @@ function createNetwork(error, graphContainer, thumbnailsHash) {
   console.log('edges', edges);
   console.log('nodeHash', nodeHash);
 
-  createForceNetwork(nodes, edges, thumbnailsHash);
+  createForceNetwork(nodes, edges);
 }
 
 function modularityCensus(nodes, edges /* , moduleHash */) {
@@ -167,7 +172,7 @@ function modularityCensus(nodes, edges /* , moduleHash */) {
   });
 }
 
-function createForceNetwork(nodes, edges, thumbnailsHash) {
+function createForceNetwork(nodes, edges) {
   // create a network from an edgelist
   // var colors = d3.scale.ordinal().domain([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]).range(['#996666', '#66CCCC', '#FFFF99', '#CC9999', '#666633', '#993300', '#999966', '#660000', '#996699', '#cc6633', '#ff9966', '#339999', '#6699cc', '#ffcc66', '#ff6600', '#00ccccc']);
   const colors = d3.scale.category20();
@@ -257,10 +262,10 @@ function createForceNetwork(nodes, edges, thumbnailsHash) {
   force.stop();
 
   // now we draw the network
-  updateNetwork(edges, thumbnailsHash);
+  updateNetwork(edges);
   drawVoronoiOverlay();
 
-  function updateNetwork(edgesToUpdate, thumbnailsHash) {
+  function updateNetwork(edgesToUpdate) {
     // // draw the links
     // d3.select('svg.main').selectAll('line')
     //   .attr('x1', d => d.source.x)
@@ -331,76 +336,84 @@ function createForceNetwork(nodes, edges, thumbnailsHash) {
       .attr('transform', `translate(${xOffset}, ${yOffset})`);
 
     voronoiPaths
-      .on('mouseover', d => voronoiMouseover(d, thumbnailsHash))
+      .on('mouseover', d => voronoiMouseover(d))
       .on('click', d => voronoiClick(d));
   }
 
-  function voronoiMouseover(d, thumbnailsHash) {
+  function voronoiMouseover(d) {
     const user = d.data.user;
     const id = d.data.id;
     const description = d.data.description;
     const blockUrl = `http://bl.ocks.org/${user}/${id}`
 
     // generate nice text to display on the small canvas below the thumbnail image
-    let canvasText;
+    let blockTitleText;
     if (
       ['undefined', 'null'].indexOf(String(user)) === -1  && 
       ['undefined', 'null'].indexOf(String(description)) === -1
     ) {
-      canvasText = `${user} | ${description}`
+      blockTitleText = `${user} | ${description}`
     } 
     if (
       ['undefined', 'null'].indexOf(String(user)) === -1  && 
       ['undefined', 'null'].indexOf(String(description)) > -1
     ) {
-      canvasText = user;
+      blockTitleText = user;
     }
     if (
       ['undefined', 'null'].indexOf(String(user)) > -1  && 
       ['undefined', 'null'].indexOf(String(description)) === -1
     ) {
-      canvasText = description;
+      blockTitleText = description;
     }
     if (
       ['undefined', 'null'].indexOf(String(user)) > -1  && 
       ['undefined', 'null'].indexOf(String(description)) > -1
     ) {
-      canvasText = '';
+      blockTitleText = '';
     }
 
-    let thumbnailUrl;
-    if (typeof thumbnailsHash[id] !== 'undefined') {
-      thumbnailUrl = thumbnailsHash[id];
-    } else {
-      thumbnailUrl = 'blank.png';
-    };
     console.log(blockUrl);
-    console.log(canvasText);
+    console.log(blockTitleText);
     
-    const cardDiv = d3.select(detailDiv).append('div')
-        .attr('id', `card${id}`);
+   // const cardDiv = d3.select(detailDiv).append('div')
+   //     .attr('id', `card${id}`)
+   //     .append('a')
+   //     .attr('xlink:href', d => `http://bl.ocks.org/${user}/${id}`)
+   //     .innerHTML(blockTitleText);
 
-    if (ImageExist(thumbnailUrl)) {
-      cardsOnPage.push(id);
+    cardsOnPage.push(id);
 
-      const imgCanvas = cardDiv.append('canvas')
-        .attr('id', `imgCanvas${id}`)
-        .attr("width", detailWidth)
-        .attr("height", 150);
-
-      var imageContext = document.getElementById(`imgCanvas${id}`).getContext('2d');
-      let img = new Image();   // Create new img element
-      img.addEventListener("load", () => {
-        // execute drawImage statements here
-        imageContext.drawImage(img, 0, 0)
-      }, false);
-      img.src = thumbnailUrl;
-        // .text(blockUrl);
-    }
+    // draw a rectangle
+    const detailG = detailSVG.append('a')
+      .attr('xlink:href', blockUrl)
+      .attr('target', '_blank')
+      .append('rect')  
+      .attr('x', 0)
+      .attr('y', 15 * cardsOnPage.length)
+      .attr('height', 15)
+      .attr('width', detailDiv.clientWidth)
+      .style('stroke-width', 1)
+      .style('stroke', 'white')
+      .style('fill', 'lightgray')
+      .style('fill-opacity', .4)
+      .attr('rx', 4)
+      .attr('ry', 4);
+    
+    // draw text on the screen
+    detailSVG.append('text')
+      .attr('x', 5)
+      .attr('y', 15 * cardsOnPage.length)
+      .style('fill', 'black')
+      .style('font-size', '8px')
+      .attr('dy', '10px')
+      .attr('text-anchor', 'start')
+      .style('pointer-events', 'none')
+      .text(blockTitleText);
 
     console.log('cardsOnPage', cardsOnPage);
     console.log('cardsOnPage.length', cardsOnPage.length);
-    if (cardsOnPage.length >= 13) {
+    if (cardsOnPage.length >= 70) {
       const lastCardId = cardsOnPage[cardsOnPage.length - 1];
 
       const cardSelector = `div#card${lastCardId}`.replace(/[,.]/g, '');
