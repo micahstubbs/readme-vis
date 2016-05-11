@@ -23,7 +23,7 @@ d3.select('body').append('div')
   .attr('id', 'viz')
   .style({
     float: 'left',
-    width: '80%',
+    width: '70%',
     position: 'fixed',
     top: 0,
     right: 0,
@@ -35,12 +35,12 @@ d3.select('body').append('div')
   .attr('id', 'detail')
   .style({
     float: 'right',
-    width: '20%',
+    width: '30%',
     position: 'fixed',
     top: 0,
     right: 0,
     bottom: 0,
-    left: '80%'
+    left: '70%'
   }) 
 
 // Extract the width and height that was computed by CSS.
@@ -61,6 +61,7 @@ const detailSVG = d3.select(detailDiv)
   .attr('height', detailDiv.clientHeight);
 
 let cardsOnPage = [];
+let cardsDisplayed = [];
 
 const nodeHash = {};
 
@@ -186,8 +187,8 @@ function createForceNetwork(nodes, edges) {
     };
   });
 
-  console.log('nodeData for jLouvain', nodeData);
-  console.log('edgeData for jLouvain', edgeData);
+  console.log('nodeData for jLouvain', nodeData, 'nodes', nodeData.length);
+  console.log('edgeData for jLouvain', edgeData, 'edges', edgeData.length);
 
   const community = jLouvain().nodes(nodeData).edges(edgeData);
   const result = community();
@@ -202,11 +203,11 @@ function createForceNetwork(nodes, edges) {
   modularityCensus(nodes, edges, result);
 
   const force = d3.layout.force().nodes(nodes).links(edges)
-    .size([minSide, minSide]) // make a square
+    .size([minSide, minSide]) // make a square  // minSide, minSide
     .charge(-100)
     .chargeDistance(100)
     .linkStrength(2)
-    .linkDistance(3)
+    .linkDistance(1)
     .gravity(0.07);
 
   const nodeEnter = d3.select('svg.main').selectAll('g.node')
@@ -227,7 +228,8 @@ function createForceNetwork(nodes, edges) {
         if (d.border) return '3px';
         return '1px';
       })
-      .on('mouseover', d => nodeMouseover(d));
+      .on('mouseover', d => nodeMouseover(d))
+      .on('mouseout', () => nodeMouseout());
 
       /*
         // draw labels over nodes
@@ -339,7 +341,8 @@ function createForceNetwork(nodes, edges) {
 
     voronoiPaths
       .on('mouseover', d => nodeMouseover(d))
-      .on('click', d => nodeClick(d));
+      .on('click', d => nodeClick(d))
+      .on('mouseout', () => nodeMouseout());
   }
 
   function nodeMouseover(d) {
@@ -349,6 +352,7 @@ function createForceNetwork(nodes, edges) {
     let id;
     let user;
     let description;
+    const dH = 30;
     if (typeof d.data === 'undefined') {
       id = d.id;
       user = nodeHash[d.id].user;
@@ -397,16 +401,23 @@ function createForceNetwork(nodes, edges) {
    //     .attr('xlink:href', d => `http://bl.ocks.org/${user}/${id}`)
    //     .innerHTML(blockTitleText);
 
-    cardsOnPage.push(id);
+    //if (cardsDisplayed.length > 10) {
+    //  d3.selectAll('.cards')
+    //    .attr('transform', `translate(0,${15 * (cardsOnPage.length-1)})`);
+    //}
 
     // draw a rectangle
     const detailG = detailSVG.append('a')
       .attr('xlink:href', blockUrl)
       .attr('target', '_blank')
-      .append('rect')  
+      .attr('id', `card${id}`)
+      .classed('cards', true)
+      .append('rect')
+      //.classed('cards', true)
+      .attr('id', `card${id}`) 
       .attr('x', 0)
-      .attr('y', 15 * cardsOnPage.length)
-      .attr('height', 15)
+      .attr('y', 5 + dH * cardsOnPage.length)
+      .attr('height', dH)
       .attr('width', detailDiv.clientWidth)
       .style('stroke-width', 1)
       .style('stroke', 'white')
@@ -417,27 +428,55 @@ function createForceNetwork(nodes, edges) {
     
     // draw text on the screen
     detailSVG.append('text')
-      .attr('x', 5)
-      .attr('y', 15 * cardsOnPage.length)
+      .attr('x', 10)
+      .attr('y', 5 + dH * cardsOnPage.length)
+      .classed('cards', true)
+      .attr('id', `card${id}`)
       .style('fill', 'black')
-      .style('font-size', '8px')
-      .attr('dy', '10px')
+      .style('font-size', '16px')
+      .attr('dy', '20px')
       .attr('text-anchor', 'start')
       .style('pointer-events', 'none')
       .text(blockTitleText);
 
     console.log('cardsOnPage', cardsOnPage);
     console.log('cardsOnPage.length', cardsOnPage.length);
-    if (cardsOnPage.length >= 70) {
+    if (false/*cardsDisplayed.length > 10*/) {
       const lastCardId = cardsOnPage[cardsOnPage.length - 1];
+      const firstCardId = cardsOnPage[0];
 
-      const cardSelector = `div#card${lastCardId}`.replace(/[,.]/g, '');
+      const cardSelector = `div#card${firstCardId}`.replace(/[,.]/g, '');
       d3.select(cardSelector)
-        .remove()
+        .remove();
+
+      // d3.selectAll('.cards')
+      //   .attr('transform', `translate(0,-15)`);
 
       //cardsOnPage.pop();
-      if(cardsOnPage.indexOf(id) > -1) cardsOnPage = removeByValue(cardsOnPage, id);
+      cardsOnPage.shift();
+      //if(cardsOnPage.indexOf(id) > -1) cardsOnPage = removeByValue(cardsOnPage, id);
     }
+
+    cardsOnPage.push(id);
+    cardsDisplayed.push(id);
+
+    d3.select(vizDiv).select('svg').append('text')
+      .attr('x', 100)
+      .attr('y', 100)
+      .classed('titleText', true)
+      .style('fill', 'black')
+      .style('fill-opacity', 0.8)
+      .style('font-size', '60px')
+      .style('font-weight', 600)
+      .attr('dy', '0px')
+      .attr('text-anchor', 'start')
+      .style('pointer-events', 'none')
+      .text(blockTitleText);
+  }
+
+  function nodeMouseout() {
+    d3.selectAll('.titleText')
+      .remove();
   }
 
   // http://stackoverflow.com/a/11223909/1732222
