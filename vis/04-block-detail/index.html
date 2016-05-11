@@ -216,6 +216,7 @@ function createForceNetwork(nodes, edges) {
   nodeEnter
     .append('a')
       .attr('xlink:href', d => `http://bl.ocks.org/${d.user}/${d.id}`)
+      .attr('target', '_blank')
       .attr('id', d => d.id)
       // .attr('target', '_blank')
     .append('circle')
@@ -225,7 +226,8 @@ function createForceNetwork(nodes, edges) {
       .style('stroke-width', d => {
         if (d.border) return '3px';
         return '1px';
-      });
+      })
+      .on('mouseover', d => nodeMouseover(d));
 
       /*
         // draw labels over nodes
@@ -263,7 +265,7 @@ function createForceNetwork(nodes, edges) {
 
   // now we draw the network
   updateNetwork(edges);
-  drawVoronoiOverlay();
+  // drawVoronoiOverlay();
 
   function updateNetwork(edgesToUpdate) {
     // // draw the links
@@ -326,7 +328,7 @@ function createForceNetwork(nodes, edges) {
     const voronoiPaths = d3.select('svg.main').selectAll('path.voronoi')
       .data(voronoiData)
       .enter()
-      .append('path')
+      .insert('path')
     .attr('class', 'voronoi')
       .style('stroke', 'none')
       .style('stroke-width', '1px')
@@ -336,14 +338,27 @@ function createForceNetwork(nodes, edges) {
       .attr('transform', `translate(${xOffset}, ${yOffset})`);
 
     voronoiPaths
-      .on('mouseover', d => voronoiMouseover(d))
-      .on('click', d => voronoiClick(d));
+      .on('mouseover', d => nodeMouseover(d))
+      .on('click', d => nodeClick(d));
   }
 
-  function voronoiMouseover(d) {
-    const user = d.data.user;
-    const id = d.data.id;
-    const description = d.data.description;
+  function nodeMouseover(d) {
+    console.log('nodeHash', nodeHash);
+    // allow nodeMousever to be called in different contexts
+    // either from the node circle or from the Voronoi path
+    let id;
+    let user;
+    let description;
+    if (typeof d.data === 'undefined') {
+      id = d.id;
+      user = nodeHash[d.id].user;
+      description = nodeHash[d.id].description;
+    }
+    else {
+      id = d.data.id;
+      user = d.data.user;
+      d.data.description;
+    }     
     const blockUrl = `http://bl.ocks.org/${user}/${id}`
 
     // generate nice text to display on the small canvas below the thumbnail image
@@ -445,7 +460,7 @@ function createForceNetwork(nodes, edges) {
     return arr;
   }
 
-  function voronoiClick(d) {
+  function nodeClick(d) {
     const user = d.data.user;
     const id = d.data.id;
     const blockUrl = `http://bl.ocks.org/${user}/${id}`
