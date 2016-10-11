@@ -27,21 +27,20 @@ function ready(withReadme, userLookup) {
   console.log('userLookup', userLookup);
 
   var withBlocksLinks = [];
-  const gistsWithUnknownUsers = [];
 
   withReadme.some(function(d) {
     // some error handling 
     // var readmePath = '../gists/' + d['gistID'] + 'readme.md'
     const gistId = d['gistId'];
     let username = userLookup[gistId];
-    
 
     const fileName = d['fileName']
     if (typeof username === 'undefined') {
       console.log('gistId', gistId);
       console.log('username', username);
-      gistsWithUnknownUsers.push(gistId);
     };
+
+    
 
     // try {
     //  // get the README.md for this gist 
@@ -64,19 +63,11 @@ function ready(withReadme, userLookup) {
     //  withBlocksLinks.push(d);
     // }
   })
-
   console.log(withReadme.length + ' README.md files in the d3 gists corpus')
   console.log('of those README.md files')
   console.log(withBlocksLinks.length + ' contain links to bl.ocks.org')
-
   var outputFile = '../gist-metadata/output/gists-with-readme-with-blocks-links.json'
   var outputJsonObj = withBlocksLinks;
-  jf.writeFile(outputFile, outputJsonObj, {spaces: 2}, function(err){
-    console.log(err)
-  })
-
-  outputFile = '../gist-metadata/output/gists-with-unknown-users.json'
-  var outputJsonObj = gistsWithUnknownUsers;
   jf.writeFile(outputFile, outputJsonObj, {spaces: 2}, function(err){
     console.log(err)
   })
