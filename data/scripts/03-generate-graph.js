@@ -110,11 +110,11 @@ function checkNode(node, d) {
 		})
 	}	
 }
-/*
-console.log(withReadme.length + " README.md files in the d3 gists corpus")
-console.log("of those README.md files")
-console.log(withBlocksLinks.length + " contain links to bl.ocks.org")
-*/
+
+console.log(`${graphContainer.graph.nodes.length} nodes`);
+console.log(`${graphContainer.graph.links.length} links`);
+console.log(`in the D3 README graph`);
+
 var outputFile = '../gist-metadata/output/readme-blocks-graph.json'
 
 var outputJsonObj = graphContainer;
