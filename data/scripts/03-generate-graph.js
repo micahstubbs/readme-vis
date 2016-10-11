@@ -34,12 +34,12 @@ for(var key in blockAttributesById) {
 }
 
 // https://github.com/jsongraph/json-graph-specification
-// following the 'nodes/edges single graph' spec
+// following the 'nodes/links single graph' spec
 
 var graphContainer = {
    "graph": {
       "nodes": [],
-      "edges": []
+      "links": []
    }
 }
 
@@ -72,7 +72,7 @@ withBlocksLinks.some(function(d) {
 		var readmeGistId 		= d["gistId"]; // from the parent gist that contains the README.md
 		var blockLinkGistId = gistId; 		 // parsed from the link found in the README.md
 
-		graphContainer["graph"]["edges"].push({
+		graphContainer["graph"]["links"].push({
 			"source": readmeGistId,
 			"target": blockLinkGistId,
 
