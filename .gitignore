@@ -2,3 +2,6 @@ data/gists/*
 data/all-the-gists/*
 node_modules/*
 .DS_Store
+data/gist-metadata/201511-archive/*
+data/gist-metadata/201605-archive/*
+data/gist-metadata/input/*

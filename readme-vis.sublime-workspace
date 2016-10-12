@@ -4,6 +4,62 @@
 		"selected_items":
 		[
 			[
+				"title",
+				"titleText"
+			],
+			[
+				"select",
+				"selectAll"
+			],
+			[
+				"cards",
+				"cardsDisplayed"
+			],
+			[
+				"fill",
+				"fill-opacity"
+			],
+			[
+				"block",
+				"blockTitleText"
+			],
+			[
+				"canva",
+				"canvasText"
+			],
+			[
+				"th",
+				"thumbnail"
+			],
+			[
+				"down",
+				"download_file_curl"
+			],
+			[
+				"thu",
+				"thumbnailUrl"
+			],
+			[
+				"thumbnail",
+				"thumbnailsHash"
+			],
+			[
+				"create",
+				"createNetwork"
+			],
+			[
+				"remov",
+				"removeByValue"
+			],
+			[
+				"canv",
+				"canvasText"
+			],
+			[
+				"card",
+				"cardSelector"
+			],
+			[
 				"thumb",
 				"thumbnailLocalUrl"
 			],
@@ -68,10 +124,6 @@
 				"updatedAt"
 			],
 			[
-				"block",
-				"blockAttributesById"
-			],
-			[
 				"bloc",
 				"blockAttributesById"
 			],
@@ -114,10 +166,6 @@
 			[
 				"pack",
 				"packChart"
-			],
-			[
-				"select",
-				"selectedNode"
 			],
 			[
 				"app",
@@ -296,26 +344,18 @@
 	"buffers":
 	[
 		{
-			"file": "tasks.md",
-			"settings":
-			{
-				"buffer_size": 394,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "README.md",
-			"settings":
-			{
-				"buffer_size": 1267,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "vis/04-block-detail/index.html",
 			"settings":
 			{
-				"buffer_size": 10479,
+				"buffer_size": 14421,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vis/05/index.html",
+			"settings":
+			{
+				"buffer_size": 14720,
 				"line_ending": "Unix"
 			}
 		}
@@ -374,44 +414,24 @@
 	"expanded_folders":
 	[
 		"/Users/m/workspace/readme-vis",
-		"/Users/m/workspace/readme-vis/data",
-		"/Users/m/workspace/readme-vis/data/all-the-gists",
-		"/Users/m/workspace/readme-vis/data/all-the-gists/gists-files",
-		"/Users/m/workspace/readme-vis/data/all-the-gists/gists-files/00041e3ec60330d68a83",
-		"/Users/m/workspace/readme-vis/data/all-the-gists/gists-files/000b1721b69868f1ce5d",
-		"/Users/m/workspace/readme-vis/data/all-the-gists/gists-files/000b9683638c18c48273",
-		"/Users/m/workspace/readme-vis/data/all-the-gists/gists-files/00170d49e926de0c3a9a",
-		"/Users/m/workspace/readme-vis/data/all-the-gists/gists-files/001f6182db52d08f4925",
-		"/Users/m/workspace/readme-vis/data/all-the-gists/gists-files/0020bebb012760de0d54",
-		"/Users/m/workspace/readme-vis/data/all-the-gists/gists-files/0024772a9c465b631e31",
-		"/Users/m/workspace/readme-vis/data/all-the-gists/gists-files/002b77ea237231567e28",
-		"/Users/m/workspace/readme-vis/data/all-the-gists/gists-files/002ba028b31588848738",
-		"/Users/m/workspace/readme-vis/data/all-the-gists/gists-files/002ef2fb5c1dc2df5821",
-		"/Users/m/workspace/readme-vis/data/all-the-gists/gists-files/00336c9eb59ee956426d",
-		"/Users/m/workspace/readme-vis/data/all-the-gists/gists-files/00436d381169fe8c8399dafdf99d2eb5",
-		"/Users/m/workspace/readme-vis/data/all-the-gists/gists-files/0051a06829e72b423ba9",
-		"/Users/m/workspace/readme-vis/data/all-the-gists/gists-files/0055d87cfaecc5b06cd2",
-		"/Users/m/workspace/readme-vis/data/all-the-gists/gists-files/0059f7be7ca91a76b92f",
-		"/Users/m/workspace/readme-vis/data/all-the-gists/gists-files/005b68abc80f5f514230",
-		"/Users/m/workspace/readme-vis/data/all-the-gists/gists-files/005ed081c4b654ad04ce",
-		"/Users/m/workspace/readme-vis/data/all-the-gists/gists-files/0060ff3b656618e9136b",
-		"/Users/m/workspace/readme-vis/data/all-the-gists/gists-files/007f0d8f6c4167ed312a",
-		"/Users/m/workspace/readme-vis/data/all-the-gists/gists-files/008ec2fc3d587e883e02",
-		"/Users/m/workspace/readme-vis/data/all-the-gists/gists-files/0095a7795ae6cc0d451b",
-		"/Users/m/workspace/readme-vis/data/all-the-gists/gists-files/00aeeb7079ff8a936d07",
-		"/Users/m/workspace/readme-vis/data/all-the-gists/gists-files/00b06173e38845f82995351d37972be1",
-		"/Users/m/workspace/readme-vis/data/all-the-gists/gists-files/00c36fbe045e5d0290fc",
-		"/Users/m/workspace/readme-vis/data/all-the-gists/gists-files/00c3f65f66d807e88108",
-		"/Users/m/workspace/readme-vis/data/all-the-gists/gists-files/00c5f3ef0199bf8e7fae",
-		"/Users/m/workspace/readme-vis/data/all-the-gists/gists-files/00d8421277b3a67210e7",
-		"/Users/m/workspace/readme-vis/data/all-the-gists/gists-files/00e021a14ee43498b9d9e53a7cc6c65b",
 		"/Users/m/workspace/readme-vis/data/gist-metadata",
+		"/Users/m/workspace/readme-vis/data/gist-metadata/input",
 		"/Users/m/workspace/readme-vis/data/gist-metadata/output",
+		"/Users/m/workspace/readme-vis/data/scripts",
+		"/Users/m/workspace/readme-vis/img",
 		"/Users/m/workspace/readme-vis/vis",
-		"/Users/m/workspace/readme-vis/vis/04-block-detail"
+		"/Users/m/workspace/readme-vis/vis/05"
 	],
 	"file_history":
 	[
+		"/Users/m/workspace/readme-vis/README.md",
+		"/Users/m/workspace/readme-vis/tasks.md",
+		"/Users/m/workspace/readme-vis/vis/04-block-detail/index.html",
+		"/Users/m/workspace/blockbuilder-search-index/l",
+		"/Users/m/workspace/readme-vis/data/scripts/05-download-thumbnails.js",
+		"/Users/m/workspace/readme-vis/data/scripts/04-thumbnail-hash.js",
+		"/Users/m/workspace/readme-vis/data/scripts/04-thumbnail-hash",
+		"/Users/m/workspace/readme-vis/data/gist-metadata/input/blocks.json",
 		"/Users/m/workspace/readme-vis/vis/03-invisible-voronoi/index.html",
 		"/Users/m/workspace/readme-vis/vis/02-voronoi-sun/index.html",
 		"/Users/m/workspace/readme-vis/vis/01-canvas-edges/index.html",
@@ -422,7 +442,6 @@
 		"/Users/m/workspace/readme-vis/index.html",
 		"/Users/m/workspace/readme-vis/data/gist-metadata/gists-with-readme-with-blocks-links.json",
 		"/Users/m/workspace/readme-vis/data/gist-metadata/blocks-example.json",
-		"/Users/m/workspace/readme-vis/README.md",
 		"/Users/m/workspace/readme-vis/data/gist-metadata/readme-blocks-graph.json",
 		"/Users/m/workspace/readme-vis/data/gist-metadata/latest-edges.json",
 		"/Users/m/workspace/readme-vis/data/scripts/03-generate-graph.js",
@@ -532,18 +551,11 @@
 		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/006-a.js",
 		"/usr/local/include/zmq.hpp",
 		"/Users/m/workspace/blocks/close-votes-uk/data-prep/00-scotland/05.js",
-		"/Users/m/workspace/blocks/close-votes-uk/data-prep/00-northern-ireland/01.js",
-		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/13.js",
-		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/013.json",
-		"/Users/m/workspace/blocks/close-votes-uk/data-prep/00-england-wales/00.js",
-		"/Users/m/workspace/blocks/close-votes-uk/data-prep/00-england-wales/00.json",
-		"/Users/m/workspace/blocks/close-votes-uk/data-prep/00-england-wales/01.js",
-		"/Users/m/workspace/blocks/close-votes-uk/data-prep/00-scotland/03.js",
-		"/Users/m/workspace/blocks/close-votes-uk/data-prep/00-scotland/02.js"
+		"/Users/m/workspace/blocks/close-votes-uk/data-prep/00-northern-ireland/01.js"
 	],
 	"find":
 	{
-		"height": 43.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -558,6 +570,17 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"dh",
+			"r ",
+			"minSide",
+			"nodeMouse",
+			"node",
+			"\"",
+			"canvasText",
+			"thumbnailsHash",
+			"createForce",
+			"undefined",
+			"user",
 			"svg",
 			"node",
 			".on",
@@ -674,15 +697,7 @@
 			"cvalue",
 			"cValue",
 			"\\s(?=\\d)",
-			"\\s",
-			"count",
-			"name",
-			"value",
-			"name",
-			"accessor",
-			"width",
-			"height",
-			"\""
+			"\\s"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -690,6 +705,10 @@
 		"regex": true,
 		"replace_history":
 		[
+			"dH",
+			"'",
+			"blockTitleText",
+			"null",
 			"'",
 			"edgeData",
 			"nodeData",
@@ -725,80 +744,54 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "tasks.md",
+					"file": "vis/04-block-detail/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 394,
+						"buffer_size": 14421,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								150,
-								150
+								1599,
+								1599
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 511.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "README.md",
+					"file": "vis/05/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1267,
+						"buffer_size": 14720,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1267,
-								1267
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "vis/04-block-detail/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10479,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1409,
-								1409
+								5665,
+								5665
 							]
 						],
 						"settings":
@@ -808,46 +801,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 779.0,
+						"translation.y": 2202.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 2,
-					"file": "vis/04-block-detail/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10479,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								9320,
-								9320
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 7979.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -855,7 +812,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 35.0
+		"height": 21.0
 	},
 	"input":
 	{
@@ -870,18 +827,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.378715244487,
 			1.0
 		],
 		"rows":
@@ -899,7 +849,7 @@
 	"project": "readme-vis.sublime-project",
 	"replace":
 	{
-		"height": 80.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -908,6 +858,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"05",
+				"data/scripts/05-download-thumbnails.js"
+			],
 			[
 				"8b6c3d9694a96177bf8d",
 				"data/gists/8b6c3d9694a96177bf8d/index.html"
