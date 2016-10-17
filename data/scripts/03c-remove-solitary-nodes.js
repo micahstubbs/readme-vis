@@ -3,8 +3,12 @@ var jf = require('jsonfile')
 var d3 = require('d3');
 var _ = require('lodash');
 
-// const inputFile = 'readme-blocks-graph.json';
+// use in a pipeline with other processing scripts
 const inputFile = 'readme-blocks-graph-no-self-links.json';
+
+// use standalone from the original readme graph
+// const inputFile = 'readme-blocks-graph.json';
+
 const inputFileStem = inputFile.slice(0, -5); // without the .json
 const filePathStem = `../gist-metadata/output/`;
 const filePath = `${filePathStem}${inputFile}`;

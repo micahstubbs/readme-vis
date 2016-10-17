@@ -4,7 +4,6 @@ var d3 = require('d3');
 var _ = require('lodash');
 
 // const inputFile = 'readme-blocks-graph.json';
-const inputFile = 'readme-blocks-graph.json';
 const inputFileStem = inputFile.slice(0, -5); // without the .json
 const filePathStem = `../gist-metadata/output/`;
 const filePath = `${filePathStem}${inputFile}`;
