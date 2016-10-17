@@ -1,7 +1,7 @@
-var fs = require('fs');
-var jf = require('jsonfile')
-var d3 = require('d3');
-var _ = require('lodash');
+const fs = require('fs');
+const jf = require('jsonfile')
+const d3 = require('d3');
+const _ = require('lodash');
 
 // const inputFile = 'readme-blocks-graph.json';
 const inputFileStem = inputFile.slice(0, -5); // without the .json

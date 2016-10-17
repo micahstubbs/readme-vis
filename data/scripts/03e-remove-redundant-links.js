@@ -4,7 +4,7 @@ const d3 = require('d3');
 const _ = require('lodash');
 
 // use in a pipeline with other processing scripts
-const inputFile = 'readme-blocks-graph-no-self-links-no-solitary-nodes.json';
+const inputFile = 'readme-blocks-graph-no-self-links-no-solitary-nodes-no-missing-nodes.json';
 
 // use standalone from the original readme graph
 // const inputFile = 'readme-blocks-graph.json'
@@ -19,40 +19,48 @@ function callback(error, data) {
 };
 
 function removeMissingNodes(inputGraphContainer) {
-  const linksWithMissingNodeIndices = [];
+  
 
   const graphContainer = _.cloneDeep(inputGraphContainer);
   // console.log(Object.keys(graphContainer));
   // console.log(Object.keys(graphContainer.graph));
-  const nodesHash = {};
+  const undirectedLinksHash = {};
+  const redundantLinkIndices = [];
 
-  // construct nodesHash
-  graphContainer.graph.nodes.forEach((node, i) => {
-    nodesHash[node.id] = true;
-  });
-
-  // see if a link references something not in graph.nodes
   graphContainer.graph.links.forEach((link, i) => {
-    ['source', 'target'].forEach(linkType => {
-      if (typeof nodesHash[link.linkType] === 'undefined') {
-        linksWithMissingNodeIndices.push(i);
-      }
-    })
+    const sourceTarget = [link.source, link.target];
+
+    // sort so that links with different direction become the same
+    const sortedSourceTarget = sourceTarget.sort();
+
+    // make a string that we can use as a key
+    const sortedSourceTargetString = sortedSourceTarget.join();
+
+    // see if we have seen this sortedSourceTargetString before
+    if (typeof undirectedLinksHash[sortedSourceTargetString] === 'undefined') {
+      // if we have not seen it before, add a value for it
+      undirectedLinksHash[sortedSourceTargetString] = true;
+    } else {
+      // if we have seen it before, note the index of the current link
+      // so that we can remove it later
+      redundantLinkIndices.push(i);
+    }
   });
 
-  linksWithMissingNodeIndices.forEach(index => {
+  // remove the redundant links from the links array
+  redundantLinkIndices.forEach(index => {
     if (index > -1) {
       graphContainer.graph.links.splice(index, 1);
     }
   });
 
-  console.log(`${linksWithMissingNodeIndices.length} links that refer to missing nodes removed`);
+  console.log(`${redundantLinkIndices.length} redundant links removed`);
   console.log('now there are:');
   console.log(`${graphContainer.graph.nodes.length} nodes`);
   console.log(`${graphContainer.graph.links.length} links`);
   console.log(`in the D3 README graph`);
   
-  const outputFile = `${filePathStem}${inputFileStem}-no-missing-nodes.json`
+  const outputFile = `${filePathStem}${inputFileStem}-no-redudant-links.json`
   const outputJsonObj = graphContainer;
   jf.writeFile(outputFile, outputJsonObj, {spaces: 2}, function(err){
     console.log(err)
