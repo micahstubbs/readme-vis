@@ -3,7 +3,12 @@ var jf = require('jsonfile')
 var d3 = require('d3');
 var _ = require('lodash');
 
-fs.readFile('../gist-metadata/output/readme-blocks-graph.json', 'utf-8',  callback);
+// const inputFile = 'readme-blocks-graph.json';
+const inputFile = 'readme-blocks-graph.json';
+const inputFileStem = inputFile.slice(0, -5); // without the .json
+const filePathStem = `../gist-metadata/output/`;
+const filePath = `${filePathStem}${inputFile}`;
+fs.readFile(filePath, 'utf-8',  callback);
 
 function callback(error, data) {
 	const parsed = JSON.parse(data);
@@ -35,7 +40,8 @@ function removeSelfLinks(inputGraphContainer) {
 	console.log(`in the D3 README graph`);
 	
 
-	const outputFile = '../gist-metadata/output/readme-blocks-graph-no-self-links.json'
+	// const outputFile = '../gist-metadata/output/readme-blocks-graph-no-self-links.json'
+	const outputFile = `${filePathStem}${inputFileStem}-no-self-links.json`
 	const outputJsonObj = graphContainer;
 	jf.writeFile(outputFile, outputJsonObj, {spaces: 2}, function(err){
 	  console.log(err)

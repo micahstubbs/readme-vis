@@ -4,96 +4,304 @@
 		"selected_items":
 		[
 			[
-				"title",
-				"titleText"
+				"read",
+				"readme-blocks-graph"
 			],
 			[
-				"select",
-				"selectAll"
+				"utf",
+				"utf-8"
 			],
 			[
-				"cards",
-				"cardsDisplayed"
+				"with",
+				"withReadme"
 			],
 			[
-				"fill",
-				"fill-opacity"
+				"submi",
+				"submittedQuery"
 			],
 			[
 				"block",
-				"blockTitleText"
+				"blockbuilder-search"
 			],
 			[
-				"canva",
-				"canvasText"
+				"fetch",
+				"fetchOptions"
 			],
 			[
-				"th",
-				"thumbnail"
+				"variable",
+				"variableImportances"
 			],
 			[
-				"down",
-				"download_file_curl"
+				"variabe",
+				"variableImportances"
 			],
 			[
-				"thu",
-				"thumbnailUrl"
+				"variab",
+				"variableImportancesObject"
 			],
 			[
-				"thumbnail",
-				"thumbnailsHash"
+				"variabl",
+				"variableImportance"
 			],
 			[
-				"create",
-				"createNetwork"
+				"scatter",
+				"scatterplotXVariables"
 			],
 			[
-				"remov",
-				"removeByValue"
+				"scatt",
+				"scatterplotUpdate"
 			],
 			[
-				"canv",
-				"canvasText"
+				"d3",
+				"d3VoronoiScatterplot"
 			],
 			[
-				"card",
-				"cardSelector"
+				"rossman",
+				"rossmanAggregatedConfig"
 			],
 			[
-				"thumb",
-				"thumbnailLocalUrl"
+				"update",
+				"updateMarksStyles"
 			],
 			[
-				"thum",
-				"thumbnailLocalUrl"
+				"chart",
+				"chartOptions"
 			],
 			[
-				"clien",
-				"clientWidth"
+				"transi",
+				"transitionExplodingBoxplot"
 			],
 			[
-				"detail",
-				"detailDiv"
+				"categori",
+				"categoricalVariables"
 			],
 			[
-				"deta",
-				"detailDiv"
+				"categorical",
+				"categoricalColumns"
 			],
 			[
-				"open",
-				"openInNewTab"
+				"drop",
+				"dropdownSelection"
 			],
 			[
-				"voronoi",
-				"voronoiMouseover"
+				"cate",
+				"categoricalVariables"
 			],
 			[
-				"voro",
-				"voronoiPaths"
+				"mar",
+				"marksFillOpacity"
+			],
+			[
+				"marks",
+				"marksRadius"
+			],
+			[
+				"fill",
+				"fillOpacity"
+			],
+			[
+				"opac",
+				"opacityCircles"
+			],
+			[
+				"explod",
+				"explodingBoxplot"
+			],
+			[
+				"numeric",
+				"numericColumns"
 			],
 			[
 				"draw",
-				"drawVoronoiOverlay"
+				"drawExplodingBoxplot"
+			],
+			[
+				"explodin",
+				"explodingBoxplot"
+			],
+			[
+				"global",
+				"globalExtents"
+			],
+			[
+				"current",
+				"currentExtent"
+			],
+			[
+				"wrapper",
+				"wrapperId"
+			],
+			[
+				"curre",
+				"currentAlgoLabel"
+			],
+			[
+				"voro",
+				"voronoiOptions"
+			],
+			[
+				"response",
+				"responseVariable"
+			],
+			[
+				"selec",
+				"selector"
+			],
+			[
+				"projec",
+				"projectLink"
+			],
+			[
+				"proje",
+				"projectTitle"
+			],
+			[
+				"tooltip",
+				"tooltipFormats"
+			],
+			[
+				"toolTip",
+				"tooltipVariables"
+			],
+			[
+				"legend",
+				"legendRectClick"
+			],
+			[
+				"flex",
+				"flexDirection"
+			],
+			[
+				"sele",
+				"selector"
+			],
+			[
+				"categ",
+				"categoricalVariables"
+			],
+			[
+				"tool",
+				"tooltipColumn"
+			],
+			[
+				"predi",
+				"predictColumn"
+			],
+			[
+				"indep",
+				"independentVariables"
+			],
+			[
+				"limite",
+				"limitedVoronoiGroup"
+			],
+			[
+				"limi",
+				"limitedVoronoiCells"
+			],
+			[
+				"group",
+				"groupByVariable"
+			],
+			[
+				"predict",
+				"predicted"
+			],
+			[
+				"pred",
+				"predictColumn"
+			],
+			[
+				"numeri",
+				"numericResponseCounts"
+			],
+			[
+				"churn",
+				"churnedYesCount"
+			],
+			[
+				"vari",
+				"variableImportanceData"
+			],
+			[
+				"percen",
+				"percentageData"
+			],
+			[
+				"value",
+				"value"
+			],
+			[
+				"uniq",
+				"uniqueValues"
+			],
+			[
+				"uni",
+				"uniqueValues"
+			],
+			[
+				"colu",
+				"column"
+			],
+			[
+				"column",
+				"columnsToPlot"
+			],
+			[
+				"stroke",
+				"stroke-dasharray"
+			],
+			[
+				"custom",
+				"customersToUpdate"
+			],
+			[
+				"prop",
+				"proportion"
+			],
+			[
+				"histo",
+				"histogramScaleFactor"
+			],
+			[
+				"histog",
+				"histogramMax"
+			],
+			[
+				"hist",
+				"histogramMax"
+			],
+			[
+				"def",
+				"defaultYVariable"
+			],
+			[
+				"defau",
+				"defaultXVariable"
+			],
+			[
+				"members",
+				"membersFrame"
+			],
+			[
+				"exem",
+				"exemplarFrame"
+			],
+			[
+				"exemplar",
+				"exemplarId"
+			],
+			[
+				"parse",
+				"parsedData"
+			],
+			[
+				"exempl",
+				"exemplarPointsVisible"
+			],
+			[
+				"exeml",
+				"exemplarData"
 			],
 			[
 				"strok-",
@@ -136,14 +344,6 @@
 				"graphContainer"
 			],
 			[
-				"with",
-				"withBlocksLinks"
-			],
-			[
-				"read",
-				"readmePath"
-			],
-			[
 				"mouse",
 				"mouseout"
 			],
@@ -166,6 +366,10 @@
 			[
 				"pack",
 				"packChart"
+			],
+			[
+				"select",
+				"selectedNode"
 			],
 			[
 				"app",
@@ -194,18 +398,6 @@
 			[
 				"retwee",
 				"retweetLine"
-			],
-			[
-				"selec",
-				"selectAll"
-			],
-			[
-				"stroke",
-				"stroke-width"
-			],
-			[
-				"sele",
-				"selectAll"
 			],
 			[
 				"cons",
@@ -246,10 +438,6 @@
 			[
 				"pop",
 				"population"
-			],
-			[
-				"uni",
-				"uniqueOAsCount"
 			],
 			[
 				"tota",
@@ -304,10 +492,6 @@
 				"sphereMaterial"
 			],
 			[
-				"value",
-				"values_array"
-			],
-			[
 				"facets",
 				"facets_json"
 			],
@@ -329,33 +513,99 @@
 			],
 			[
 				"sc",
-				"script	Tag"
-			],
-			[
-				"bar",
-				"barHeight"
-			],
-			[
-				"deal",
-				"deal"
+				"script\tTag"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "vis/04-block-detail/index.html",
+			"file": "data/scripts/02-gists-with-readme-with-blocks-link.js",
 			"settings":
 			{
-				"buffer_size": 14421,
+				"buffer_size": 3351,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "vis/05/index.html",
+			"file": "data/scripts/03-generate-graph.js",
 			"settings":
 			{
-				"buffer_size": 14720,
+				"buffer_size": 3356,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "data/scripts/03b-remove-self-links.js",
+			"settings":
+			{
+				"buffer_size": 1245,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "data/scripts/03c-remove-solitary-nodes.js",
+			"settings":
+			{
+				"buffer_size": 1680,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 157,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "data/scripts/zz-compare-unknown-users-gists-with-gist-meta.js",
+			"settings":
+			{
+				"buffer_size": 1464,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "data/scripts/zz-sample-gists-meta-json.js",
+			"settings":
+			{
+				"buffer_size": 484,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "data/gist-metadata/output/gists-with-readme.json",
+			"settings":
+			{
+				"buffer_size": 5017778,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "data/scripts/01b-gists-users.js",
+			"settings":
+			{
+				"buffer_size": 741,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "data/scripts/zz-sample-blocks-dot-json.js",
+			"settings":
+			{
+				"buffer_size": 633,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -367,7 +617,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 87.0,
+		"height": 127.0,
 		"last_filter": "install",
 		"selected_items":
 		[
@@ -392,7 +642,7 @@
 				"Package Control: Remove Package"
 			]
 		],
-		"width": 530.0
+		"width": 485.0
 	},
 	"console":
 	{
@@ -413,153 +663,146 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/m/workspace/readme-vis",
-		"/Users/m/workspace/readme-vis/data/gist-metadata",
-		"/Users/m/workspace/readme-vis/data/gist-metadata/input",
-		"/Users/m/workspace/readme-vis/data/gist-metadata/output",
-		"/Users/m/workspace/readme-vis/data/scripts",
-		"/Users/m/workspace/readme-vis/img",
-		"/Users/m/workspace/readme-vis/vis",
-		"/Users/m/workspace/readme-vis/vis/05"
+		"/Users/m/workspace/readme-vis/data/scripts"
 	],
 	"file_history":
 	[
-		"/Users/m/workspace/readme-vis/README.md",
-		"/Users/m/workspace/readme-vis/tasks.md",
-		"/Users/m/workspace/readme-vis/vis/04-block-detail/index.html",
-		"/Users/m/workspace/blockbuilder-search-index/l",
-		"/Users/m/workspace/readme-vis/data/scripts/05-download-thumbnails.js",
-		"/Users/m/workspace/readme-vis/data/scripts/04-thumbnail-hash.js",
-		"/Users/m/workspace/readme-vis/data/scripts/04-thumbnail-hash",
-		"/Users/m/workspace/readme-vis/data/gist-metadata/input/blocks.json",
-		"/Users/m/workspace/readme-vis/vis/03-invisible-voronoi/index.html",
-		"/Users/m/workspace/readme-vis/vis/02-voronoi-sun/index.html",
-		"/Users/m/workspace/readme-vis/vis/01-canvas-edges/index.html",
-		"/Users/m/workspace/readme-vis/vis/00-svg-edges/index.html",
-		"/Users/m/workspace/readme-vis/.eslintrc",
 		"/Users/m/workspace/readme-vis/package.json",
-		"/Users/m/workspace/readme-vis/vis/00/index.html",
-		"/Users/m/workspace/readme-vis/index.html",
-		"/Users/m/workspace/readme-vis/data/gist-metadata/gists-with-readme-with-blocks-links.json",
-		"/Users/m/workspace/readme-vis/data/gist-metadata/blocks-example.json",
-		"/Users/m/workspace/readme-vis/data/gist-metadata/readme-blocks-graph.json",
-		"/Users/m/workspace/readme-vis/data/gist-metadata/latest-edges.json",
-		"/Users/m/workspace/readme-vis/data/scripts/03-generate-graph.js",
-		"/Users/m/workspace/d3-projects/readme-vis/data/scripts/zz-username-regex.js",
-		"/Users/m/workspace/d3-projects/readme-vis/index.html",
-		"/Users/m/workspace/d3-projects/readme-vis/data/scripts/02-gists-with-readme-with-blocks-link.js",
-		"/Users/m/workspace/d3-projects/readme-vis/lib/jsLouvain.js",
-		"/Users/m/workspace/d3-projects/readme-vis/data/scripts/03-make-edgelist.js",
-		"/Users/m/workspace/d3-projects/readme-vis/data/scripts/01.json",
-		"/Users/m/workspace/d3-projects/readme-vis/data/gist-metadata/gists-with-readme.json",
-		"/Users/m/workspace/d3-projects/readme-vis/data/scripts/01-gists-with-readme.js",
-		"/Users/m/workspace/d3-projects/readme-vis/data/gists/8b6c3d9694a96177bf8d/index.html",
-		"/Users/m/workspace/d3-projects/readme-vis/.gitignore",
-		"/Users/m/workspace/d3-projects/readme-vis/data/scripts/01",
-		"/Users/m/.bash_profile",
-		"/Users/m/.bashrc",
+		"/Users/m/workspace/readme-vis/data/scripts/03b-remove-self-edges.js",
+		"/Users/m/workspace/blockbuilder-search-index/data/gists-clones/zanarmstrong/884bb566c84775d92b3d/.,",
+		"/Users/m/workspace/readme-vis/data/gist-metadata/input/files-blocks.json",
+		"/Users/m/workspace/readme-vis/data/scripts/zz-nested-callback-experiment.js",
+		"/Users/m/workspace/readme-vis/data/gist-metadata/output/gist-id-to-username.json",
+		"/Users/m/workspace/readme-vis/data/gist-metadata/output/gist",
+		"/Users/m/workspace/readme-vis/data/gist-metadata/input/blocks.json",
+		"/Users/m/workspace/blockbuilder-search/react/components/app.js",
+		"/Users/m/workspace/blockbuilder-search/react/reducer.js",
+		"/Users/m/workspace/blockbuilder-search/index.js",
+		"/Users/m/workspace/blockbuilder-search/package.json",
+		"/Users/m/workspace/visualizations/residuals/data/getVariableImportance.js",
+		"/Users/m/workspace/visualizations/residuals/data/santander-customer-satisfaction/output/deeplearning-22a36d2a-9737-46fa-ab3f-0ff9f5a49f28-variable-importances.json",
+		"/Users/m/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/m/workspace/visualizations/residuals/vis/06/src/parseResponse.js",
+		"/Users/m/workspace/visualizations/residuals/data/santander-customer-satisfaction/output/dl-variable-importances.tsv",
+		"/Users/m/workspace/visualizations/.gitignore",
+		"/Users/m/Downloads/235cc97a1dca.csv",
+		"/Users/m/workspace/visualizations/residuals/vis/06/src/dropdown.js",
+		"/Users/m/workspace/visualizations/residuals/vis/06/src/config/rossmanAggregated.js",
+		"/Users/m/workspace/visualizations/residuals/vis/06/src/drawExplodingBoxplot.js",
+		"/Users/m/workspace/visualizations/residuals/vis/06/src/parseData.js",
 		"/Users/m/.zshrc",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/09/Fig_09_07.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/08-dom-manipulation/05-table.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/09/Fig_09_04.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/09/Fig_09_02.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/08/Fig_08_05.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/09-interactive-apps/01-dashboard.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/tweets.json",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/08-dom-manipulation/09-gallery.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/08-dom-manipulation/10-gallery.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/08/Fig_08_11.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/08/Fig_08_10.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/08/Fig_08_09.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/08/Fig_08_06.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/08-dom-manipulation/08-gallery.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/08-dom-manipulation/07-gallery.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/08-dom-manipulation/06-gallery.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/08/Fig_08_08.html",
-		"/Users/m/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/08-dom-manipulation/04-table.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/08/Fig_08_04.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/08-dom-manipulation/02-table.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/08-dom-manipulation/03-table.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/08-dom-manipulation/04",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/08/Fig_08_03.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/08-dom-manipulation/01-table.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/08/Fig_08_02.html",
-		"/Users/m/zshrc",
-		"/Users/m/workspace/blocks/close-votes-uk/data-prep/geography/metro-geo.csv",
-		"/Users/m/workspace/blocks/close-votes-uk/index.html",
-		"/Users/m/workspace/blocks/close-votes-uk/data.json",
-		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/010-parse.js",
-		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/012-parse.js",
-		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/014.js",
-		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/006.js",
-		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/006.json",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/16-streamgraph.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/04/Fig_04_25.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/15-streamgraph.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/04/Fig_04_24.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/14-streamgraph.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/04/Fig_04_23.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/10-linechart.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/tweetdata.csv",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/13-linechart.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/12-linechart.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/04/Fig_04_20_alt_colors.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/11-linechart.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/04/Fig_04_18.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/09-linechart.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/09-boxplot.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/08-boxplot.html",
-		"/Users/m/workspace/blocks/d51",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/04/Fig_04_17.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/04/Fig_04_15.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/07-boxplot.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/06-boxplot.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/boxplot.csv",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/04/Fig_04_13.html",
-		"/Users/m/workspace/data-jam-20150606/inspired12-data-jam-2015/HospitalPrices.csv",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/04-scatter.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/05-scatter.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/04/Fig_04_10.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/04/Fig_04_08.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/01-scatter.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/02-scatter.html",
-		"/Users/m/workspace/d3-projects/d3js-in-action-book-code/my-iterations/04-chart-components/03-scattter.html",
-		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/006-1-cons.js",
-		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/006-uk-election-results-2015.json",
-		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/006-0-parties.js",
-		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/005.json",
-		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/003.json",
-		"/Users/m/workspace/blocks/close-votes-uk/data-prep/00-northern-ireland/00.json",
-		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/00-pop-by-con-northern-ireland.csv",
-		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/003.js",
-		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/006-parse.js",
-		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/005-parse.js",
-		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/003-consToReview.json",
-		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/00-assemble-dataset.R",
-		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/00-uk2015.csv",
-		"/Users/m/workspace/blocks/close-votes-uk/.gitignore",
-		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/002.json",
-		"/Users/m/workspace/blocks/close-votes-uk/data-prep/00-england-wales/01-pop-by-con-england-wales.csv",
-		"/Users/m/workspace/blocks/close-votes-uk/data-prep/geography/output-areas-to-constituencies/OA11_PCON11_EER11_EW_LU.csv",
-		"/Users/m/workspace/blocks/close-votes-uk/data-prep/00-england-wales/00-oa-to-pcon.csv",
-		"/Users/m/workspace/blocks/close-votes-uk/data-prep/00-england-wales/01-metros-cons-england-wales.csv",
-		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/00-pop-by-con-england-wales.csv",
-		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/uk-election-results-2015.csv",
-		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/002-parse.js",
-		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/006-parties.json",
-		"/Users/m/workspace/blocks/close-votes-uk/data-prep/99/006-a.js",
-		"/usr/local/include/zmq.hpp",
-		"/Users/m/workspace/blocks/close-votes-uk/data-prep/00-scotland/05.js",
-		"/Users/m/workspace/blocks/close-votes-uk/data-prep/00-northern-ireland/01.js"
+		"/Users/m/workspace/visualizations/residuals/vis/06/src/data/rossman-store-sales/dl-residuals-aggregated-0-075.csv",
+		"/Users/m/workspace/visualizations/residuals/vis/06/src/getGlobalExtents.js",
+		"/Users/m/workspace/visualizations/residuals/vis/06/src/tooltip.js",
+		"/Users/m/workspace/visualizations/residuals/vis/06/src/scatterplot.js",
+		"/Users/m/workspace/visualizations/residuals/vis/06/src/setModelTransition.js",
+		"/Users/m/workspace/visualizations/residuals/vis/tasks.md",
+		"/Users/m/workspace/visualizations/residuals/vis/06/src/drawVoronoiOverlay.js",
+		"/Users/m/workspace/visualizations/residuals/vis/06/src/distance-limited-voronoi.js",
+		"/Users/m/workspace/visualizations/residuals/vis/06/src/d3-tip-custom.js",
+		"/Users/m/workspace/visualizations/residuals/vis/06/src/d3-exploding-boxplot.js",
+		"/Users/m/workspace/visualizations/residuals/vis/06/src/d3-tip.js",
+		"/Users/m/workspace/visualizations/residuals/vis/06/src/drawResidualsVis.js",
+		"/Users/m/workspace/visualizations/residuals/vis/06/src/config/rossman.js",
+		"/Users/m/workspace/visualizations/residuals/vis/06/src/transitionExplodingBoxplot.js",
+		"/Users/m/workspace/visualizations/residuals/vis/06/src/updateMarksStyles.js",
+		"/Users/m/workspace/visualizations/residuals/vis/06/src/App.js",
+		"/Users/m/workspace/visualizations/residuals/vis/06/src/explodingBoxplot.js",
+		"/Users/m/workspace/exploding-boxplot-example-project/d3-tip.js",
+		"/Users/m/workspace/exploding-boxplot-example-project/02/iris.csv",
+		"/Users/m/workspace/exploding-boxplot-example-project/01/explodingBoxplot.js",
+		"/Users/m/workspace/exploding-boxplot-example-project/atpWta.json",
+		"/Users/m/workspace/exploding-boxplot-example-project/explodingBoxplot.js",
+		"/Users/m/workspace/exploding-boxplot-example-project/pDxbp.js",
+		"/Users/m/workspace/exploding-boxplot-example-project/README.md",
+		"/Users/m/workspace/exploding-boxplot-example-project/01/index.html",
+		"/Users/m/workspace/exploding-boxplot-example-project/index.html",
+		"/Users/m/workspace/d3_exploding_boxplot/d3-tip.js",
+		"/Users/m/workspace/d3_exploding_boxplot/package.json",
+		"/Users/m/workspace/d3_exploding_boxplot/.gitignore",
+		"/Users/m/workspace/visualizations/residuals/vis/06/src/setModelTransitionStepped.js",
+		"/Users/m/workspace/visualizations/residuals/vis/06/src/drawTitle.js",
+		"/Users/m/workspace/visualizations/residuals/vis/06/getGlobalExtents.js",
+		"/Users/m/workspace/visualizations/residuals/vis/01/index.html",
+		"/Users/m/workspace/visualizations/residuals/vis/06/src/setTooltip.js",
+		"/Users/m/workspace/visualizations/residuals/vis/06/src/transitionPoints.js",
+		"/Users/m/workspace/visualizations/residuals/vis/06/src/data/rossman-store-sales/gbm-residuals-20k.csv",
+		"/Users/m/workspace/visualizations/residuals/vis/06/src/drawFlexContainer.js",
+		"/Users/m/workspace/visualizations/residuals/vis/06/index.html",
+		"/Users/m/workspace/visualizations/residuals/vis/06/src/drawROCChart.js",
+		"/Users/m/workspace/visualizations/residuals/vis/06/src/drawsResidualsVis.js",
+		"/Users/m/workspace/visualizations/residuals/vis/06/package.json",
+		"/Users/m/workspace/visualizations/residuals/vis/06/README.md",
+		"/Users/m/workspace/visualizations/residuals/vis/05/package.json",
+		"/Users/m/workspace/visualizations/residuals/vis/05/script.js",
+		"/Users/m/workspace/visualizations/residuals/vis/05/README.md",
+		"/Users/m/workspace/visualizations/residuals/vis/04/index.html",
+		"/Users/m/workspace/visualizations/residuals/vis/04/script.js",
+		"/Users/m/workspace/visualizations/residuals/vis/03/script.js",
+		"/Users/m/workspace/visualizations/residuals/vis/03/index.html",
+		"/Users/m/workspace/visualizations/residuals/vis/03/gbm-residuals.csv",
+		"/Users/m/workspace/visualizations/residuals/vis/02/script.js",
+		"/Users/m/workspace/visualizations/residuals/vis/02/index.html",
+		"/Users/m/workspace/blocks/es2015-distance-limited-voronoi-scatterplot/script.js",
+		"/Users/m/workspace/blocks/es2015-distance-limited-voronoi-scatterplot/index.html",
+		"/Users/m/workspace/blocks/es2015-distance-limited-voronoi-scatterplot/d3-tip.js",
+		"/Users/m/workspace/blocks/es2015-distance-limited-voronoi-scatterplot/README.md",
+		"/Users/m/workspace/blocks/es2015-distance-limited-voronoi-scatterplot/worldbank.js",
+		"/Users/m/workspace/blocks/es2015-distance-limited-voronoi-scatterplot/es6.js",
+		"/Users/m/workspace/visualizations/residuals/.gitignore",
+		"/Users/m/workspace/visualizations/residuals/00-parse.js",
+		"/Users/m/workspace/blocks/obj-experiment/.block",
+		"/Users/m/workspace/roc-chart/src/test.js",
+		"/Users/m/workspace/roc-chart/.eslintrc",
+		"/Users/m/workspace/grouped-bar-chart/.eslintrc",
+		"/Users/m/workspace/blocks/curve-interpolation/.gitignore",
+		"/Users/m/workspace/customer-churn/data/response-distribution/calculateResponseDistribution.js",
+		"/Users/m/workspace/customer-churn/data/response-distribution/package.json",
+		"/Users/m/workspace/customer-churn/data/response-distribution/response-distribution.json",
+		"/Users/m/workspace/customer-churn/data/variable-importance/gbm-variable-importance-data.json",
+		"/Users/m/workspace/customer-churn/data/variable-importance/getVariableImportanceData.js",
+		"/Users/m/workspace/customer-churn/data/TelcoChurn.csv",
+		"/Users/m/workspace/visualizations/roc-chart-example-project/node_modules/rocChart/build/roc-chart.js",
+		"/Users/m/workspace/dropline/package.json",
+		"/Users/m/workspace/dropline/index.js",
+		"/Users/m/workspace/dropline/README.md",
+		"/Users/m/workspace/dropline-example-project/README.md",
+		"/Users/m/workspace/dropline-example-project/package.json",
+		"/Users/m/workspace/dropline-example-project/LICENSE",
+		"/Users/m/workspace/test-dropline/test.js",
+		"/Users/m/workspace/vis-components/roc-chart/package.json",
+		"/Users/m/workspace/h2o-datastories/churn/churnSimulation.js",
+		"/Users/m/workspace/visualizations/churn-simulation/index.html",
+		"/Users/m/workspace/visualizations/churn-simulation/sample-data.csv",
+		"/Users/m/workspace/datacomb/.gitignore",
+		"/Users/m/workspace/datacomb/src/js/datacomb.js",
+		"/Users/m/workspace/datacomb/src/js/data-parser.js",
+		"/Users/m/workspace/datacomb/src/js/col-header.js",
+		"/Users/m/workspace/visualizations/scatterplot-zoom/11/webpack.config.js",
+		"/Users/m/workspace/visualizations/scatterplot-zoom/11/server.js",
+		"/Users/m/workspace/visualizations/scatterplot-zoom/11/.eslintrc",
+		"/Users/m/workspace/visualizations/scatterplot-zoom/11/src/parseResponse.js",
+		"/Users/m/workspace/visualizations/scatterplot-zoom/11/src/drawMemberCircles.js",
+		"/Users/m/workspace/visualizations/scatterplot-zoom/11/src/zoom.js",
+		"/Users/m/workspace/visualizations/scatterplot-zoom/11/src/drawVoronoiPaths.js",
+		"/Users/m/workspace/visualizations/scatterplot-zoom/11/src/zoomend.js",
+		"/Users/m/workspace/visualizations/scatterplot-zoom/11/src/zoomstart.js",
+		"/Users/m/workspace/visualizations/scatterplot-zoom/11/src/plotExemplars.js",
+		"/Users/m/workspace/visualizations/scatterplot-zoom/11/src/scatter.js",
+		"/Users/m/workspace/visualizations/scatterplot-zoom/11/src/getMemberData.js",
+		"/Users/m/workspace/visualizations/scatterplot-zoom/11/src/translatePoints.js",
+		"/Users/m/workspace/visualizations/scatterplot-zoom/11/drawVoronoiPaths.js",
+		"/Users/m/workspace/readme-vis/vis/00/index.html",
+		"/Users/m/workspace/readme-vis/vis/01-canvas-edges/index.html",
+		"/Users/m/workspace/readme-vis/vis/02-voronoi-sun/index.html"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 37.0
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 181.0,
 		"where_history":
 		[
 			""
@@ -570,134 +813,134 @@
 		"case_sensitive": true,
 		"find_history":
 		[
-			"dh",
-			"r ",
-			"minSide",
-			"nodeMouse",
-			"node",
-			"\"",
-			"canvasText",
-			"thumbnailsHash",
-			"createForce",
-			"undefined",
+			"selfEdgesIndices",
+			"removeSelfEdges",
+			"edge",
+			"edges",
+			"gistsWithMissingFiles",
+			"gistsWithUnknownUsers",
 			"user",
-			"svg",
-			"node",
-			".on",
-			"on",
-			"click",
-			"canvas",
 			"\"",
-			"edge_data",
-			"node_data",
-			"svg",
-			"\"",
-			"xOffset",
-			"id",
-			"main",
-			"chart",
-			"main",
-			"chartDiv",
-			"viz",
-			"redr",
-			"reda",
-			"width",
-			"2657838",
-			":",
-			"'",
-			"modular",
-			"target.id",
-			"source.id",
-			"push",
-			"nodesObj",
-			"blocksLinked",
-			"micahstubbs",
-			"blocksLinked",
-			"micahstubbs",
-			"blocksLinked",
-			"depthScale",
-			"[];\n",
-			"spread",
-			"pack",
-			"dehi",
-			"\"data",
-			"bs",
-			"Ventnor",
-			"Vale of Clwyd",
-			"city",
-			"\\.city",
-			"enter\\(\\)",
-			"console.log",
-			"The Wrekin",
-			"\"",
-			"\",",
-			"\"",
-			"\\,",
-			"&",
-			"and ",
-			"sourceVoteData",
-			"&",
-			"glasgow",
-			"mon",
-			"Ynys M",
-			"Ynys M¶n",
-			"Ynys M",
-			"Ynys M¶n",
-			"Ynys M",
-			"Ynys M¶n",
-			"Ynys Mon",
-			"Ynys",
-			"Ynys M",
-			"Ynys",
-			"voteData",
+			"handleVersionChange",
+			"handeVersionChange",
+			"filename",
+			"method",
+			"files",
+			"d3version",
+			"searchES",
+			"submittedQuery",
+			"d3version",
+			"d3Version",
+			"handleVersionChange",
+			"variableImportances",
+			"variableImportancesObject",
+			"\\s(?=\\D)",
+			"\\s+(?=\\d)",
+			"\\s+",
+			"legend",
+			"legendRectClick",
+			"color",
+			"updateMarksStyles",
+			"legendRectClick",
+			"xColu",
+			"xCol",
+			"predict",
+			"scatterplotUpdat",
+			"scatterplotUpdate",
+			"marksDelay",
+			"scatterplot",
+			"getGlobalExtents",
+			"currentAlgoLabel",
+			"tooltipColumns",
+			"drawScatterplot",
+			"tooltip",
+			"drawVoronoiOverlay",
+			"scatterplot",
+			"mouseover",
+			"console",
+			"removeTooltip",
+			"removeToolip",
+			"console.",
 			"data",
-			"voteData",
-			",,",
-			"\"",
-			"\\sUK\"",
-			"\\sUK,,",
-			"\"",
-			"73695",
-			"popByCon",
-			"E00026507",
-			"\"Glasgow East\"",
-			"GlasGow",
-			"glasgow",
-			"Glasgow",
-			"Glas",
-			"Glasgow",
-			"GlasGow",
-			"S12000034",
-			"buaPopulation",
-			"33697",
-			"conf",
-			"forum",
-			"\\s\\s",
-			":840",
-			"840",
-			"i840",
-			"id840",
-			"840",
-			"init",
-			"zoom",
-			"zoomed",
-			"zoom",
-			"drag",
-			"svg",
-			"apply",
-			"Mter",
-			"id",
-			"charge",
-			"followers",
-			".call",
-			".style(\"fill\",",
-			".style(\"fill\"",
-			".style(\"f",
-			".style",
-			"cvalue",
-			"cValue",
-			"\\s(?=\\d)",
-			"\\s"
+			"global",
+			"tooltip",
+			"selector",
+			"transitionExplodingBoxplot",
+			"transitionY",
+			"div",
+			"transitionY",
+			"index",
+			"updateMarksStyles",
+			"setModelTrans",
+			"dropdown",
+			"index",
+			"dropdown",
+			"globalExtents",
+			"getGlobalExtents",
+			"extent",
+			"d3Explo",
+			"dependent",
+			"marks",
+			"dropDown",
+			"label",
+			"times",
+			"font",
+			"lable",
+			"translate",
+			"linecap",
+			"label",
+			"domain",
+			"label",
+			"opacityCircles",
+			"opacity",
+			"colorScale",
+			"color",
+			"width",
+			"boxcontent",
+			"chartOptions",
+			"computeBoxplot",
+			"d3\\$1",
+			"tip",
+			"color_index",
+			"plot",
+			"update",
+			"container",
+			"demo",
+			"update",
+			"linear",
+			"linea",
+			"linear",
+			"ordinal",
+			"independent",
+			"drawTitle",
+			"text",
+			"wrapper",
+			"text",
+			"algo",
+			"drawVoronoi",
+			"voron",
+			"toooltip",
+			"tip",
+			"margin",
+			"width",
+			"nikhil",
+			"tooltip",
+			"xAxis",
+			"axis",
+			"xLabel",
+			"xTitle",
+			"predict",
+			"glmPred",
+			"predict",
+			"glmPredict",
+			"scale",
+			"residual",
+			"margin",
+			"translate",
+			"yScale",
+			"translate",
+			"height",
+			"xLabel"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -705,13 +948,60 @@
 		"regex": true,
 		"replace_history":
 		[
-			"dH",
+			"selfLinksIndices",
+			"removeSelfLinks",
+			"link",
+			"links",
+			"missingFilesGists",
+			"unknownUsersGists",
 			"'",
-			"blockTitleText",
-			"null",
+			"filenames",
+			"deviances",
+			"deviancesObject",
+			"",
+			"\\t",
+			"d3",
+			"colorIndex",
+			"dependent",
+			"tooltipColumns",
+			"categoricalColumns",
+			"numericColumns",
+			"dropdown",
+			"'",
+			"data",
+			"zScale",
+			"yScale",
+			"xScale",
+			"rotatePT",
+			"translatePT",
+			"pointR",
+			"pointT",
+			"squareLength",
+			"deltaY",
+			"deltaX",
+			"mousePanX",
+			"mousePanY",
+			"mouseRotX",
+			"mouseRotY",
+			"prevMouseX",
+			"prevMouseY",
+			"prevScale",
+			"panMode",
+			"const ",
+			"'",
+			"color",
+			"'",
+			"const",
+			"'",
+			"dist",
+			"parsedData",
+			"points",
+			"vis.exemplarData",
+			"let ",
 			"'",
 			"edgeData",
 			"nodeData",
+			"let ",
 			"'",
 			"viz",
 			"\":",
@@ -744,67 +1034,297 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "vis/04-block-detail/index.html",
+					"file": "data/scripts/02-gists-with-readme-with-blocks-link.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 14421,
+						"buffer_size": 3351,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1599,
-								1599
+								1806,
+								1806
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 511.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "data/scripts/03-generate-graph.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3356,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3157,
+								3157
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 408.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "data/scripts/03b-remove-self-links.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1245,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								861,
+								861
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "data/scripts/03c-remove-solitary-nodes.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1680,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1519,
+								1519
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "vis/05/index.html",
+					"buffer": 4,
+					"file": ".gitignore",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 14720,
+						"buffer_size": 157,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5665,
-								5665
+								157,
+								157
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "data/scripts/zz-compare-unknown-users-gists-with-gist-meta.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1464,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								767,
+								324
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2202.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "data/scripts/zz-sample-gists-meta-json.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 484,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								154,
+								154
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "data/gist-metadata/output/gists-with-readme.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5017778,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "data/scripts/01b-gists-users.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 741,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								612,
+								417
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "data/scripts/zz-sample-blocks-dot-json.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 633,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								424,
+								424
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
 					"type": "text"
 				}
 			]
@@ -812,7 +1332,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 21.0
+		"height": 31.0
 	},
 	"input":
 	{
@@ -849,7 +1369,7 @@
 	"project": "readme-vis.sublime-project",
 	"replace":
 	{
-		"height": 64.0
+		"height": 68.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -859,8 +1379,180 @@
 		"selected_items":
 		[
 			[
-				"05",
-				"data/scripts/05-download-thumbnails.js"
+				"inde",
+				"index.js"
+			],
+			[
+				"red",
+				"react/reducer.js"
+			],
+			[
+				"top10",
+				"santander-customer-satisfaction/output/deeplearning-22a36d2a-9737-46fa-ab3f-0ff9f5a49f28-top10-important-variables.json"
+			],
+			[
+				"deep",
+				"santander-customer-satisfaction/output/deeplearning-22a36d2a-9737-46fa-ab3f-0ff9f5a49f28-variable-importances.json"
+			],
+			[
+				"drop",
+				"src/dropdown.js"
+			],
+			[
+				"upda",
+				"src/updateMarksStyles.js"
+			],
+			[
+				"setmod",
+				"src/setModelTransition.js"
+			],
+			[
+				"ross",
+				"src/config/rossman.js"
+			],
+			[
+				"get",
+				"src/getGlobalExtents.js"
+			],
+			[
+				"drawex",
+				"src/drawExplodingBoxplot.js"
+			],
+			[
+				"distan",
+				"src/distance-limited-voronoi.js"
+			],
+			[
+				"d3-t",
+				"src/d3-tip-custom.js"
+			],
+			[
+				"tool",
+				"src/tooltip.js"
+			],
+			[
+				"scatt",
+				"src/scatterplot.js"
+			],
+			[
+				"d3",
+				"src/d3-exploding-boxplot.js"
+			],
+			[
+				"tran",
+				"src/setModelTransition.js"
+			],
+			[
+				"d3-tip-cu",
+				"src/d3-tip-custom.js"
+			],
+			[
+				"sca",
+				"src/scatterplot.js"
+			],
+			[
+				"d3t",
+				"src/d3-tip.js"
+			],
+			[
+				"draw",
+				"src/drawExplodingBoxplot.js"
+			],
+			[
+				"dl-residuals-",
+				"src/data/rossman-store-sales/dl-residuals-aggregated-0-075.csv"
+			],
+			[
+				"rossman",
+				"src/config/rossmanAggregated.js"
+			],
+			[
+				"d3-tip",
+				"src/d3-tip.js"
+			],
+			[
+				"too",
+				"src/tooltip.js"
+			],
+			[
+				"trans",
+				"src/setModelTransition.js"
+			],
+			[
+				"drawres",
+				"src/drawResidualsVis.js"
+			],
+			[
+				"scat",
+				"src/scatterplot.js"
+			],
+			[
+				"scatter",
+				"src/scatterplot.js"
+			],
+			[
+				"set",
+				"src/setModelTransition.js"
+			],
+			[
+				"app",
+				"src/App.js"
+			],
+			[
+				"tip",
+				"d3-tip.js"
+			],
+			[
+				"voro",
+				"06/src/drawVoronoiOverlay.js"
+			],
+			[
+				"title",
+				"06/src/drawTitle.js"
+			],
+			[
+				"setm",
+				"06/src/setModelTransition.js"
+			],
+			[
+				"ind",
+				"01/index.html"
+			],
+			[
+				"dra",
+				"06/src/drawTitle.js"
+			],
+			[
+				"tasks",
+				"tasks.md"
+			],
+			[
+				"drawtit",
+				"06/src/drawTitle.js"
+			],
+			[
+				"task",
+				"tasks.md"
+			],
+			[
+				"es",
+				".eslintrc"
+			],
+			[
+				"parse",
+				"src/parseResponse.js"
+			],
+			[
+				"parseresp",
+				"src/parseResponse.js"
+			],
+			[
+				"zoom",
+				"src/zoom.js"
+			],
+			[
+				"plot",
+				"src/plotExemplars.js"
 			],
 			[
 				"8b6c3d9694a96177bf8d",
@@ -979,7 +1671,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 236.0,
+	"side_bar_width": 304.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
