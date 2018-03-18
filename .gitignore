@@ -5,3 +5,5 @@ node_modules/*
 data/gist-metadata/201511-archive/*
 data/gist-metadata/201605-archive/*
 data/gist-metadata/input/*
+data/gist-metadata/archive/*
+data/gist-metadata/output/archive/*
