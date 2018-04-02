@@ -15,31 +15,18 @@ function callback(error, data) {
 }
 
 function removeSelfLinks(inputGraphContainer) {
-	const selfLinksIndices = [];
-
 	const graphContainer = _.cloneDeep(inputGraphContainer);
-	// console.log(Object.keys(graphContainer));
-	// console.log(Object.keys(graphContainer.graph));
-	graphContainer.graph.links.forEach((link, i) => {
-		if (link.source === link.target) {
-			selfLinksIndices.push(i);
-		} 
-	});
 
-	selfLinksIndices.forEach(index => {
-		if (index > -1) {
-    	graphContainer.graph.links.splice(index, 1);
-		}
-	});
+	// exclude self-referencing links
+	graphContainer.graph.links = graphContainer.graph.links
+		.filter(({ source, target }) => source !== target);
 
-	console.log(`${selfLinksIndices.length} self-links removed`);
+	console.log(`${inputGraphContainer.graph.links.length - graphContainer.graph.links.length} self-links removed`);
 	console.log('now there are:');
 	console.log(`${graphContainer.graph.nodes.length} nodes`);
 	console.log(`${graphContainer.graph.links.length} links`);
 	console.log(`in the D3 README graph`);
-	
 
-	// const outputFile = '../gist-metadata/output/readme-blocks-graph-no-self-links.json'
 	const outputFile = `${filePathStem}${inputFileStem}-no-self-links.json`;
 	const outputJsonObj = graphContainer;
 	jf.writeFile(outputFile, outputJsonObj, {spaces: 2}, function(err){
